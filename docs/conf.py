@@ -8,9 +8,9 @@ try:
     extensions = [
         "sphinx_rtd_theme",
     ]
+    html_theme = "sphinx_rtd_theme"
     del sphinx_rtd_theme
 except ImportError:
     ...
 
 
-html_theme = "sphinx_rtd_theme"
