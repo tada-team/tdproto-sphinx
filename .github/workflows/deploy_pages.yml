@@ -1,5 +1,5 @@
 ---
-name: Download and deploy sphinx documentation
+name: English documentation deployment
 
 on: workflow_dispatch
 
