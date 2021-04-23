@@ -30,7 +30,7 @@ jobs:
           ./venv/bin/pip install sphinx sphinx-rtd-theme
       - name: Build docs
         run: |
-          ./venv/bin/sphinx-build "${SOURCE_DIR}/docs" "$CLONE_DIR"
+          ./venv/bin/sphinx-build -Dlanguage=ru "${SOURCE_DIR}/docs" "$CLONE_DIR"
       - name: Commit and upload docs
         if: github.ref == 'refs/heads/master'
         working-directory: ${{ env.CLONE_DIR }}
