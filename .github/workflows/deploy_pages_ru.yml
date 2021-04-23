@@ -1,0 +1,42 @@
+---
+name: Download and deploy sphinx documentation
+
+on: workflow_dispatch
+
+env:
+  SOURCE_DIR: tdproto-sphinx
+  CLONE_DIR: build
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    environment: docs_ru_deployment
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: ${{ env.SOURCE_DIR }}
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Clone pages repo
+        uses: actions/checkout@v2
+        with:
+          repository: 'tada-team/tdproto-docs-ru'
+          ssh-key: ${{ secrets.DOCS_RU_DEPLOY_KEY }}
+          path: ${{ env.CLONE_DIR }}
+      - name: Setup venv and install packages
+        run: |
+          python -m venv venv
+          ./venv/bin/pip install sphinx sphinx-rtd-theme
+      - name: Build docs
+        run: |
+          ./venv/bin/sphinx-build "${SOURCE_DIR}/docs" "$CLONE_DIR"
+      - name: Commit and upload docs
+        if: github.ref == 'refs/heads/master'
+        working-directory: ${{ env.CLONE_DIR }}
+        run: |
+          git add --all
+          git config --global user.email "action@github.com"
+          git config --global user.name "Github Action"
+          git commit -m "Generate sphinx documentation on $(date)" --allow-empty
+          git push
