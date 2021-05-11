@@ -12,5 +12,3 @@ try:
     del sphinx_rtd_theme
 except ImportError:
     ...
-
-
