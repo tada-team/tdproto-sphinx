@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 17:10+0300\n"
+"POT-Creation-Date: 2021-05-11 14:16+0300\n"
 "PO-Revision-Date: 2021-04-20 15:15+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -20,6 +20,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/index.rst:2 62698afaa7f34f4293238df5c9388094
+#: ../docs/index.rst:2 602df77dca8f48439ceea6782ca27e07
 msgid "Tdproto documentation"
 msgstr "Документация Tdproto"

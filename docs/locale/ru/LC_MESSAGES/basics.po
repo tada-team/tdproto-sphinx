@@ -1,0 +1,162 @@
+# Russian translations for Tdproto docs package.
+# Copyright (C) 
+# This file is distributed under the same license as the Tdproto docs package.
+# Automatically generated <>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tdproto docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-11 14:16+0300\n"
+"PO-Revision-Date: 2021-05-11 14:23+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 40.0\n"
+
+#: ../docs/basics.rst:2 2779d64b5d20405b91e12dc5ae8fab12
+msgid "Basics"
+msgstr "Основы"
+
+#: ../docs/basics.rst:5 d8a3b1e30e574a80a5dbb2806f96cebc
+msgid "JID"
+msgstr "JID"
+
+#: ../docs/basics.rst:7 af2aa1e8479e44c28c3e364b896cfd07
+msgid ""
+"Basic unit is Team. Inside the team there are contacts, tasks, group chats. "
+"Contact from one team cannot interact with contact from another team."
+msgstr ""
+"Работа ведется в командах. Внутри команды есть контакты, задачи, групповые "
+"чаты. Контакт из одной команды не может просто так общаться с контактом из "
+"другой."
+
+#: ../docs/basics.rst:11 2612aafe3d9f4893bf3f026ac1908873
+msgid ""
+"Each user in the team has an identifier in the form of ``d-<UID>``. For "
+"historical reasons it is called ``JID``."
+msgstr ""
+"Каждый пользователь в команде имеет идентификатор вида ``d-<UID>`` . По "
+"историческим причинам он называется ``JID`` ."
+
+#: ../docs/basics.rst:14 8e48275f77c249a8b86696698ab18510
+msgid ""
+"The number of ``JID`` that user has depends on how many teams they are a "
+"part of. If the user is a part of 3 teams they have 3 ``JID`` s. If the user "
+"is new they have no ``JID`` s."
+msgstr ""
+"В скольких командах состоит пользователь, столько у него и ``JID`` . Если "
+"пользователь состоит в 3 командах, у него 3 ``JID`` . Если пользователь "
+"новый, то ``JID`` у него еще нет."
+
+#: ../docs/basics.rst:19 0f050d153cb041b18689b0268a502892
+msgid "``is_archive`` field"
+msgstr "Поле ``is_archive``"
+
+#: ../docs/basics.rst:21 f8c6b65905e34555b5c7103c3c6b4b56
+msgid ""
+"Nothing get deleted from the database. Instead the ``is_archive`` flag will "
+"be set. The exception are devices."
+msgstr ""
+"Из системы ничего не удаляется, просто выставляется флаг ``is_archive`` . "
+"Исключение: устройства."
+
+#: ../docs/basics.rst:25 a5d66f42eb4f4614999c76ebbb1b65de
+msgid "``can_*`` fields"
+msgstr "Поля ``can_*``"
+
+#: ../docs/basics.rst:27 8651d4e4dbbc4332958456317e498017
+msgid ""
+"When a reply is received from a request there maybe an additional fields in "
+"the form of ``can_DO_SOMETHING``. They mean \"can I do something with the "
+"returned object?\""
+msgstr ""
+"Если известно, кто запрашивает объект, у него появляются дополнительные поля "
+"``can_ЧТО-НИБУДЬ`` . Они означают, «могу ли я, *запрашивающий*, делать с "
+"этим объектом ЧТО-НИБУДЬ»."
+
+#: ../docs/basics.rst:31 515547fdb6b14c7d95459d2756a892f1
+msgid "Examples:"
+msgstr "Примеры:"
+
+#: ../docs/basics.rst:33 a8b65367ccf24c018f802281cec400fc
+msgid ""
+"``{\"can_send_message\": false}`` in the self profile means that you can't "
+"send message to yourself."
+msgstr ""
+"``{\"can_send_message\": false}`` в своем профиле означает, что я НЕ могу "
+"послать себе сообщение."
+
+#: ../docs/basics.rst:35 0ca660751d514bb4a6ec6423f34748e9
+msgid ""
+"``{\"can_add_to_team\": true}`` in the team means that you can add new "
+"participants to the team. (maybe you are the admin or owner)"
+msgstr ""
+"``{\"can_add_to_team\": true}`` в команде означает, что я МОГУ добавлять "
+"новых участников в команду (вероятно я администратор, а может владелец)"
+
+#: ../docs/basics.rst:38 1a2ec7e9c12e48df9805094c71344464
+msgid ""
+"In reality those fields to not exists in database - they are calculated on "
+"the fly."
+msgstr ""
+"В реальности этих полей в базе не существует — они вычисляются на лету."
+
+#: ../docs/basics.rst:41 40dce6f87d274fb6930c17e3263c541f
+msgid "They are needed to ensure that the logic is stored in a single place."
+msgstr "Для чего это надо: чтобы логика была по-максимуму в одном месте."
+
+#: ../docs/basics.rst:43 f397859a27584a71a5fb4033e3eb09b5
+msgid ""
+"For example, we decided that its possible to send yourself a message. We "
+"only need to change the server now without any additional changes. Both web "
+"and mobile clients will change their logic."
+msgstr ""
+"Например, мы решаем, что теперь можно слать себе сообщения. Немного изменяем "
+"сервер, и если приложения проверяли не «это я себе пишу, или не себе пишу», "
+"а тупо смотрели на флаг ``can_send_message`` , то больше никаких изменений "
+"вносить не надо: оба мобильных клиента и веб-клиент сразу меняют свою логику."
+
+#: ../docs/basics.rst:47 66383ef873c74fe4963f1c9806e8adf7
+msgid ""
+"Second example, eventually we might add new administrator role with tunnable "
+"rights. Using the can_* flags it will be backward compatible."
+msgstr ""
+"Второй пример: мы можем когда-нибудь завести новую сущность «администратор с "
+"настраиваемыми правами». При использовании флагов ``can_*`` можно про это не "
+"думать: в старых приложениях ничего не сломается."
+
+#: ../docs/basics.rst:51 1884da2b3acf400e85af786472881b01
+msgid "``/features.json``"
+msgstr "``/features.json``"
+
+#: ../docs/basics.rst:53 506e106151774ab5bc6fe0033a1ef7da
+msgid ""
+"In the server root there is a ``/features.json`` file with fields that "
+"depend on installation. On different nodes different features might be "
+"enabled."
+msgstr ""
+"В корне есть файл ``features.json`` с полями, которые зависят от "
+"инсталляции. На разных нодах могут быть включены разные возможности."
+
+#: ../docs/basics.rst:57 e82934a94ccf498597151c642b2b8744
+msgid ""
+"This file is not a part of API. API might have version changes, old APIs "
+"might get disabled but this file will always be present."
+msgstr ""
+"Файл не является частью API. У API может меняться версия, старые версии "
+"могут отключаться, меняться способ авторизации. А этот файл будет на этом "
+"месте всё время."
+
+#: ../docs/basics.rst:60 671be26ecdc64a538f9c5b0be0c7616d
+msgid ""
+"There is also ``features.js`` wrapper. If you run it as script it will "
+"automatically create window.FEATURES."
+msgstr ""
+"Также есть обёртка ``features.js`` . Достаточно включить её как скрипт, и "
+"она создаст window.FEATURES."
