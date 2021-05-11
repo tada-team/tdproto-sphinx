@@ -27,7 +27,7 @@ jobs:
       - name: Setup venv and install packages
         run: |
           python -m venv venv
-          ./venv/bin/pip install sphinx sphinx-rtd-theme
+          ./venv/bin/pip install sphinx sphinx-rtd-theme sphinxcontrib-httpdomain
       - name: Build docs
         run: |
           ./venv/bin/sphinx-build "${SOURCE_DIR}/docs" "$CLONE_DIR"
