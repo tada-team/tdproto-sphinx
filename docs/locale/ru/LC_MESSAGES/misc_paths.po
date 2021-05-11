@@ -1,0 +1,71 @@
+# Russian translations for Tdproto docs package.
+# Copyright (C) 
+# This file is distributed under the same license as the Tdproto docs package.
+# Automatically generated, 2021.
+# igo95862 <igo95862@yandex.ru>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tdproto docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-11 15:29+0300\n"
+"PO-Revision-Date: 2021-05-11 15:35+0300\n"
+"Last-Translator: igo95862 <igo95862@yandex.ru>\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 40.0\n"
+
+#: ../docs/misc_paths.rst:2 a3fabad9ebed4d9faaa222cf9defc8f5
+msgid "Miscelaneos paths"
+msgstr "Остальные пути"
+
+#: ../docs/misc_paths.rst:6 ff53915925eb40a0b8fe6a3bade87e4d
+msgid "Invitation information."
+msgstr "Информация приглашения."
+
+#: ../docs/misc_paths.rst:0 6c0ab2d41d0341ffb3b8ba21b5b38ec4
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../docs/misc_paths.rst:34 e60f7b4b74c14b9582cf4cf902bdf934
+msgid "Invite token to preview."
+msgstr "Токен предварительного просмотра."
+
+#: ../docs/misc_paths.rst:0 b55bbe799fec490faf426496ce06a544
+#: d5c739b9df484c51b9d3f33a4e5dfbc0
+msgid "Response JSON Object"
+msgstr "Ответный JSON объект"
+
+#: ../docs/misc_paths.rst:35 ../docs/misc_paths.rst:54
+#: 52788522a8ee4af3b4f2956c35cfdfc4 18af0b98dcfa4af29997b784f91fd3cc
+msgid "True if no error occured."
+msgstr "True если не было ошибки"
+
+#: ../docs/misc_paths.rst:36 f8a50104d5e548c2babda7382ae40aa5
+msgid "Invite information."
+msgstr "Информация приглашения."
+
+#: ../docs/misc_paths.rst:40 cb10a52c5cd44286ac2af8dc646f4399
+msgid "Ping the server."
+msgstr "Пинг запрос на сервер"
+
+#: ../docs/misc_paths.rst:42 fc261b7a63784f48b96273e79d913305
+msgid "**Example response**:"
+msgstr "**Пример ответа**"
+
+#: ../docs/misc_paths.rst:55 3a9d966724914e57a23339bf9402942a
+msgid "Set to ``\"pong\"``."
+msgstr "Задано на \"pong\""
+
+#: ../docs/misc_paths.rst:0 338b291df80d406ea9a40c4b92935ba7
+msgid "Status Codes"
+msgstr "Код статуса"
+
+#: ../docs/misc_paths.rst:57 9f1cc280888c4cd38662c7ea9e476a2e
+msgid "No error"
+msgstr "Без ошибки"

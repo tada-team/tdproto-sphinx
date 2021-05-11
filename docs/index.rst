@@ -5,5 +5,6 @@ Tdproto documentation
    :maxdepth: 2
 
    basics
+   misc_paths
    events
 
