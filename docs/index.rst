@@ -7,4 +7,5 @@ Tdproto documentation
    basics
    misc_paths
    events
+   data_index
 
