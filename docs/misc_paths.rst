@@ -31,6 +31,8 @@ Miscelaneos paths
         }
       }
 
+   `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_join__token__preview>`__
+
    :param token: Invite token to preview.
    :resjson boolean ok: True if no error occured.
    :resjson object result: Invite information.
@@ -50,6 +52,8 @@ Miscelaneos paths
         "ok": true,
         "result": "pong"
       }
+
+   `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_ping>`__
 
    :resjson boolean ok: True if no error occured.
    :resjson string result: Set to ``"pong"``. 
