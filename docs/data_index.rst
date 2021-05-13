@@ -144,6 +144,16 @@ PushDeviceType type alias of ``int``
 
 
 
+.. _tdproto-RGBColor:
+
+RGBColor type alias of ``string``
+-------------------------------------------------------------
+
+**Base Type**: string
+
+
+
+
 .. _tdproto-TaskFilterKey:
 
 TaskFilterKey type alias of ``string``
@@ -176,40 +186,21 @@ TaskTabKey type alias of ``string``
 JSON objects index
 ============================
 
-.. _tdproto-ActiveUserDailyStat:
-
-ActiveUserDailyStat
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``day`` (string) - DOCUMENTATION MISSING
-* ``user_id`` (number) - DOCUMENTATION MISSING
-* ``family_name`` (string) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``given_name`` (string) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``patronymic`` (string) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``phone`` (string) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``messages_count`` (number) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``calls_count`` (number) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``call_seconds_total`` (number) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-
 .. _tdproto-ButtonColors:
 
 ButtonColors
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Button colors for app
 
 **Fields**:
 
-* ``brand_static`` (string) - DOCUMENTATION MISSING
-* ``brand_active`` (string) - DOCUMENTATION MISSING
-* ``brand_disable`` (string) - DOCUMENTATION MISSING
-* ``simple_static`` (string) - DOCUMENTATION MISSING
-* ``simple_active`` (string) - DOCUMENTATION MISSING
-* ``simple_disable`` (string) - DOCUMENTATION MISSING
+* ``brand_static`` ( :ref:`tdproto-RGBColor` ) - Brand static color
+* ``brand_active`` ( :ref:`tdproto-RGBColor` ) - Brand active color
+* ``brand_disable`` ( :ref:`tdproto-RGBColor` ) - Brand disable color
+* ``simple_static`` ( :ref:`tdproto-RGBColor` ) - Simple static color
+* ``simple_active`` ( :ref:`tdproto-RGBColor` ) - Simple active color
+* ``simple_disable`` ( :ref:`tdproto-RGBColor` ) - Simple disable color
 
 .. _tdproto-CallDevice:
 
@@ -332,34 +323,6 @@ Chat (direct, group, task) representation
 * ``can_set_important_any_message`` (boolean) - Can I change Important flag in any message in this chat. Maybe omitted
 * ``last_activity`` (string) - Date of the last message sent even if it was deleted. Maybe omitted
 
-.. _tdproto-ChatCounters:
-
-ChatCounters
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``jid`` ( :ref:`tdproto-JID` ) - DOCUMENTATION MISSING
-* ``chat_type`` ( :ref:`tdproto-ChatType` ) - DOCUMENTATION MISSING
-* ``gentime`` (number) - DOCUMENTATION MISSING
-* ``num_unread`` (number) - DOCUMENTATION MISSING
-* ``num_unread_notices`` (number) - DOCUMENTATION MISSING
-* ``last_read_message_id`` (string) - DOCUMENTATION MISSING. Might be null
-* ``last_activity`` (string) - DOCUMENTATION MISSING. Maybe omitted
-
-.. _tdproto-ChatMessages:
-
-ChatMessages
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``messages`` ( :ref:`tdproto-Message` ) - DOCUMENTATION MISSING
-
 .. _tdproto-ChatShort:
 
 ChatShort
@@ -374,26 +337,6 @@ Minimal chat representation
 * ``display_name`` (string) - Title
 * ``icons`` ( :ref:`tdproto-IconData` ) - Icon data. Might be null
 
-.. _tdproto-ClientMessageUpdatedParams:
-
-ClientMessageUpdatedParams
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``to`` ( :ref:`tdproto-JID` ) - Chat, task or contact jid. Required
-* ``content`` ( :ref:`tdproto-MessageContent` ) - Message content. Required
-* ``message_id`` (string) - Uid created by client. Recommended. Maybe omitted
-* ``reply_to`` (string) - Replied to message id. Not required. Maybe omitted
-* ``linked_messages`` (string) - Forwarded messages (previously was for reply too). Not required. Maybe omitted
-* ``important`` (boolean) - Important flag. Not required. Default: false. Maybe omitted
-* ``nopreview`` (boolean) - Disable links preview generation. Not required. Default: false. Maybe omitted
-* ``uploads`` (string) - Message attachments. Maybe omitted
-* ``old_style_attachment`` (boolean) - Backward compatibility mode. Maybe omitted
-* ``comment`` (string) - Deprecated. Maybe omitted
-
 .. _tdproto-ColorRule:
 
 ColorRule
@@ -403,19 +346,19 @@ Set of rules to apply to tasks for coloring
 
 **Fields**:
 
-* ``uid`` (string) - DOCUMENTATION MISSING
-* ``priority`` (number) - DOCUMENTATION MISSING
-* ``color_index`` (number) - DOCUMENTATION MISSING
-* ``section`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``tags`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``description`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``task_status`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``task_importance`` (number) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``task_urgency`` (number) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``section_enabled`` (boolean) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``task_importance_enabled`` (boolean) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``task_urgency_enabled`` (boolean) - DOCUMENTATION MISSING. Maybe omitted. Might be null
-* ``tags_enabled`` (boolean) - DOCUMENTATION MISSING. Maybe omitted. Might be null
+* ``uid`` (string) - Rule id
+* ``priority`` (number) - Rule priority
+* ``description`` (string) - Rule description. Maybe omitted
+* ``color_index`` (number) - Color index
+* ``section_enabled`` (boolean) - Project filter enabled. Maybe omitted. Might be null
+* ``section`` (string) - Project id if project filter enabled. Maybe omitted
+* ``tags_enabled`` (boolean) - Tags filter enabled. Maybe omitted. Might be null
+* ``tags`` (string) - Tag ids if tags filter enabled. Maybe omitted
+* ``task_status`` (string) - Task status. Maybe omitted
+* ``task_importance_enabled`` (boolean) - Task importance filter enabled. Maybe omitted. Might be null
+* ``task_importance`` (number) - Task importance if task importance filter enabled. Maybe omitted. Might be null
+* ``task_urgency_enabled`` (boolean) - Task urgency filter enabled. Maybe omitted. Might be null
+* ``task_urgency`` (number) - Task urgency if task urgency filter enabled. Maybe omitted. Might be null
 
 .. _tdproto-Contact:
 
@@ -492,28 +435,11 @@ Extra contact fields
 
 **Fields**:
 
-* ``company`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``department`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``title`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``mobile_phone`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``source`` (string) - DOCUMENTATION MISSING. Maybe omitted
-
-.. _tdproto-ContactPreview:
-
-ContactPreview
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``_error`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``phone`` (string) - DOCUMENTATION MISSING
-* ``given_name`` (string) - DOCUMENTATION MISSING
-* ``family_name`` (string) - DOCUMENTATION MISSING
-* ``patronymic`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``role`` (string) - DOCUMENTATION MISSING
-* ``section`` (string) - DOCUMENTATION MISSING
+* ``company`` (string) - Company. Maybe omitted
+* ``department`` (string) - Department. Maybe omitted
+* ``title`` (string) - Title. Maybe omitted
+* ``mobile_phone`` (string) - MobilePhone. Maybe omitted
+* ``source`` (string) - Import source. Maybe omitted
 
 .. _tdproto-ContactShort:
 
@@ -573,7 +499,7 @@ Remind deleted message
 DeletedSection
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Deleted task project or contact section
 
 **Fields**:
 
@@ -603,18 +529,6 @@ Team deletion message. Readonly
 * ``uid`` (string) - Team id
 * ``is_archive`` (boolean) - Team deleted
 * ``gentime`` (number) - Object version
-
-.. _tdproto-Dist:
-
-Dist
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``type`` (string) - DOCUMENTATION MISSING
-* ``url`` (string) - DOCUMENTATION MISSING
 
 .. _tdproto-Features:
 
@@ -702,30 +616,17 @@ Server information. Readonly
 FontColors
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Font colors for app
 
 **Fields**:
 
-* ``text`` (string) - DOCUMENTATION MISSING
-* ``title`` (string) - DOCUMENTATION MISSING
-* ``sub`` (string) - DOCUMENTATION MISSING
-* ``brand_button`` (string) - DOCUMENTATION MISSING
-* ``simple_button`` (string) - DOCUMENTATION MISSING
-* ``bubble_sent`` (string) - DOCUMENTATION MISSING
-* ``bubble_received`` (string) - DOCUMENTATION MISSING
-
-.. _tdproto-GroupAccessRequest:
-
-GroupAccessRequest
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``uid`` (string) - DOCUMENTATION MISSING
-* ``created`` (string) - DOCUMENTATION MISSING
-* ``subject`` ( :ref:`tdproto-JID` ) - DOCUMENTATION MISSING
+* ``text`` ( :ref:`tdproto-RGBColor` ) - Text color
+* ``title`` ( :ref:`tdproto-RGBColor` ) - Title color
+* ``sub`` ( :ref:`tdproto-RGBColor` ) - Sub color
+* ``brand_button`` ( :ref:`tdproto-RGBColor` ) - Brand button color
+* ``simple_button`` ( :ref:`tdproto-RGBColor` ) - Simple button color
+* ``bubble_sent`` ( :ref:`tdproto-RGBColor` ) - Bubble sent color
+* ``bubble_received`` ( :ref:`tdproto-RGBColor` ) - Bubble received color
 
 .. _tdproto-GroupMembership:
 
@@ -756,13 +657,13 @@ Interactive Connectivity Establishment Server for WEB Rtc connection. Readonly
 IconColors
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Icon colors for app
 
 **Fields**:
 
-* ``title`` (string) - DOCUMENTATION MISSING
-* ``brand`` (string) - DOCUMENTATION MISSING
-* ``other`` (string) - DOCUMENTATION MISSING
+* ``title`` ( :ref:`tdproto-RGBColor` ) - Title color
+* ``brand`` ( :ref:`tdproto-RGBColor` ) - Brand color
+* ``other`` ( :ref:`tdproto-RGBColor` ) - Other color
 
 .. _tdproto-IconData:
 
@@ -785,14 +686,14 @@ Icon data. For icon generated from display name contains Letters + Color fields
 InputColors
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Input colors for app
 
 **Fields**:
 
-* ``static`` (string) - DOCUMENTATION MISSING
-* ``active`` (string) - DOCUMENTATION MISSING
-* ``disable`` (string) - DOCUMENTATION MISSING
-* ``error`` (string) - DOCUMENTATION MISSING
+* ``static`` ( :ref:`tdproto-RGBColor` ) - Static color
+* ``active`` ( :ref:`tdproto-RGBColor` ) - Active color
+* ``disable`` ( :ref:`tdproto-RGBColor` ) - Disable color
+* ``error`` ( :ref:`tdproto-RGBColor` ) - Error color
 
 .. _tdproto-Integration:
 
@@ -866,32 +767,6 @@ Complete integrations data, as received from server
 * ``integrations`` ( :ref:`tdproto-Integration` ) - Currently existing integrations
 * ``kinds`` ( :ref:`tdproto-IntegrationKind` ) - Types of integrations available for setup
 
-.. _tdproto-Invitation:
-
-Invitation
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``uid`` (string) - DOCUMENTATION MISSING
-* ``token`` (string) - DOCUMENTATION MISSING
-* ``created`` (string) - DOCUMENTATION MISSING
-* ``qr`` (string) - DOCUMENTATION MISSING
-
-.. _tdproto-JSEP:
-
-JSEP
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``sdp`` (string) - DOCUMENTATION MISSING
-* ``type`` (string) - DOCUMENTATION MISSING
-
 .. _tdproto-MarkupEntity:
 
 MarkupEntity
@@ -957,16 +832,16 @@ Chat message
 MessageColors
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Message colors for app
 
 **Fields**:
 
-* ``bubble_sent`` (string) - DOCUMENTATION MISSING
-* ``bubble_received`` (string) - DOCUMENTATION MISSING
-* ``bubble_important`` (string) - DOCUMENTATION MISSING
-* ``status_feed`` (string) - DOCUMENTATION MISSING
-* ``status_bubble`` (string) - DOCUMENTATION MISSING
-* ``allocated`` (string) - DOCUMENTATION MISSING
+* ``bubble_sent`` ( :ref:`tdproto-RGBColor` ) - Bubble sent color
+* ``bubble_received`` ( :ref:`tdproto-RGBColor` ) - Bubble received color
+* ``bubble_important`` ( :ref:`tdproto-RGBColor` ) - Bubble important color
+* ``status_feed`` ( :ref:`tdproto-RGBColor` ) - Status feed color
+* ``status_bubble`` ( :ref:`tdproto-RGBColor` ) - Status bubble color
+* ``allocated`` ( :ref:`tdproto-RGBColor` ) - Allocated color
 
 .. _tdproto-MessageContent:
 
@@ -1098,7 +973,7 @@ OAuth service
 OnlineCall
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Active call status
 
 **Fields**:
 
@@ -1112,70 +987,13 @@ MISSING CLASS DOCUMENTATION
 OnlineContact
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Contact online status
 
 **Fields**:
 
 * ``jid`` ( :ref:`tdproto-JID` ) - Contact id
 * ``afk`` (boolean) - Is away from keyboard. Maybe omitted
 * ``mobile`` (boolean) - Is mobile client
-
-.. _tdproto-PaginatedChats:
-
-PaginatedChats
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``contacts`` ( :ref:`tdproto-Contact` ) - DOCUMENTATION MISSING. Maybe omitted
-* ``objects`` ( :ref:`tdproto-Chat` ) - DOCUMENTATION MISSING
-* ``count`` (number) - DOCUMENTATION MISSING
-* ``limit`` (number) - DOCUMENTATION MISSING
-* ``offset`` (number) - DOCUMENTATION MISSING
-
-.. _tdproto-PaginatedContacts:
-
-PaginatedContacts
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``objects`` ( :ref:`tdproto-Contact` ) - DOCUMENTATION MISSING
-* ``count`` (number) - DOCUMENTATION MISSING
-* ``limit`` (number) - DOCUMENTATION MISSING
-* ``offset`` (number) - DOCUMENTATION MISSING
-
-.. _tdproto-PaginatedMessages:
-
-PaginatedMessages
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``objects`` ( :ref:`tdproto-Message` ) - DOCUMENTATION MISSING
-* ``count`` (number) - DOCUMENTATION MISSING
-* ``limit`` (number) - DOCUMENTATION MISSING
-* ``offset`` (number) - DOCUMENTATION MISSING
-
-.. _tdproto-PaginatedUploadShortMessages:
-
-PaginatedUploadShortMessages
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``objects`` ( :ref:`tdproto-UploadShortMessage` ) - DOCUMENTATION MISSING
-* ``count`` (number) - DOCUMENTATION MISSING
-* ``limit`` (number) - DOCUMENTATION MISSING
-* ``offset`` (number) - DOCUMENTATION MISSING
 
 .. _tdproto-PdfVersion:
 
@@ -1189,30 +1007,12 @@ PDF preview of mediafile. Experimental
 * ``url`` (string) - Absolute url
 * ``text_preview`` (string) - First string of text content. Maybe omitted
 
-.. _tdproto-PushDevice:
-
-PushDevice
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``type`` (string) - DOCUMENTATION MISSING
-* ``device_id`` (string) - DOCUMENTATION MISSING
-* ``notification_token`` (string) - DOCUMENTATION MISSING
-* ``voip_notification_token`` (string) - DOCUMENTATION MISSING
-* ``allowed_notifications`` (boolean) - DOCUMENTATION MISSING
-* ``name`` (string) - DOCUMENTATION MISSING
-* ``data_pushes`` (boolean) - DOCUMENTATION MISSING
-* ``data_badges`` (boolean) - DOCUMENTATION MISSING
-
 .. _tdproto-ReceivedMessage:
 
 ReceivedMessage
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Message receiving status
 
 **Fields**:
 
@@ -1241,7 +1041,7 @@ Remind
 Section
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Task project or contact section
 
 **Fields**:
 
@@ -1251,18 +1051,6 @@ MISSING CLASS DOCUMENTATION
 * ``gentime`` (number) - Object version
 * ``description`` (string) - Description, if any. Maybe omitted
 * ``is_archive`` (boolean) - Is deleted. Maybe omitted
-
-.. _tdproto-ServerCallSoundParams:
-
-ServerCallSoundParams
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``jid`` ( :ref:`tdproto-JID` ) - Chat or contact id
-* ``muted`` (boolean) - Mute state
 
 .. _tdproto-Session:
 
@@ -1313,38 +1101,6 @@ Small or large icon
 * ``width`` (number) - Icon width, in pixels
 * ``height`` (number) - Icon height, in pixels
 
-.. _tdproto-Sticker:
-
-Sticker
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``uid`` (string) - DOCUMENTATION MISSING
-* ``icon64`` (string) - DOCUMENTATION MISSING
-* ``icon100`` (string) - DOCUMENTATION MISSING
-* ``icon128`` (string) - DOCUMENTATION MISSING
-* ``icon200`` (string) - DOCUMENTATION MISSING
-* ``message_content`` ( :ref:`tdproto-MessageContent` ) - DOCUMENTATION MISSING
-
-.. _tdproto-Stickerpack:
-
-Stickerpack
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``uid`` (string) - DOCUMENTATION MISSING
-* ``name`` (string) - DOCUMENTATION MISSING
-* ``title`` (string) - DOCUMENTATION MISSING
-* ``author`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``author_link`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``stickers`` ( :ref:`tdproto-Sticker` ) - DOCUMENTATION MISSING
-
 .. _tdproto-Subtask:
 
 Subtask
@@ -1366,12 +1122,12 @@ Link to sub/sup task
 SwitcherColors
 -------------------------------------------------------------
 
-MISSING CLASS DOCUMENTATION
+Switcher colors for app
 
 **Fields**:
 
-* ``on`` (string) - DOCUMENTATION MISSING
-* ``off`` (string) - DOCUMENTATION MISSING
+* ``on`` ( :ref:`tdproto-RGBColor` ) - On color
+* ``off`` ( :ref:`tdproto-RGBColor` ) - Off color
 
 .. _tdproto-Tag:
 
@@ -1394,9 +1150,9 @@ Task color rules color
 
 **Fields**:
 
-* ``regular`` (string) - DOCUMENTATION MISSING
-* ``dark`` (string) - DOCUMENTATION MISSING
-* ``light`` (string) - DOCUMENTATION MISSING
+* ``regular`` ( :ref:`tdproto-RGBColor` ) - Regular color
+* ``dark`` ( :ref:`tdproto-RGBColor` ) - Dark color
+* ``light`` ( :ref:`tdproto-RGBColor` ) - Light color
 
 .. _tdproto-TaskCounters:
 
@@ -1438,36 +1194,6 @@ Task checklist item
 * ``checked`` (boolean) - Item checked. Maybe omitted
 * ``can_toggle`` (boolean) - Can I toggle this item. Maybe omitted
 * ``subtask`` ( :ref:`tdproto-Subtask` ) - Link to subtask. Optional. Maybe omitted. Might be null
-
-.. _tdproto-TaskItems:
-
-TaskItems
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``name`` (string) - DOCUMENTATION MISSING
-* ``checked`` (boolean) - DOCUMENTATION MISSING
-
-.. _tdproto-TaskPreview:
-
-TaskPreview
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``_error`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``assignee`` ( :ref:`tdproto-JID` ) - DOCUMENTATION MISSING
-* ``deadline`` (string) - DOCUMENTATION MISSING. Might be null
-* ``description`` (string) - DOCUMENTATION MISSING
-* ``section`` (string) - DOCUMENTATION MISSING
-* ``public`` (boolean) - DOCUMENTATION MISSING
-* ``tags`` (string) - DOCUMENTATION MISSING
-* ``items`` ( :ref:`tdproto-TaskItems` ) - DOCUMENTATION MISSING
 
 .. _tdproto-TaskSort:
 
@@ -1587,40 +1313,40 @@ Experimental translation fields for "team" entity renaming. Readonly
 
 **Fields**:
 
-* ``EnInTeam`` (string) - DOCUMENTATION MISSING
-* ``EnTeam`` (string) - DOCUMENTATION MISSING
-* ``EnTeamAccess`` (string) - DOCUMENTATION MISSING
-* ``EnTeamAdmin`` (string) - DOCUMENTATION MISSING
-* ``EnTeamAdmins`` (string) - DOCUMENTATION MISSING
-* ``EnTeamGuest`` (string) - DOCUMENTATION MISSING
-* ``EnTeamMember`` (string) - DOCUMENTATION MISSING
-* ``EnTeamMembers`` (string) - DOCUMENTATION MISSING
-* ``EnTeamOwner`` (string) - DOCUMENTATION MISSING
-* ``EnTeamSettings`` (string) - DOCUMENTATION MISSING
-* ``RuTeamSettings`` (string) - DOCUMENTATION MISSING
-* ``EnTeams`` (string) - DOCUMENTATION MISSING
-* ``EnToTeam`` (string) - DOCUMENTATION MISSING
-* ``RuInTeam`` (string) - DOCUMENTATION MISSING
-* ``RuTeam`` (string) - DOCUMENTATION MISSING
-* ``RuTeamAccess`` (string) - DOCUMENTATION MISSING
-* ``RuTeamAdmin`` (string) - DOCUMENTATION MISSING
-* ``RuTeamAdmins`` (string) - DOCUMENTATION MISSING
-* ``RuTeamD`` (string) - DOCUMENTATION MISSING
-* ``RuTeamGuest`` (string) - DOCUMENTATION MISSING
-* ``RuTeamMember`` (string) - DOCUMENTATION MISSING
-* ``RuTeamMembers`` (string) - DOCUMENTATION MISSING
-* ``RuTeamOwner`` (string) - DOCUMENTATION MISSING
-* ``RuTeamP`` (string) - DOCUMENTATION MISSING
-* ``RuTeamR`` (string) - DOCUMENTATION MISSING
-* ``RuTeams`` (string) - DOCUMENTATION MISSING
-* ``RuTeamsD`` (string) - DOCUMENTATION MISSING
-* ``RuTeamsP`` (string) - DOCUMENTATION MISSING
-* ``RuTeamsR`` (string) - DOCUMENTATION MISSING
-* ``RuTeamsT`` (string) - DOCUMENTATION MISSING
-* ``RuTeamsV`` (string) - DOCUMENTATION MISSING
-* ``RuTeamT`` (string) - DOCUMENTATION MISSING
-* ``RuTeamV`` (string) - DOCUMENTATION MISSING
-* ``RuToTeam`` (string) - DOCUMENTATION MISSING
+* ``EnInTeam`` (string) - "in team"
+* ``EnTeam`` (string) - "team"
+* ``EnTeamAccess`` (string) - "access to team"
+* ``EnTeamAdmin`` (string) - "team admin"
+* ``EnTeamAdmins`` (string) - "team admins"
+* ``EnTeamGuest`` (string) - "team guest"
+* ``EnTeamMember`` (string) - "team member"
+* ``EnTeamMembers`` (string) - "team members"
+* ``EnTeamOwner`` (string) - "team owner",
+* ``EnTeamSettings`` (string) - "team settings"
+* ``RuTeamSettings`` (string) - "настройки команды"
+* ``EnTeams`` (string) - "teams"
+* ``EnToTeam`` (string) - "to team"
+* ``RuInTeam`` (string) - "в команде"
+* ``RuTeam`` (string) - "команда"
+* ``RuTeamAccess`` (string) - "доступ к команде"
+* ``RuTeamAdmin`` (string) - "администратор команды"
+* ``RuTeamAdmins`` (string) - "администраторы команды"
+* ``RuTeamD`` (string) - "команде"
+* ``RuTeamGuest`` (string) - "гость команды"
+* ``RuTeamMember`` (string) - "участник команды"
+* ``RuTeamMembers`` (string) - "участники команды"
+* ``RuTeamOwner`` (string) - "владелец команды"
+* ``RuTeamP`` (string) - "команде"
+* ``RuTeamR`` (string) - "команды"
+* ``RuTeams`` (string) - "команды"
+* ``RuTeamsD`` (string) - "командам"
+* ``RuTeamsP`` (string) - "командах"
+* ``RuTeamsR`` (string) - "команд"
+* ``RuTeamsT`` (string) - "командами"
+* ``RuTeamsV`` (string) - "команды"
+* ``RuTeamT`` (string) - "командой"
+* ``RuTeamV`` (string) - "команду"
+* ``RuToTeam`` (string) - "в команду"
 
 .. _tdproto-Theme:
 
@@ -1631,43 +1357,43 @@ Color theme
 
 **Fields**:
 
-* ``BgColor`` (string) - Web colors
-* ``BgHoverColor`` (string) - DOCUMENTATION MISSING
-* ``TextColor`` (string) - DOCUMENTATION MISSING
-* ``MutedTextColor`` (string) - DOCUMENTATION MISSING
-* ``AccentColor`` (string) - DOCUMENTATION MISSING
-* ``AccentHoverColor`` (string) - DOCUMENTATION MISSING
-* ``TextOnAccentHoverColor`` (string) - DOCUMENTATION MISSING
-* ``MainAccent`` (string) - DOCUMENTATION MISSING
-* ``MainAccentHover`` (string) - DOCUMENTATION MISSING
-* ``MainLightAccent`` (string) - DOCUMENTATION MISSING
-* ``MainLink`` (string) - DOCUMENTATION MISSING
-* ``AppAccentColor`` (string) - Deprecated
-* ``AppPrimaryColor`` (string) - Deprecated
-* ``brand`` (string) - App colors
-* ``brand_dark`` (string) - DOCUMENTATION MISSING
-* ``brand_light`` (string) - DOCUMENTATION MISSING
-* ``back`` (string) - DOCUMENTATION MISSING
-* ``back_light`` (string) - DOCUMENTATION MISSING
-* ``back_dark`` (string) - DOCUMENTATION MISSING
-* ``success`` (string) - DOCUMENTATION MISSING
-* ``success_light`` (string) - DOCUMENTATION MISSING
-* ``error`` (string) - DOCUMENTATION MISSING
-* ``error_light`` (string) - DOCUMENTATION MISSING
-* ``background`` (string) - DOCUMENTATION MISSING
-* ``tab_background`` (string) - DOCUMENTATION MISSING
-* ``chat_input_background`` (string) - DOCUMENTATION MISSING
-* ``substrate_background`` (string) - DOCUMENTATION MISSING
-* ``modal_background`` (string) - DOCUMENTATION MISSING
-* ``title_background`` (string) - DOCUMENTATION MISSING
-* ``attention`` (string) - DOCUMENTATION MISSING
-* ``attention_light`` (string) - DOCUMENTATION MISSING
-* ``font`` ( :ref:`tdproto-FontColors` ) - DOCUMENTATION MISSING. Might be null
-* ``message`` ( :ref:`tdproto-MessageColors` ) - DOCUMENTATION MISSING. Might be null
-* ``switcher`` ( :ref:`tdproto-SwitcherColors` ) - DOCUMENTATION MISSING. Might be null
-* ``button`` ( :ref:`tdproto-ButtonColors` ) - DOCUMENTATION MISSING. Might be null
-* ``input`` ( :ref:`tdproto-InputColors` ) - DOCUMENTATION MISSING. Might be null
-* ``ic`` ( :ref:`tdproto-IconColors` ) - DOCUMENTATION MISSING. Might be null
+* ``BgColor`` ( :ref:`tdproto-RGBColor` ) - BgColor for web
+* ``BgHoverColor`` ( :ref:`tdproto-RGBColor` ) - BgHoverColor for web
+* ``TextColor`` ( :ref:`tdproto-RGBColor` ) - TextColor for web
+* ``MutedTextColor`` ( :ref:`tdproto-RGBColor` ) - MutedTextColor for web
+* ``AccentColor`` ( :ref:`tdproto-RGBColor` ) - AccentColor for web
+* ``AccentHoverColor`` ( :ref:`tdproto-RGBColor` ) - AccentHoverColor for web
+* ``TextOnAccentHoverColor`` ( :ref:`tdproto-RGBColor` ) - TextOnAccentHoverColor for web
+* ``MainAccent`` ( :ref:`tdproto-RGBColor` ) - MainAccent for web
+* ``MainAccentHover`` ( :ref:`tdproto-RGBColor` ) - MainAccentHover for web
+* ``MainLightAccent`` ( :ref:`tdproto-RGBColor` ) - MainLightAccent for web
+* ``MainLink`` ( :ref:`tdproto-RGBColor` ) - MainLink for web
+* ``brand`` ( :ref:`tdproto-RGBColor` ) - Brand color for app
+* ``brand_dark`` ( :ref:`tdproto-RGBColor` ) - BrandDark color for app
+* ``brand_light`` ( :ref:`tdproto-RGBColor` ) - Brand light color for app
+* ``back`` ( :ref:`tdproto-RGBColor` ) - Back light color for app
+* ``back_light`` ( :ref:`tdproto-RGBColor` ) - Back light color for app
+* ``back_dark`` ( :ref:`tdproto-RGBColor` ) - Back dark color for app
+* ``success`` ( :ref:`tdproto-RGBColor` ) - Success color for app
+* ``success_light`` ( :ref:`tdproto-RGBColor` ) - Success light color for app
+* ``error`` ( :ref:`tdproto-RGBColor` ) - Error color for app
+* ``error_light`` ( :ref:`tdproto-RGBColor` ) - Error light color for app
+* ``background`` ( :ref:`tdproto-RGBColor` ) - Background color for app
+* ``tab_background`` ( :ref:`tdproto-RGBColor` ) - Tab background color for app
+* ``chat_input_background`` ( :ref:`tdproto-RGBColor` ) - Chat input background color for app
+* ``substrate_background`` ( :ref:`tdproto-RGBColor` ) - Substrate background color for app
+* ``modal_background`` ( :ref:`tdproto-RGBColor` ) - Modal background color for app
+* ``title_background`` ( :ref:`tdproto-RGBColor` ) - Title background color for app
+* ``attention`` ( :ref:`tdproto-RGBColor` ) - Attention color for app
+* ``attention_light`` ( :ref:`tdproto-RGBColor` ) - Attention light color for app
+* ``font`` ( :ref:`tdproto-FontColors` ) - Font colors for app. Might be null
+* ``message`` ( :ref:`tdproto-MessageColors` ) - Message colors for app. Might be null
+* ``switcher`` ( :ref:`tdproto-SwitcherColors` ) - Switcher colors for app. Might be null
+* ``button`` ( :ref:`tdproto-ButtonColors` ) - Button colors for app. Might be null
+* ``input`` ( :ref:`tdproto-InputColors` ) - Input colors for app. Might be null
+* ``ic`` ( :ref:`tdproto-IconColors` ) - Icon colors for app. Might be null
+* ``AppAccentColor`` ( :ref:`tdproto-RGBColor` ) - Deprecated
+* ``AppPrimaryColor`` ( :ref:`tdproto-RGBColor` ) - Deprecated
 
 .. _tdproto-Unread:
 
@@ -1728,8 +1454,8 @@ Upload + ShortMessage
 
 **Fields**:
 
-* ``upload`` ( :ref:`tdproto-Upload` ) - DOCUMENTATION MISSING
-* ``message`` ( :ref:`tdproto-ShortMessage` ) - DOCUMENTATION MISSING
+* ``upload`` ( :ref:`tdproto-Upload` ) - Upload information
+* ``message`` ( :ref:`tdproto-ShortMessage` ) - Short message information
 
 .. _tdproto-User:
 
@@ -1754,26 +1480,6 @@ Account data
 * ``timezone`` (string) - Timezone
 * ``quiet_time_start`` (string) - Start silently time (no pushes, no sounds). Might be null
 * ``quiet_time_finish`` (string) - Finish silently time (no pushes, no sounds). Might be null
-
-.. _tdproto-UserAuth:
-
-UserAuth
--------------------------------------------------------------
-
-MISSING CLASS DOCUMENTATION
-
-**Fields**:
-
-* ``created`` (string) - DOCUMENTATION MISSING
-* ``last_access`` (string) - DOCUMENTATION MISSING. Maybe omitted
-* ``_age`` (number) - DOCUMENTATION MISSING. Maybe omitted
-* ``uid`` (string) - DOCUMENTATION MISSING
-* ``kind`` (string) - type of auth
-* ``addr`` (string) - ip address. Maybe omitted
-* ``user_agent`` (string) - info about useragent. Maybe omitted
-* ``country`` (string) - name of country. Maybe omitted
-* ``region`` (string) - name of region. Maybe omitted
-* ``device`` ( :ref:`tdproto-PushDevice` ) - info about device (struct). Maybe omitted. Might be null
 
 .. _tdproto-UserWithMe:
 
