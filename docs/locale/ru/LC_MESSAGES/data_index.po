@@ -1,0 +1,3856 @@
+# Russian translations for Tdproto docs package.
+# Copyright (C) 
+# This file is distributed under the same license as the Tdproto docs package.
+# Automatically generated, 2021.
+# igo95862 <igo95862@yandex.ru>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tdproto docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-14 14:06+0300\n"
+"PO-Revision-Date: 2021-05-14 17:28+0300\n"
+"Last-Translator: igo95862 <igo95862@yandex.ru>\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 40.0\n"
+
+#: ../docs/data_index.rst:2 d8257c97420642bfb7d4df4507cb1f4b
+msgid "Enums index"
+msgstr "Индекс Enum"
+
+#: ../docs/data_index.rst:7 7366855b944142fa8a4e6d8650c755c6
+msgid "ChatType"
+msgstr "ChatType"
+
+#: ../docs/data_index.rst:8 ../docs/data_index.rst:19 ../docs/data_index.rst:29
+#: ../docs/data_index.rst:47 ../docs/data_index.rst:57
+#: ../docs/data_index.rst:74 ../docs/data_index.rst:86
+#: 81974556deaa425d92c5cb34f48876f2 a7147d24c5784de8b4bd95cb7ed0018b
+#: 51539a7958304dc3b360c3711ff3c759 efac76e1a2784f04bd9085c768dbf00c
+#: ccc4cbe9aaba4f0baa52d19dbb24d449 84a69a64f01f4515bad9fed1de58e65f
+#: 05cb6c976c6043d29300063626169172
+msgid "**Possible values**:"
+msgstr "**Возможные значения**:"
+
+#: ../docs/data_index.rst:10 0256e4713c1740248f9991eb82231fad
+msgid "direct"
+msgstr "direct"
+
+#: ../docs/data_index.rst:11 14dd9c7dd3c240bd9809c356de0949ab
+msgid "group"
+msgstr "group"
+
+#: ../docs/data_index.rst:12 a4021aa2eaa647e2b6891df4ea366ecc
+msgid "task"
+msgstr "task"
+
+#: ../docs/data_index.rst:18 3fa0ff9ee05949a487e6f6e658a5c11d
+msgid "GroupStatus"
+msgstr "GroupStatus"
+
+#: ../docs/data_index.rst:21 ../docs/data_index.rst:77
+#: 662a13eed5334b749d6bb101a2135563 85a196419db045b7a36afc1179360b77
+msgid "admin"
+msgstr "admin"
+
+#: ../docs/data_index.rst:22 ../docs/data_index.rst:78
+#: f367301d05b3444ca2ec81b7d6033ce3 602097488b3e4b23bd2dbae056ebb510
+msgid "member"
+msgstr "member"
+
+#: ../docs/data_index.rst:28 af056cc7cffa446285cec012212a3a6a
+msgid "MarkupType"
+msgstr "MarkupType"
+
+#: ../docs/data_index.rst:31 4437f65cbb9f46aba864a06c952bf61a
+msgid "bold"
+msgstr "bold"
+
+#: ../docs/data_index.rst:32 27151a3d4d4049bf9f8e612222e3e3e8
+msgid "italic"
+msgstr "italic"
+
+#: ../docs/data_index.rst:33 eea05dbe46754ad1b99309ffb8ed4cb1
+msgid "underscore"
+msgstr "underscore"
+
+#: ../docs/data_index.rst:34 1fa18c34ed784ac2a01691830f5b87f6
+msgid "strike"
+msgstr "strike"
+
+#: ../docs/data_index.rst:35 c6e7ab8ab40649a59f21e6eb9bebca17
+msgid "code"
+msgstr "code"
+
+#: ../docs/data_index.rst:36 a73d0eaaa2c04edd82a24e38d270f3fd
+msgid "codeblock"
+msgstr "codeblock"
+
+#: ../docs/data_index.rst:37 7db377ffde764e5d9af9c5980ae90ced
+msgid "quote"
+msgstr "quote"
+
+#: ../docs/data_index.rst:38 ceb30bd87f55498c9980baafe3b127b3
+msgid "link"
+msgstr "link"
+
+#: ../docs/data_index.rst:39 8b8218c5bc9a487b94c0e16d249908c2
+msgid "time"
+msgstr "time"
+
+#: ../docs/data_index.rst:40 d6af68b974944de1b90a43776573c69f
+msgid "unsafe"
+msgstr "unsafe"
+
+#: ../docs/data_index.rst:46 7ca5775696f84f8689d0872425cb656e
+msgid "Mediasubtype"
+msgstr "Mediasubtype"
+
+#: ../docs/data_index.rst:49 ca1003c02e4d49da990fd7f7e2e858b3
+msgid "sticker"
+msgstr " "
+
+#: ../docs/data_index.rst:50 33a92c4f4b6d4e85a5a3266c711c5da9
+msgid "newtask"
+msgstr "newtask"
+
+#: ../docs/data_index.rst:56 9d31345362494bb49b0205ebf3c54ffa
+msgid "Mediatype"
+msgstr "Mediatype"
+
+#: ../docs/data_index.rst:59 e35ff13e487e443c98e53420eee82fb1
+msgid "plain"
+msgstr "plain"
+
+#: ../docs/data_index.rst:60 3a0533156328433c9eefe4f1c69dc21b
+msgid "change"
+msgstr "change"
+
+#: ../docs/data_index.rst:61 42170ee609024fe4a0ccd5aa3832d48c
+msgid "deleted"
+msgstr "deleted"
+
+#: ../docs/data_index.rst:62 ../docs/data_index.rst:88
+#: 66e3001121e04ea0990999d82527361c 0390e155ffff4937ad44c677a9ce0435
+msgid "file"
+msgstr "file"
+
+#: ../docs/data_index.rst:63 ../docs/data_index.rst:89
+#: 10372c6e9fca4d4fb0882216f7480895 2b35e4a125bd4bea85f2bededfab4137
+msgid "image"
+msgstr "image"
+
+#: ../docs/data_index.rst:64 ../docs/data_index.rst:90
+#: c0708d42a3df453babb30d15ba4544e0 d500045557ac4e88af895e4898d33c07
+msgid "video"
+msgstr "video"
+
+#: ../docs/data_index.rst:65 38e5d1f6e41a40dba0047212b0b04eff
+msgid "audiomsg"
+msgstr "audiomsg"
+
+#: ../docs/data_index.rst:66 458a7045f89d4f8f8b19e3d4b631aefe
+msgid "contact"
+msgstr "contact"
+
+#: ../docs/data_index.rst:67 154694e73e2e4e69aa2ad67e33dcdd3c
+msgid "pdf"
+msgstr "pdf"
+
+#: ../docs/data_index.rst:73 4d5b5e398acc4cdcb5b92aca9a8f997a
+msgid "TeamStatus"
+msgstr "TeamStatus"
+
+#: ../docs/data_index.rst:76 f4d79557cce040b8a6f81289845115d6
+msgid "owner"
+msgstr "owner"
+
+#: ../docs/data_index.rst:79 de51d4831025455b9132ae577ef2d79d
+msgid "guest"
+msgstr "guest"
+
+#: ../docs/data_index.rst:85 4ad3b92d3ed347c79839bd4a1f37dd0b
+msgid "UploadMediaType"
+msgstr "UploadMediaType"
+
+#: ../docs/data_index.rst:91 641773b41b054fb3a5eed5e15a1d85a9
+msgid "audio"
+msgstr "audio"
+
+#: ../docs/data_index.rst:92 be5f77ff39c54295b8754f080c4bb342
+msgid "imagefile"
+msgstr "imagefile"
+
+#: ../docs/data_index.rst:95 caf193702bef4405b999f7c8cdf8b561
+msgid "Type aliases"
+msgstr "Псевдонимы типов"
+
+#: ../docs/data_index.rst:100 098e3eb8666c4e18bd8144bc2805a7c9
+msgid "ActiveUserDailyStatList"
+msgstr "ActiveUserDailyStatList"
+
+#: ../docs/data_index.rst:102 9a591b78b21946ed894f36e644c30803
+msgid "**Base Type**: ActiveUserDailyStat"
+msgstr "**Изначальный тип**: ActiveUserDailyStat"
+
+#: ../docs/data_index.rst:104 ../docs/data_index.rst:134
+#: 755975f2e2f241c6ad8b0ea3e8f2e319 3ed944e4c9f4467b9f7b2a4be87d3598
+msgid "**Is array**"
+msgstr "**Является списком**"
+
+#: ../docs/data_index.rst:110 e9059f96cc134d6cae505274c288e053
+msgid "ISODateTimeString"
+msgstr "ISODateTimeString"
+
+#: ../docs/data_index.rst:112 ../docs/data_index.rst:122
+#: ../docs/data_index.rst:152 ../docs/data_index.rst:162
+#: ../docs/data_index.rst:172 ../docs/data_index.rst:182
+#: 7ef0d3c085c04b5b9493945d2b1c7fee d2da41a2c3e2439d83a3473494fd0c67
+#: 37174c33729345c5b78dc124f027d3a5 8851807da3f8405ea5df8e37aeb11a82
+#: 20e5c3e94cec4c6a8519dcd41546ad55 bc6a0131f81246fc978c5b9754ea6e8e
+msgid "**Base Type**: string"
+msgstr "**Базовый тип**: string"
+
+#: ../docs/data_index.rst:120 e172cbe30f484a8f9e159313ca1bdc43
+msgid "JID"
+msgstr "JID"
+
+#: ../docs/data_index.rst:130 20cbc2b743af42b7b16df35ea5bb7638
+msgid "MessageLinks"
+msgstr "MessageLinks"
+
+#: ../docs/data_index.rst:132 99127bbc5cf14add84a2759799194ff8
+msgid "**Base Type**: MessageLink"
+msgstr "**Базовый тип**: MessageLink"
+
+#: ../docs/data_index.rst:140 7b98cbf3845c40cbbb4bb2e52029b4f6
+msgid "PushDeviceType"
+msgstr "PushDeviceType"
+
+#: ../docs/data_index.rst:142 83c3bad4aea1405b9db6bff756f99813
+msgid "**Base Type**: int"
+msgstr "**Базовый тип**: int"
+
+#: ../docs/data_index.rst:150 4bb590a6c9e54e0fb7e3cf3d9596b328
+msgid "RGBColor"
+msgstr "RGBColor"
+
+#: ../docs/data_index.rst:160 e4b25f9899a84c4fb16fce9f4763ef6a
+msgid "TaskFilterKey"
+msgstr "TaskFilterKey"
+
+#: ../docs/data_index.rst:170 5a6fdd7373844b23908e135b76ae0efb
+msgid "TaskSortKey"
+msgstr "TaskSortKey"
+
+#: ../docs/data_index.rst:180 fd91a303b1004988913a48fd68a4c737
+msgid "TaskTabKey"
+msgstr "TaskTabKey"
+
+#: ../docs/data_index.rst:187 fd247cee351e44dfa740570d78658226
+msgid "JSON objects index"
+msgstr "Индекс JSON объектов"
+
+#: ../docs/data_index.rst:192 69254b23876341dfaf79acde8c64e63c
+msgid "ButtonColors"
+msgstr "ButtonColors"
+
+#: ../docs/data_index.rst:194 40f8c97c14c94a64b91808482298968b
+msgid "Button colors for app"
+msgstr "Цвета кнопок для приложения"
+
+#: ../docs/data_index.rst:196 ../docs/data_index.rst:212
+#: ../docs/data_index.rst:224 ../docs/data_index.rst:241
+#: ../docs/data_index.rst:257 ../docs/data_index.rst:412
+#: ../docs/data_index.rst:427 ../docs/data_index.rst:466
+#: ../docs/data_index.rst:601 ../docs/data_index.rst:621
+#: ../docs/data_index.rst:636 ../docs/data_index.rst:652
+#: ../docs/data_index.rst:666 ../docs/data_index.rst:677
+#: ../docs/data_index.rst:689 ../docs/data_index.rst:700
+#: ../docs/data_index.rst:713 ../docs/data_index.rst:807
+#: ../docs/data_index.rst:824 ../docs/data_index.rst:838
+#: ../docs/data_index.rst:849 ../docs/data_index.rst:862
+#: ../docs/data_index.rst:882 ../docs/data_index.rst:896
+#: ../docs/data_index.rst:918 ../docs/data_index.rst:931
+#: ../docs/data_index.rst:950 ../docs/data_index.rst:965
+#: ../docs/data_index.rst:977 ../docs/data_index.rst:1002
+#: ../docs/data_index.rst:1068 ../docs/data_index.rst:1084
+#: ../docs/data_index.rst:1150 ../docs/data_index.rst:1172
+#: ../docs/data_index.rst:1185 ../docs/data_index.rst:1206
+#: ../docs/data_index.rst:1219 ../docs/data_index.rst:1232
+#: ../docs/data_index.rst:1244 ../docs/data_index.rst:1261
+#: ../docs/data_index.rst:1275 ../docs/data_index.rst:1288
+#: ../docs/data_index.rst:1305 ../docs/data_index.rst:1320
+#: ../docs/data_index.rst:1338 ../docs/data_index.rst:1362
+#: ../docs/data_index.rst:1381 ../docs/data_index.rst:1394
+#: ../docs/data_index.rst:1411 ../docs/data_index.rst:1423
+#: ../docs/data_index.rst:1435 ../docs/data_index.rst:1448
+#: ../docs/data_index.rst:1463 ../docs/data_index.rst:1475
+#: ../docs/data_index.rst:1497 ../docs/data_index.rst:1509
+#: ../docs/data_index.rst:1526 ../docs/data_index.rst:1544
+#: ../docs/data_index.rst:1604 ../docs/data_index.rst:1616
+#: ../docs/data_index.rst:1629 ../docs/data_index.rst:1673
+#: ../docs/data_index.rst:1726 ../docs/data_index.rst:1739
+#: ../docs/data_index.rst:1770 ../docs/data_index.rst:1784
+#: ../docs/data_index.rst:1796 ../docs/data_index.rst:1828
+#: ../docs/data_index.rst:1864 ../docs/data_index.rst:1877
+#: b73a096048c34882a6c2684da606b869 15fa5bcb604640fbaed98e6a9c31e123
+#: 0c52c3f91edc4626ba34e73314080410 6634180992ca4937bb6a8e73b08b0472
+#: aa222ae1c368446aadffebbdd7ae6e31 914f36859c564547bfe59686559686e0
+#: e6552b19942842f39c76058b051fc93f 31e0d36e9f4b429b8674673a7b1130dc
+#: bdc0b1cc04a44c349dd05c01dd9f11c0 685bb86e0d34406ea78d02c72de48bc5
+#: c6cdf9f435c94f6da65c633bf96d25e5 ab802ade31ce4c198958f8fdeb217482
+#: 4d63e4e0768c471e8fcbb7dd62d8700e d58540fab9464eb8a0b631487573d84c
+#: f6b20e85a170407786b5e5e7fee18cda 2088e51ee8684acc86a798c6177dfd31
+#: dbea38a77d2941a78eea90411369f89e be5ae39ef7404576bb44a7c2e766a000
+#: ef7cafd244a5467e8e2757a080fb7746 17e3abac784c471a8062302714c6ae65
+#: a9231e0e3b5f47eebb1a47431c56bf72 b5ffe5ad2393402884eceaa26db99e78
+#: cc157c965b39445192b9e5b89bece03e a70498d2ae16493c8e1be04962be82c8
+#: 7c31727887f44ce184091c3e308f99b2 049104418a424e5ab80addf35e2c8152
+#: 43a62a8f585c409285fab6c37853ed5c c6a87e6d24144f44bdc5c3e854bac792
+#: c41bbe472ce648dbb68a841c12daaf82 33564e440bd8442c9b4a449cc05e4c37
+#: bc30d01fa6c64323827e93673fbbba22 a09d391dc9d24c0bab0f52bcf6299698
+#: a65598d97b3e4676a03bc1ae68455611 60eecd6999174cdbade1a31c9284514b
+#: 5790482e10f840d1971247a11156d90c 99e86d3c97624809ba88e838bb244bf4
+#: a3608a0ec2054b10b707a13d18609243 6f9e70b670494010a12b558fe7d5e455
+#: 3f5874fc04e94f9889716a3ebef9e0a0 7c5dbe9d1f6d4a68ae989c5462d2d6fb
+#: bca7f6a913864d75b5e2aa4c80967f31 667816b5b37a4de89ad5e2bc3ed116e0
+#: 73c8cb8a414947fabcbc5b642e0f2d0a 147c84d4906248a691c37190227f7bc3
+#: bb634828f64f4b0bacb154bbfac13bae 81bbc0142b5743c1aafb649971160e22
+#: 1b78e4de37d44ce59ea35c9632af468e 590096a15e5c4977a3404b12f2a4b7ba
+#: 03c86b472b41479698b12a5c759c46de 014f1c85df7e467babb6d6d434901250
+#: be147dac83754b1aaa8efa4c46c3eccc a31006ae269f43049e0a2f668117e917
+#: a1c9a0a2389b4081873d7803b1d267dd 7f0ffee5cf244829ad72f938c416e11b
+#: d15c282ce1c949fa8f79cb00060649ea 3874a28dc99e44dcab9b1c5b4431f0ea
+#: 4758aa3380144ce0beadf81123ddd9aa b87b4f52c2da42658db300968c6ac395
+#: ccad100583684a29b49c464bdd662383 93773d11df684c919f6833d391d9d40f
+#: 070b536970554417a5d5d8eaf297403e 6da64eb72e3e406bba645e42ec184ab5
+#: 9085994743ab4efcbe9aed0a951763e3 2fa3676d39d444639a6ae766f9fcda52
+#: c5c0dc1c6bef461791738ca2acea5935 147db2e309ca40a5877400074cce0973
+#: d0cb1a174a614896b2a533713788b067 64484792017149d4b75518d65648d4e7
+#: 90b6bba78a254bfa819f6813de38e65a 02f29634e7c242a88a9ca10231e29411
+msgid "**Fields**:"
+msgstr "**Поля**:"
+
+#: ../docs/data_index.rst:198 f05a6e07b1394b17bc507e416d1739a3
+msgid "``brand_static`` (:ref:`tdproto-RGBColor`) - Brand static color"
+msgstr "``brand_static`` (:ref:`tdproto-RGBColor`) - статический цвет"
+
+#: ../docs/data_index.rst:199 0a643ed88f9c48feb70bef679711753d
+msgid "``brand_active`` (:ref:`tdproto-RGBColor`) - Brand active color"
+msgstr "``brand_active`` (:ref:`tdproto-RGBColor`) - активный цвет"
+
+#: ../docs/data_index.rst:200 da7c4805064a49eda3602c65c8c90a96
+msgid "``brand_disable`` (:ref:`tdproto-RGBColor`) - Brand disable color"
+msgstr "``brand_disable`` (:ref:`tdproto-RGBColor`) - отключенный цвет"
+
+#: ../docs/data_index.rst:201 1cbd35627a3c4fe4ab07975de64e4dc7
+msgid "``simple_static`` (:ref:`tdproto-RGBColor`) - Simple static color"
+msgstr "``simple_static`` (:ref:`tdproto-RGBColor`) - простой статический цвет"
+
+#: ../docs/data_index.rst:202 5625c1ea0e674d99a81fefc52dbf867d
+msgid "``simple_active`` (:ref:`tdproto-RGBColor`) - Simple active color"
+msgstr "``simple_active`` (:ref:`tdproto-RGBColor`) - простой активный цвет"
+
+#: ../docs/data_index.rst:203 3a1ce6b89c7a4168bf8f98ffe904c9b2
+msgid "``simple_disable`` (:ref:`tdproto-RGBColor`) - Simple disable color"
+msgstr ""
+"``simple_disable`` (:ref:`tdproto-RGBColor`) - простой отключенный цвет"
+
+#: ../docs/data_index.rst:208 aff80f0e5d124e78a7df17a7a374e17c
+msgid "CallDevice"
+msgstr "CallDevice"
+
+#: ../docs/data_index.rst:210 55a0c663af414d808919609d2738262c
+msgid "Call participant device"
+msgstr "Устройство участника звонка"
+
+#: ../docs/data_index.rst:214 a548c5e067a747c486b3c0819cb7f151
+msgid "``muted`` (boolean) - Device muted"
+msgstr "``muted`` (boolean) - устройство заглушено"
+
+#: ../docs/data_index.rst:215 70fcf3dc144f48efb1d239ee083a1b64
+msgid "``useragent`` (string) - Device description"
+msgstr "``useragent`` (string) - Описание устройства"
+
+#: ../docs/data_index.rst:220 f4d80b8297f14a7b9686bc69bbaa2c14
+msgid "CallEvent"
+msgstr "CallEvent"
+
+#: ../docs/data_index.rst:222 e5f3b50f3f264c9192b3edb964d524af
+msgid "Audio call information"
+msgstr "Информация аудио звонка"
+
+#: ../docs/data_index.rst:226 d8955d9e9f674d3b97be968900b2ae98
+msgid "``start`` (string) - Call start\\ . Might be null"
+msgstr "``start`` (string) - Начало звонка\\ . Возможен null"
+
+#: ../docs/data_index.rst:228 5b0460bf02f847f3b344116d301045c1
+msgid "``finish`` (string) - Call finish\\ . Might be null"
+msgstr "``finish`` (string) - Окончание звонка\\ . Возможен null"
+
+#: ../docs/data_index.rst:230 d8141015b06443c8a671514f63632a5d
+msgid "``audiorecord`` (boolean) - Call record enabled"
+msgstr "``audiorecord`` (boolean) - Запись звонка включена"
+
+#: ../docs/data_index.rst:231 93f73168ae5b4f258170a9a7de30d728
+msgid ""
+"``onliners`` (:ref:`tdproto-CallOnliner`) - Call participants\\ . Maybe "
+"omitted"
+msgstr ""
+"``onliners`` (:ref:`tdproto-CallOnliner`) - Участники звонка\\ . Возможно "
+"поле будет отсутствовать."
+
+#: ../docs/data_index.rst:237 0d2935c52fc64309963ac3aed67639d4
+msgid "CallOnliner"
+msgstr "CallOnliner"
+
+#: ../docs/data_index.rst:239 dd9948b7d0024cadb9086a2f30ef6fdb
+msgid "Call participant"
+msgstr "Участник звонка"
+
+#: ../docs/data_index.rst:243 ../docs/data_index.rst:826
+#: ../docs/data_index.rst:1263 cdba2d2c7e6346faa96b8bf11b19da20
+#: 1d2b072f4d414486ae71b4d0195ca2d9 b9fec880d66d454ca9ea490fb00b97d6
+msgid "``jid`` (:ref:`tdproto-JID`) - Contact id"
+msgstr "``jid`` (:ref:`tdproto-JID`) - Id контакта"
+
+#: ../docs/data_index.rst:244 1da2e50f7e7045c983c3f018697c63ee
+msgid "``display_name`` (string) - Contact name"
+msgstr "``display_name`` (string) - Имя контакта"
+
+#: ../docs/data_index.rst:245 16220d0e24e142af82c9fa17f00ec7b5
+msgid "``role`` (string) - Contact role"
+msgstr "``role`` (string) - Роль контакта"
+
+#: ../docs/data_index.rst:246 a989eb5b14204a7dacdac7b535cf5290
+msgid "``icon`` (string) - Contact icon"
+msgstr "``icon`` (string) - Иконка контакта"
+
+#: ../docs/data_index.rst:247 89064b02982e4f1898d3007978ed7bde
+msgid ""
+"``muted`` (boolean) - Microphone muted. Computed from devices muted states"
+msgstr ""
+"``muted`` (boolean) - Микрофон выключен. Вычисляется из состояния устройств"
+
+#: ../docs/data_index.rst:248 960e756567dc48d7a1dc2a3eceb789f4
+msgid ""
+"``devices`` (:ref:`tdproto-CallDevice`) - Member devices, strictly one for "
+"now"
+msgstr ""
+"``devices`` (:ref:`tdproto-CallDevice`) - Устройства участвующие, строго "
+"одно пока-что"
+
+#: ../docs/data_index.rst:253 3484617dba1947a793fea7b54b0533b1
+msgid "Chat"
+msgstr "Chat"
+
+#: ../docs/data_index.rst:255 ab59865b5c774755b44739fa7860606f
+msgid "Chat (direct, group, task) representation"
+msgstr "Образ чата. (прямого, группового или задачного)"
+
+#: ../docs/data_index.rst:259 ../docs/data_index.rst:414
+#: ../docs/data_index.rst:654 d791425452dd441ca658047aa715d44b
+#: a72197c0af51457491fa1291d0de8ba8 e5ffefc553614eaf8245b0105957d2ba
+msgid "``jid`` (:ref:`tdproto-JID`) - Group/Task/Contact id"
+msgstr "``jid`` (:ref:`tdproto-JID`) - Id группы/задачи/контакта"
+
+#: ../docs/data_index.rst:260 ../docs/data_index.rst:415
+#: ../docs/data_index.rst:655 ../docs/data_index.rst:1014
+#: ../docs/data_index.rst:1369 ec26024ff23d474aad22256ca0a8d04e
+#: 162ec5468fb841fb9534f9aa76ba1f13 78ac75268d814d3683d14f7fa21cd455
+#: fb189fee05e74eaa990c65cf325b5a88 252b8631fb6b48daa8d9791a6153bcb5
+msgid "``chat_type`` (:ref:`tdproto-ChatType`) - Chat type"
+msgstr "``chat_type`` (:ref:`tdproto-ChatType`) - Тип чата"
+
+#: ../docs/data_index.rst:261 080720c43f6a404eb1d87d47f75c4ece
+msgid ""
+"``base_gentime`` (number) - Base fields (not related to concrete "
+"participant) version\\ . Maybe omitted"
+msgstr ""
+"``base_gentime`` (number) - Базовые поля (не относящиеся к каким либо "
+"участникам) версия\\ . Возможно поле будет отсутствовать."
+
+#: ../docs/data_index.rst:263 b674d4c1f2a5447d91b44047654241ac
+msgid ""
+"``gentime`` (number) - Chat fields related to concrete participant) version"
+msgstr ""
+"``gentime`` (number) - Поля чата относящиеся к какому либо конкретному "
+"участнику) версия"
+
+#: ../docs/data_index.rst:264 87339ba1c922450da23148f48aef38a5
+msgid "``created`` (string) - Creation date, iso datetime"
+msgstr "``created`` (string) - Дата создания, iso datetime"
+
+#: ../docs/data_index.rst:265 ../docs/data_index.rst:416
+#: ../docs/data_index.rst:1400 74414159e8ae42f7a908abb29e3dae90
+#: c1fefeaa45044c1c88d96cc998d4ed6f f1a00be7155145c78700f6b98785726b
+msgid "``display_name`` (string) - Title"
+msgstr "``display_name`` (string) - Титул"
+
+#: ../docs/data_index.rst:266 e17eea64d405453e9ea10a7cffb42465
+msgid "``icons`` (:ref:`tdproto-IconData`) - Icons info\\ . Might be null"
+msgstr ""
+"``icons`` (:ref:`tdproto-IconData`) - Информация об иконках\\ . Возможен null"
+
+#: ../docs/data_index.rst:268 e62e34da2e994ad295e46de78f288206
+msgid ""
+"``counters_enabled`` (boolean) - Include unread messages to counters\\ . "
+"Maybe omitted"
+msgstr ""
+"``counters_enabled`` (boolean) - Непрочитанные сообщения будут учитываться в "
+"счетчике\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:270 109abc9054e9472f95390ddfa3dcdb14
+msgid "``can_call`` (boolean) - Can I call to this chat\\ . Maybe omitted"
+msgstr ""
+"``can_call`` (boolean) - Могу ли я звонить в этот чат\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:272 2dc6bb2b4ae34e76aefb7f3b052fb45d
+msgid ""
+"``can_send_message`` (boolean) - Can I send message to this chat\\ . Maybe "
+"omitted"
+msgstr ""
+"``can_send_message`` (boolean) - Могу ли я отправлять сообщения в этот чат"
+"\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:274 ../docs/data_index.rst:490
+#: a03d50a9abf144e18f69c40e5341532e c46b42125a7549819654a6a8e31c11c0
+msgid ""
+"``cant_send_message_reason`` (string) - Why I can't send message to this "
+"chat (if can't)\\ . Maybe omitted"
+msgstr ""
+"``cant_send_message_reason`` (string) - Почему я не могу отправлять "
+"сообщения в этот чат (если не могу)\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:276 fda3cba7a2bb4d52aea6c1a3d4e0d680
+msgid ""
+"``collapsed`` (boolean) - Description collapsed. Used for tasks only\\ . "
+"Maybe omitted"
+msgstr ""
+"``collapsed`` (boolean) - Сжатое описание. Используется только в задачах\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:278 2a1c3b7087ff4a55889818dc680bc0f8
+msgid "``draft`` (string) - Last message draft, if any\\ . Maybe omitted"
+msgstr ""
+"``draft`` (string) - Черновик последнего сообщения, если сушествует\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:280 6e7a49e001c141929e22194022e10eb3
+msgid ""
+"``draft_num`` (number) - Last message draft version , if any\\ . Maybe "
+"omitted"
+msgstr ""
+"``draft_num`` (number) - Версия последнего черновика , если существует\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:282 3a40f5c5151c46a2af33f9c7b886cb06
+msgid "``hidden`` (boolean) - Hidden chat\\ . Maybe omitted"
+msgstr ""
+"``hidden`` (boolean) - Невидимый чат\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:284 dd61a68818cd4cd7b9c02390394d7b61
+msgid ""
+"``notifications_enabled`` (boolean) - Push notifications enabled\\ . Maybe "
+"omitted"
+msgstr ""
+"``notifications_enabled`` (boolean) - Пуш уведомления включены\\ . Возможно "
+"поле будет отсутствовать"
+
+#: ../docs/data_index.rst:286 209adad1082d40abb4a35d153ba24525
+msgid ""
+"``num_importants`` (number) - Number of important messages\\ . Maybe omitted"
+msgstr ""
+"``num_importants`` (number) - Число важных сообщений\\ . Возможно поле будет "
+"отсутствовать"
+
+#: ../docs/data_index.rst:288 deb73296792d49d8b6892587c9eafd48
+msgid "``num_unread`` (number) - Unread counter\\ . Maybe omitted"
+msgstr ""
+"``num_unread`` (number) - Счетчик непрочитаных сообщений\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:290 ../docs/data_index.rst:1453
+#: 0f8d5ee99f3c4f07af23779243bf82e2 8bf70f92deaa4796ab9eef6ef3b4c833
+msgid ""
+"``num_unread_notices`` (number) - Mentions (@) counter\\ . Maybe omitted"
+msgstr ""
+"``num_unread_notices`` (number) - Счетчик упоминаний (@)\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:292 c42db3f9e72f424d858d00d51a801f23
+msgid ""
+"``last_message`` (:ref:`tdproto-Message`) - Last message object\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+"``last_message`` (:ref:`tdproto-Message`) - Обьект последнего сообщения\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:295 17c45b966ddc4fd8b08850034c8d4b2c
+msgid ""
+"``last_read_message_id`` (string) - Last read message id, if any\\ . Maybe "
+"omitted"
+msgstr ""
+"``last_read_message_id`` (string) - Id последнего прочитанного сообщения, "
+"если существует\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:297 20f4560c93fe4dda80e02105c33d994f
+msgid "``section`` (string) - Project / section id, if any\\ . Maybe omitted"
+msgstr ""
+"``section`` (string) - Id проекта / секции , если существует\\ . Возможно "
+"поле будет отсутствовать"
+
+#: ../docs/data_index.rst:299 c5d9e5fea8d5498fb197976877a4f46e
+msgid ""
+"``changeable_fields`` (string) - List of editable fields\\ . Maybe omitted"
+msgstr ""
+"``changeable_fields`` (string) - Список редактируемых полей\\ . Возможно "
+"поле будет отсутствовать"
+
+#: ../docs/data_index.rst:301 b507a7dc4a2e46509f0a935176a4d860
+msgid "``pinned`` (boolean) - Is chat pinned on top\\ . Maybe omitted"
+msgstr ""
+"``pinned`` (boolean) - Закреплен ли чат на верху\\ . Возможно поле будет "
+"отсутствовать"
+
+#: ../docs/data_index.rst:303 5b4ab19cb9c04d1ea2c43466dee83092
+msgid ""
+"``pinned_sort_ordering`` (number) - Sort ordering for pinned chat\\ . Maybe "
+"omitted"
+msgstr ""
+"``pinned_sort_ordering`` (number) - Тип сортирования прикрепленного чата\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:305 98845090047046ad867226461c124c94
+msgid ""
+"``num_members`` (number) - Non-archive participants number\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+"``num_members`` (number) - Количество не архивированных участников\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:308 7607120ef9574d4aa8e062ba7e239d9a
+msgid "``can_delete`` (boolean) - Can I delete this chat\\ . Maybe omitted"
+msgstr ""
+"``can_delete`` (boolean) - Могу ли я удалить этот чат\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:310 19ad71ea4c464b8c8532c3638b467bb5
+msgid "``description`` (string) - Group or task description\\ . Maybe omitted"
+msgstr ""
+"``description`` (string) - Описание группы или задачи\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:312 2bf2716e5f6f405fab4303e8dbcbd738
+msgid ""
+"``markup`` (:ref:`tdproto-MarkupEntity`) - Markup entities for description "
+"field. Experimental\\ . Maybe omitted"
+msgstr ""
+"``markup`` (:ref:`tdproto-MarkupEntity`) - Markup объекты для описания. "
+"Экспериментально\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:314 dd6e8645a8014562aa98cf3a710d331a
+msgid "``feed`` (boolean) - Present in feed (main screen)\\ . Maybe omitted"
+msgstr ""
+"``feed`` (boolean) - Существует в feed (главный экран)\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:316 d1730ea50bc2478b8bdaa08784f184d2
+msgid ""
+"``pinned_message`` (:ref:`tdproto-Message`) - Pinned message for this chat"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+"``pinned_message`` (:ref:`tdproto-Message`) - Прикрепленные сообщения этого "
+"чата\\ . Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:319 60c5ce6fa89d4e5390a40ffb2adfef07
+msgid ""
+"``color_index`` (number) - Custom color index from table of colors. Tasks "
+"only\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+"``color_index`` (number) - индекс нестандартного цвета из таблицы цветов. "
+"Только в задачах\\ . Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:322 3d6fda0068304b498ee6a20c495828a4
+msgid ""
+"``num_items`` (number) - Items in checklist. Tasks only\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+"``num_items`` (number) - количество пунктов в чеклисте. Только в задачах\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:325 758f35f51265458fb3dfa7daf48f802b
+msgid ""
+"``num_checked_items`` (number) - Checked items in checklist. Tasks only\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+"``num_checked_items`` (number) - Количество отмеченных пунктов в чеклисте. "
+"Только в задачах\\ . Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:328 870dc33ff9ac4acd99a442d20d9c844f
+msgid ""
+"``assignee`` (:ref:`tdproto-JID`) - Assignee contact id. Tasks only\\ . "
+"Maybe omitted"
+msgstr ""
+"``assignee`` (:ref:`tdproto-JID`) - Id контакта уполномоченного. Только в "
+"задачах\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:330 9e1acbf37d7d44399284dc1fe6fa8e4d
+msgid "``num`` (number) - Task number in this team\\ . Maybe omitted"
+msgstr ""
+"``num`` (number) - Номер задачи в этой команде\\ . Возможно поле будет "
+"отсутствовать"
+
+#: ../docs/data_index.rst:332 26b9a220304048ca856c8063a629ed7d
+msgid ""
+"``observers`` (:ref:`tdproto-JID`) - Task followers id's. TODO: rename to "
+"\"followers\"\\ . Maybe omitted"
+msgstr ""
+"``observers`` (:ref:`tdproto-JID`) - Id подписчиков.\\ . Возможно поле будет "
+"отсутствовать"
+
+#: ../docs/data_index.rst:334 815e807641cb41c4b9a118fa7e94aff9
+msgid "``owner`` (:ref:`tdproto-JID`) - Task creator\\ . Maybe omitted"
+msgstr ""
+"``owner`` (:ref:`tdproto-JID`) - Создатель задачи\\ . Возможно поле будет "
+"отсутствовать"
+
+#: ../docs/data_index.rst:336 f76744aa57794e4eb7d9b4aa223a54a7
+msgid "``task_status`` (string) - Task status. May be custom\\ . Maybe omitted"
+msgstr ""
+"``task_status`` (string) - Статус задачи. Возможно не стандартное\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:338 5ff2f0fdfc5c4d6aa19c43f1f84e5ffe
+msgid ""
+"``title`` (string) - Task title. Generated from number and description\\ . "
+"Maybe omitted"
+msgstr ""
+"``title`` (string) - Титул задачи. Создается из номера и описания\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:340 558b108f454c42579d69421a8b755daf
+msgid ""
+"``done`` (string) - Task done date in iso format, if any\\ . Maybe omitted"
+msgstr ""
+"``done`` (string) - Дата завершения задачи в iso формате, если существует"
+"\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:342 e855e7ff27db47ed9b009d5cb1644eeb
+msgid "``done_reason`` (string) - Task done reason, if any\\ . Maybe omitted"
+msgstr ""
+"``done_reason`` (string) - Причина завершения задачи, если существует\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:344 7a348810b9aa49a89241881d3d546234
+msgid ""
+"``deadline`` (string) - Task deadline in iso format, if any\\ . Maybe omitted"
+msgstr ""
+"``deadline`` (string) - Дедлайн задачи в iso формате, если существует\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:346 c8ba0c2f111f4d5cb8ba07591dc91104
+msgid ""
+"``deadline_expired`` (boolean) - Is task deadline expired\\ . Maybe omitted"
+msgstr ""
+"``deadline_expired`` (boolean) - Просрочен ли дедлайн\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:348 fb493c832bb4477fb5b43df939a41087
+msgid ""
+"``links`` (:ref:`tdproto-MessageLinks`) - Links in description\\ . Maybe "
+"omitted"
+msgstr ""
+"``links`` (:ref:`tdproto-MessageLinks`) - Ссылки в описании\\ . Возможно "
+"поле будет отсутствовать"
+
+#: ../docs/data_index.rst:350 3404cd7eb9374fe5bc574f3cc20158e8
+msgid "``tags`` (string) - Task tags list, if any\\ . Maybe omitted"
+msgstr ""
+"``tags`` (string) - Список тэгов задачи, если существуют\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:352 64d32fb039c042eaaa553bb755230cf4
+msgid ""
+"``importance`` (number) - Task importance, if available in team\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+"``importance`` (number) - Важность задачи, если доступно в команде\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:355 c5969cf121284ef0adb3f73dc008c182
+msgid ""
+"``urgency`` (number) - Task urgency, if available in team\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+"``urgency`` (number) - Срочность задачи, если доступно в команде\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:358 0d7e1e1506494f48b79c3afe48b9105a
+msgid ""
+"``spent_time`` (number) - Task spent time, number\\ . Maybe omitted\\ . "
+"Might be null"
+msgstr ""
+"``spent_time`` (number) - Время затраченное на задачу\\ . Возможно поле "
+"будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:361 156e723b3346440e963d9a37c3badc46
+msgid ""
+"``complexity`` (number) - Task complexity, number\\ . Maybe omitted\\ . "
+"Might be null"
+msgstr ""
+"``complexity`` (number) - Сложность задачи\\ . Возможно поле будет "
+"отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:364 0166120d8915403396069a48bc95e50b
+msgid ""
+"``linked_messages`` (any) - Used for \"Create task from messages...\"\\ . "
+"Maybe omitted"
+msgstr ""
+"``linked_messages`` (any) - Используется для \"Create task from messages..."
+"\"\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:366 8b27a2925c3e4e65b569829a5c7702f2
+msgid ""
+"``uploads`` (:ref:`tdproto-Upload`) - Upload uids for request, upload "
+"objects for response\\ . Maybe omitted"
+msgstr ""
+"``uploads`` (:ref:`tdproto-Upload`) - UID загрузок для запроса, объекты "
+"загрузок для ответа\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:368 ac3746923a774e5ab43063ac0cb1e30f
+msgid ""
+"``items`` (:ref:`tdproto-TaskItem`) - Checklist items. Task only\\ . Maybe "
+"omitted"
+msgstr ""
+"``items`` (:ref:`tdproto-TaskItem`) - предметы чеклиста. Только в задачах"
+"\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:370 6676b65880fe4c64a4ca1563107c9a42
+msgid "``parents`` (:ref:`tdproto-Subtask`) - Parent tasks\\ . Maybe omitted"
+msgstr ""
+"``parents`` (:ref:`tdproto-Subtask`) - Родительские задачи\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:372 c28356b2fb3d4a0d95d3759f4d734570
+msgid "``tabs`` (:ref:`tdproto-TaskTabKey`) - Tab names\\ . Maybe omitted"
+msgstr ""
+"``tabs`` (:ref:`tdproto-TaskTabKey`) - Имена закладок\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:374 b6dc60d589d94d24b119e6fe82272d6c
+msgid ""
+"``status`` (:ref:`tdproto-GroupStatus`) - My status in group chat\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+"``status`` (:ref:`tdproto-GroupStatus`) - Мой статус в групповом чате\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
+
+#: ../docs/data_index.rst:377 8d150eaea76a4ee7ab2b148bf73204f1
+msgid ""
+"``members`` (:ref:`tdproto-GroupMembership`) - Group chat members\\ . Maybe "
+"omitted"
+msgstr ""
+"``members`` (:ref:`tdproto-GroupMembership`) - Участники группового чата\\ . "
+"Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:379 c27a818d41924703b24a377b8a0309fd
+msgid ""
+"``can_add_member`` (boolean) - Can I add member to this group chat\\ . Maybe "
+"omitted"
+msgstr ""
+"``can_add_member`` (boolean) - Могу ли я добавлять участников в этот "
+"групповой чат\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:381 f0493e93c6ac41ad8a13b383f4438a09
+msgid ""
+"``can_remove_member`` (boolean) - Can I remove member from this group chat"
+"\\ . Maybe omitted"
+msgstr ""
+"``can_remove_member`` (boolean) - Могу ли я убирать участников из этого "
+"группового чата\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:383 89b3d5cef6254307a50c6e793ed153d7
+msgid ""
+"``can_change_member_status`` (boolean) - Can I change member status in this "
+"group chat\\ . Maybe omitted"
+msgstr ""
+"``can_change_member_status`` (boolean) - Могу ли я менять статус участников "
+"этого группового чата\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:385 915cf1e3e35144a993debfe17377ab6b
+msgid ""
+"``can_change_settings`` (boolean) - deprecated: use changeable fields\\ . "
+"Maybe omitted"
+msgstr ""
+"``can_change_settings`` (boolean) - устарело: используете ``changeable "
+"fields``\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:387 f6bbcc2249f043ed9ac6c80ea9776ac9
+msgid ""
+"``default_for_all`` (boolean) - Any new team member will be added to this "
+"group chat\\ . Maybe omitted"
+msgstr ""
+"``default_for_all`` (boolean) - Будут ли новые участники добавлены в этот "
+"чат при создании\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:389 9adb088a7ccf4fa6961b817237447396
+msgid ""
+"``readonly_for_members`` (boolean) - Readonly for non-admins group chat "
+"(Like Channels in Telegram bug switchable)\\ . Maybe omitted"
+msgstr ""
+"``readonly_for_members`` (boolean) - Только для чтения для не "
+"администраторов (как каналы в Telegram но переключаемые)\\ . Возможно поле "
+"будет отсутствовать"
+
+#: ../docs/data_index.rst:391 01fa58c58b4d4d1aae7eb4114a717a2e
+msgid ""
+"``autocleanup_age`` (number) - Delete messages in this chat in seconds. "
+"Experimental function\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+"``autocleanup_age`` (number) - Удалять сообщения через столько то секунд. "
+"Экспериментальная функция\\ . Возможно поле будет отсутствовать\\ . Возможен "
+"null"
+
+#: ../docs/data_index.rst:394 ../docs/data_index.rst:1401
+#: f09b1aba7a6f475295e7f88752ffbb2e 51e4151ba87f411f89abe2662a08ecbc
+msgid ""
+"``public`` (boolean) - Can other team member see this task/group chat\\ . "
+"Maybe omitted"
+msgstr ""
+"``public`` (boolean) - Могут ли другие участники команды видеть этот чат/"
+"задачу\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:396 83db8400547a42f1988fe22e0b836182
+msgid ""
+"``can_join`` (boolean) - Can I join to this public group/task\\ . Maybe "
+"omitted"
+msgstr ""
+"``can_join`` (boolean) - Могу ли я присоединиться к этому публичному чату/"
+"задаче\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:398 bc43700f5fe746558ba3fde30def0fcf
+msgid ""
+"``can_delete_any_message`` (boolean) - Can I delete any message in this chat"
+"\\ . Maybe omitted"
+msgstr ""
+"``can_delete_any_message`` (boolean) - Могу ли я удалять сообщения в этом "
+"чате\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:400 7854435460454ca593fa9c387cc0a4cd
+msgid ""
+"``can_set_important_any_message`` (boolean) - Can I change Important flag in "
+"any message in this chat\\ . Maybe omitted"
+msgstr ""
+"``can_set_important_any_message`` (boolean) - Могу ли я менять флаг важности "
+"сообщений в чате этом\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:402 9ca076f57f784602919549cd9cc112fa
+msgid ""
+"``last_activity`` (string) - Date of the last message sent even if it was "
+"deleted\\ . Maybe omitted"
+msgstr ""
+"``last_activity`` (string) - Дата последнего сообщения в этом чате если оно "
+"было удалено\\ . Возможно поле будет отсутствовать"
+
+#: ../docs/data_index.rst:408 a71afa65e89c4b8e965c4ccdb520c1d2
+msgid "ChatShort"
+msgstr "ChatShort"
+
+#: ../docs/data_index.rst:410 f4d51c0dc9c84380a759e70ef5166288
+msgid "Minimal chat representation"
+msgstr ""
+
+#: ../docs/data_index.rst:417 362f925e46e04e798843159ff436d455
+msgid "``icons`` (:ref:`tdproto-IconData`) - Icon data\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:423 6d1af17a436e418fb639799d6c5031f0
+msgid "ColorRule"
+msgstr ""
+
+#: ../docs/data_index.rst:425 c0f521138a5d4580b4b143883b79c301
+msgid "Set of rules to apply to tasks for coloring"
+msgstr ""
+
+#: ../docs/data_index.rst:429 36635108a4f244b696959dc0d04cfbfa
+msgid "``uid`` (string) - Rule id"
+msgstr ""
+
+#: ../docs/data_index.rst:430 12c7c7f562fe4c5bac29bd6436887843
+msgid "``priority`` (number) - Rule priority"
+msgstr ""
+
+#: ../docs/data_index.rst:431 f7a3284924a940409ed7656f3447372f
+msgid "``description`` (string) - Rule description\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:433 b2cd343cd9e34557b89626854d84cb98
+msgid "``color_index`` (number) - Color index"
+msgstr ""
+
+#: ../docs/data_index.rst:434 980ce1e622b34d62bdecf3b9b53aece9
+msgid ""
+"``section_enabled`` (boolean) - Project filter enabled\\ . Maybe omitted\\ . "
+"Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:437 9cc10356c459466a952a16c02a87094f
+msgid ""
+"``section`` (string) - Project id if project filter enabled\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:439 b39f0eb71a894edd8280b9a82c3dc3c9
+msgid ""
+"``tags_enabled`` (boolean) - Tags filter enabled\\ . Maybe omitted\\ . Might "
+"be null"
+msgstr ""
+
+#: ../docs/data_index.rst:442 283901f5e882422e91b41934ecb33b7e
+msgid "``tags`` (string) - Tag ids if tags filter enabled\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:444 7486ec9d191d4bbda042a245670c1d6a
+msgid "``task_status`` (string) - Task status\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:446 5e25916b71c94fe49d100a862669d91e
+msgid ""
+"``task_importance_enabled`` (boolean) - Task importance filter enabled\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:449 f3bb0bdfdc6a46d38cd9f8562f72cf20
+msgid ""
+"``task_importance`` (number) - Task importance if task importance filter "
+"enabled\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:452 4b3e9e4f218a49888fa25587cc81227c
+msgid ""
+"``task_urgency_enabled`` (boolean) - Task urgency filter enabled\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:455 ac7de0a61a9946649ed2dd47928cdd6d
+msgid ""
+"``task_urgency`` (number) - Task urgency if task urgency filter enabled\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:462 ../docs/data_index.rst:464
+#: d6f9537319a2457f87089d5bc36ddc6c 23d0bf4b74d24bf89d0931cfbab5e7e9
+msgid "Contact"
+msgstr ""
+
+#: ../docs/data_index.rst:468 ../docs/data_index.rst:623
+#: 96ac20d08eb14266a051ebfe03c560b3 9c60afad6d2d4ded961bff2d9ba91362
+msgid "``jid`` (:ref:`tdproto-JID`) - Contact Id"
+msgstr ""
+
+#: ../docs/data_index.rst:469 ../docs/data_index.rst:624
+#: c2b89c32d3744c1b964afee8ff3400aa dd93e4d85d624ff4bda5259564b9fcfa
+msgid "``display_name`` (string) - Full name in chats"
+msgstr ""
+
+#: ../docs/data_index.rst:470 ../docs/data_index.rst:625
+#: b94741424c8247e29eb7e7f5bc557fc8 05a0acc954b34897b5a8d1194ceb8ee5
+msgid "``short_name`` (string) - Short name in chats"
+msgstr ""
+
+#: ../docs/data_index.rst:471 080ae5b4704c4d1ca37ccd58c3f93b5f
+msgid "``contact_email`` (string) - Contact email in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:472 39af03527aa94f4194b7de0da891e604
+msgid "``contact_phone`` (string) - Contact phone in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:473 ../docs/data_index.rst:626
+#: a7a0c12ca1ae41369637b74cfb4984a3 e3cb1e6c83a144ed934b276c5511e0ad
+msgid "``icons`` (:ref:`tdproto-IconData`) - Icons data\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:475 353988ebe4c74094ae93dda13f0dfe47
+msgid "``role`` (string) - Role in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:476 b5e1a760013d4485b6f90f942b44c3db
+msgid "``mood`` (string) - Mood in this team\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:478 2d591d3a7c2249a996bfc7b3d3d97280
+msgid "``status`` (:ref:`tdproto-TeamStatus`) - Status in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:479 1b4156d43f1d49e7b39958cecf756ca8
+msgid ""
+"``last_activity`` (string) - Last activity in this team (iso datetime)\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:481 cffe9866278b4078a2f8b5df036cf467
+msgid ""
+"``add_to_team_rights`` (boolean) - Can contact add users to this team\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:483 acba0b78a75e4334b88ddc86224fb7c7
+msgid "``is_archive`` (boolean) - Contact deleted\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:485 cbf112ebb76f4a259fc18156120e140b
+msgid "``botname`` (string) - Bot name. Empty for users\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:487 acb64c88ab3741108512ad511223292d
+msgid "``sections`` (string) - Section ids"
+msgstr ""
+
+#: ../docs/data_index.rst:488 33c39d9b0c0848929d2d39b2fced5df0
+msgid ""
+"``can_send_message`` (boolean) - Can I send message to this contact\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:492 0a1c2c8b3d7445f592d19ae90e3e0798
+msgid "``can_call`` (boolean) - Can I call to this contact\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:494 b8f8e0b721914374b580947e2bd1a684
+msgid ""
+"``can_create_task`` (boolean) - Can I call create task for this contact\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:496 a5ad3ba0064f485e8894063b958b7db4
+msgid ""
+"``can_add_to_group`` (boolean) - Can I add this contact to group chats\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:498 3bfe7bd466f248c49fa318c1fc4a3b8e
+msgid ""
+"``can_delete`` (boolean) - Can I remove this contact from team\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:500 0ce3dd0d4cb14b0ab34ca63d01e542ab
+msgid "``changeable_fields`` (string) - Changeable fields\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:502 ../docs/data_index.rst:1802
+#: ../docs/data_index.rst:1838 1e578502b57145648a1ce9157017563b
+#: d761025655054870a13d52abc2cae06f a3567b43f42742b198df1470c4d53345
+msgid "``family_name`` (string) - Family name\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:504 ../docs/data_index.rst:1804
+#: ../docs/data_index.rst:1840 1c0d5ac75e924017b9aba7d39df87529
+#: d399ecfc172b4e379450eb6f6b99a879 044792bf03834608a4576100d895b925
+msgid "``given_name`` (string) - Given name\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:506 ../docs/data_index.rst:1806
+#: ../docs/data_index.rst:1842 ab633dc0305d421aad9146da9293cf4d
+#: b27531cc03614f04a6616b03ff7e0742 e56bdc9c80f0486ea928dd0bf9a335f9
+msgid "``patronymic`` (string) - Patronymic, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:508 187516338dda45d79980a99bac39d62d
+msgid ""
+"``default_lang`` (string) - Default language code\\ . Maybe omitted\\ . "
+"Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:511 73010c9ee83b4f3398ddfa1c29f391db
+msgid ""
+"``debug_show_activity`` (boolean) - Enable debug messages in UI\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:514 d29f6cd81f594320a24b59204ce4cf8e
+msgid ""
+"``dropall_enabled`` (boolean) - Enable remove all messages experimental "
+"features\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:517 da483c0e309145448c394c7fbc1c3673
+msgid ""
+"``alt_send`` (boolean) - Use Ctrl/Cmd + Enter instead Enter\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:520 b9efff469251420b8885d08ef4416ad6
+msgid ""
+"``asterisk_mention`` (boolean) - Use * as @ for mentions\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:523 63e72c3c03bc47cd867112173ff661bf
+msgid ""
+"``always_send_pushes`` (boolean) - Send push notifications even contact is "
+"online\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:526 bbf9510a5f5147019c8f3cca12738249
+msgid ""
+"``timezone`` (string) - Timezone, if any\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:529 312506f34245402ab1695cb27582fdeb
+msgid ""
+"``quiet_time_start`` (string) - Quiet time start\\ . Maybe omitted\\ . Might "
+"be null"
+msgstr ""
+
+#: ../docs/data_index.rst:532 82f42576bcd84278a878a67921acbc8d
+msgid ""
+"``quiet_time_finish`` (string) - Quiet time finish\\ . Maybe omitted\\ . "
+"Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:535 95a7a51950e54b3b8a9113119d25fd79
+msgid ""
+"``group_notifications_enabled`` (boolean) - Push notifications for group "
+"chats\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:538 216beb0e5afc4f3daa24d9fe309fba14
+msgid ""
+"``task_notifications_enabled`` (boolean) - Push notifications for task chats"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:541 02051d8715f34d2ab3ddb7c1b07c4859
+msgid ""
+"``contact_short_view`` (boolean) - Short view in contact list\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:544 872fc4483014456daef2c4fc23eed571
+msgid ""
+"``group_short_view`` (boolean) - Short view in group list\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:547 440876b09bcc4e8b85e81348b847bbaf
+msgid ""
+"``task_short_view`` (boolean) - Short view in task list\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:550 760ac0bdb18c4b979971c42a54ff8ecc
+msgid ""
+"``contact_mshort_view`` (boolean) - Short view in contact list in mobile app"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:553 772af1756c1a42e0918aabd15cf643a7
+msgid ""
+"``group_mshort_view`` (boolean) - Short view in group list in mobile app\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:556 fef6e24eb13d44578b91812af6f93a49
+msgid ""
+"``auth_2fa_enabled`` (boolean) - Two-factor authentication is configured and "
+"confirmed\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:558 66472f6d4178497e971559a180cfbd35
+msgid ""
+"``auth_2fa_status`` (string) - Two-factor authentication status\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:560 98cc59ed864d4de48b16f1828fe592e4
+msgid ""
+"``task_mshort_view`` (boolean) - Short view in task list in mobile app\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:563 4f69be60aa554c1fa7629ee50b817582
+msgid ""
+"``contact_show_archived`` (boolean) - Show archived contacts in contact list"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:566 122f895d14a645569b229111789cb40c
+msgid ""
+"``unread_first`` (boolean) - Show unread chats first in feed\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:569 62a0c53f2bc04663aba30ab5d276adc2
+msgid ""
+"``munread_first`` (boolean) - Show unread chats first in feed in mobile app"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:572 64c467e772e34e4cb8f4e33ff58f0356
+msgid ""
+"``can_add_to_team`` (boolean) - Can I add new members to this team\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:574 0c0095b6b3ef467484c33399d29c5b7f
+msgid ""
+"``can_manage_sections`` (boolean) - Can I manage sections in this team\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:576 c6926be514c847f8b322215e79ec8632
+msgid ""
+"``can_manage_tags`` (boolean) - Can I manage tags in this team\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:578 53ff1ec4e8b647deb06d63d69d8426c8
+msgid ""
+"``can_manage_integrations`` (boolean) - Can I manage integrations in this "
+"team\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:580 11deb9960a6342cb8d3d3419ae5ff023
+msgid ""
+"``can_manage_color_rules`` (boolean) - Can I manage color rules in this team"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:582 cedcad67bc97458e9d1fb77f73e5e708
+msgid ""
+"``can_create_group`` (boolean) - Can I create group chats in this team\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:584 9d51706e6f7f4f4fa833a50a9487c24a
+msgid ""
+"``can_join_public_groups`` (boolean) - Can I view/join public group in this "
+"team\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:586 ec96cde284bc4f7982911b59d11acc77
+msgid ""
+"``can_join_public_tasks`` (boolean) - Can I view/join public tasks in this "
+"team\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:588 167e02631f1e4651a7fa6b89d577afde
+msgid ""
+"``can_delete_any_message`` (boolean) - Deprecated: use CanDeleteAnyMessage "
+"in chat object\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:590 36a011055b43439b8b293ec97a91b7b7
+msgid ""
+"``custom_fields`` (:ref:`tdproto-ContactCustomFields`) - Extra contact fields"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:597 2277a5fc0d604d43bf02734a65cf65ae
+msgid "ContactCustomFields"
+msgstr ""
+
+#: ../docs/data_index.rst:599 8a8522ce676d46f5b1576ea049160540
+msgid "Extra contact fields"
+msgstr ""
+
+#: ../docs/data_index.rst:603 293d9df7a2d147b7853f5df4e8d4b7c5
+msgid "``company`` (string) - Company\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:605 a5aeb8f31b934aac866c33c8f626033c
+msgid "``department`` (string) - Department\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:607 b39f5f5d81e2436aa38ea72d6af87f6d
+msgid "``title`` (string) - Title\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:609 1462476c3b264548abd372d7b8c1554e
+msgid "``mobile_phone`` (string) - MobilePhone\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:611 10ed881e4fc942638727660621f19891
+msgid "``source`` (string) - Import source\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:617 e21d3079f3244828bdd5803c973b95a0
+msgid "ContactShort"
+msgstr ""
+
+#: ../docs/data_index.rst:619 f7f2764fef20423fb285b9f15ffa52b8
+msgid "Short contact representation"
+msgstr ""
+
+#: ../docs/data_index.rst:632 884a7b74de734d2fbf121235b944f6ae
+msgid "Country"
+msgstr ""
+
+#: ../docs/data_index.rst:634 5b64ff7006d840a2b875458d3951ca29
+msgid "Country for phone numbers selection on login screen"
+msgstr ""
+
+#: ../docs/data_index.rst:638 7db3991d1c734da78aab0fb179beabb2
+msgid "``code`` (string) - Country code"
+msgstr ""
+
+#: ../docs/data_index.rst:639 f2230e86dfe54f8095b70afc1192de24
+msgid "``name`` (string) - Country name"
+msgstr ""
+
+#: ../docs/data_index.rst:640 030bc7cc52744c3ab59b2c34ed9b8fbc
+msgid "``default`` (boolean) - Selected by default\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:642 8a3e9b2769824858b6246c7ac68b2ad7
+msgid "``popular`` (boolean) - Is popular, need to cache\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:648 012c30923bf74be8a1a1e9010ece4369
+msgid "DeletedChat"
+msgstr ""
+
+#: ../docs/data_index.rst:650 b7ac3e07bd274945845974e3112e4824
+msgid "Minimal chat representation for deletion"
+msgstr ""
+
+#: ../docs/data_index.rst:656 44882963dcbb4cb7a1c89e258f03173d
+msgid ""
+"``gentime`` (number) - Chat fields (related to concrete participant) version"
+msgstr ""
+
+#: ../docs/data_index.rst:657 f3e61e43b527415b983fe254f1ac97fb
+msgid "``is_archive`` (boolean) - Archive flag. Always true for this structure"
+msgstr ""
+
+#: ../docs/data_index.rst:662 897fa8c792674944a9060ead91889131
+msgid "DeletedRemind"
+msgstr ""
+
+#: ../docs/data_index.rst:664 4e33a4724c284ff482d39d65107d5caf
+msgid "Remind deleted message"
+msgstr ""
+
+#: ../docs/data_index.rst:668 ../docs/data_index.rst:1307
+#: 75c496ffce4f453795bf438ee6c28d2b 3409739f099c47f9bc42da150a4af382
+msgid "``uid`` (string) - Remind id"
+msgstr ""
+
+#: ../docs/data_index.rst:673 7dfa986ff5e5482e80b504e569e7cd65
+msgid "DeletedSection"
+msgstr ""
+
+#: ../docs/data_index.rst:675 954d22c124774b31a02e1aff15c549dc
+msgid "Deleted task project or contact section"
+msgstr ""
+
+#: ../docs/data_index.rst:679 ../docs/data_index.rst:1322
+#: 6902f588553b45fbbf9f8e2ef88c950d 0100f48526dc46afaac14cef45ff7abc
+msgid "``uid`` (string) - Section uid"
+msgstr ""
+
+#: ../docs/data_index.rst:680 ../docs/data_index.rst:704
+#: ../docs/data_index.rst:1013 ../docs/data_index.rst:1325
+#: ../docs/data_index.rst:1368 ../docs/data_index.rst:1549
+#: ../docs/data_index.rst:1879 8e06de7e604a4d3b92f7d4e11666fed0
+#: 60e721edaf5d4608bdfd42772555dd62 6910d743e8b0489a8ffb4bdf27a83f49
+#: a0cfddfd1a60476ea8904ae2c6d4bf26 35978ac7ecd14b6993de8bff41ee215f
+#: fad64f8641b74520b2b013242841aca2 ea8a3c1d92fe420cb33dc9361d2a48e2
+msgid "``gentime`` (number) - Object version"
+msgstr ""
+
+#: ../docs/data_index.rst:685 426a6c08105248a487b76692d4f08c1c
+msgid "DeletedTag"
+msgstr ""
+
+#: ../docs/data_index.rst:687 0862bf732acb4c9289a811e49dc06616
+msgid "Delete tag message"
+msgstr ""
+
+#: ../docs/data_index.rst:691 ../docs/data_index.rst:1425
+#: ec7d1eec291e43b78e68b5e7a4ab52b8 a1542e3d91dd4391a6d724ae70ca9411
+msgid "``uid`` (string) - Tag id"
+msgstr ""
+
+#: ../docs/data_index.rst:696 62056c0823a8485881595efda0fa64aa
+msgid "DeletedTeam"
+msgstr ""
+
+#: ../docs/data_index.rst:698 3bb87987e44f4700a812d038bac2913f
+msgid "Team deletion message. Readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:702 ../docs/data_index.rst:1546
+#: ../docs/data_index.rst:1606 ../docs/data_index.rst:1618
+#: f9a92722e9854886be747f78ca9d12e4 62fb3698176c464ab94d80232025472b
+#: a45393bb9d4d4323b07580ba4a116e63 776d45a37236421d96acae50cc62f7af
+msgid "``uid`` (string) - Team id"
+msgstr ""
+
+#: ../docs/data_index.rst:703 2739c5da6d7047e5891faadcdc502499
+msgid "``is_archive`` (boolean) - Team deleted"
+msgstr ""
+
+#: ../docs/data_index.rst:709 3101069a998849c081733cfa4d1dca60
+msgid "Features"
+msgstr ""
+
+#: ../docs/data_index.rst:711 b3e6295f54cd40f5929aa4064601238f
+msgid "Server information. Readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:715 a485704d785843c7bbbd2c1e5c24da05
+msgid "``host`` (string) - Current host"
+msgstr ""
+
+#: ../docs/data_index.rst:716 ad589e77eed14a84ae5923fe0bfdd995
+msgid "``build`` (string) - Build/revision of server side"
+msgstr ""
+
+#: ../docs/data_index.rst:717 5ba5addd3e084ac39bce7a3d6ff79ef4
+msgid "``desktop_version`` (string) - Desktop application version"
+msgstr ""
+
+#: ../docs/data_index.rst:718 d379aba5f7ca4a77822ac2755b7418ee
+msgid "``front_version`` (string) - Webclient version"
+msgstr ""
+
+#: ../docs/data_index.rst:719 38dfa2d60f9045129ff5fc3733d74066
+msgid "``app_title`` (string) - Application title"
+msgstr ""
+
+#: ../docs/data_index.rst:720 d1f126e78f01451fb816390232b2cd85
+msgid ""
+"``landing_url`` (string) - Landing page address, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:722 23a596c678114129a19efd658f899aa9
+msgid "``app_schemes`` (string) - Local applications urls"
+msgstr ""
+
+#: ../docs/data_index.rst:723 634b179a920f4e1da50a4a02267676c2
+msgid "``userver`` (string) - Static files server address"
+msgstr ""
+
+#: ../docs/data_index.rst:724 c106e76d9f514c3f834b3f12a7b411c5
+msgid "``ios_app`` (string) - Link to AppStore"
+msgstr ""
+
+#: ../docs/data_index.rst:725 6b8c920840364f1fbc0fd6a1bc53fc76
+msgid "``android_app`` (string) - Link to Google Play"
+msgstr ""
+
+#: ../docs/data_index.rst:726 5a008535537e4fb38e32e4f9cc815e3c
+msgid "``theme`` (string) - Default UI theme"
+msgstr ""
+
+#: ../docs/data_index.rst:727 a6d064e4a5044833ae9e14f6b3af24c1
+msgid ""
+"``min_app_version`` (string) - Minimal application version required for this "
+"server. Used for breaking changes"
+msgstr ""
+
+#: ../docs/data_index.rst:728 81597539014b4a7ca94d4489fc38b929
+msgid "``free_registration`` (boolean) - Free registration allowed"
+msgstr ""
+
+#: ../docs/data_index.rst:729 e3ba3db11a194cb2a5d733146e876c8d
+msgid "``max_upload_mb`` (number) - Maximum size of user's upload"
+msgstr ""
+
+#: ../docs/data_index.rst:730 3e64ef7712a6479491ec9f2470268079
+msgid "``max_linked_messages`` (number) - Maximum number of forwarded messages"
+msgstr ""
+
+#: ../docs/data_index.rst:731 311e50ffc7ed42ce8e944cd501156902
+msgid "``max_message_uploads`` (number) - Maximum number of message uploads"
+msgstr ""
+
+#: ../docs/data_index.rst:732 196680eb38864288ae9ffa9d99fd24ec
+msgid ""
+"``max_username_part_length`` (number) - Maximum chars for: family_name, "
+"given_name, patronymic if any"
+msgstr ""
+
+#: ../docs/data_index.rst:733 b2557ea2e23f47998ff4155ba779f0fa
+msgid "``max_group_title_length`` (number) - Maximum chars for group chat name"
+msgstr ""
+
+#: ../docs/data_index.rst:734 539e8dbcb115437e916abf51e6c90de3
+msgid "``max_role_length`` (number) - Maximum chars for role in team"
+msgstr ""
+
+#: ../docs/data_index.rst:735 0704e8f6ce724d7f9fd21eba94a72faa
+msgid "``max_mood_length`` (number) - Maximum chars for mood in team"
+msgstr ""
+
+#: ../docs/data_index.rst:736 eeab9243edb149709042eab94a2ca099
+msgid "``max_message_length`` (number) - Maximum chars for text message"
+msgstr ""
+
+#: ../docs/data_index.rst:737 1a5ab19c72964ac28db2119d8ec7813f
+msgid ""
+"``max_section_length`` (number) - Maximum length for project and contact's "
+"sections names"
+msgstr ""
+
+#: ../docs/data_index.rst:738 859d3932069f4317bca5e6402a1021ba
+msgid "``max_tag_length`` (number) - Maximum length for tags"
+msgstr ""
+
+#: ../docs/data_index.rst:739 d357e226b1c7430f95f35331232dc0ad
+msgid "``max_task_title_length`` (number) - Maximum length for task title"
+msgstr ""
+
+#: ../docs/data_index.rst:740 7b9f1cad28284e29b6b4da9f7aa9a914
+msgid ""
+"``max_color_rule_description_length`` (number) - Maximum length for "
+"ColorRule description"
+msgstr ""
+
+#: ../docs/data_index.rst:741 ad0f3af58d6e4eee9bbc1a66bbc50d08
+msgid "``max_url_length`` (number) - Maximum length for urls"
+msgstr ""
+
+#: ../docs/data_index.rst:742 f6164596de37449eb8174037fd450a88
+msgid ""
+"``max_integration_comment_length`` (number) - Maximum length for Integration "
+"comment"
+msgstr ""
+
+#: ../docs/data_index.rst:743 2f66d24414204c1a995f52bbe56d949c
+msgid "``max_teams`` (number) - Maximum teams for one account"
+msgstr ""
+
+#: ../docs/data_index.rst:744 5698ec1766f04733840042b5d6df55a2
+msgid "``max_message_search_limit`` (number) - Maximum search result"
+msgstr ""
+
+#: ../docs/data_index.rst:745 204db7433c8e4299b2e91d0bba199a51
+msgid "``afk_age`` (number) - Max inactivity seconds"
+msgstr ""
+
+#: ../docs/data_index.rst:746 d791071af1b24f2ab9770c2cc6f74a05
+msgid ""
+"``auth_by_password`` (boolean) - Password authentication enabled\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:748 4ce406a2958948e58f6f61f647c37da6
+msgid ""
+"``auth_by_qr_code`` (boolean) - QR-code / link authentication enabled\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:750 098930e2760a4735be5911dddf301f69
+msgid ""
+"``auth_by_sms`` (boolean) - SMS authentication enabled\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:752 88028bc38340449ab0207bb1ce48094a
+msgid ""
+"``auth_2fa`` (boolean) - Two-factor authentication (2FA) enabled\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:754 687c7971a6a5406b83a46afd544cf891
+msgid ""
+"``oauth_services`` (:ref:`tdproto-OAuthService`) - External services\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:756 c584300a03a44b2b8996cedeea928696
+msgid "``ice_servers`` (:ref:`tdproto-ICEServer`) - ICE servers for WebRTC"
+msgstr ""
+
+#: ../docs/data_index.rst:757 af58f4532d2c46c6955c8d0840776d65
+msgid "``custom_server`` (boolean) - True for premise installation"
+msgstr ""
+
+#: ../docs/data_index.rst:758 d8a5df9ce12c45518dd219c5bd562a99
+msgid "``installation_type`` (string) - Name of installation"
+msgstr ""
+
+#: ../docs/data_index.rst:759 45d5895eb47e4c78b78bd73eee45f7f4
+msgid ""
+"``installation_title`` (string) - Installation title, used on login screen"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:761 18b02e2de3d9466aa4083258b128767d
+msgid ""
+"``background`` (string) - Background image url, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:763 5e822dc3150c4d3eb0e1acdefa9de651
+msgid "``is_testing`` (boolean) - Testing installation"
+msgstr ""
+
+#: ../docs/data_index.rst:764 f3fd7270a8f34b9c886e23d96bbdb373
+msgid "``metrika`` (string) - Yandex metrika counter id"
+msgstr ""
+
+#: ../docs/data_index.rst:765 47226a4fad864ae5a03d3814d69c02a9
+msgid ""
+"``min_search_length`` (number) - Minimal chars number for starting global "
+"search"
+msgstr ""
+
+#: ../docs/data_index.rst:766 d869c556c07848ca9fce5de479655e50
+msgid ""
+"``resend_timeout`` (number) - Resend message in n seconds if no confirmation "
+"from server given"
+msgstr ""
+
+#: ../docs/data_index.rst:767 6b2765d4ba7e4fb2baf9254361623b14
+msgid "``sentry_dsn_js`` (string) - Frontend sentry.io settings"
+msgstr ""
+
+#: ../docs/data_index.rst:768 92ef0a8191fc4efd9d8d1b8f469899e8
+msgid "``server_drafts`` (boolean) - Message drafts saved on server"
+msgstr ""
+
+#: ../docs/data_index.rst:769 c479d9a5642540f7bc4f6b3829e029dc
+msgid ""
+"``firebase_app_id`` (string) - Firebase settings for web-push notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:770 90758ee141f148dbb70b0d5d0aaf357c
+msgid ""
+"``firebase_sender_id`` (string) - Firebase settings for web-push "
+"notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:771 4be14d1dd3c649c99244a4ab769e024b
+msgid ""
+"``firebase_api_key`` (string) - Firebase settings for web-push notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:772 fb1c7ddc1f2d4979b6cbab3d6bbdbb72
+msgid ""
+"``firebase_auth_domain`` (string) - Firebase settings for web-push "
+"notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:773 1c4977c9c52d4a54a096a362cd5fbd71
+msgid ""
+"``firebase_database_url`` (string) - Firebase settings for web-push "
+"notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:774 8a9c55421f434beba423ad938e13196e
+msgid ""
+"``firebase_project_id`` (string) - Firebase settings for web-push "
+"notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:775 915e26b9f1744d1c80be67c32e020019
+msgid ""
+"``firebase_storage_bucket`` (string) - Firebase settings for web-push "
+"notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:776 587b81380034473683ca50a806637b77
+msgid "``calls`` (boolean) - Calls functions enabled"
+msgstr ""
+
+#: ../docs/data_index.rst:777 8142a4bf68364b3391fbbbc1c842ef55
+msgid ""
+"``mobile_calls`` (boolean) - Calls functions enabled for mobile applications"
+msgstr ""
+
+#: ../docs/data_index.rst:778 59a2f215915b4eb59cda13f402683f3c
+msgid "``calls_record`` (boolean) - Calls record enabled"
+msgstr ""
+
+#: ../docs/data_index.rst:779 03aca88619c54c589e1aa3abb88f289d
+msgid ""
+"``only_one_device_per_call`` (boolean) - Disallow call from multiply "
+"devices. Experimental\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:781 4376af5d91514a6a99ea47e126e0076e
+msgid ""
+"``max_participants_per_call`` (number) - Maximum number of participants per "
+"call\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:783 72445049b988494ebe562821b58b5a08
+msgid "``safari_push_id`` (string) - Safari push id for web-push notifications"
+msgstr ""
+
+#: ../docs/data_index.rst:784 1351bd06f4364154ac837ef3a26dd521
+msgid "``message_uploads`` (boolean) - Multiple message uploads"
+msgstr ""
+
+#: ../docs/data_index.rst:785 d896bd1dd2a8410ab4bce74ef4d8267e
+msgid "``terms`` (:ref:`tdproto-Terms`) - Team entity naming. Experimental"
+msgstr ""
+
+#: ../docs/data_index.rst:786 e3102f259f1c4775908ec83bfb9b1d9c
+msgid ""
+"``single_group_teams`` (boolean) - Cross team communication. Experimental"
+msgstr ""
+
+#: ../docs/data_index.rst:787 585cd7e6b793433fb60c3ec8d4edb178
+msgid "``wiki_pages`` (boolean) - Wiki pages in chats. Experimental"
+msgstr ""
+
+#: ../docs/data_index.rst:788 4c370248265d4680b39bf74a820a5d7d
+msgid ""
+"``allow_admin_mute`` (boolean) - Wiki pages in chats. Experimental\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:790 d50e091a099c479d80a78e81e546ce30
+msgid ""
+"``default_wallpaper`` (:ref:`tdproto-Wallpaper`) - Default wallpaper url for "
+"mobile apps, if any\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:793 562b5f4a59f8418caac388cdb86689d3
+msgid "``task_checklist`` (boolean) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:794 c992413e9023474e9567e2cab37c6699
+msgid "``readonly_groups`` (boolean) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:795 6df1dc7028df4eb3a86bd4c33f1a0255
+msgid "``task_dashboard`` (boolean) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:796 148a9ff273ec4c71be35a002208cc36c
+msgid "``task_messages`` (boolean) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:797 5067ce1edf2f46989722900edbc29caf
+msgid "``task_public`` (boolean) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:798 4ccfb17ce19147f9b5a41fa487a4cc7e
+msgid "``task_tags`` (boolean) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:803 58721eee82e54efc90f444b6fb8c23bd
+msgid "FontColors"
+msgstr ""
+
+#: ../docs/data_index.rst:805 4c2f9d1a0d394699bd43ace2e1764910
+msgid "Font colors for app"
+msgstr ""
+
+#: ../docs/data_index.rst:809 eb50a1cc701b4f55985b843b4b41ea30
+msgid "``text`` (:ref:`tdproto-RGBColor`) - Text color"
+msgstr ""
+
+#: ../docs/data_index.rst:810 ../docs/data_index.rst:851
+#: c34aa093d6594a75818a7973cbf0b241 e4320a90dca742be987c8c46198c55bb
+msgid "``title`` (:ref:`tdproto-RGBColor`) - Title color"
+msgstr ""
+
+#: ../docs/data_index.rst:811 038ccc36d02b4c53abc114e2bc261c4e
+msgid "``sub`` (:ref:`tdproto-RGBColor`) - Sub color"
+msgstr ""
+
+#: ../docs/data_index.rst:812 90fb6209855044949f21cd83881bda0a
+msgid "``brand_button`` (:ref:`tdproto-RGBColor`) - Brand button color"
+msgstr ""
+
+#: ../docs/data_index.rst:813 c5c5f5abf91b433b88666901feb2e060
+msgid "``simple_button`` (:ref:`tdproto-RGBColor`) - Simple button color"
+msgstr ""
+
+#: ../docs/data_index.rst:814 ../docs/data_index.rst:1070
+#: e56802e978ec47d4a1631104f11294fb 6ad9e7f9d58847d689ea3fa5ab7ccc20
+msgid "``bubble_sent`` (:ref:`tdproto-RGBColor`) - Bubble sent color"
+msgstr ""
+
+#: ../docs/data_index.rst:815 ../docs/data_index.rst:1071
+#: c4b3126bbc2a4828855333faed3c299f ab9ea36ee5ea45cf8b39b72e127f2a10
+msgid "``bubble_received`` (:ref:`tdproto-RGBColor`) - Bubble received color"
+msgstr ""
+
+#: ../docs/data_index.rst:820 3d9bc28be4b34a07babc7cd640db6fcf
+msgid "GroupMembership"
+msgstr ""
+
+#: ../docs/data_index.rst:822 c820f8ce23104beeab17dd2b1b7987c8
+msgid "Group chat membership status"
+msgstr ""
+
+#: ../docs/data_index.rst:827 7a3d383790ec47cba59d088173d7fc72
+msgid "``status`` (:ref:`tdproto-GroupStatus`) - Status in group"
+msgstr ""
+
+#: ../docs/data_index.rst:828 15369d3eb4634677b9f5c10a30613b89
+msgid "``can_remove`` (boolean) - Can I remove this member\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:834 fef696bf6f45431daedbd46912a39f21
+msgid "ICEServer"
+msgstr ""
+
+#: ../docs/data_index.rst:836 c69bce04229345b6ba31df2ae410f725
+msgid ""
+"Interactive Connectivity Establishment Server for WEB Rtc connection. "
+"Readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:840 6fa26a967a9b4ba99d0cdb65302836ce
+msgid "``urls`` (string) - URls"
+msgstr ""
+
+#: ../docs/data_index.rst:845 cbba4406b08049a59298739121769b46
+msgid "IconColors"
+msgstr ""
+
+#: ../docs/data_index.rst:847 d9a9fa746cc24702a9204109f4a3bbff
+msgid "Icon colors for app"
+msgstr ""
+
+#: ../docs/data_index.rst:852 70b6e3447d8b475b9c2da54c6497e6d6
+msgid "``brand`` (:ref:`tdproto-RGBColor`) - Brand color"
+msgstr ""
+
+#: ../docs/data_index.rst:853 1b00f5388d0f44bda0833f903285a4b7
+msgid "``other`` (:ref:`tdproto-RGBColor`) - Other color"
+msgstr ""
+
+#: ../docs/data_index.rst:858 e533f767ad6b41d7b591ba818930eca0
+msgid "IconData"
+msgstr ""
+
+#: ../docs/data_index.rst:860 4f281b2c6f0b4c40b307229f0caf9b69
+msgid ""
+"Icon data. For icon generated from display name contains Letters + Color "
+"fields"
+msgstr ""
+
+#: ../docs/data_index.rst:864 42a55873b14044e2884213721ecf7dbd
+msgid "``sm`` (:ref:`tdproto-SingleIcon`) - Small icon"
+msgstr ""
+
+#: ../docs/data_index.rst:865 3e5ae9ff7f4a4dd289d1b19e3bf214f5
+msgid "``lg`` (:ref:`tdproto-SingleIcon`) - Large image"
+msgstr ""
+
+#: ../docs/data_index.rst:866 91505d754b904cd786f9a97606d55278
+msgid "``letters`` (string) - Letters (only for stub icon)\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:868 c4168727b0704c3ea34c250a1faafa88
+msgid ""
+"``color`` (string) - Icon background color (only for stub icon)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:870 64b83e74d64a4f8987a2b63f2271a389
+msgid ""
+"``blurhash`` (string) - Compact representation of a placeholder for an image "
+"(experimental)\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:872 98d5bc1e48e04069acb6dc9270d6a28f
+msgid "``stub`` (string) - Deprecated\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:878 5a484e9684874a23b1a394a84fbede8f
+msgid "InputColors"
+msgstr ""
+
+#: ../docs/data_index.rst:880 69ee62acac324b7bb312ab53625fcac5
+msgid "Input colors for app"
+msgstr ""
+
+#: ../docs/data_index.rst:884 0193af3368f44c80b3297855ae4dd71a
+msgid "``static`` (:ref:`tdproto-RGBColor`) - Static color"
+msgstr ""
+
+#: ../docs/data_index.rst:885 0cd8400f7c274088b7901d4ec2765865
+msgid "``active`` (:ref:`tdproto-RGBColor`) - Active color"
+msgstr ""
+
+#: ../docs/data_index.rst:886 c044b2b26ef043839636a1541cb1ce56
+msgid "``disable`` (:ref:`tdproto-RGBColor`) - Disable color"
+msgstr ""
+
+#: ../docs/data_index.rst:887 3bcca819467443a897a5330ace21cf92
+msgid "``error`` (:ref:`tdproto-RGBColor`) - Error color"
+msgstr ""
+
+#: ../docs/data_index.rst:892 a16683cab6f84113bf2818cbd214c680
+msgid "Integration"
+msgstr ""
+
+#: ../docs/data_index.rst:894 8845965ae3464e638969dd9c60c3c9bf
+msgid "Integration for concrete chat"
+msgstr ""
+
+#: ../docs/data_index.rst:898 ../docs/data_index.rst:1477
+#: b6b8b7de4d594800aabcf681d2d61573 41a7a43a751c4a73985b71ef78353d73
+msgid "``uid`` (string) - Id\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:900 17be70109a7d402b81726d6f17bba35a
+msgid "``comment`` (string) - Comment, if any"
+msgstr ""
+
+#: ../docs/data_index.rst:901 568ee5d4c0db48f2bd995b82f19f18ec
+msgid "``created`` (string) - Creation datetime, iso\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:903 330a844fecf546a38d491cd43dccc5a8
+msgid "``enabled`` (boolean) - Integration enabled"
+msgstr ""
+
+#: ../docs/data_index.rst:904 3a8e8ba35a2d4bedbc8f91144dddc994
+msgid "``form`` (:ref:`tdproto-IntegrationForm`) - Integration form"
+msgstr ""
+
+#: ../docs/data_index.rst:905 77050ed023864ebfb1a0e325c1744503
+msgid "``group`` (:ref:`tdproto-JID`) - Chat id"
+msgstr ""
+
+#: ../docs/data_index.rst:906 34047cf2f48f4199b4255e1480827ad1
+msgid "``help`` (string) - Full description\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:908 8cec1b65e2d24baa90d7c167a095b621
+msgid "``kind`` (string) - Unique integration name"
+msgstr ""
+
+#: ../docs/data_index.rst:909 776ae77c32b147fcb03bccba3adf4ebc
+msgid "``-`` (string) - DOCUMENTATION MISSING"
+msgstr ""
+
+#: ../docs/data_index.rst:914 959dbb86f24f41f3b9a5d35c1e4199f3
+msgid "IntegrationField"
+msgstr ""
+
+#: ../docs/data_index.rst:916 34609e4e300546df9791a8a485b1b4ee
+msgid "Integration form field"
+msgstr ""
+
+#: ../docs/data_index.rst:920 f04ad6c98efe4925aa645056d7ef4bb7
+msgid "``label`` (string) - Label"
+msgstr ""
+
+#: ../docs/data_index.rst:921 9a7654406c894b2f885868842f73fc90
+msgid "``readonly`` (boolean) - Is field readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:922 4e5b54ef21dc4a0faf2a9b220a31b53e
+msgid "``value`` (string) - Current value"
+msgstr ""
+
+#: ../docs/data_index.rst:927 7e5d727942db4db58261320bbe577c0d
+msgid "IntegrationForm"
+msgstr ""
+
+#: ../docs/data_index.rst:929 34ef50554d4840418bc87d937223eada
+msgid "Integration form"
+msgstr ""
+
+#: ../docs/data_index.rst:933 101f26af32cc445b9ecefa3d04d32111
+msgid ""
+"``api_key`` (:ref:`tdproto-IntegrationField`) - Api key field, if any\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:936 0a40d21b3c744abd976f3f744acf6a88
+msgid ""
+"``webhook_url`` (:ref:`tdproto-IntegrationField`) - Webhook url, if any\\ . "
+"Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:939 c15ab94adda448e494452da21f4d8979
+msgid ""
+"``url`` (:ref:`tdproto-IntegrationField`) - Url, if any\\ . Maybe omitted"
+"\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:946 d01d43e0921943cbb52f6f0088271794
+msgid "IntegrationKind"
+msgstr ""
+
+#: ../docs/data_index.rst:948 d0b7c253f31840ebb25add7368972857
+msgid "Integration kind"
+msgstr ""
+
+#: ../docs/data_index.rst:952 a955a6875db44e2bacdd4c20a0444a8e
+msgid "``kind`` (string) - Integration unique name"
+msgstr ""
+
+#: ../docs/data_index.rst:953 2623d53d4e0c4da784d8d5176002cb5e
+msgid "``title`` (string) - Plugin title"
+msgstr ""
+
+#: ../docs/data_index.rst:954 f5ae4efb07974ee6b8b5bebcda5c1fa8
+msgid "``template`` (:ref:`tdproto-Integration`) - Integration template"
+msgstr ""
+
+#: ../docs/data_index.rst:955 abb00ba2ff774ae98531017469daac11
+msgid "``icon`` (string) - Path to icon"
+msgstr ""
+
+#: ../docs/data_index.rst:956 da10cb74ce45487bae6f46c451eedd73
+msgid "``description`` (string) - Plugin description"
+msgstr ""
+
+#: ../docs/data_index.rst:961 d2e55cdeba36438c87edff136b064f82
+msgid "Integrations"
+msgstr ""
+
+#: ../docs/data_index.rst:963 d3c2a8361b1f4f11bc406a1ca6e36b09
+msgid "Complete integrations data, as received from server"
+msgstr ""
+
+#: ../docs/data_index.rst:967 37a0808f778f4912ae4c46e308eaee3a
+msgid ""
+"``integrations`` (:ref:`tdproto-Integration`) - Currently existing "
+"integrations"
+msgstr ""
+
+#: ../docs/data_index.rst:968 50c5f62fe1f3445986ba6d1c528bb89d
+msgid ""
+"``kinds`` (:ref:`tdproto-IntegrationKind`) - Types of integrations available "
+"for setup"
+msgstr ""
+
+#: ../docs/data_index.rst:973 51bb2dd4c58f482bb04273b6a45ebd14
+msgid "MarkupEntity"
+msgstr ""
+
+#: ../docs/data_index.rst:975 43f05fdf66ed410aadc48c8438605b92
+msgid "Markup entity. Experimental"
+msgstr ""
+
+#: ../docs/data_index.rst:979 e35b535f51134844ae867ffe29145329
+msgid "``op`` (number) - Open marker offset"
+msgstr ""
+
+#: ../docs/data_index.rst:980 914d2acd06644c0088aaf003be278d3a
+msgid "``oplen`` (number) - Open marker length\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:982 d630cdd50f03450b8697254f83cddaf5
+msgid "``cl`` (number) - Close marker offset"
+msgstr ""
+
+#: ../docs/data_index.rst:983 632eb931edf44ba3b2d89afe0df1de12
+msgid "``cllen`` (number) - Close marker length\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:985 abc0d64fffc64be3bb08e417425402f8
+msgid "``typ`` (:ref:`tdproto-MarkupType`) - Marker type"
+msgstr ""
+
+#: ../docs/data_index.rst:986 e043e558301444f29b8ccbe1d9e26798
+msgid "``url`` (string) - Url, for Link type\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:988 f702a88d6a3a4584ad3a140631ad703f
+msgid "``repl`` (string) - Text replacement\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:990 72d0d767c9c441a685d3288025146cb9
+msgid "``time`` (string) - Time, for Time type\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:992 b3b65f02e7354de38d28d32829f31520
+msgid ""
+"``childs`` (:ref:`tdproto-MarkupEntity`) - List of internal markup entities"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:998 fac04bc272954aae9b49c07c2804c76d
+msgid "Message"
+msgstr ""
+
+#: ../docs/data_index.rst:1000 12d86ceeb48647ab81e98a0d8858ebc1
+msgid "Chat message"
+msgstr ""
+
+#: ../docs/data_index.rst:1004 af2da44464794549a012a7add31fe91d
+msgid "``content`` (:ref:`tdproto-MessageContent`) - Message content struct"
+msgstr ""
+
+#: ../docs/data_index.rst:1005 0936c05a3d9a42518bca94a53bdd6db2
+msgid ""
+"``push_text`` (string) - Simple plaintext message representation\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1007 ../docs/data_index.rst:1364
+#: d90c18392c3a4d02aebf8ec218fc8d36 528522a1986a483f9b77e4d5934d55a2
+msgid "``from`` (:ref:`tdproto-JID`) - Sender contact id"
+msgstr ""
+
+#: ../docs/data_index.rst:1008 ../docs/data_index.rst:1365
+#: a308a47bf68e473f9d031255f8559f46 f577db2ceb304bf080901e9d8baddfd4
+msgid "``to`` (:ref:`tdproto-JID`) - Recipient id (group, task or contact)"
+msgstr ""
+
+#: ../docs/data_index.rst:1009 ../docs/data_index.rst:1366
+#: d396b79fbde044909f24b43bb90a5beb 7532f2b3281e468a92f6744799b12580
+msgid "``message_id`` (string) - Message uid"
+msgstr ""
+
+#: ../docs/data_index.rst:1010 ../docs/data_index.rst:1367
+#: ee1edf8d7d92431ba0e8c5da56dbf893 47416cbbd4134f4786596e21e8760d41
+msgid ""
+"``created`` (string) - Message creation datetime (set by server side) or "
+"sending datetime in future for draft messages"
+msgstr ""
+
+#: ../docs/data_index.rst:1011 c8e4e7af67974ea3bf8e26a40064fc43
+msgid ""
+"``drafted`` (string) - Creation datetime for draft messages\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1015 ../docs/data_index.rst:1195
+#: ../docs/data_index.rst:1308 ../docs/data_index.rst:1370
+#: f975114b4478474aa34b392be99ecee2 bb9f66f97ae7477b8604ba26a2c48439
+#: 4b935f8b1bb8485b9c88f139c8d15ff6 969ac02335804a4682703c509bc2e8c4
+msgid "``chat`` (:ref:`tdproto-JID`) - Chat id"
+msgstr ""
+
+#: ../docs/data_index.rst:1016 f97b66150a1b4a72bc1a6ce9e9124bef
+msgid ""
+"``links`` (:ref:`tdproto-MessageLinks`) - External/internals links\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1018 e1731567983543899b3f670bf6d60b97
+msgid ""
+"``markup`` (:ref:`tdproto-MarkupEntity`) - Markup entities. Experimental\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1020 9ca4ea58efd444c3ba756d787c7767bf
+msgid "``important`` (boolean) - Importance flag\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1022 e8e09e52324f453693145645b74347ae
+msgid ""
+"``edited`` (string) - ISODateTimeString of message modification or deletion"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1024 a20d3474fa8048d7934ef8b490c4efed
+msgid ""
+"``received`` (boolean) - Message was seen by anybody in chat. True or null"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1026 40d76150853b4153b28aefcfc3db9e3a
+msgid "``num_received`` (number) - Unused yet\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1028 5fc22d6e0bee4616b72d16d35f9e988d
+msgid ""
+"``nopreview`` (boolean) - Disable link previews. True or null\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1030 2f7a87ae88ed471c805505b999ff4a07
+msgid ""
+"``has_previews`` (boolean) - Has link previews. True or null\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1032 bc298f3283e94b968e9b4cfc4dba21c2
+msgid ""
+"``prev`` (string) - Previous message id in this chat. Uid or null\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1034 ffc00ff1ebb5440a9f1a70c3527fc103
+msgid ""
+"``is_first`` (boolean) - This message is first in this chat. True or null"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1036 2922606a8aaa43198e62e4466a4899a5
+msgid ""
+"``is_last`` (boolean) - This message is first in this chat. True or null\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1038 84c4cf0599324d0c968c16b43ff5abf1
+msgid "``uploads`` (:ref:`tdproto-Upload`) - Message uploads\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1040 1a94aace7faa43448bbb664b1b50bbee
+msgid ""
+"``reactions`` (:ref:`tdproto-MessageReaction`) - Message reactions struct. "
+"Can be null\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1042 91f7bb5add5942e296a06d097853beba
+msgid ""
+"``reply_to`` (:ref:`tdproto-Message`) - Message that was replied to, if any"
+"\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1045 d74851738a094c0993d2bd7d39cc3521
+msgid ""
+"``linked_messages`` (:ref:`tdproto-Message`) - Forwarded messages. Can be "
+"null. Also contains double of ReplyTo for backward compatibility\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1047 d1401830126a410c881257095a230b24
+msgid "``notice`` (boolean) - Has mention (@). True or null\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1049 fda2b0fc9d904d718c91e2c21d4973d9
+msgid ""
+"``silently`` (boolean) - Message has no pushes and did not affect any "
+"counters\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1051 5dedfe1615e448969c2c21742d37b943
+msgid ""
+"``editable_until`` (string) - Author can change this message until date. Can "
+"be null\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1053 7dbd1ae45f27474a81ab0b1ee10b0901
+msgid ""
+"``num`` (number) - Index number of this message. Starts from 0. Null for "
+"deleted messages. Changes when any previous message wad deleted\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1056 ../docs/data_index.rst:1371
+#: f52cc50e0ebb49a9b8eeeb02b7194a05 d36594298b3f4a7ea8ec54100d6cb951
+msgid ""
+"``is_archive`` (boolean) - This message is archive. True or null\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1058 3a56443f9236430c9665f5ab7e54fdbb
+msgid "``_debug`` (string) - Debug information, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1064 d44f6ff0f44746c8bb92e3affbe4ca9e
+msgid "MessageColors"
+msgstr ""
+
+#: ../docs/data_index.rst:1066 2c11e7d4ba614f94ab83be5fcc25159b
+msgid "Message colors for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1072 94ecc8850ff6441a842a71e2810343a0
+msgid "``bubble_important`` (:ref:`tdproto-RGBColor`) - Bubble important color"
+msgstr ""
+
+#: ../docs/data_index.rst:1073 abed703fc39a42c4a913d6126f72b9e7
+msgid "``status_feed`` (:ref:`tdproto-RGBColor`) - Status feed color"
+msgstr ""
+
+#: ../docs/data_index.rst:1074 ebebc2ee4c3841cdbc91ff794455a0fc
+msgid "``status_bubble`` (:ref:`tdproto-RGBColor`) - Status bubble color"
+msgstr ""
+
+#: ../docs/data_index.rst:1075 44c39d34ef544a1a836d766da367c7d3
+msgid "``allocated`` (:ref:`tdproto-RGBColor`) - Allocated color"
+msgstr ""
+
+#: ../docs/data_index.rst:1080 345bcf54f36040a89b4e269780f1f107
+msgid "MessageContent"
+msgstr ""
+
+#: ../docs/data_index.rst:1082 1287d3e8c8e94b8c9d1fe90d2507e223
+msgid "Chat message content"
+msgstr ""
+
+#: ../docs/data_index.rst:1086 f2d0d1d1cee74e8384c81652e2b0942e
+msgid "``text`` (string) - Text representation of message"
+msgstr ""
+
+#: ../docs/data_index.rst:1087 eb26c7f066ac44ec89bbe0ec40197891
+msgid "``type`` (:ref:`tdproto-Mediatype`) - Message type"
+msgstr ""
+
+#: ../docs/data_index.rst:1088 b0989726e3d74bfa9f53f8cc3d02fac4
+msgid ""
+"``subtype`` (:ref:`tdproto-Mediasubtype`) - Message subtype, if any\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1090 d496eb5fd979481da0f84b1f728a58d6
+msgid ""
+"``upload`` (string) - Upload id, if any. Deprecated: use Uploads instead\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1092 33213f2985c24f56962835f703e4cb17
+msgid ""
+"``mediaURL`` (string) - Upload url, if any. Deprecated: use Uploads instead"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1094 7822a2a4f6db4c3ca7fa0687f145cf93
+msgid ""
+"``size`` (number) - Upload size, if any. Deprecated: use Uploads instead\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1096 abc69dec02b54fc681f19a150009ae97
+msgid ""
+"``duration`` (number) - Upload duration, if any. Deprecated: use Uploads "
+"instead\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1099 24ef446563744d5d906332302941e2f7
+msgid ""
+"``processing`` (boolean) - Upload still processing, if any. Deprecated: use "
+"Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1101 abe963a8eb894aefbccb03dff816794c
+msgid ""
+"``blurhash`` (string) - Compact representation of a placeholder for an "
+"image. Deprecated: use Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1103 2d04c8029469463f9268211e0382d2b9
+msgid ""
+"``previewHeight`` (number) - Upload preview height, in pixels, if any. "
+"Deprecated: use Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1105 fef266c87c804b0baf0dc2eebe0dce2a
+msgid ""
+"``previewWidth`` (number) - Upload width, in pixels, if any. Deprecated: use "
+"Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1107 e6d5af9a0661416d8d3e0ad008a89486
+msgid ""
+"``previewURL`` (string) - Upload preview absolute url, if any. Deprecated: "
+"use Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1109 7c4939b6535e445491af33de73064c93
+msgid ""
+"``preview2xURL`` (string) - Upload high resolution preview absolute url, if "
+"any. Deprecated: use Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1111 c84404ff9d1a4b128f3cb2693d65d54a
+msgid ""
+"``name`` (string) - Upload name, if any. Deprecated: use Uploads instead\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1113 1e9fd79c181c4680acf06c6d6fd3a167
+msgid ""
+"``animated`` (boolean) - Upload is animated image, if any. Deprecated: use "
+"Uploads instead\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1115 b815432df49546e591bb6ca06a361775
+msgid ""
+"``title`` (string) - Change title (for \"change\" mediatype)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1117 bb2abb29521a4deab190ae25e323962d
+msgid ""
+"``old`` (string) - Change old value (for \"change\" mediatype)\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1120 aaacdfa918ea404e9188832d3a38042f
+msgid ""
+"``new`` (string) - Change new value (for \"change\" mediatype)\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1123 8ec1a58f3adf476b9627ff70820d6718
+msgid ""
+"``actor`` (:ref:`tdproto-JID`) - Change actor contact id (for \"change\" "
+"mediatype)\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1125 a344620346cf4bd4b2a8de6a28ad0d97
+msgid ""
+"``comment`` (string) - Comment (for \"audiomsg\" mediatype)\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1127 f767d295380c4328b2660d1eac65fb41
+msgid ""
+"``given_name`` (string) - Given name (for \"contact\" mediatype)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1129 9014178f73b346419f0e1ee088a05af9
+msgid ""
+"``family_name`` (string) - Family name (for \"contact\" mediatype)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1131 156acacf47604d1dbfc003ded4c532b7
+msgid ""
+"``patronymic`` (string) - Patronymic name (for \"contact\" mediatype)\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1133 35842e3afdb242709ce99b6f4525bcf6
+msgid ""
+"``phones`` (string) - Contact phones list (for \"contact\" mediatype)\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1135 4c2f1e3cb6044c7494cd433e65743a3e
+msgid ""
+"``emails`` (string) - Emails list (for \"contact\" mediatype)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1137 352a5f250bcd4e0c945c95612b457be4
+msgid ""
+"``stickerpack`` (string) - Stickerpack name (for \"sticker\" subtype)\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1139 5987743c27a848ff919fd8eb3c14787e
+msgid ""
+"``pdf_version`` (:ref:`tdproto-PdfVersion`) - Pdf version, if any\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1146 fd530549b1204bd1b5f5c29b815202a0
+msgid "MessageLink"
+msgstr ""
+
+#: ../docs/data_index.rst:1148 09eafa1cd5da44a49f8b3891feffea4f
+msgid ""
+"Checked message links. In short: \"Click here: {link.Pattern}\" => \"Click "
+"here: <a href='{link.Url}'>{link.Text}</a>\""
+msgstr ""
+
+#: ../docs/data_index.rst:1152 277e99509a75482fba8f1b481b46ab19
+msgid "``pattern`` (string) - Text fragment that should be replaced by link"
+msgstr ""
+
+#: ../docs/data_index.rst:1153 e0a3599a759945cf8e0d155e41875134
+msgid "``url`` (string) - Internal or external link"
+msgstr ""
+
+#: ../docs/data_index.rst:1154 8ba26032a39d41ac8738ab6f9aec5e4e
+msgid "``text`` (string) - Text replacement"
+msgstr ""
+
+#: ../docs/data_index.rst:1155 0c8c5b67e70c401aafbc53a845589933
+msgid ""
+"``preview`` (:ref:`tdproto-MessageLinkPreview`) - Optional preview info, for "
+"websites\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1158 ab15770b5277418dbbc56ed33df41d02
+msgid ""
+"``uploads`` (:ref:`tdproto-Upload`) - Optional upload info\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1160 f0eb81c6423f432da238f76a0da336bc
+msgid "``nopreview`` (boolean) - Website previews disabled\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1162 279c0f9116634226992941742b61a887
+msgid "``youtube_id`` (string) - Optional youtube movie id\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1168 901bea8447014bcf8ef6cdc9a441e574
+msgid "MessageLinkPreview"
+msgstr ""
+
+#: ../docs/data_index.rst:1170 e4e8015444f648f2900859338fee3ea2
+msgid "Website title and description"
+msgstr ""
+
+#: ../docs/data_index.rst:1174 d1931ac8be034451baf0000b0d7d9e61
+msgid "``title`` (string) - Website title or og:title content"
+msgstr ""
+
+#: ../docs/data_index.rst:1175 8c4f85c2d1cf41abb5f9687d908f38e6
+msgid "``description`` (string) - Website description\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1181 1adf8bfadf254928a2285cd407c66821
+msgid "MessagePush"
+msgstr ""
+
+#: ../docs/data_index.rst:1183 c4a59a127c774bbbb0d97834aab64841
+msgid "Push message over websockets. Readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:1187 67949f1ab89943b2943fbb250d4873d7
+msgid "``title`` (string) - Push title"
+msgstr ""
+
+#: ../docs/data_index.rst:1188 0f6df745d6bd43629046909f8fb183b7
+msgid "``subtitle`` (string) - Push subtitle"
+msgstr ""
+
+#: ../docs/data_index.rst:1189 ee5b0f79cae64413b371c5b63394b4b1
+msgid "``message`` (string) - Push body"
+msgstr ""
+
+#: ../docs/data_index.rst:1190 49f926e258c14846b58e837212592251
+msgid "``icon_url`` (string) - Absolute url to push icon"
+msgstr ""
+
+#: ../docs/data_index.rst:1191 9ba877af5d4e4d53b8d19567bef2f7f8
+msgid "``click_action`` (string) - Url opened on click"
+msgstr ""
+
+#: ../docs/data_index.rst:1192 4654d8d373ee4bd69fe0f5a4a190b1b2
+msgid "``tag`` (string) - Push tag (for join pushes)"
+msgstr ""
+
+#: ../docs/data_index.rst:1193 dbdfa87f443044578b513df6c0b9caf5
+msgid "``team`` (string) - Team uid"
+msgstr ""
+
+#: ../docs/data_index.rst:1194 e135b8df3d9e424891a6cb5882278075
+msgid "``sender`` (:ref:`tdproto-JID`) - Sender contact id"
+msgstr ""
+
+#: ../docs/data_index.rst:1196 ../docs/data_index.rst:1291
+#: b4de82590b55462ca98022e4d1dfdba7 b91ce6ceba964e8f842e771b5876a4af
+msgid "``message_id`` (string) - Message id"
+msgstr ""
+
+#: ../docs/data_index.rst:1197 768d41016bf84058b5297feb2a5c5635
+msgid "``created`` (string) - Message creation iso datetime"
+msgstr ""
+
+#: ../docs/data_index.rst:1202 7a08783a2bbd4b71a93b6232869141d9
+msgid "MessageReaction"
+msgstr ""
+
+#: ../docs/data_index.rst:1204 f8c447d2a9564abda43ed29795ee0df2
+msgid "Message emoji reaction"
+msgstr ""
+
+#: ../docs/data_index.rst:1208 6f3d0434c003405bb5c7ce223bd72dba
+msgid "``name`` (string) - Emoji"
+msgstr ""
+
+#: ../docs/data_index.rst:1209 a941f24158f443c5becd9cbdaca8959a
+msgid "``counter`` (number) - Number of reactions"
+msgstr ""
+
+#: ../docs/data_index.rst:1210 1c6ee86c24504578a49f79037b91b070
+msgid "``details`` (:ref:`tdproto-MessageReactionDetail`) - Details"
+msgstr ""
+
+#: ../docs/data_index.rst:1215 d2282276a42f466e94397ea5202af915
+msgid "MessageReactionDetail"
+msgstr ""
+
+#: ../docs/data_index.rst:1217 be346111ce60438b92608e68fecaf83e
+msgid "Message reaction detail"
+msgstr ""
+
+#: ../docs/data_index.rst:1221 fa6f005a8bf14e94a842e127837e8930
+msgid "``created`` (string) - When reaction added, iso datetime"
+msgstr ""
+
+#: ../docs/data_index.rst:1222 47727706a02749b3bc443afad8b0b75b
+msgid "``sender`` (:ref:`tdproto-JID`) - Reaction author"
+msgstr ""
+
+#: ../docs/data_index.rst:1223 2e81311bdfc84a3abbe3539450deb4dc
+msgid "``name`` (string) - Reaction emoji"
+msgstr ""
+
+#: ../docs/data_index.rst:1228 dca4248adfd44f7d9edc962e108d2a70
+msgid "OAuthService"
+msgstr ""
+
+#: ../docs/data_index.rst:1230 229c35d9a787426f8923b88daebef178
+msgid "OAuth service"
+msgstr ""
+
+#: ../docs/data_index.rst:1234 ec9038e0edd74e91a4df35c16a5262a0
+msgid "``name`` (string) - Integration title"
+msgstr ""
+
+#: ../docs/data_index.rst:1235 3273a048e9494ea9b1d360c312b2b0b2
+msgid "``url`` (string) - Redirect url"
+msgstr ""
+
+#: ../docs/data_index.rst:1240 d14ae583509c4319bd2dcdbebfe0ebec
+msgid "OnlineCall"
+msgstr ""
+
+#: ../docs/data_index.rst:1242 44f21a08ab8f4c7987d65befaf00f994
+msgid "Active call status"
+msgstr ""
+
+#: ../docs/data_index.rst:1246 34eb0b6fded64e0cbcb4d9e969f76336
+msgid "``jid`` (:ref:`tdproto-JID`) - Chat or contact id"
+msgstr ""
+
+#: ../docs/data_index.rst:1247 9e5029d1c65f4b5b9263606d3670d008
+msgid "``uid`` (string) - Call id"
+msgstr ""
+
+#: ../docs/data_index.rst:1248 0d30d2f359cf4eb0b096c70fa70a17b7
+msgid "``start`` (string) - Call start\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1251 86d54f31a91743a695baecb63e67ed4e
+msgid ""
+"``online_count`` (number) - Number participants in call\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1257 ec20e54f36064689a07ac943acd96d4f
+msgid "OnlineContact"
+msgstr ""
+
+#: ../docs/data_index.rst:1259 651e0c96e7db4624ae5df334525a33fb
+msgid "Contact online status"
+msgstr ""
+
+#: ../docs/data_index.rst:1264 0279b8165c314ae7ab1e553d43e00c4f
+msgid "``afk`` (boolean) - Is away from keyboard\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1266 88828905586c4cf6bd12334f62594991
+msgid "``mobile`` (boolean) - Is mobile client"
+msgstr ""
+
+#: ../docs/data_index.rst:1271 27d7d6ec33d2474796dce0fef071d9d4
+msgid "PdfVersion"
+msgstr ""
+
+#: ../docs/data_index.rst:1273 bece683f2c374c98a203bce25b3799b7
+msgid "PDF preview of mediafile. Experimental"
+msgstr ""
+
+#: ../docs/data_index.rst:1277 ../docs/data_index.rst:1747
+#: ad3439435089416a982d61635a021c66 ae3846d195e14792ab6f00d1e9e65ceb
+msgid "``url`` (string) - Absolute url"
+msgstr ""
+
+#: ../docs/data_index.rst:1278 fea4b97062574678ba9f84d6ce2d64f2
+msgid ""
+"``text_preview`` (string) - First string of text content\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1284 116c24b75eb84f34a3aea4f2c8539833
+msgid "ReceivedMessage"
+msgstr ""
+
+#: ../docs/data_index.rst:1286 d411dbec206347e580718854c176e051
+msgid "Message receiving status"
+msgstr ""
+
+#: ../docs/data_index.rst:1290 c2c9938f1b6146dca17c9a911e234451
+msgid "``chat`` (:ref:`tdproto-JID`) - Chat or contact id"
+msgstr ""
+
+#: ../docs/data_index.rst:1292 920f201e2f0a47ccaf8c9aea6eb57152
+msgid "``received`` (boolean) - Is received"
+msgstr ""
+
+#: ../docs/data_index.rst:1293 8487478a66114570a5460fc0d8f89ea4
+msgid ""
+"``num_received`` (number) - Number of contacts received this message. "
+"Experimental\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1295 575d9e158af049388e7521077e27986d
+msgid "``_debug`` (string) - Debug message, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1301 ../docs/data_index.rst:1303
+#: 720a447958464028a1f946447dba26e5 ec7da862af414240ac292b49ec5cb964
+msgid "Remind"
+msgstr ""
+
+#: ../docs/data_index.rst:1309 31781fca6a7347b088b35bd384bd8819
+msgid "``fire_at`` (string) - Activation time, iso"
+msgstr ""
+
+#: ../docs/data_index.rst:1310 87139386681d4be6aea57bdf061f2020
+msgid "``comment`` (string) - Comment, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1316 40cdbaf781424a3d9cbf66f08eed8817
+msgid "Section"
+msgstr ""
+
+#: ../docs/data_index.rst:1318 765ab9f8c6bf46eb99ba4468628ae424
+msgid "Task project or contact section"
+msgstr ""
+
+#: ../docs/data_index.rst:1323 da8c4aa886e346a4a10effde3d25f24f
+msgid "``sort_ordering`` (number) - Sort ordering"
+msgstr ""
+
+#: ../docs/data_index.rst:1324 c99c0b7bfcd0484fbc967c1d88421e32
+msgid "``name`` (string) - Name"
+msgstr ""
+
+#: ../docs/data_index.rst:1326 fd5dfc5ad1c94619b30db7dad61e4e0f
+msgid "``description`` (string) - Description, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1328 e73bb16dc6964a2eac3622d362aaa631
+msgid "``is_archive`` (boolean) - Is deleted\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1334 f5642e79e78345419bad8fb0ebeb5380
+msgid "Session"
+msgstr ""
+
+#: ../docs/data_index.rst:1336 cd62b11715994fbd8a92560e650a87b3
+msgid "Websocket session"
+msgstr ""
+
+#: ../docs/data_index.rst:1340 e6080982d7564475b272bfbc3f14fb72
+msgid "``uid`` (string) - Session id"
+msgstr ""
+
+#: ../docs/data_index.rst:1341 e310dd11758b4298a830a11fd9b42773
+msgid "``created`` (string) - Creation datetime"
+msgstr ""
+
+#: ../docs/data_index.rst:1342 cb548aca078943628dc50100010a533b
+msgid "``lang`` (string) - Language code\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1344 08ac47446fd64f949f4185548619970e
+msgid "``team`` (string) - Team id\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1346 dfb4e6b26231437a83836dcf3a58fd38
+msgid "``is_mobile`` (boolean) - Mobile\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1348 e138a9ef6813487a92bcbfad9aefcb8c
+msgid "``afk`` (boolean) - Away from keyboard\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1350 b3b8ba1192a8405db0c86a4937de0071
+msgid "``useragent`` (string) - User agent\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1352 bbf293ef602940a6bc6b358890baebe9
+msgid "``addr`` (string) - IP address\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1358 a27fc147fa2b4a9c8669935662cba6d0
+msgid "ShortMessage"
+msgstr ""
+
+#: ../docs/data_index.rst:1360 a7b11bfdd1d04205b9883a984059f6a6
+msgid "Short message based on chat message"
+msgstr ""
+
+#: ../docs/data_index.rst:1377 0e18a5fff2b244ac99d91e0ae8bb8dac
+msgid "SingleIcon"
+msgstr ""
+
+#: ../docs/data_index.rst:1379 4926660bbd4a4174b400c9fe466bc0e1
+msgid "Small or large icon"
+msgstr ""
+
+#: ../docs/data_index.rst:1383 df01d1782cdf4f8291087fa23fe2c6c5
+msgid "``url`` (string) - absolute url to icon"
+msgstr ""
+
+#: ../docs/data_index.rst:1384 5908817613204f51bc7da7f9cf762556
+msgid "``width`` (number) - Icon width, in pixels"
+msgstr ""
+
+#: ../docs/data_index.rst:1385 ad7852e48bcf44a7a9912db672f2a078
+msgid "``height`` (number) - Icon height, in pixels"
+msgstr ""
+
+#: ../docs/data_index.rst:1390 710fde4a720d47a7b1a5160cde8b51a1
+msgid "Subtask"
+msgstr ""
+
+#: ../docs/data_index.rst:1392 ce1552436cd74d4abfe2e497c16213fe
+msgid "Link to sub/sup task"
+msgstr ""
+
+#: ../docs/data_index.rst:1396 8d0bbd02a9eb4b39acff10984afd05e7
+msgid "``jid`` (:ref:`tdproto-JID`) - Task id"
+msgstr ""
+
+#: ../docs/data_index.rst:1397 22f8e56332b14989b3dcffe7d3ea9f76
+msgid "``assignee`` (:ref:`tdproto-JID`) - Assignee contact id. Tasks only"
+msgstr ""
+
+#: ../docs/data_index.rst:1398 391d04a861754ec8bdda0b950bff138c
+msgid "``title`` (string) - Task title. Generated from number and description"
+msgstr ""
+
+#: ../docs/data_index.rst:1399 ee1dd8481e994f50839f7a891542d101
+msgid "``num`` (number) - Task number in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:1407 1ad5f829fcdd4a2ba0f8fa951d453c7e
+msgid "SwitcherColors"
+msgstr ""
+
+#: ../docs/data_index.rst:1409 656311bc420b459bb416acbe21f8eed5
+msgid "Switcher colors for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1413 9748eadb443141f4bda76e353d0533a0
+msgid "``on`` (:ref:`tdproto-RGBColor`) - On color"
+msgstr ""
+
+#: ../docs/data_index.rst:1414 a0b3e8099c3045c98d68b5c36f61db40
+msgid "``off`` (:ref:`tdproto-RGBColor`) - Off color"
+msgstr ""
+
+#: ../docs/data_index.rst:1419 66ac17ab46f54f35b05887bfa0efff08
+msgid "Tag"
+msgstr ""
+
+#: ../docs/data_index.rst:1421 e02360d64838461d8ef8ed5d85db30a7
+msgid "Task tag"
+msgstr ""
+
+#: ../docs/data_index.rst:1426 11f8120af4c14b45b5cd8167c06ea8d7
+msgid "``name`` (string) - Tag name"
+msgstr ""
+
+#: ../docs/data_index.rst:1431 a4e6d3537dfb4e23871ca0f81fa44254
+msgid "TaskColor"
+msgstr ""
+
+#: ../docs/data_index.rst:1433 51e160b2f86c4af9bc618217c5626a91
+msgid "Task color rules color"
+msgstr ""
+
+#: ../docs/data_index.rst:1437 8790c8bffb444642b602594ccf67ebd9
+msgid "``regular`` (:ref:`tdproto-RGBColor`) - Regular color"
+msgstr ""
+
+#: ../docs/data_index.rst:1438 645838cbcb804184acaee7cff201f337
+msgid "``dark`` (:ref:`tdproto-RGBColor`) - Dark color"
+msgstr ""
+
+#: ../docs/data_index.rst:1439 a19133abfbbe4a62a4d795699a075974
+msgid "``light`` (:ref:`tdproto-RGBColor`) - Light color"
+msgstr ""
+
+#: ../docs/data_index.rst:1444 ca535387a53d4ef3bfcc9752e32699b8
+msgid "TaskCounters"
+msgstr ""
+
+#: ../docs/data_index.rst:1446 bd57b914a734461a9895cdc420ab8e77
+msgid "Tasks counters"
+msgstr ""
+
+#: ../docs/data_index.rst:1450 f63c3af1963641bdb16de63aa762f430
+msgid "``jid`` (:ref:`tdproto-JID`) - Task jid"
+msgstr ""
+
+#: ../docs/data_index.rst:1451 b765f386f473413dacb5cdbf172bafda
+msgid "``num_unread`` (number) - Unreads counter\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1459 6bba5b6cd8054357b032b3d352817cf3
+msgid "TaskFilter"
+msgstr ""
+
+#: ../docs/data_index.rst:1461 852474f9e7c547118b2941dfcf767ced
+msgid "Task filter"
+msgstr ""
+
+#: ../docs/data_index.rst:1465 0eef93642b184539802acc659d3d71a5
+msgid "``field`` (:ref:`tdproto-TaskFilterKey`) - Task filter field"
+msgstr ""
+
+#: ../docs/data_index.rst:1466 e1a11832908d485d8339e19032ddf3f8
+msgid "``title`` (string) - Filter title"
+msgstr ""
+
+#: ../docs/data_index.rst:1471 e2c92de4c3864e6380dba2a4f898647c
+msgid "TaskItem"
+msgstr ""
+
+#: ../docs/data_index.rst:1473 1ece7086c22947cfbeab2a9111d78310
+msgid "Task checklist item"
+msgstr ""
+
+#: ../docs/data_index.rst:1479 e5a7ba8dd63341f48a2604d9667f56a5
+msgid "``sort_ordering`` (number) - Sort ordering\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1481 3ff21c10df8747d8ab44548da07cf027
+msgid "``text`` (string) - Text or \"#{OtherTaskNumber}\""
+msgstr ""
+
+#: ../docs/data_index.rst:1482 794fae94182d4d389b6d18d476145bf1
+msgid "``checked`` (boolean) - Item checked\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1484 985c87d1ddfa4d33887b7ddc423300c4
+msgid "``can_toggle`` (boolean) - Can I toggle this item\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1486 c613c3bd9bfc442189255a22799c4b7c
+msgid ""
+"``subtask`` (:ref:`tdproto-Subtask`) - Link to subtask. Optional\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1493 81a8f8a0f98a4c0095227bcf6e0fc060
+msgid "TaskSort"
+msgstr ""
+
+#: ../docs/data_index.rst:1495 c244e154aef7421abf8ed647314c6687
+msgid "Task sort type"
+msgstr ""
+
+#: ../docs/data_index.rst:1499 d443aba082184191b1209dfbff9f7a7d
+msgid "``key`` (:ref:`tdproto-TaskSortKey`) - Field"
+msgstr ""
+
+#: ../docs/data_index.rst:1500 f0cee021acf547028ef66bd737a1206e
+msgid "``title`` (string) - Sort title"
+msgstr ""
+
+#: ../docs/data_index.rst:1505 688751e1db3c45f5bcad04329fd3b778
+msgid "TaskStatus"
+msgstr ""
+
+#: ../docs/data_index.rst:1507 925627b33aae49e599db3697d4c6ba2b
+msgid "Custom task status"
+msgstr ""
+
+#: ../docs/data_index.rst:1511 515744e6cd9242268510ea0787009817
+msgid "``uid`` (string) - Status id\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1513 51eba8245d0d4a7fa2f67c25331316a8
+msgid "``sort_ordering`` (number) - Status sort ordering"
+msgstr ""
+
+#: ../docs/data_index.rst:1514 7bdd56fe569b41bda9d98e7992ad010e
+msgid "``name`` (string) - Status internal name"
+msgstr ""
+
+#: ../docs/data_index.rst:1515 3627881112be40c886d3f34374892cdf
+msgid "``title`` (string) - Status localized name"
+msgstr ""
+
+#: ../docs/data_index.rst:1516 6a310c803a404454ac382a159d10ba97
+msgid "``is_archive`` (boolean) - Status not used anymore\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1522 260f0fa2c8694f5c809590512dd1ca38
+msgid "TaskTab"
+msgstr ""
+
+#: ../docs/data_index.rst:1524 25a28c7dbe444526b761df26644560bc
+msgid "Task tab"
+msgstr ""
+
+#: ../docs/data_index.rst:1528 0181236dc7214d529e87321c3d5e8544
+msgid "``key`` (:ref:`tdproto-TaskTabKey`) - Tab name"
+msgstr ""
+
+#: ../docs/data_index.rst:1529 f3bb56308f664681a7b6c796f9f9bcf5
+msgid "``title`` (string) - Tab title"
+msgstr ""
+
+#: ../docs/data_index.rst:1530 9df202bb24d84f168574537fae434bad
+msgid "``hide_empty`` (boolean) - Disable this tab when it has no contents"
+msgstr ""
+
+#: ../docs/data_index.rst:1531 54f11c522a874de6a57cd8f68357a010
+msgid "``show_counter`` (boolean) - Show unread badge"
+msgstr ""
+
+#: ../docs/data_index.rst:1532 05f6315568ab48a28e747336b1881b27
+msgid "``pagination`` (boolean) - Enable pagination"
+msgstr ""
+
+#: ../docs/data_index.rst:1533 20ea51bc47a74f7fb28df1db524a7bfe
+msgid "``filters`` (:ref:`tdproto-TaskFilter`) - Filters inside tab"
+msgstr ""
+
+#: ../docs/data_index.rst:1534 24c8562c778f4a29887b6b19ae6ac51a
+msgid "``sort`` (:ref:`tdproto-TaskSort`) - Sort available in tab"
+msgstr ""
+
+#: ../docs/data_index.rst:1535 3d5ce75c1e394796b2df3bfb89ebcefd
+msgid ""
+"``unread_tasks`` (:ref:`tdproto-TaskCounters`) - Unread tasks with jid and "
+"counters"
+msgstr ""
+
+#: ../docs/data_index.rst:1540 ../docs/data_index.rst:1542
+#: 14fbdc6c00b241fc8fd27a9e12dd6e65 0e8732c722004b6090f6d318b48b0c7e
+msgid "Team"
+msgstr ""
+
+#: ../docs/data_index.rst:1547 fd9af6e7eea04eb1bb9db18cf35949ce
+msgid "``is_archive`` (boolean) - Team deleted\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1550 ../docs/data_index.rst:1619
+#: 6679933c704c4c8898e8dfc0ce67ffb5 9599fb074e4c4e718421606dc0f5b284
+msgid "``name`` (string) - Team name"
+msgstr ""
+
+#: ../docs/data_index.rst:1551 06a7dfac44e249d8ad35235867e50fb5
+msgid ""
+"``default_task_deadline`` (string) - Default task deadline\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1553 24894b767c7d41d18f9beeaa264505bd
+msgid ""
+"``max_message_update_age`` (number) - Max message update/deletion age, in "
+"seconds"
+msgstr ""
+
+#: ../docs/data_index.rst:1554 ../docs/data_index.rst:1620
+#: 44588acc1a8749c995d32374764d92a5 954f91ee6b794e069d25cd28ce6fcac5
+msgid "``icons`` (:ref:`tdproto-IconData`) - Team icons"
+msgstr ""
+
+#: ../docs/data_index.rst:1555 a1c40c61bb2842e7b064acbe552b4c51
+msgid "``last_active`` (boolean) - User last activity was in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:1556 6c90b1a7e3fa4a36be4fb64dee6ec535
+msgid ""
+"``changeable_statuses`` (:ref:`tdproto-TeamStatus`) - What status I can set "
+"to other team members\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1558 4a62135c5099493f9424fdb3afdcc7e4
+msgid ""
+"``bad_profile`` (boolean) - My profile in this team isn't full\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1560 54d076180dbc43abb58645ddadd67917
+msgid ""
+"``need_confirmation`` (boolean) - Need confirmation after invite to this team"
+msgstr ""
+
+#: ../docs/data_index.rst:1561 3cb0c67db19d46608f53876d6aa4602a
+msgid ""
+"``use_patronymic`` (boolean) - Patronymic in usernames for this team\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1563 1370e0b2281148c8aa284e939280448c
+msgid "``user_fields`` (string) - Username fields ordering"
+msgstr ""
+
+#: ../docs/data_index.rst:1564 e765ff0bcc2f4c83b345b60fb2a90abb
+msgid ""
+"``display_family_name_first`` (boolean) - Family name should be first in "
+"display name\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1566 9a23023db99b43d4a7f5443fd82b88cb
+msgid ""
+"``use_task_importance`` (boolean) - Use importance field in task\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1568 32ba4f055cbf4cdc97e615341d2e2478
+msgid ""
+"``task_importance_min`` (number) - Minimal value of task importance. Default "
+"is 1\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1570 ab7e4154c5494a93b11370497a7d8a3d
+msgid ""
+"``task_importance_max`` (number) - Maximum value of task importance. Default "
+"is 5\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1572 31b57702605c4ba88d3ea6bff694b32a
+msgid ""
+"``task_importance_rev`` (boolean) - Bigger number = bigger importance. "
+"Default: lower number = bigger importance\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1574 79cfcb14566842babf0cde3cba989657
+msgid ""
+"``use_task_urgency`` (boolean) - Use urgency field in task\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1576 b68bfbc3ed884d0ba9e26e005ec34f60
+msgid ""
+"``use_task_complexity`` (boolean) - Use complexity field in task\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1578 60e72efef570403695ff36835971dc81
+msgid ""
+"``use_task_spent_time`` (boolean) - Use spent time field in task\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1580 4ae8ad5255ad4648a10dda009ce21c83
+msgid "``uploads_size`` (number) - Total uploads size, bytes\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1582 248afc27f2a946d9a56952143fe8d53d
+msgid ""
+"``uploads_size_limit`` (number) - Maximum uploads size, bytes, if any\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1584 3fd9184f78c644318b63df9545368827
+msgid ""
+"``unread`` (:ref:`tdproto-TeamUnread`) - Unread message counters\\ . Might "
+"be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1586 2f67b0aebcfa4a08947b5b3cd7d3304e
+msgid "``me`` (:ref:`tdproto-Contact`) - My profile in this team"
+msgstr ""
+
+#: ../docs/data_index.rst:1587 fbe9830bb7a94653946e8e8df5abde63
+msgid ""
+"``contacts`` (:ref:`tdproto-Contact`) - Team contacts. Used only for team "
+"creation\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1589 baca5438e06a420f8526424f5c726fea
+msgid ""
+"``single_group`` (:ref:`tdproto-JID`) - For single group teams, jid of chat"
+"\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1591 0f06f147c40d412e839ea2072fce5f78
+msgid ""
+"``theme`` (:ref:`tdproto-Theme`) - Color theme, if any\\ . Maybe omitted\\ . "
+"Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1594 0dc2b88adfd64e98990f57e2b8847fbc
+msgid ""
+"``hide_archived_users`` (boolean) - Don't show archived users by default\\ . "
+"Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1600 b04e57c8cc5740979713c9a9d4d1a8db
+msgid "TeamCounter"
+msgstr ""
+
+#: ../docs/data_index.rst:1602 ../docs/data_index.rst:1724
+#: 18e0f1f12c1440fe9eb96d8dff511b99 c490d7d39e3c4433b9bcb103b5c9540f
+msgid "Unread message counters"
+msgstr ""
+
+#: ../docs/data_index.rst:1607 7c5b3c4789424698bf481da5c7ed3613
+msgid "``unread`` (:ref:`tdproto-TeamUnread`) - Unread message counters"
+msgstr ""
+
+#: ../docs/data_index.rst:1612 4fed0b2211b044bfa8a6177a620b25ad
+msgid "TeamShort"
+msgstr ""
+
+#: ../docs/data_index.rst:1614 bc4492415a2345bd95bfa06c90771a0c
+msgid ""
+"Short team representation. For invites, push notifications, etc. Readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:1625 47b766f89f1b41089b01802740e7d68c
+msgid "Terms"
+msgstr ""
+
+#: ../docs/data_index.rst:1627 69378044ffa84ddf86ab914e68ee8048
+msgid "Experimental translation fields for \"team\" entity renaming. Readonly"
+msgstr ""
+
+#: ../docs/data_index.rst:1631 c3a29b82541942c9a304caa0c84e3a72
+msgid "``EnInTeam`` (string) - \"in team\""
+msgstr ""
+
+#: ../docs/data_index.rst:1632 f83892af0a114928a1c3c67121c95936
+msgid "``EnTeam`` (string) - \"team\""
+msgstr ""
+
+#: ../docs/data_index.rst:1633 54a4ddb26ca844dbb8b3b2714fa9a928
+msgid "``EnTeamAccess`` (string) - \"access to team\""
+msgstr ""
+
+#: ../docs/data_index.rst:1634 516b1c603f884a33859809bd8d606035
+msgid "``EnTeamAdmin`` (string) - \"team admin\""
+msgstr ""
+
+#: ../docs/data_index.rst:1635 2201cbbcdc93442da2062a05f19ef114
+msgid "``EnTeamAdmins`` (string) - \"team admins\""
+msgstr ""
+
+#: ../docs/data_index.rst:1636 0b6246d827a5481dbeb8738a83a4c571
+msgid "``EnTeamGuest`` (string) - \"team guest\""
+msgstr ""
+
+#: ../docs/data_index.rst:1637 001a01bf31cc4d63a58aa5684ea33331
+msgid "``EnTeamMember`` (string) - \"team member\""
+msgstr ""
+
+#: ../docs/data_index.rst:1638 5e03f403d98d4b5abdbb5d2040d3376d
+msgid "``EnTeamMembers`` (string) - \"team members\""
+msgstr ""
+
+#: ../docs/data_index.rst:1639 6df397758eac47ba8be4d65747f3b40e
+msgid "``EnTeamOwner`` (string) - \"team owner\","
+msgstr ""
+
+#: ../docs/data_index.rst:1640 6e4a0c147924480ea1a067c9775cb641
+msgid "``EnTeamSettings`` (string) - \"team settings\""
+msgstr ""
+
+#: ../docs/data_index.rst:1641 d1d0c3d3514b4537829f40280945590d
+msgid "``RuTeamSettings`` (string) - \"настройки команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1642 5ab0b62c64dd499487257e90cd207387
+msgid "``EnTeams`` (string) - \"teams\""
+msgstr ""
+
+#: ../docs/data_index.rst:1643 fba1695ae45a43759e3551e53a0a33c9
+msgid "``EnToTeam`` (string) - \"to team\""
+msgstr ""
+
+#: ../docs/data_index.rst:1644 91ca85f6813d46dfae14bd9378662a6e
+msgid "``RuInTeam`` (string) - \"в команде\""
+msgstr ""
+
+#: ../docs/data_index.rst:1645 11f78b4dd5d74bc3ace8751537a03a8b
+msgid "``RuTeam`` (string) - \"команда\""
+msgstr ""
+
+#: ../docs/data_index.rst:1646 25c85de5c9724d878aa8f0d3e1dfbf5f
+msgid "``RuTeamAccess`` (string) - \"доступ к команде\""
+msgstr ""
+
+#: ../docs/data_index.rst:1647 30a6c2cbcbf34381a11446cf8ececf29
+msgid "``RuTeamAdmin`` (string) - \"администратор команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1648 2128abe6f044414cb8b94d8c99e54149
+msgid "``RuTeamAdmins`` (string) - \"администраторы команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1649 44331f6ddf7f497a8bd89bcb67e6ee82
+msgid "``RuTeamD`` (string) - \"команде\""
+msgstr ""
+
+#: ../docs/data_index.rst:1650 f74904a52bec4658ad980e8871cf9dac
+msgid "``RuTeamGuest`` (string) - \"гость команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1651 195b3d2a8cb748dcaf3b1cf46305c5b6
+msgid "``RuTeamMember`` (string) - \"участник команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1652 41d818b5bc194012a4e3e16078156be5
+msgid "``RuTeamMembers`` (string) - \"участники команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1653 49a8124158fe415099eb9bb98b93aff4
+msgid "``RuTeamOwner`` (string) - \"владелец команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1654 2c8ab4854ca5489e987e539a3600dc40
+msgid "``RuTeamP`` (string) - \"команде\""
+msgstr ""
+
+#: ../docs/data_index.rst:1655 0744f341b5df4281ade9794c2b595423
+msgid "``RuTeamR`` (string) - \"команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1656 46d63337b54e4083b4efa807da9737c4
+msgid "``RuTeams`` (string) - \"команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1657 63f1602ec48b413a9c0c8dec774aa541
+msgid "``RuTeamsD`` (string) - \"командам\""
+msgstr ""
+
+#: ../docs/data_index.rst:1658 046987cf423b410d98434aa9564c075d
+msgid "``RuTeamsP`` (string) - \"командах\""
+msgstr ""
+
+#: ../docs/data_index.rst:1659 7995d984f898476b89815b401f8f1a0a
+msgid "``RuTeamsR`` (string) - \"команд\""
+msgstr ""
+
+#: ../docs/data_index.rst:1660 f5443d09b7fb44f281728946b82dd2af
+msgid "``RuTeamsT`` (string) - \"командами\""
+msgstr ""
+
+#: ../docs/data_index.rst:1661 497871776f3844848f09b7f71021a60b
+msgid "``RuTeamsV`` (string) - \"команды\""
+msgstr ""
+
+#: ../docs/data_index.rst:1662 50ac36c6dcdb4068b6e449a0a7ab5712
+msgid "``RuTeamT`` (string) - \"командой\""
+msgstr ""
+
+#: ../docs/data_index.rst:1663 5f40a5b481214bc2b82a28a95b8ce896
+msgid "``RuTeamV`` (string) - \"команду\""
+msgstr ""
+
+#: ../docs/data_index.rst:1664 f1c34ebffb0148e1af1a7dadfb028431
+msgid "``RuToTeam`` (string) - \"в команду\""
+msgstr ""
+
+#: ../docs/data_index.rst:1669 b4da25a7830841399340698833119ecb
+msgid "Theme"
+msgstr ""
+
+#: ../docs/data_index.rst:1671 2f115b2a4e0b4ef58e80f67879ff1baa
+msgid "Color theme"
+msgstr ""
+
+#: ../docs/data_index.rst:1675 92a143f32c2e49eca03073336105d4ee
+msgid "``BgColor`` (:ref:`tdproto-RGBColor`) - BgColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1676 8179252f04ed436f87c5e0ebaa1c85d5
+msgid "``BgHoverColor`` (:ref:`tdproto-RGBColor`) - BgHoverColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1677 c39d6e399bb04a9fb9549f683e05e56d
+msgid "``TextColor`` (:ref:`tdproto-RGBColor`) - TextColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1678 8fe8e5a9e39f4f01a024e3dc0bf5763e
+msgid "``MutedTextColor`` (:ref:`tdproto-RGBColor`) - MutedTextColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1679 4ab4183457014c9c8b78b647631e4881
+msgid "``AccentColor`` (:ref:`tdproto-RGBColor`) - AccentColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1680 d28f634fd07042b299053e7c3cd96f49
+msgid ""
+"``AccentHoverColor`` (:ref:`tdproto-RGBColor`) - AccentHoverColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1681 16841702be17483e9a16635ab69674f5
+msgid ""
+"``TextOnAccentHoverColor`` (:ref:`tdproto-RGBColor`) - "
+"TextOnAccentHoverColor for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1682 499df9afd65c4e2585f7e8c7fae82940
+msgid "``MainAccent`` (:ref:`tdproto-RGBColor`) - MainAccent for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1683 906eae9783bf42a8b31d8f7c0029f47f
+msgid "``MainAccentHover`` (:ref:`tdproto-RGBColor`) - MainAccentHover for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1684 2404a0517ec34cd89856e44cb8d12951
+msgid "``MainLightAccent`` (:ref:`tdproto-RGBColor`) - MainLightAccent for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1685 c61c3194712a41a5804e8b515483583a
+msgid "``MainLink`` (:ref:`tdproto-RGBColor`) - MainLink for web"
+msgstr ""
+
+#: ../docs/data_index.rst:1686 78f4a19d078040d491402f3ff37431bd
+msgid "``brand`` (:ref:`tdproto-RGBColor`) - Brand color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1687 1ccc4e21e2f546dfa1adb8e4372d6988
+msgid "``brand_dark`` (:ref:`tdproto-RGBColor`) - BrandDark color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1688 49be8648a2744fb2abd86195a1dfd2f3
+msgid "``brand_light`` (:ref:`tdproto-RGBColor`) - Brand light color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1689 4daa2ecf972f4a4ea494e07071118f8d
+msgid "``back`` (:ref:`tdproto-RGBColor`) - Back light color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1690 870bc2afc19c494da880b0c3150188c7
+msgid "``back_light`` (:ref:`tdproto-RGBColor`) - Back light color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1691 3a715ccbe3334675b08320805db683c2
+msgid "``back_dark`` (:ref:`tdproto-RGBColor`) - Back dark color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1692 5a47b799c8c54890b0982ddfe95f2f1b
+msgid "``success`` (:ref:`tdproto-RGBColor`) - Success color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1693 d40e695326a744a5a584c62743b1130c
+msgid ""
+"``success_light`` (:ref:`tdproto-RGBColor`) - Success light color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1694 9b17c341df06425185f0e984ccf279ef
+msgid "``error`` (:ref:`tdproto-RGBColor`) - Error color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1695 b6ba9a477ab048c0b53fbc1fbd4a3012
+msgid "``error_light`` (:ref:`tdproto-RGBColor`) - Error light color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1696 502b23e39e964b6ea72a3654404bd431
+msgid "``background`` (:ref:`tdproto-RGBColor`) - Background color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1697 d9eb4ef88d9440bc91eeda4e88d165a1
+msgid ""
+"``tab_background`` (:ref:`tdproto-RGBColor`) - Tab background color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1698 f9c16bd71a7a4142ba6e469cad351237
+msgid ""
+"``chat_input_background`` (:ref:`tdproto-RGBColor`) - Chat input background "
+"color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1699 11208e117c2749efa7be77567c18f2c5
+msgid ""
+"``substrate_background`` (:ref:`tdproto-RGBColor`) - Substrate background "
+"color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1700 37820036c8e64ec38b5cf41b8de8572b
+msgid ""
+"``modal_background`` (:ref:`tdproto-RGBColor`) - Modal background color for "
+"app"
+msgstr ""
+
+#: ../docs/data_index.rst:1701 675ed7e7ffd24390ac883c996a9486ba
+msgid ""
+"``title_background`` (:ref:`tdproto-RGBColor`) - Title background color for "
+"app"
+msgstr ""
+
+#: ../docs/data_index.rst:1702 228f8474779546f78f53d6fae85ae80f
+msgid "``attention`` (:ref:`tdproto-RGBColor`) - Attention color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1703 ead916b1b139465781628c116f6392c4
+msgid ""
+"``attention_light`` (:ref:`tdproto-RGBColor`) - Attention light color for app"
+msgstr ""
+
+#: ../docs/data_index.rst:1704 399d4a8555344e199f06af92140fd194
+msgid ""
+"``font`` (:ref:`tdproto-FontColors`) - Font colors for app\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1706 747c352e4bae4d108af7a3e527145bd8
+msgid ""
+"``message`` (:ref:`tdproto-MessageColors`) - Message colors for app\\ . "
+"Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1708 0a533085a2e1489b8aaf5f7fdbfe8adf
+msgid ""
+"``switcher`` (:ref:`tdproto-SwitcherColors`) - Switcher colors for app\\ . "
+"Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1710 b1878bec2b5f422492da42bd7665ab8f
+msgid ""
+"``button`` (:ref:`tdproto-ButtonColors`) - Button colors for app\\ . Might "
+"be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1712 2fe012fe03f847549ddd1e6d6a860ec5
+msgid ""
+"``input`` (:ref:`tdproto-InputColors`) - Input colors for app\\ . Might be "
+"null"
+msgstr ""
+
+#: ../docs/data_index.rst:1714 baaf638031ad440a9a0ce1cec4aaa865
+msgid ""
+"``ic`` (:ref:`tdproto-IconColors`) - Icon colors for app\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1716 8656dd14796f4f95aecc8ddefb378d59
+msgid "``AppAccentColor`` (:ref:`tdproto-RGBColor`) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:1717 3f0d8ff1c21747cba4e7ab2b14cc5edb
+msgid "``AppPrimaryColor`` (:ref:`tdproto-RGBColor`) - Deprecated"
+msgstr ""
+
+#: ../docs/data_index.rst:1722 d175805dc7b2463097b06523968189be
+msgid "Unread"
+msgstr ""
+
+#: ../docs/data_index.rst:1728 8250b60c787d49a19c0f830ea5d6d382
+msgid "``messages`` (number) - Total unread messages"
+msgstr ""
+
+#: ../docs/data_index.rst:1729 907a0eb8bc49473badcb8f0656756781
+msgid "``notice_messages`` (number) - Total unread messages with mentions"
+msgstr ""
+
+#: ../docs/data_index.rst:1730 37efc30e905c4fb8a733fcf15c7437e2
+msgid "``chats`` (number) - Total chats with unread messages"
+msgstr ""
+
+#: ../docs/data_index.rst:1735 46e3b97e4367414bb46eba92a5901006
+msgid "Upload"
+msgstr ""
+
+#: ../docs/data_index.rst:1737 22f5bceeabc0400eb7d7c9d223deed5b
+msgid "Uploaded media"
+msgstr ""
+
+#: ../docs/data_index.rst:1741 e10e06ce96104d819b2b6336eef995e4
+msgid "``uid`` (string) - Upload id"
+msgstr ""
+
+#: ../docs/data_index.rst:1742 90eafca498e74360a121ca9561f1f9a9
+msgid "``created`` (string) - Uploaded at"
+msgstr ""
+
+#: ../docs/data_index.rst:1743 b2039e79f9194af7b4143e522b3a8c2c
+msgid "``size`` (number) - Upload size in bytes"
+msgstr ""
+
+#: ../docs/data_index.rst:1744 815b756b6db74e39a6faa082b4629b22
+msgid ""
+"``duration`` (number) - Mediafile duration (for audio/video only)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1746 87e7cd12dd384b589aa9773fc8313a60
+msgid "``name`` (string) - Filename"
+msgstr ""
+
+#: ../docs/data_index.rst:1748 7a97aafffe264baa942ec412d009123b
+msgid ""
+"``preview`` (:ref:`tdproto-UploadPreview`) - Preview details\\ . Maybe "
+"omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1751 2548770cb5034d8980d1e203e9f4ca22
+msgid "``content_type`` (string) - Content type"
+msgstr ""
+
+#: ../docs/data_index.rst:1752 5b5156480f074adb86f9de926ac2a764
+msgid "``animated`` (boolean) - Is animated (images only)\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1754 a7fe390d8a294496840a578ff878844f
+msgid ""
+"``blurhash`` (string) - Compact representation of a placeholder for an image "
+"(images only)\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1756 663ba44f753240eb9afea6d9345150a9
+msgid ""
+"``processing`` (boolean) - File still processing (video only)\\ . Maybe "
+"omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1758 ada87c521dee417c846dc7ed35add9f5
+msgid ""
+"``pdf_version`` (:ref:`tdproto-PdfVersion`) - PDF version of file. "
+"Experimental\\ . Maybe omitted\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1761 f41458de1b6d4ee7a6bbb9802e359ae1
+msgid ""
+"``type`` (:ref:`tdproto-UploadMediaType`) - ?type=file,image,audio,video"
+msgstr ""
+
+#: ../docs/data_index.rst:1766 312db8bdbd1449e78c078db73e7559af
+msgid "UploadPreview"
+msgstr ""
+
+#: ../docs/data_index.rst:1768 1ef304e00564446cbba2f556b9535015
+msgid "Upload preview"
+msgstr ""
+
+#: ../docs/data_index.rst:1772 ac381f5815814c1ab0c7fd0cf102f48e
+msgid "``url`` (string) - Absolute url to image"
+msgstr ""
+
+#: ../docs/data_index.rst:1773 be2cf15333f6435dbbd01144d2e48728
+msgid "``url_2x`` (string) - Absolute url to high resolution image (retina)"
+msgstr ""
+
+#: ../docs/data_index.rst:1774 c869d321be764be3bcf83ed8c12dcaba
+msgid "``width`` (number) - Width in pixels"
+msgstr ""
+
+#: ../docs/data_index.rst:1775 8ae58bd9ab3445d8a834a919a803e561
+msgid "``height`` (number) - Height in pixels"
+msgstr ""
+
+#: ../docs/data_index.rst:1780 8a4fbd275e5340d7beb77c072b08a045
+msgid "UploadShortMessage"
+msgstr ""
+
+#: ../docs/data_index.rst:1782 d1cb1cf0129f4dc2bf7856124fe93542
+msgid "Upload + ShortMessage"
+msgstr ""
+
+#: ../docs/data_index.rst:1786 b4b008139aca47de830c999c5bd3cd54
+msgid "``upload`` (:ref:`tdproto-Upload`) - Upload information"
+msgstr ""
+
+#: ../docs/data_index.rst:1787 f0ec33ec60e345f281717c59e034769b
+msgid "``message`` (:ref:`tdproto-ShortMessage`) - Short message information"
+msgstr ""
+
+#: ../docs/data_index.rst:1792 001d994cd3f54a3480fbe0c187df6b9a
+msgid "User"
+msgstr ""
+
+#: ../docs/data_index.rst:1794 a2cf6e3f42094bfa942c106c581ce324
+msgid "Account data"
+msgstr ""
+
+#: ../docs/data_index.rst:1798 ../docs/data_index.rst:1834
+#: 64028b9971b54152953bb7a3b5f60813 9dc40042af3545d1bec3540f26a86693
+msgid "``phone`` (string) - Phone for login\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1800 ../docs/data_index.rst:1836
+#: fcff12bba9ed48e78aeb1a89a5c567a4 d1d842b0cf214e7bb584b085d96921cb
+msgid "``email`` (string) - Email for login\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1808 ../docs/data_index.rst:1844
+#: d806dd84ca88401c8bd228b854739358 8606629a296745558b2adfb9dc97ba07
+msgid "``default_lang`` (string) - Default language code\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1810 ../docs/data_index.rst:1846
+#: 8b54740453514b13941e88bc42714c21 1044c6f6c0864e1e89dc4fe5cece8e7a
+msgid "``alt_send`` (boolean) - Use Ctrl/Cmd + Enter instead Enter"
+msgstr ""
+
+#: ../docs/data_index.rst:1811 ../docs/data_index.rst:1847
+#: c5a99a31c94b4bf0aa82e7b659a688a9 5b98d2c7d52a437faa575f658e17408b
+msgid "``asterisk_mention`` (boolean) - Use * as @ for mentions"
+msgstr ""
+
+#: ../docs/data_index.rst:1812 ../docs/data_index.rst:1848
+#: 591c5b84bfcf422d8981fa8602d3c8c0 5af84eef3b6944e3909a2b62e7e35dea
+msgid "``always_send_pushes`` (boolean) - Send pushes even user is online"
+msgstr ""
+
+#: ../docs/data_index.rst:1813 ../docs/data_index.rst:1849
+#: 403063bc330f48e593a948dab4065dcd 58afb99a63274c809ea54e153bad5357
+msgid "``unread_first`` (boolean) - Show unread chats in chat list first"
+msgstr ""
+
+#: ../docs/data_index.rst:1814 ../docs/data_index.rst:1850
+#: 16a0ab587a50450295daa4383f169eeb e15a8dee7cb44f5e821b60394b1729b7
+msgid ""
+"``munread_first`` (boolean) - Show unread chats in chat list first on mobiles"
+msgstr ""
+
+#: ../docs/data_index.rst:1815 ../docs/data_index.rst:1851
+#: f751e0d6e47b47858ac73731d4d8d3b3 e1c90eaf72b7493c8db9446b080ccf2c
+msgid "``timezone`` (string) - Timezone"
+msgstr ""
+
+#: ../docs/data_index.rst:1816 ../docs/data_index.rst:1852
+#: 8c91d11b98c5448d91254420c377f9dc 798f4dd61e92409cbd7cd7329a292670
+msgid ""
+"``quiet_time_start`` (string) - Start silently time (no pushes, no "
+"sounds)\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1818 ../docs/data_index.rst:1854
+#: 00f67abdf33945f9876d4cc093f1ad9d 2f8b8e45983e4496ae2b670447e1ec19
+msgid ""
+"``quiet_time_finish`` (string) - Finish silently time (no pushes, no "
+"sounds)\\ . Might be null"
+msgstr ""
+
+#: ../docs/data_index.rst:1824 0344fa4e470740e280911c82b95c5642
+msgid "UserWithMe"
+msgstr ""
+
+#: ../docs/data_index.rst:1826 66aa8e9c58bf4fc58119eb131f40964f
+msgid "Accouint data with extra information"
+msgstr ""
+
+#: ../docs/data_index.rst:1830 98749b97bacc419bb369bcd949fc63c0
+msgid "``inviter`` (:ref:`tdproto-JID`) - Inviter id, if any\\ . Maybe omitted"
+msgstr ""
+
+#: ../docs/data_index.rst:1832 a8410d4b21e7467fa37ea8da2c2c9950
+msgid "``teams`` (:ref:`tdproto-Team`) - Available teams"
+msgstr ""
+
+#: ../docs/data_index.rst:1833 4e6aca9945094be4893ca6475314cedc
+msgid "``devices`` (:ref:`tdproto-PushDevice`) - Registered push devices"
+msgstr ""
+
+#: ../docs/data_index.rst:1860 f25084aa8c1d412f9bb73f38f2eae978
+msgid "Wallpaper"
+msgstr ""
+
+#: ../docs/data_index.rst:1862 7cdde2d399af4f639ce52589ffa5448b
+msgid "Chat wallpaper"
+msgstr ""
+
+#: ../docs/data_index.rst:1866 175e8f4914f445a483250a3dad69d21c
+msgid "``key`` (string) - Unique identifier"
+msgstr ""
+
+#: ../docs/data_index.rst:1867 c93115ccd408413594dcb09b225c97b6
+msgid "``name`` (string) - Localized description"
+msgstr ""
+
+#: ../docs/data_index.rst:1868 f4a7324c781e469699657d63fc9ab603
+msgid "``url`` (string) - Url to jpg or png"
+msgstr ""
+
+#: ../docs/data_index.rst:1873 8ed2d4e88afd49e2a51e218d217bf6da
+msgid "WikiPage"
+msgstr ""
+
+#: ../docs/data_index.rst:1875 370c9de5ea974dc797c7dcdef3a4fa72
+msgid "Wiki page. Experimental"
+msgstr ""
+
+#: ../docs/data_index.rst:1880 db9718f3a66e4bf7a794146ca176b7ee
+msgid "``updated`` (string) - Update time"
+msgstr ""
+
+#: ../docs/data_index.rst:1881 fb59ff45da33495f9fbbc7cee4c64691
+msgid "``editor`` (:ref:`tdproto-JID`) - Last editor contact id"
+msgstr ""
+
+#: ../docs/data_index.rst:1882 97e9acc6a1c6401cadf13e3e98c3f764
+msgid "``text`` (string) - Page text"
+msgstr ""
