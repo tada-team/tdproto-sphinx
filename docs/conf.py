@@ -10,3 +10,5 @@ try:
     del sphinx_rtd_theme
 except ImportError:
     ...
+
+templates_path = ['templates']
