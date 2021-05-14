@@ -12,3 +12,5 @@ except ImportError:
     ...
 
 templates_path = ['templates']
+html_favicon = './favicon.svg'
+html_logo = './logo.svg'

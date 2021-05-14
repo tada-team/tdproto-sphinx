@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Log (small) 32</title>
+    <g id="Log-(small)-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(8.000000, 1.000000)">
+            <path d="M11,30 L8.67904862,30 C3.88573122,30 0,26.3199671 0,21.7803927 L0,0 L2.32095138,0 C7.11426878,0 11,3.68003293 11,8.21960731 L11,30 Z" id="Fill-1" fill="#0096FF"></path>
+            <path d="M12,7 L12,6.15599669 C12,4.41300248 13.3654035,3 15.0496824,3 L18,3 L18,3.84393714 C18,5.58699752 16.6345965,7 14.9503176,7 L12,7 Z" id="Fill-3" fill="#FF7F8A"></path>
+            <path d="M3,21 L3,18.6790486 C3,13.8857312 6.64105793,10 11.132489,10 L19,10 L19,12.3209514 C19,17.1142688 15.3589421,21 10.867511,21 L3,21 Z" id="Fill-13" fill="#FFB200"></path>
+        </g>
+    </g>
+</svg>
