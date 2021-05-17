@@ -386,7 +386,7 @@ Chat (direct, group, task) representation
   . Maybe omitted
 * ``default_for_all`` (boolean) - Any new team member will be added to this group chat\
   . Maybe omitted
-* ``readonly_for_members`` (boolean) - Readonly for non-admins group chat (Like Channels in Telegram bug switchable)\
+* ``readonly_for_members`` (boolean) - Readonly for non-admins group chat (Like Channels in Telegram but switchable)\
   . Maybe omitted
 * ``autocleanup_age`` (number) - Delete messages in this chat in seconds. Experimental function\
   . Maybe omitted\
@@ -702,6 +702,18 @@ Team deletion message. Readonly
 * ``uid`` (string) - Team id
 * ``is_archive`` (boolean) - Team deleted
 * ``gentime`` (number) - Object version
+
+.. _tdproto-Emoji:
+
+Emoji
+-------------------------------------------------------------
+
+Emoji
+
+**Fields**:
+
+* ``char`` (string) - Unicode symbol
+* ``key`` (string) - Text representation
 
 .. _tdproto-Features:
 
@@ -1277,6 +1289,17 @@ PDF preview of mediafile. Experimental
 * ``url`` (string) - Absolute url
 * ``text_preview`` (string) - First string of text content\
   . Maybe omitted
+
+.. _tdproto-Reaction:
+
+Reaction
+-------------------------------------------------------------
+
+Emoji reaction
+
+**Fields**:
+
+* ``name`` (string) - Unicode symbol
 
 .. _tdproto-ReceivedMessage:
 

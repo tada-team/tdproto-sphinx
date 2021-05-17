@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 14:06+0300\n"
+"POT-Creation-Date: 2021-05-17 13:16+0300\n"
 "PO-Revision-Date: 2021-04-23 17:11+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -20,27 +20,27 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/events.rst:2 ee0907a2e0b548ab8f8a150d1bd9f5f9
+#: ../docs/events.rst:2 7a0d04fb3d384e1daed8f66bf81588d1
 msgid "Client events"
 msgstr "События клиента"
 
-#: ../docs/events.rst:5 4eb5356c21874269ad1f6b3ceef3e959
+#: ../docs/events.rst:5 e837eb0ad79d47218f1d9b98932196a6
 msgid "client.activity"
 msgstr "client.activity"
 
-#: ../docs/events.rst:7 dd87e7c0767649faa3fccbc07d3267b7
+#: ../docs/events.rst:7 4cba51803af5485f9fa0d3d362ecd81f
 msgid "Change AFK (away from keyboard) status"
 msgstr "Поменять AFK (не у клавиатуры) статус"
 
-#: ../docs/events.rst:9 e9084f2569d4487e9a26223ac8fb3c13
+#: ../docs/events.rst:9 0e914d2fb651475095cc47a4173388e7
 msgid "``afk`` - Is away from keyboard"
 msgstr "``afk`` - Не у клавиатуры"
 
-#: ../docs/events.rst:23 bf75598222f34b6799942d19ad0f5fdc
+#: ../docs/events.rst:23 7efc5b40a00542b78122d8456a372036
 msgid "client.call.buzzcancel"
 msgstr "client.call.buzzcancel"
 
-#: ../docs/events.rst:25 28088704736848debfcc32fe9e477a0e
+#: ../docs/events.rst:25 c33742238597488ebbe9ec30fbe3de1f
 msgid "Call buzzing cancelled"
 msgstr "Отмена звонка"
 
@@ -51,39 +51,39 @@ msgstr "Отмена звонка"
 #: ../docs/events.rst:406 ../docs/events.rst:416 ../docs/events.rst:426
 #: ../docs/events.rst:437 ../docs/events.rst:448 ../docs/events.rst:461
 #: ../docs/events.rst:499 ../docs/events.rst:523 ../docs/events.rst:587
-#: 62b7cfd99bb346659ab0126ffb56353a 87f40ab4ef6f4f0985907434280c2ed2
-#: 8c97eaf1a82c4addb168a3664c2704c4 9140e3403cda43e09069de22c1cc5512
-#: 2714dd4ff88e4606a4bd9d5a9f37d24e 2fe48bcf0890455094a3d087a11517b8
-#: c6340cdb8bd849b4b7339a448da4f456 4a81eb17d53f492aa7bb5deedf368775
-#: 509ce63e705740c5906aae2e7a5be0b7 17a8603ae3b44ce7aee8c3fe9ca0e18b
-#: 4c3481a804fb4b8fb9e0e93902bdf38d fcdab4892d154c6185be55456270b5e5
-#: 0aa1ddc2fe8249a8850f8f74a5a2c569 f60f68b2fd964e24a845d66c3e3d2843
-#: a5a9f1f76e74496e9ec28fca55bbd4d9 b9a96282a5a84d15b7ee9337617b98c5
-#: ded473c6ddd543348f5d86082a1a4c00 ea2b87a93b7949caaead53ad18d75091
-#: aa8f02484fb242ca93010ae5238e8d36 23d6799d38484f92989d8ec2965a6abe
-#: 373dcf1e964c4956bcd87471d58e987d
+#: a806f0f2ac034c1282aa47696edab2d9 576901ee957e42ac9cd15026d330af46
+#: c5e5b68398494091a3a0738b5a78d826 771df61547824dc798244845f91ad2a0
+#: 0b3b7ef48a804032b6bbaca9b248ca21 305a1708fa6e42708cf6f59549fa131c
+#: 87c39ce285204dcaa42a842c36e1be22 039bee5a14f24f0fa3d0910a48def440
+#: dd07cb1e1587412898a23b6bd7bc35ea 098ebf2353ee4f21a74395956f852cab
+#: f8f73bf965b14498a7187ddde3513d06 e9a1a8cb80444206954a70ce604dcd96
+#: fbb7001d46634d8fafb1ae3bd660c4b7 9c3c179ed1db4d28ab64d70f78b1f69f
+#: e41b9f93469b427ea7bcb1fcbaee7ad6 71a35450119546e6ab7008c2a81d1af9
+#: 2dff876cd6f84dd681651330c766d588 9e0742c9b04f41e2bcf7b52013fc4921
+#: 24168672c35a4f1093d4781b6fce7e01 9a44177d0b1b40b4984b492c7ccfc52e
+#: 2609144cb47f4f65b020dd1f21d1c51b
 msgid "``jid`` - Chat or contact id"
 msgstr "``jid`` - id чата или контакта"
 
-#: ../docs/events.rst:41 3f44ccda4f48423fa4dad59acdc79729
+#: ../docs/events.rst:41 19d6179a144c4459ac2ca8252634238d
 msgid "client.call.leave"
 msgstr "client.call.leave"
 
-#: ../docs/events.rst:43 eb5b77993ba0414f8ef4ede7181a6cfe
+#: ../docs/events.rst:43 ad76b171009343e0ba3721a1a89f33c8
 msgid "Leave call"
 msgstr "Покинуть звонок"
 
 #: ../docs/events.rst:46 ../docs/events.rst:99 ../docs/events.rst:427
-#: 60110a60a5014fcc94d5988d9a4d479c f44d76046653428682e38bc4cf7680b1
-#: 9903c06cd0284db6ac62670b0b1f06d8
+#: 583afda206c54707a7d934f239cd5844 67f7c779b6dc467da30463b4392ac800
+#: 32b768eaa897475f9a940cb8e030eb73
 msgid "``reason`` - Reason, if any"
 msgstr "``reason`` - Причина если есть"
 
-#: ../docs/events.rst:61 5a682afe008a477ea37ffc1401058e87
+#: ../docs/events.rst:61 94de237a932a4c01b79b94df4c090f15
 msgid "client.call.muteall"
 msgstr "client.call.muteall"
 
-#: ../docs/events.rst:63 6ce48f31d36d4086bd9b323892dda02e
+#: ../docs/events.rst:63 8760111d117a4334b9c18b2e8d180f4e
 msgid "Mute all other call participants"
 msgstr "Заглушить всех других участников звонка"
 
@@ -92,107 +92,107 @@ msgstr "Заглушить всех других участников звонк
 #: ../docs/events.rst:451 ../docs/events.rst:589 ../docs/events.rst:748
 #: ../docs/events.rst:784 ../docs/events.rst:935 ../docs/events.rst:1057
 #: ../docs/events.rst:1066 ../docs/events.rst:1379
-#: 1392c1f8646042fc88e9188d1a7d479c 6d96ff7dfc2c459fbe899f0c8d934497
-#: 93edf6349b5e4333ab2181733667b6d2 c3197210dec341959a6921595e5cd9ea
-#: 84864581a27a4b7e8d0950079343afc4 1b0f42170e0246148f3dee303dfffb92
-#: ff260f8ce5e044b1aad93cfc6df836d8 6cf9ab7f60fb4ff88d9861136cc7c491
-#: 4430d5398e2848c2aa3f6c33f7c68bcf 65ad550e657a4dada049fac92b7e089d
-#: 3a8b5d09022342aa936034c48b86e45d f35ea35425384593a050f8187acbf062
-#: 14e9aa05f64541eab61d854956df2c7f 9727a7ca16574a9a8f2c4a006fe14654
+#: b43c5c1a722f47af951944492b37eea2 5d19dd1a6af04a95beb35d3438f97f33
+#: d2e8a390dc2f404d93fdf7797cdaf764 7beec61616b84463bb05f4547325efcd
+#: 6441e247ba0e434096c02332edfc4289 dbf3303622684c468be9f2e26ec80a9b
+#: 8089288b13ec41bc93ee04c61adbe339 e24ae904698e4c21acc36a28f414bceb
+#: 52c10d0355964e09a0fb1da4980624af 5bbe5d19c27f42dfa89bd04f0f491148
+#: 3c89b4e4bf94440788853ef621feac68 4e2830f879454f20ae25f660679a2178
+#: afbd2a6064db41e9b277202cbba914ce 98f22054ed1a40deb3293bd2d35be6e0
 msgid "**MISSING EXAMPLE**"
 msgstr "**ПРИМЕР ОТСУТСТВУЕТ**"
 
-#: ../docs/events.rst:70 dfcd68d2d37843d29402f1a8b10d4393
+#: ../docs/events.rst:70 6c0bc0b47dee47cb9226b9cebc4178b0
 msgid "client.call.offer"
 msgstr "client.call.offer"
 
-#: ../docs/events.rst:72 80ee6c239000456eb1bf672afd7a2cc4
+#: ../docs/events.rst:72 49ed85fd9cf54b9889c214b7440629e2
 msgid "Start a call"
 msgstr "Начать звонок"
 
 #: ../docs/events.rst:75 ../docs/events.rst:118 ../docs/events.rst:417
-#: ../docs/events.rst:449 35b3bffe36b4463c9727a96b06257240
-#: be924836917e4e31a031098f291fa80a 9c8c0213cd604f58b1d8118f466329b1
-#: bb45685fdb4a476f9321c730de89c1d2
+#: ../docs/events.rst:449 a50e39fde0724ef9b0d2383be3ebbd4e
+#: ffae9318b66d4d3eaf8222036f38d48f 42309b32ccdb4e95900c006baf39f041
+#: aa89aeec593d44a9b7348a51e77836d9
 msgid "``muted`` - Mute state"
 msgstr "``muted`` - состояние безмолвности"
 
-#: ../docs/events.rst:76 56ff922415694d1fbe66e07ee2c02e0e
+#: ../docs/events.rst:76 cd99af27a8a24506a2d0a5116f70d7e1
 msgid "``sdp`` - SDP (session description protocol) data"
 msgstr "``sdp`` - SDP (session description protocol) данные"
 
-#: ../docs/events.rst:77 4251c49c23704ddb9d19b76e4eeca60b
+#: ../docs/events.rst:77 225417d7d6c844dca932b782437d0e91
 msgid "``trickle`` - Is trickle mode enabled"
 msgstr "``trickle`` - струйный режим включен"
 
-#: ../docs/events.rst:94 a0e06749d17c4faabf692daed028dac9
+#: ../docs/events.rst:94 dc7c361d93e648f492cab1701d662883
 msgid "client.call.reject"
 msgstr "client.call.reject"
 
-#: ../docs/events.rst:96 d6ff22be0ec748b8be5752a79ffa6213
+#: ../docs/events.rst:96 42f89836596344cc9356a90b62e8dbcc
 msgid "Reject the call"
 msgstr "Отвергнуть звонок"
 
-#: ../docs/events.rst:113 7ba9d87ac8ab45a3935a92a1c209551b
+#: ../docs/events.rst:113 588edca281cc4bd1ae6354631940a17d
 msgid "client.call.sound"
 msgstr "client.call.sound"
 
-#: ../docs/events.rst:115 78f4eeee417d41e2bc2cdf2956f2ed1a
+#: ../docs/events.rst:115 7ce97fdb5fc342cbb974a65aa618f170
 msgid "Change mute state in call"
 msgstr "Поменять состояние безмолвности"
 
-#: ../docs/events.rst:133 278dbda44d464cbaa4b9a9566105dbed
+#: ../docs/events.rst:133 2bac7438468141409a2e243ebefe489a
 msgid "client.call.trickle"
 msgstr "client.call.trickle"
 
-#: ../docs/events.rst:135 c18ac8803b844f22a4ddca651f96bb5f
+#: ../docs/events.rst:135 ac9a167e17854190bf2f47ec123667e6
 msgid "Send trickle candidate for webrtc connection"
 msgstr "Послать trickle кандидата для webrtc соединения"
 
-#: ../docs/events.rst:137 b29d1a6338db44699e7fff0f879f2b60
+#: ../docs/events.rst:137 a9593ea14a764ebe85ca05d05ede18d1
 msgid "``candidate`` - Trickle candidate"
 msgstr "``candidate`` - Trickle кандидат"
 
-#: ../docs/events.rst:139 52da749576b4482c91cbfdeb15f1cc60
+#: ../docs/events.rst:139 02c5c2893d3a4c538f7d9f73c668c72a
 msgid "``sdp_mid`` - SDP mid"
 msgstr "``sdp_mid`` - SDP mid"
 
-#: ../docs/events.rst:140 6d38c874685f485fa22d6bc4f656f0f9
+#: ../docs/events.rst:140 c00ba64258594405b49ba2587fc0c8cc
 msgid "``sdp_mline_index`` - SDP index"
 msgstr "``sdp_mline_index`` - SDP индекс"
 
-#: ../docs/events.rst:157 01e153df8aaf4b63897e02cedefb6e88
+#: ../docs/events.rst:157 2a6495c85629447997c09fc1a57d6d6d
 msgid "client.chat.composing"
 msgstr "client.chat.composing"
 
-#: ../docs/events.rst:159 9c806991fd2f4138bd97980e1e234ab6
+#: ../docs/events.rst:159 28c68e1ddfed4c1d8ea8ce27754d1ed1
 msgid "Typing or recording audiomessage"
 msgstr "Пишет или записывает аудио сообщение"
 
 #: ../docs/events.rst:161 ../docs/events.rst:521
-#: 7747004a1c7c4bf4a39360d51df0db36 63652a6b7de141ea979ed498da0092c0
+#: 222d86c475ea497198f52fef80b8a920 ae286d7f8db44ca4bfcc8634bcff5b0a
 msgid "``composing`` - true = start typing / audio recording, false = stop"
 msgstr ""
 "``composing`` - true = начать писать / записывать аудио, false = остановиться"
 
-#: ../docs/events.rst:162 8610605b69a84ab58a1d5efbd8e8aeaf
+#: ../docs/events.rst:162 4246b9bc32844383bfb2403ea06f773b
 msgid "``draft`` - Message draft data"
 msgstr "``draft`` - Данные черновика сообщения"
 
 #: ../docs/events.rst:163 ../docs/events.rst:522
-#: 92169d40981341b89542bb53cc14b3e9 f543abc30a164f3a85fc067135472e40
+#: bce6579159bd4b8f802caa1b680ed7c8 b02ab7d17b3e4f5b97757ac1c441957f
 msgid "``is_audio`` - true = audiomessage, false = text typing"
 msgstr "``is_audio`` - true = аудио сообщение, false = набор текста"
 
-#: ../docs/events.rst:178 b381f11bdb3e4a34a11915efbd9fd8ad
+#: ../docs/events.rst:178 501aad891fa04e5c9a956d3ca2e50bb8
 msgid "client.chat.lastread"
 msgstr "client.chat.lastread"
 
-#: ../docs/events.rst:180 a46fe23429f74afc806ecd4a2af9f2c7
+#: ../docs/events.rst:180 9d5a9e5aece74e57a1e2a8a6ab635198
 msgid "Last read message in chat changed"
 msgstr "Последние прочитанное сообщение в чате изменилось"
 
-#: ../docs/events.rst:183 40fa8ba66e1140f6b5293933b32651f7
+#: ../docs/events.rst:183 59e511357af441a18acd324ec2d6110f
 msgid ""
 "``last_read_message_id`` - Last read message id. Omitted = last message in "
 "chat"
@@ -200,52 +200,52 @@ msgstr ""
 "``last_read_message_id`` - Id последнего прочитанного сообщения. Если нет то "
 "последние сообщение в чате"
 
-#: ../docs/events.rst:198 c06e57d14d504f33a3b7c010c63aa6b3
+#: ../docs/events.rst:198 610b0fd687284624a02e8ad86dda58bf
 msgid "client.confirm"
 msgstr "client.confirm"
 
-#: ../docs/events.rst:200 8bc0064d2ff242c198c4892b956ac4b0
+#: ../docs/events.rst:200 407bf4c2e2df40d693378d7a81c7e917
 msgid "Client confirmed server message"
 msgstr "Клиент подтвердил сообщение с сервера"
 
-#: ../docs/events.rst:202 66abb68cede243bfb1a098af5f04c310
+#: ../docs/events.rst:202 37ffb8e606794eb2b44d7e371db9494d
 msgid "``confirm_id`` - Unique identifier generated by client"
 msgstr "``confirm_id`` - Уникальный идентификатор созданный клиентом."
 
-#: ../docs/events.rst:215 eb5062f880274798b0d3be41be1e251d
+#: ../docs/events.rst:215 d37091600d0c40ee85770cf84de2590b
 msgid "client.message.deleted"
 msgstr "client.message.deleted"
 
-#: ../docs/events.rst:217 bf3fe214c6b84474948b08f09f56af13
+#: ../docs/events.rst:217 44da113eba0845919106133af946c0b8
 msgid "Message deleted"
 msgstr "Сообщение удалено"
 
 #: ../docs/events.rst:219 ../docs/events.rst:777
-#: be5175e77f2448dd8a987e63de6d08db 97abb1f8f692434da1e821bb1194f361
+#: 50d7fa2883174ae58a7c9f79cc128ca1 dced8638c722406ebe593b97ff787963
 msgid "``message_id`` - Message id"
 msgstr "``message_id`` - Id сообщения"
 
-#: ../docs/events.rst:233 afdf29b96cfd41cdb3db9d8ad311e536
+#: ../docs/events.rst:233 009cc335ce99491eb39bd2a196bdd1bb
 msgid "client.message.updated"
 msgstr "client.message.updated"
 
-#: ../docs/events.rst:235 f9965a1b6c39407398331f4ba18ca7f1
+#: ../docs/events.rst:235 acbcb1add47445d08812cd71507bfd73
 msgid "Message created or changed"
 msgstr "Сообщение создано или изменено"
 
-#: ../docs/events.rst:237 b789623922e0474aab020f9d45f89b36
+#: ../docs/events.rst:237 3b7d92fa0a2c48eeac2320f05e22bdca
 msgid "``comment`` - Deprecated"
 msgstr "``comment`` - Устарело"
 
-#: ../docs/events.rst:238 c633b73a14e746feb028542e3d478aa6
+#: ../docs/events.rst:238 c91d33db0e5d43a29b513cb96fa37024
 msgid "``content`` - Message content. Required"
 msgstr "``content`` - содержание сообщения. Обязательно"
 
-#: ../docs/events.rst:239 e8398889490b4cfda0d9a8347ecefdaf
+#: ../docs/events.rst:239 5d7f0cc62e09494d8bc909bf35e7d674
 msgid "``important`` - Important flag. Not required. Default: false"
 msgstr "``important`` - флаг важности. Не обязательно. По умолчанию: false"
 
-#: ../docs/events.rst:240 0c7ed0aa5e274c16801c12bc3b1679b5
+#: ../docs/events.rst:240 092aad4c61284b6e926928e22fa9f0a1
 msgid ""
 "``linked_messages`` - Forwarded messages (previously was for reply too). Not "
 "required"
@@ -253,11 +253,11 @@ msgstr ""
 "``linked_messages`` - Пересланные сообщения (ранее тоже были для ответа). Не "
 "требуется "
 
-#: ../docs/events.rst:241 4074e7cd532b47849303dcf48dc58b61
+#: ../docs/events.rst:241 6036b6c6655d4eea84a8b44062938ca6
 msgid "``message_id`` - Uid created by client. Recommended"
 msgstr "``message_id`` - Uid созданное клиентом. Рекомендуется"
 
-#: ../docs/events.rst:242 a20d3e8f53a34e73bf00abd7825be82d
+#: ../docs/events.rst:242 68ddda5b1e25408f991f655318d41b99
 msgid ""
 "``nopreview`` - Disable links preview generation. Not required. Default: "
 "false"
@@ -265,647 +265,647 @@ msgstr ""
 "``nopreview`` - Отключить создание предварительного просмотра ссылок. Не "
 "требуется. По умолчанию: false"
 
-#: ../docs/events.rst:243 ea74914ad1ee4a70939c6a438041a1ac
+#: ../docs/events.rst:243 a7a4cd57a9de42fab9dfcbc650443c84
 msgid "``old_style_attachment`` - Backward compatibility mode"
 msgstr "``old_style_attachment`` - Режим обратной совместимости"
 
-#: ../docs/events.rst:244 a72ad5c455e141c78a820b102c12cbf1
+#: ../docs/events.rst:244 8ef95f81fa804855a7543a7b25e2f9ae
 msgid "``reply_to`` - Replied to message id. Not required"
 msgstr "``reply_to`` - Ответил на сообщение на заданном Id. Не требуется"
 
-#: ../docs/events.rst:245 293bdb51016546b882f5f20cb129ca71
+#: ../docs/events.rst:245 e5613944ebe641148eec609bf79fa322
 msgid "``to`` - Chat, task or contact jid. Required"
 msgstr "``to`` - JID чата, задачи или контакта. Требуется"
 
-#: ../docs/events.rst:246 849a54760991426ba9131785f52da4fe
+#: ../docs/events.rst:246 b241a8853e464e639dfb54c69954a1d6
 msgid "``uploads`` - Message attachments"
 msgstr "``uploads`` - Прикрепления сообщения"
 
-#: ../docs/events.rst:271 7029d05f94e545d699916178c4fdd278
+#: ../docs/events.rst:271 2cb9c562e9b1432d96c8acce19035975
 msgid "client.ping"
 msgstr "client.ping"
 
-#: ../docs/events.rst:273 c879822cbf29491d97ff78cfabde8dad
+#: ../docs/events.rst:273 92f7cb99f9754df7b8353e05baac3778
 msgid "Empty message for checking server connection"
 msgstr "Пустое сообщение чтобы проверить статус соединения"
 
-#: ../docs/events.rst:284 b61479100f844ac1adb484b2f42d08c4
+#: ../docs/events.rst:284 42e4d69686a64ca382945bd1e2f65202
 msgid "Server events"
 msgstr "События сервера"
 
-#: ../docs/events.rst:287 218aaefbd57b4ca3abc859793d469cbf
+#: ../docs/events.rst:287 b404150b01aa4ab6926bb2478f6bfdd2
 msgid "server.call.answer"
 msgstr "server.call.answer"
 
-#: ../docs/events.rst:289 fe6a8bcaa91d4eacad415168ace451f8
+#: ../docs/events.rst:289 300b23019f00487eb88b354cb18790cf
 msgid "Call parameters"
 msgstr "Параметры звонка"
 
-#: ../docs/events.rst:291 9573a52687da4c358bf28029d4a65f94
+#: ../docs/events.rst:291 191e88ce03ce4bc8bc899b21b459c6ee
 msgid "``candidates`` - List of ICE candidates (when trickle = false)"
 msgstr "``candidates`` - Список ICE кандидатов (когда trickle = false)"
 
-#: ../docs/events.rst:293 bdd1a15a4ead453a943ba372dbb19492
+#: ../docs/events.rst:293 f8d1502cacc1416383f3ee453e3e858b
 msgid "``jsep`` - SDP data"
 msgstr "``jsep`` - SDP данные"
 
-#: ../docs/events.rst:294 9d1a23b1b160436aafc32e4068456c2c
+#: ../docs/events.rst:294 7f003ff8ab894dc5a63febacda41fc72
 msgid "``onliners`` - Current call participants"
 msgstr "``onliners`` - Текушие участники звонка"
 
 #: ../docs/events.rst:295 ../docs/events.rst:346 ../docs/events.rst:379
 #: ../docs/events.rst:428 ../docs/events.rst:439 ../docs/events.rst:465
-#: 294b9bdd7be84883aed54f2615f7d660 f6346fa408cc48fba25af98caa60de2e
-#: 168d6352615740729647afc7ca48cb36 ba08ff290cad40d0a6a26f3ab1ab9049
-#: cba4c37545414800b0fb8944c9755a72 bc6f85d93ce54e26a571219ec085ee51
+#: f3bc7b595d814b87a892c72e894aa82a 07af9497b68a4f9ba4749511dd621201
+#: f7eaeb882bb14729b43d7a9a0aa3e33e e1586b2c6b8647d48e947d622f2aac8d
+#: 0b9d769f88684e1baffa3e34d0a47d3f 91c9708fa6ec49928b26094d19091929
 msgid "``uid`` - Call id"
 msgstr "``uid`` - Id звонка"
 
-#: ../docs/events.rst:334 beb0269689b8498e96f2764c58113de8
+#: ../docs/events.rst:334 ec06f5498843479f9317a4de9a5a28f5
 msgid "server.call.buzz"
 msgstr "server.call.buzz"
 
-#: ../docs/events.rst:336 912d262f85b040409fab4c28781cb764
+#: ../docs/events.rst:336 08686a1f616c4bc2b0de54d85d1fb974
 msgid "Call buzzing"
 msgstr "Звонок гудит"
 
-#: ../docs/events.rst:338 9fade083df7541a28e82350582affdde
+#: ../docs/events.rst:338 c95d6874e1554cd9b25910429c9e2e9a
 msgid "``actor`` - Short call creator information"
 msgstr "``actor`` - Краткая информация о создателе звонка"
 
-#: ../docs/events.rst:339 06681e31e43c4229bb0196e4bfb96b6a
+#: ../docs/events.rst:339 61243a10dca94ebebbe2943bc478e076
 msgid "``buzz_timeout`` - Number of seconds for stop buzzing"
 msgstr "``buzz_timeout`` - Количество секунд до окончания звонка"
 
-#: ../docs/events.rst:340 de557d7fbde94d01b2a00728913d4079
+#: ../docs/events.rst:340 cef1f51eb2c9471588ae02772c819edf
 msgid "``chat`` - Short chat information"
 msgstr "``chat`` - Краткая информация о чате"
 
-#: ../docs/events.rst:341 4ee7db116fde4505af923330417231e3
+#: ../docs/events.rst:341 411c81c89cd745efb39dc28f69111045
 msgid "``display_name`` - Chat title"
 msgstr "``display_name`` - Титул чата"
 
-#: ../docs/events.rst:342 9a7b6887f6434cdcacac17f921376c95
+#: ../docs/events.rst:342 fd43fd28cdb141b2bc66bebd08cefae3
 msgid "``icons`` - Chat icons"
 msgstr "``icons`` - Иконки чата"
 
-#: ../docs/events.rst:344 1cfdc3e666fa4667b9dacba931a8bc6b
+#: ../docs/events.rst:344 ea5d27e99c9346a6aec80c469e4da025
 msgid "``team`` - Deprecated"
 msgstr "``team`` - Устарело"
 
-#: ../docs/events.rst:345 a98153e17c0648db97fcc7ce583e29b9
+#: ../docs/events.rst:345 d44aeb98e512487fbd983ad14459dfc3
 msgid "``teaminfo`` - Short team information"
 msgstr "``teaminfo`` - Краткая информация о команде"
 
-#: ../docs/events.rst:373 9455d8941aef440baca64cc65997d551
+#: ../docs/events.rst:373 3b5ffe91fae541fb881912cd33e7ff30
 msgid "server.call.buzzcancel"
 msgstr "server.call.buzzcancel"
 
-#: ../docs/events.rst:375 0ec81bb451ea49e995e28fd6f810881b
+#: ../docs/events.rst:375 016fecdda8ec491fbbe825434c209c21
 msgid "Call cancelled on buzzing"
 msgstr "Звонок отменен на гудке"
 
 #: ../docs/events.rst:378 ../docs/events.rst:438
-#: 53ce94aed29140a0a66f3221509c73ff 3f66a236339e4184baa89f339df5a10e
+#: 4d439abe46c741cdb50f42bafbd45caf a081630eaedc4deab8d2dd6a5c47924e
 msgid "``team`` - Team id"
 msgstr "``team`` - Id команды"
 
-#: ../docs/events.rst:393 7ba70af68dc4430a9fdc43e40ed39c7f
+#: ../docs/events.rst:393 4e77b4a6f9694a18959f057693cbee5b
 msgid "server.call.checkfingerprint"
 msgstr "server.call.checkfingerprint"
 
-#: ../docs/events.rst:395 f41bae84097b45589386d93a29b5ed28
+#: ../docs/events.rst:395 4940da17ed8845639359c5096da6713e
 msgid "Experimental function"
 msgstr "Экспериментальная функция"
 
-#: ../docs/events.rst:397 a8d43bf8ab424e76bba418f12cd6c492
+#: ../docs/events.rst:397 6fa6c87c0d854cf0b1b34b355d70e4ed
 msgid "``fingerprint`` - DOCUMENTATION MISSING"
 msgstr "``fingerprint`` - Отсутствует документация"
 
-#: ../docs/events.rst:402 995473fc6f7d4901b7c7a907e4c8dd84
+#: ../docs/events.rst:402 425dcd404c81407ab23ab321fd0db1fb
 msgid "server.call.leave"
 msgstr "server.call.leave"
 
-#: ../docs/events.rst:404 0b20dde1c0e441159f8522f5fb6dd535
+#: ../docs/events.rst:404 7788532ea2cb4a68a0efd90a8ea04737
 msgid "Participant leave a call"
 msgstr "Участник звонка покинул звонок"
 
-#: ../docs/events.rst:407 574c7f5259d04e8db27dab999d9185a3
+#: ../docs/events.rst:407 0ae238cb4e7c4ae7921e665535b7bded
 msgid "``uid`` - Call uid"
 msgstr "``uid`` - uid звонка"
 
-#: ../docs/events.rst:412 ae18c6e03ffe4e769139778c0367e96a
+#: ../docs/events.rst:412 1492444efb96497e953af0c70401cbb3
 msgid "server.call.muteall"
 msgstr "server.call.muteall"
 
-#: ../docs/events.rst:414 509f6bb6619f47e9beba79d5502f6835
+#: ../docs/events.rst:414 9126d7437bfe4c85b584fc62e55a5395
 msgid "All participants in call muted"
 msgstr "Все участники звонка заглушены"
 
-#: ../docs/events.rst:422 95d3a7b98b9640749ceffb00c9bc64f3
+#: ../docs/events.rst:422 cc85ce2ba9694b308db05f3da93544db
 msgid "server.call.reject"
 msgstr "server.call.reject"
 
-#: ../docs/events.rst:424 8a83e3ece7614854a917f356f65d3e5c
+#: ../docs/events.rst:424 e325942aa8ff4982b0aa5943c5b60508
 msgid "Call rejected"
 msgstr "Отвергнуть звонок"
 
-#: ../docs/events.rst:433 48a1ee3d128348838d175b2369ff5944
+#: ../docs/events.rst:433 6c007a81d1064ada804993bbca63240d
 msgid "server.call.restart"
 msgstr "server.call.restart"
 
-#: ../docs/events.rst:435 01e96f1108734722a932f8fc416a81b6
+#: ../docs/events.rst:435 78e03113a11b4e628e6261d5d4eae25b
 msgid "Call restarted"
 msgstr "Звонок перезапущен"
 
-#: ../docs/events.rst:444 a84229d4f3b04286a2a05d9d0cc75069
+#: ../docs/events.rst:444 7a313b849c3e4b4d9d2d9accf97845dd
 msgid "server.call.sound"
 msgstr "server.call.sound"
 
-#: ../docs/events.rst:446 1cc3ad641d1e48cf85b3fcf9108a1f88
+#: ../docs/events.rst:446 774796a5707a46a1a3d588e1d82116bb
 msgid "Mute/unmute call participant"
 msgstr "Отключить / включить микрофон участника звонка"
 
-#: ../docs/events.rst:454 caef7d9eca474350b53142476598ce8a
+#: ../docs/events.rst:454 4bf45bdb01cf4bedad68ba73b46dbe49
 msgid "server.call.state"
 msgstr "server.call.state"
 
-#: ../docs/events.rst:456 cf78d90d830b43319d35cdad4954ee7b
+#: ../docs/events.rst:456 066065bba26d4b818c8577866b3cdd3b
 msgid "Call participant number or parameters changed"
 msgstr "Параметры звонка или номер участников изменены "
 
-#: ../docs/events.rst:458 3d844aba0c40483ca2e69a00d834a2dc
+#: ../docs/events.rst:458 5af0a26a44e04a6c899c5935cea8c9b1
 msgid "``audiorecord`` - Call record enabled"
 msgstr "``audiorecord`` - Запись звонка включена"
 
-#: ../docs/events.rst:459 e35ae81162a3472ab0a729cbb2182d5e
+#: ../docs/events.rst:459 2dd21d4b7fa749889b7d58ba54e3b758
 msgid "``buzz`` - Call buzzing"
 msgstr "``buzz`` - Звонок гудит"
 
-#: ../docs/events.rst:460 3311bbb2d0214e35a796ee899cf51a7c
+#: ../docs/events.rst:460 6fadda4d607b41e596ad9b94b0336f09
 msgid "``finish`` - Call finish, if any"
 msgstr "``finish`` - Звонок окончен, если существует"
 
-#: ../docs/events.rst:462 2d1f0d869f5345fb9b1127789f8f9589
+#: ../docs/events.rst:462 3e7b154ea2cb453ab9d0e0bd1e234a1e
 msgid "``onliners`` - Call participants"
 msgstr "``onliners`` - Участники звонка"
 
-#: ../docs/events.rst:463 f6a8324fbb3c4fe8a3c4040e9a450bdb
+#: ../docs/events.rst:463 80c6977e17eb449eae560396a75685e9
 msgid "``start`` - Call start, if any"
 msgstr "``start`` - Начало звонка, если существует"
 
-#: ../docs/events.rst:464 a020be2889414ee9ae645ab7e431944f
+#: ../docs/events.rst:464 90047e53876d4532b4ba718148fdd1c1
 msgid "``timestamp`` - Event start. FIXME: why not gentime?"
 msgstr "``timestamp`` - Начало события. FIXME: why not gentime?"
 
-#: ../docs/events.rst:494 66be59bef7bd4998a2983e22fb4a7398
+#: ../docs/events.rst:494 7935425a20e346fbbc685ccde7ac9faf
 msgid "server.call.talking"
 msgstr "server.call.talking"
 
-#: ../docs/events.rst:496 aca95fcfed7a46c1ac65f19b87a79891
+#: ../docs/events.rst:496 1b8d7d786e7849b5b894805e224b38e1
 msgid "Someone talks in call"
 msgstr "Кото-то говорит в звонке"
 
 #: ../docs/events.rst:498 ../docs/events.rst:520
-#: 87f9dcaaa5ff44f9a95efcceeb9f539c 72f54e3e61e7464da4e04d11d8ca8364
+#: 4ae8e294daff4cc98d011f9ecc469e46 11b57e5df7a443ae9b1f8855f0b3291d
 msgid "``actor`` - Actor id"
 msgstr "``actor`` - Id исполнителя"
 
-#: ../docs/events.rst:500 db3066153a2b409e8bba78bcbc2cf019
+#: ../docs/events.rst:500 b7692d69271f4133b95d6e7c1313599b
 msgid "``talking`` - Is talking"
 msgstr "``talking`` - говорит сейчас?"
 
-#: ../docs/events.rst:516 5a243ca3df0a4b189919822eae2bc5c0
+#: ../docs/events.rst:516 7b6c807ee9c34273ba5ef8ad03ff60c8
 msgid "server.chat.composing"
 msgstr "server.chat.composing"
 
-#: ../docs/events.rst:518 724309b1047b4778a7759263cc000fa9
+#: ../docs/events.rst:518 754110eb3a4945da9071a5f755ef7c10
 msgid "Someone typing or recording audiomessage in chat"
 msgstr "Кто-то пишет или записывает звонок в чате"
 
-#: ../docs/events.rst:524 aca3c19071d2415bacfd4212e8ea62d4
+#: ../docs/events.rst:524 5656ae16e35f4954a3a8ac99eeb9953f
 msgid "``valid_until`` - Composing event max lifetime"
 msgstr "``valid_until`` - Максимальная длительность жизни"
 
-#: ../docs/events.rst:540 905ac8fac69742ef933d1ddb3991297d
+#: ../docs/events.rst:540 f238a086896e4a2e8a41d525981a4cff
 msgid "server.chat.deleted"
 msgstr "server.chat.deleted"
 
-#: ../docs/events.rst:542 94944749012343c0bc20e156cf4cc89b
+#: ../docs/events.rst:542 a2d38238bb8047cd8dbc0196d8fc6a39
 msgid "Chat deleted"
 msgstr "Чат удален"
 
 #: ../docs/events.rst:544 ../docs/events.rst:596 ../docs/events.rst:639
-#: ../docs/events.rst:1073 0a932c42e8d347a885b1e89430249b71
-#: 3b6d57c850184e3f85be92d28910d3dd c7463485c2e247e5854082dba12f91c4
-#: 500c36b9fe7d4fd2814870757a685462
+#: ../docs/events.rst:1073 341efd6666f84cc2997c92c2ba15dc13
+#: cf2b3572050e4a4cb94a913d0c1e8001 4f48d0f439e0461c94b693cdc1e1bba1
+#: 9c2066cd60314ef690a5dc07b9d43e6e
 msgid "``badge`` - Total number of unreads"
 msgstr "``badge`` - количество непрочитанных сообщений"
 
-#: ../docs/events.rst:545 25d029651d704b0e93ba4357f482fe19
+#: ../docs/events.rst:545 e2232ee5f6e34e66b850d3fcd6ecd11c
 msgid "``chats`` - List of deleted chats"
 msgstr "``chats`` - список удаленных чатов"
 
 #: ../docs/events.rst:546 ../docs/events.rst:598 ../docs/events.rst:641
-#: ../docs/events.rst:819 d89b751e1ef6446a9f0df0e77e250821
-#: 4b3995a6f9e84470baf3dc70b53325dc 2dc5bf06510448518515c2493bb1d18c
-#: 5414a0710d0d48f6b578e7e9a9591ae4
+#: ../docs/events.rst:819 c2ab7a2296534e1e8b988140f0b0f5cb
+#: da34cd5173224b5c9f04bb7d9f030971 5693be181c7b4c56aa659abf646690f4
+#: 000ea46dd99241bf95a91972a6b73b5a
 msgid "``team_unread`` - Current team counters"
 msgstr "``team_unread`` - количество непрочитанных в этой команде"
 
-#: ../docs/events.rst:581 303373db300b4d8c900acc21248ca745
+#: ../docs/events.rst:581 43156ef9b0c840e89cae9415c4d0c63f
 msgid "server.chat.draft"
 msgstr "server.chat.draft"
 
-#: ../docs/events.rst:583 7e6ad907806f40938e146a8b9ede4acd
+#: ../docs/events.rst:583 a5bf14d72483411daa42c67a8147cc4d
 msgid "Changed draft message in chan"
 msgstr "Черновик сообщения был изменен"
 
-#: ../docs/events.rst:585 9adc84ae95984743a32852e97559f9a5
+#: ../docs/events.rst:585 aefdcbabd43947aa8023561f7807a606
 msgid "``draft`` - Draft text"
 msgstr "``draft`` - Текст черновика"
 
-#: ../docs/events.rst:586 a9a1d0a694894a4a8c047626828f757f
+#: ../docs/events.rst:586 5a16ac3421234a3482d616196b63e39a
 msgid "``draft_num`` - Draft version. TODO: use gentime instead"
 msgstr "``draft_num`` - Версия черновика. TODO: use gentime instead"
 
-#: ../docs/events.rst:592 2aa08ca6714b4d8c94b89d58f6b747ed
+#: ../docs/events.rst:592 361d3a2470b34972903e698f871ee393
 msgid "server.chat.lastread"
 msgstr "server.chat.lastread"
 
-#: ../docs/events.rst:594 ac2b708acc86496694f03ab995721509
+#: ../docs/events.rst:594 5cbdfa0633dc43c7b36a0ac2adba3b63
 msgid "Changed last read message in chat"
 msgstr "Изменение последнего прочитанного сообщения"
 
 #: ../docs/events.rst:597 ../docs/events.rst:640
-#: 51189b1950a04ee8afce2749664cd89f fe5a571cbdfc440190d62d045d768321
+#: 2f00326218664f9cb848324428d1e116 7b34aed1f15447e19928d85b8ef15c80
 msgid "``chats`` - Chat counters"
 msgstr "``chats`` - Счетчик чата"
 
-#: ../docs/events.rst:635 9d69ffa98c904fdfb2bc94d12748c739
+#: ../docs/events.rst:635 28d8fba9260b454097f261ba59fce5f6
 msgid "server.chat.updated"
 msgstr "server.chat.updated"
 
-#: ../docs/events.rst:637 bc848f3e435148fc915207d995d7f0f9
+#: ../docs/events.rst:637 692defd9fa04460f995b354789e72691
 msgid "Chat created or updated"
 msgstr "Чат создан или обновлен"
 
-#: ../docs/events.rst:689 cb75bb331dab484895384c238d9a8a71
+#: ../docs/events.rst:689 300b4619411544fbbb3da8577fb743d7
 msgid "server.confirm"
 msgstr "server.confirm"
 
-#: ../docs/events.rst:691 99f44911fd314c7387c4f36de042b867
+#: ../docs/events.rst:691 8e22da75af83411f8e674be7222ff0ae
 msgid "Server confirmed client message"
 msgstr "Сервер потвердил сообщение клиента"
 
-#: ../docs/events.rst:693 ec736a625f7249758097637d0443d999
+#: ../docs/events.rst:693 4af3f6e638df45289d122c6be145cdf3
 msgid "``confirm_id`` - Unique id generated by server"
 msgstr "``confirm_id`` - UID созданное сервером"
 
-#: ../docs/events.rst:706 601d0e102ef044c8968ec7fbfe4a6088
+#: ../docs/events.rst:706 69b52cd613174536b7f607d45ccd1b81
 msgid "server.contact.updated"
 msgstr "server.contact.updated"
 
-#: ../docs/events.rst:708 aa0c344be02a4d498cc48ce73af1ac0d
+#: ../docs/events.rst:708 aa0966edc9f14a228075d0ca0d2c1ed8
 msgid "Contact created or updated"
 msgstr "Контакт создан или обновлен"
 
-#: ../docs/events.rst:710 6578075a4a4e458cb97215e2f8ed99bd
+#: ../docs/events.rst:710 373e5149cf07442e8cd601583b5117d6
 msgid "``contacts`` - Contact info"
 msgstr "``contacts`` - информация контакта"
 
-#: ../docs/events.rst:742 7ecbe67b768a47d897075f90f3a4bff0
+#: ../docs/events.rst:742 e47d8e19b2884eb88be3346af5bfbb9a
 msgid "server.debug"
 msgstr "server.debug"
 
-#: ../docs/events.rst:744 c1c1a598cd134373ae28ca4177554970
+#: ../docs/events.rst:744 b44d54a362ee4cccbdb15186eeb82ebe
 msgid "Debug message"
 msgstr "Отладочное сообщение"
 
-#: ../docs/events.rst:746 2f3ac21ccef843f18188191d3bad284e
+#: ../docs/events.rst:746 1de57e88148949618d1d781174860bdb
 msgid "``text`` - Debug message"
 msgstr "``text`` - Отладочное сообщение"
 
-#: ../docs/events.rst:751 027fbbe76ac0425fb45844c642c47ee0
+#: ../docs/events.rst:751 b7109c19a9b248d988509345af8b2805
 msgid "server.login"
 msgstr "server.login"
 
-#: ../docs/events.rst:753 d1b09129363c4f54a457715fc7aa968f
+#: ../docs/events.rst:753 193a24f37c32454db211623726a45ecb
 msgid "Login from other device"
 msgstr "Логин с другого устройства"
 
-#: ../docs/events.rst:755 db9726235a7242908b40162e612830d9
+#: ../docs/events.rst:755 f38e39d92ea94218ad2ae4029e3a0e60
 msgid "``device_name`` - Device name"
 msgstr "``device_name`` - имя устройства"
 
-#: ../docs/events.rst:768 f3081042c9d74f12aecdc9ab10e65860
+#: ../docs/events.rst:768 7b87242a93a04668b6074e0a07fb43be
 msgid "server.message.push"
 msgstr "server.message.push"
 
-#: ../docs/events.rst:770 acdb5b7538584a84b5ea60e0406536fd
+#: ../docs/events.rst:770 d8d9107ede574edcb9e2cdd528039ebe
 msgid "Push replacement for desktop application"
 msgstr "Проталкивание сообщения для настольного клиента"
 
-#: ../docs/events.rst:772 fefe68273da140d19dbf44c50ba58eee
+#: ../docs/events.rst:772 315dde22883b4903a383c5fa391f3e07
 msgid "``chat`` - Chat id"
 msgstr "``chat`` - Id чата"
 
-#: ../docs/events.rst:773 39e2b3cd2bef480c9f52eee41efe4085
+#: ../docs/events.rst:773 7cc5146b7a43446dbace297b27ada420
 msgid "``click_action`` - Url opened on click"
 msgstr "``click_action`` - ссылка открываемая на нажатии"
 
-#: ../docs/events.rst:774 cf437b4948924a81b0ecb4089842623c
+#: ../docs/events.rst:774 117db6f4c0974373ab4cf474e36a7e4b
 msgid "``created`` - Message creation iso datetime"
 msgstr "``created`` - время создания сообщения"
 
-#: ../docs/events.rst:775 c82d33097f0f47ec8bc14a4efe1cb4fa
+#: ../docs/events.rst:775 41f9365f234d4ed2b6835e79666240f6
 msgid "``icon_url`` - Absolute url to push icon"
 msgstr "``icon_url`` - абсолютная ссылка на иконку"
 
-#: ../docs/events.rst:776 bcbcbf2934964c7495cd73424794d44c
+#: ../docs/events.rst:776 45c3266f5ca3416394a52875a9909736
 msgid "``message`` - Push body"
 msgstr "``message`` - тело сообщения push"
 
-#: ../docs/events.rst:778 868e230be29745f2bc1ddfa25d8f96ac
+#: ../docs/events.rst:778 e69b36f840f44c029ae1acc6c3c34f5f
 msgid "``sender`` - Sender contact id"
 msgstr "``sender`` - Id контакта отправителя"
 
-#: ../docs/events.rst:779 f6ba4eb20fdc4901bbb0633f7f6e6303
+#: ../docs/events.rst:779 9c66f0bccadb40ab87a0003dda55127e
 msgid "``subtitle`` - Push subtitle"
 msgstr "``subtitle`` - субтитры push"
 
-#: ../docs/events.rst:780 c0428c128564402b91d08ec0e48cb92a
+#: ../docs/events.rst:780 532c58d9938142e39a2b68248492987f
 msgid "``tag`` - Push tag (for join pushes)"
 msgstr "``tag`` - тэг (для объединенных push)"
 
-#: ../docs/events.rst:781 3e04f4e8598845808d0212f55e87ecfb
+#: ../docs/events.rst:781 b53ee3f47d104f47a8f10777b97054db
 msgid "``team`` - Team uid"
 msgstr "``team`` - uid команды"
 
-#: ../docs/events.rst:782 b4e559632982453f9f1019af30aaef52
+#: ../docs/events.rst:782 b33ddcd16e044888bb2180e9ddcd0564
 msgid "``title`` - Push title"
 msgstr "``title`` - титул push"
 
-#: ../docs/events.rst:787 43c687875cf4463c936989a25583679a
+#: ../docs/events.rst:787 e3c50689a47b427b9676b5f9e9173030
 msgid "server.message.received"
 msgstr "server.message.received"
 
-#: ../docs/events.rst:789 0eccb663d9fe451b87ef26cfc6cc29ee
+#: ../docs/events.rst:789 58f4c92068c648c9879fab970a46b3b9
 msgid "Message received by someone in chat"
 msgstr "Сообщение полученное кем-то в чате"
 
-#: ../docs/events.rst:791 7ffbe8824d7748fab2c6dc33bc073042
+#: ../docs/events.rst:791 f21e4956dede4d159490feb9bbaa4bc4
 msgid "``messages`` - received message data"
 msgstr "``messages`` - данные полученных сообщений"
 
-#: ../docs/events.rst:811 fc299a4fc7ed4455840ebf3a3bdedc32
+#: ../docs/events.rst:811 8471faa0d0c24300996232216c0d70a5
 msgid "server.message.updated"
 msgstr "server.message.updated"
 
-#: ../docs/events.rst:813 8ad4388ae2e94925904cb3a78fd81bb6
+#: ../docs/events.rst:813 7180a3202c1e421e9ad1ab1d8c660355
 msgid "Chat message created, updated or deleted"
 msgstr "Сообщение было создано, изменено или удалено"
 
-#: ../docs/events.rst:815 823c618e3d174a909ebe93f9c18f58bf
+#: ../docs/events.rst:815 73826b63a879466b859a76dfb21d7f0f
 msgid "``badge`` - Total number of unreads, if changed"
 msgstr "``badge`` - общее количество непрочитанных, если изменено"
 
-#: ../docs/events.rst:816 5a27c14a40a54ab1a8b068af1438fc07
+#: ../docs/events.rst:816 14fc63323f37409da4b48491459d80b8
 msgid "``chat_counters`` - Chat counters"
 msgstr "``chat_counters`` - счетчик чата"
 
-#: ../docs/events.rst:817 87ab41b473b74efc9f2d2e68cd867275
+#: ../docs/events.rst:817 ae91d87c810841c8a33bddbc3b963aa7
 msgid "``delayed`` - true = silently message update, false = new message"
 msgstr ""
 "``delayed`` - true = бесшумное обновление сообщения, false = новое сообщение"
 
-#: ../docs/events.rst:818 85f02af07d2c46b2aa7ccc87f428e516
+#: ../docs/events.rst:818 c33b22b3c626408cb2d2b5a725f328cc
 msgid "``messages`` - Messages data"
 msgstr "``messages`` - данные сообщений"
 
-#: ../docs/events.rst:877 b9c548fbd36d45c4821787de2f80023a
+#: ../docs/events.rst:877 f433f523b58d4f47aa43716a7a63ec5d
 msgid "server.online"
 msgstr "server.online"
 
-#: ../docs/events.rst:879 b8055de1b30446de8ad3d2cb66b1e0f9
+#: ../docs/events.rst:879 50ff189094444d75bf33f2c6c13046a0
 msgid "Online team members and current active calls"
 msgstr "Текшие активные звонки и члены команд онлайн"
 
-#: ../docs/events.rst:881 73ad7a89ad3a472990b79cc79b6fe102
+#: ../docs/events.rst:881 7b623e29233f495c860818e1a03d4ebb
 msgid "``calls`` - Active calls"
 msgstr "``calls`` - звонки в прогрессе"
 
-#: ../docs/events.rst:882 4807fae38e6f46f4af61eac70bd68ff1
+#: ../docs/events.rst:882 8baa34f2d2124c8c9841bbf05a11dab5
 msgid "``contacts`` - Online team members"
 msgstr "``contacts`` - члены команд онлайн"
 
-#: ../docs/events.rst:906 255887cce7574312a3e854935398aa17
+#: ../docs/events.rst:906 4a27fcf6136a48a4aa4e16a170ce352b
 msgid "server.panic"
 msgstr "server.panic"
 
-#: ../docs/events.rst:908 15ac5c4328c84d649e7543294f7da58d
+#: ../docs/events.rst:908 808a0dc2ebb14c539a76e9ba14493d10
 msgid "Critical server error"
 msgstr "Критическая ошибка сервера"
 
-#: ../docs/events.rst:910 6d8aa4414a604f7fb1d54029b0bde1d9
+#: ../docs/events.rst:910 dbea93bc47564ef090e5ac8e3336d820
 msgid "``code`` - Error code"
 msgstr "``code`` - Код ошибки"
 
-#: ../docs/events.rst:911 b25c55165ce04fac949a552b87af97d9
+#: ../docs/events.rst:911 e4142d41959d4303ba81b2a64416bb55
 msgid "``debug`` - Debug message"
 msgstr "``debug`` - Отладочное сообщение"
 
-#: ../docs/events.rst:925 4b4400cbebe0409e911fe9d616e95951
+#: ../docs/events.rst:925 34f4a67943e9489e8aa096d650cc4881
 msgid "server.processing"
 msgstr "server.processing"
 
-#: ../docs/events.rst:927 87ebed4a54ac4e3ba778cd5ad42e3da8
+#: ../docs/events.rst:927 44a4ce40fa294815b4bf558826f3210c
 msgid "Status of background operation"
 msgstr "Состояние операции на заднем фоне"
 
-#: ../docs/events.rst:929 31acea8d0a0d453fa064224112b01cc8
+#: ../docs/events.rst:929 223f4adcb36a41cea8cd041a6365ad2f
 msgid "``action`` - Action name"
 msgstr "``action`` - Имя действия"
 
-#: ../docs/events.rst:930 485648b972ec4b38b43ca96beb7e5bb7
+#: ../docs/events.rst:930 4359efc63c7a447db8c4869c82ee0d1d
 msgid "``has_error`` - Has error"
 msgstr "``has_error`` - Есть ли ошибка"
 
 #: ../docs/events.rst:931 ../docs/events.rst:1386
-#: adb1304153674481b241cdd78e6864d2 82165e78e6d941f8bac515c87c4f6e50
+#: 87626743003d4bdba2d513c23587550a bf88684c96f14d8a9e531aba4b6f0031
 msgid "``message`` - Message"
 msgstr "``message`` - сообщение"
 
-#: ../docs/events.rst:932 a5c213bfc426446f99ff5573f52a34f0
+#: ../docs/events.rst:932 514ceafa8a1d4bc6b51ff19f05ed435a
 msgid "``num`` - Current processing item"
 msgstr "``num`` - количество текуще обрабатываемых предметов"
 
-#: ../docs/events.rst:933 0424abcda576452b89f9704c8e9eee68
+#: ../docs/events.rst:933 f40a2c7302b34e1eb462ab2738b91bab
 msgid "``total`` - Total processing items"
 msgstr "``total`` - Total processing items"
 
-#: ../docs/events.rst:938 33c3f11d58514850914ab73ad775ba84
+#: ../docs/events.rst:938 57d6536ec82e459590f66a08359f8e90
 msgid "server.remind.deleted"
 msgstr "server.remind.deleted"
 
-#: ../docs/events.rst:940 93c66b75c5e14f5e8cb42d94d7cc1a99
+#: ../docs/events.rst:940 bb9b2aeb314d454b8f355093450f0cf4
 msgid "Task or group remind deleted"
 msgstr "Напоминание было удалено"
 
 #: ../docs/events.rst:942 ../docs/events.rst:963 ../docs/events.rst:986
-#: dec4ee53eed745f29e2db3f0c2e8a87d bd78f10602ea4c3c8c96b24ed4448127
-#: d1a28c5f692948cd84362dfd0054d931
+#: bdfe5240ca934110aa7ddba975fd8022 e13147e7d1384a25aca648da96366e4b
+#: 8a33aee04c6f43d7b9ec746970309aee
 msgid "``reminds`` - Remind information"
 msgstr "``reminds`` - данные напоминания"
 
-#: ../docs/events.rst:959 472a352e34b6406d872e1a72eaa2d673
+#: ../docs/events.rst:959 ecfc89f7b6794a219f10404ad11eed8f
 msgid "server.remind.fired"
 msgstr "server.remind.fired"
 
-#: ../docs/events.rst:961 6d67efc6a812466c8c1656f1ff53aefe
+#: ../docs/events.rst:961 32c790413585426fa0beb98769b4cb57
 msgid "Task or group remind fired"
 msgstr "Напоминание сработало"
 
-#: ../docs/events.rst:982 d08cc0d96fd6430796fbadf2f0909aa3
+#: ../docs/events.rst:982 61342ea794cb4531ad8afe3980bae917
 msgid "server.remind.updated"
 msgstr "server.remind.updated"
 
-#: ../docs/events.rst:984 80d2962fc46841698fa533051e4750ad
+#: ../docs/events.rst:984 2b47cd06848e487d846ea9cf198693a0
 msgid "Task/group remind created or changed"
 msgstr "Напоминание обновлено"
 
-#: ../docs/events.rst:1005 f4a57894f8d743adbdb191a452224a1c
+#: ../docs/events.rst:1005 8aea2b11daf14e77b129cc0d1c5bc1be
 msgid "server.section.deleted"
 msgstr "server.section.deleted"
 
-#: ../docs/events.rst:1007 2ff7c9be83584d0eb8fb203b5118e04b
+#: ../docs/events.rst:1007 cea52189d3c7400ba0a4507c6d9852c7
 msgid "Contact section or task project deleted"
 msgstr "Секция контактов или задача была удалена"
 
 #: ../docs/events.rst:1009 ../docs/events.rst:1034
-#: ab20ad3880ab4dd3aced26984563688b 9a2c844772314324a1165501ad6aae8d
+#: c03742bbeb404ab696a226afd42dbf78 588d07a964264a259a400c230f1393c3
 msgid "``chat_type`` - Chat type"
 msgstr "``chat_type`` - Тип чата"
 
-#: ../docs/events.rst:1010 63b3aa32f2a544daac2028554cc4a6b9
+#: ../docs/events.rst:1010 9c18d7798b7c477582f59cd4b38e9bce
 msgid "``gentime`` - Deprecated"
 msgstr "``gentime`` - Устаревшее поле"
 
 #: ../docs/events.rst:1011 ../docs/events.rst:1036
-#: d2d78928292940308a06a9547cfeca3a 9b7ade5fde4b418a94e712eff64bcf85
+#: 627645e25b954a2da76ebf74ab545dc5 fd920f5c1ecd4e468b1c8518b7f0a40a
 msgid "``sections`` - Section/project info"
 msgstr "``sections`` - информация о проекте или секции"
 
-#: ../docs/events.rst:1030 e2b821d630bc41fcab09a759fd32d2b2
+#: ../docs/events.rst:1030 2096b6ede9dc44949a6e3f13712afee0
 msgid "server.section.updated"
 msgstr "server.section.updated"
 
-#: ../docs/events.rst:1032 525df753d0d64fa5bc3ee9ec0b772065
+#: ../docs/events.rst:1032 2544716672144005ad3702adfe88ce9b
 msgid "Contact section or task project created or changed"
 msgstr "Секция контактов или задача была создана или удалена"
 
-#: ../docs/events.rst:1035 3b8276686cf54c4e8c2b46006cb59950
+#: ../docs/events.rst:1035 54bd77542da844bebf83c99b4f3703ff
 msgid "``gentime`` - deprecated"
 msgstr "``gentime`` - Устаревшее поле"
 
-#: ../docs/events.rst:1051 1135feaab76044288658dec33d375efb
+#: ../docs/events.rst:1051 0646b6a44f6e41759ea6a06deea11649
 msgid "server.tag.deleted"
 msgstr "server.tag.deleted"
 
-#: ../docs/events.rst:1053 39a580558b594181b760beff16e051b0
+#: ../docs/events.rst:1053 f1ef0997408a42b7b95ed589edbf4e85
 msgid "Tag deleted"
 msgstr "Тэг удален"
 
 #: ../docs/events.rst:1055 ../docs/events.rst:1064
-#: c443a17564b34ea39f731ae1d416ae3b 0107dea9c3ce46b7b21234b6d95f16f0
+#: 632b4e87502244288885f311743b6210 429daa74b242429db2bf04b0742fc0ed
 msgid "``tags`` - Tags info"
 msgstr "``tags`` - информация о тэге"
 
-#: ../docs/events.rst:1060 38752f86c12847cd9c2bc5ad1ef6b4b7
+#: ../docs/events.rst:1060 fab15edc181848db84dfd9da707ad849
 msgid "server.tag.updated"
 msgstr "server.tag.updated"
 
-#: ../docs/events.rst:1062 6398ccd52bb44c87bd91da4e00c072d0
+#: ../docs/events.rst:1062 d9f0ac5350cd4366ac15a993fdc232e7
 msgid "Tag created or changed"
 msgstr "Тэг создан или удален"
 
-#: ../docs/events.rst:1069 7a57de5483f240d69f0093431e8ed787
+#: ../docs/events.rst:1069 582b49f207ae430b8ccb38d7dacf7357
 msgid "server.team.counters"
 msgstr "server.team.counters"
 
-#: ../docs/events.rst:1071 3bc69e0fb2944966bbab2c6905db76db
+#: ../docs/events.rst:1071 83e765f030374402afa8205959e7033e
 msgid "Counters form other teams"
 msgstr "Счетчик других комманд"
 
-#: ../docs/events.rst:1074 cb6077c839dd4824adacafaf8f591420
+#: ../docs/events.rst:1074 51f92c54efb34f8ebf6f7f75573973d9
 msgid "``teams`` - Counters"
 msgstr "``teams`` - счетчики"
 
-#: ../docs/events.rst:1224 78e5050cacd04ba0a17320f9f0a8552a
+#: ../docs/events.rst:1224 af506f0353ac4178b76fab424274e21b
 msgid "server.team.deleted"
 msgstr "server.team.deleted"
 
-#: ../docs/events.rst:1226 b3811abe087140a49509b4cdf1337f52
+#: ../docs/events.rst:1226 2905a18a8185415a85be02bf34d8a8c0
 msgid "Team archived"
 msgstr "Комманда архивирована"
 
-#: ../docs/events.rst:1228 0d380c8223be4e828d9d60d7561a4dff
+#: ../docs/events.rst:1228 f999fde8855a41b8b46c9f896e4bebb3
 msgid "``teams`` - Teams info"
 msgstr "``teams`` - информация комманд"
 
-#: ../docs/events.rst:1246 16a6c575d42c453085293189020d2fbb
+#: ../docs/events.rst:1246 cd234af06a1c41219a55925198513a26
 msgid "server.team.updated"
 msgstr "server.team.updated"
 
-#: ../docs/events.rst:1248 aaa7d989382a420bbdd94c4511e5b781
+#: ../docs/events.rst:1248 6a20de9b39aa4efb9750b7990da17f16
 msgid "Team created or changed"
 msgstr "Комманда создана или изменена"
 
-#: ../docs/events.rst:1250 65ca05a8a83f4dfca051329c0b20cf78
+#: ../docs/events.rst:1250 4c340202774445eb894157f6b68f36c3
 msgid "``teams`` - DOCUMENTATION MISSING"
 msgstr "``teams`` - отсутствует документация"
 
-#: ../docs/events.rst:1343 0e25cfce17434aeab28d39c2aecd0def
+#: ../docs/events.rst:1343 64555ef1ae9741918a75bba3838cc40a
 msgid "server.time"
 msgstr "server.time"
 
-#: ../docs/events.rst:1345 f35aca066a53454f8190a3e11b369002
+#: ../docs/events.rst:1345 d5bf4278fa5b4d5f9403956b4c170033
 msgid "Current server time"
 msgstr "Текущее время на сервере"
 
-#: ../docs/events.rst:1347 bf1cbcdada314f9c9621e8a6d40a1e6f
+#: ../docs/events.rst:1347 fd0cc0775d9745a792eaca5be74d0519
 msgid "``time`` - Current time"
 msgstr "``time`` - текущее время"
 
-#: ../docs/events.rst:1360 bdde2072ec25462fa62d8496b82b4c83
+#: ../docs/events.rst:1360 474ea65aeaae4890bd4fa1462fa660bc
 msgid "server.uisettings"
 msgstr "server.uisettings"
 
-#: ../docs/events.rst:1362 4e239f59934d4c20859f69ee17bc5068
+#: ../docs/events.rst:1362 c818cf9b7c6647cbb21a962214b7622c
 msgid "Part of UI settings changed"
 msgstr "Часть настроик интерфейса была изменена"
 
-#: ../docs/events.rst:1373 b8348aecfe49494cac6014109cf7a798
+#: ../docs/events.rst:1373 81477722d85f42a5918e3562ce293421
 msgid "server.upload.updated"
 msgstr "server.upload.updated"
 
-#: ../docs/events.rst:1375 7c551c1bbf034cbba8626d08d179b3cc
+#: ../docs/events.rst:1375 b975b9085b7b463c80ff5fc4daad5f21
 msgid "Upload object created or changed"
 msgstr "Загрузочный объект создан или изменен"
 
-#: ../docs/events.rst:1377 b4dd77cf78fe42bb96e00a70985b108c
+#: ../docs/events.rst:1377 993b7048f0f64c89999dd89af295efe8
 msgid "``uploads`` - Uploads data"
 msgstr "``uploads`` - данные загрузки"
 
-#: ../docs/events.rst:1382 48759f7ace1f4ad4b33e9a4c07e14c11
+#: ../docs/events.rst:1382 c5c2f128c8cf4fd7b723c028da071bfb
 msgid "server.warning"
 msgstr "server.warning"
 
-#: ../docs/events.rst:1384 7c746d9e8cad4759a9b650b07c86188b
+#: ../docs/events.rst:1384 67b52b76d2d74322876ad324682224d7
 msgid "Something went wrong with client message"
 msgstr "Что-то пошло не так с сообщением клиента"
 
-#: ../docs/events.rst:1387 b5441d82fe264bb4be1f1c539bc088d2
+#: ../docs/events.rst:1387 19dce8162fb64421815a3cba668abd34
 msgid "``orig`` - Debug information"
 msgstr "``orig`` - отладочная информация"
 

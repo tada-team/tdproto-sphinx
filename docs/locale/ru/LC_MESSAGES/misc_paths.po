@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-14 14:06+0300\n"
+"POT-Creation-Date: 2021-05-17 13:16+0300\n"
 "PO-Revision-Date: 2021-05-11 15:35+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -20,64 +20,64 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/misc_paths.rst:2 51e7c78c4a0a4414a214511ab074709f
+#: ../docs/misc_paths.rst:2 978f5d37244d4365a3000f2d8bafdadd
 msgid "Miscelaneos paths"
 msgstr "Остальные пути"
 
-#: ../docs/misc_paths.rst:6 3860d836115c4ad99ff530855bc135f8
+#: ../docs/misc_paths.rst:6 a9163eebe94d444a83086bdfad6ec46e
 msgid "Invitation information."
 msgstr "Информация приглашения."
 
-#: ../docs/misc_paths.rst:34 aa2ae14125494950bc4b89439667c383
+#: ../docs/misc_paths.rst:34 1db1850d98a044238e8ea5ec65b56470
 msgid ""
 "`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_join__token__preview>`__"
 msgstr ""
 
-#: ../docs/misc_paths.rst:0 18071b0d75814ec2b850295cde3e740c
+#: ../docs/misc_paths.rst:0 74fa638faf354d768924cb6bfef1c9a4
 msgid "Parameters"
 msgstr "Параметры"
 
-#: ../docs/misc_paths.rst:36 e9e010aebdf249c88093782ce78bb39a
+#: ../docs/misc_paths.rst:36 743e7e940bd5476eb2f28ba6e13bfa81
 msgid "Invite token to preview."
 msgstr "Токен предварительного просмотра."
 
-#: ../docs/misc_paths.rst:0 7b8ef19a2bba44649a92fe1afc2ff92e
-#: 407d5051522b4b71919290fabcad7102
+#: ../docs/misc_paths.rst:0 72ef317e1e2949b6bdca4843d03bdbc5
+#: 10411e7d090942eeb832bd6ed3b8dd3e
 msgid "Response JSON Object"
 msgstr "Ответный JSON объект"
 
 #: ../docs/misc_paths.rst:37 ../docs/misc_paths.rst:58
-#: c1cb1750e8544d7ab8a4ef2453b13066 ca5e9b942d604cc8ae9369ab1024092b
+#: 76e098a1da684400bc859fe9ba2f0777 39ac9d59d16a45f1821efb209edcc57f
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/misc_paths.rst:38 55babdc28a2142e08bb5f55a1a958f44
+#: ../docs/misc_paths.rst:38 d7a556a920ee42009237842c29f88f94
 msgid "Invite information."
 msgstr "Информация приглашения."
 
-#: ../docs/misc_paths.rst:42 d5dc6ddba7e9418daccce6cc6035a177
+#: ../docs/misc_paths.rst:42 b2983430a0ef469dac50031ca3c27dd4
 msgid "Ping the server."
 msgstr "Пинг запрос на сервер"
 
-#: ../docs/misc_paths.rst:44 f3c4b100ab074a249127cd9b2814f6de
+#: ../docs/misc_paths.rst:44 caeed2d5a5ec4c6788dc2ad0184382fa
 msgid "**Example response**:"
 msgstr "**Пример ответа**"
 
-#: ../docs/misc_paths.rst:56 b94021587eda4cabb4a553f40c8de00e
+#: ../docs/misc_paths.rst:56 d5b3282cc9084226887fdb6962d3497d
 msgid ""
 "`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_ping>`__"
 msgstr ""
 
-#: ../docs/misc_paths.rst:59 d5809857d1dc434593dd06c6b2076c0b
+#: ../docs/misc_paths.rst:59 21289690c74f41f181f979355b6b9bce
 msgid "Set to ``\"pong\"``."
 msgstr "Задано на \"pong\""
 
-#: ../docs/misc_paths.rst:0 6a21de4bf0314e64b4e170b188a14075
+#: ../docs/misc_paths.rst:0 4164a48c94bf4ba1a75b03518dce6703
 msgid "Status Codes"
 msgstr "Код статуса"
 
-#: ../docs/misc_paths.rst:61 8016cac8c1034e66a21f1cb43f32c868
+#: ../docs/misc_paths.rst:61 3435282bcd004f9c89f89132a7c0ec00
 msgid "No error"
 msgstr "Без ошибки"
