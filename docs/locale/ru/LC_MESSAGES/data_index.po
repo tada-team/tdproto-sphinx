@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-17 13:16+0300\n"
-"PO-Revision-Date: 2021-05-17 17:49+0300\n"
+"PO-Revision-Date: 2021-05-18 16:35+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
 "Language: ru\n"
@@ -2895,1256 +2895,1441 @@ msgid ""
 "Checked message links. In short: \"Click here: {link.Pattern}\" => \"Click "
 "here: <a href='{link.Url}'>{link.Text}</a>\""
 msgstr ""
+"Провереные ссылки в сообщениях. То есть: \"Click here: {link.Pattern}\" => "
+"\"Click here: <a href='{link.Url}'>{link.Text}</a>\""
 
 #: ../docs/data_index.rst:1164 c8391589bc9e4eb2971f51bf6dcec919
 msgid "``pattern`` (string) - Text fragment that should be replaced by link"
 msgstr ""
+"``pattern`` (string) - Фрагмент текста который должен быть замене ссылкой"
 
 #: ../docs/data_index.rst:1165 f7e22a079a9c4d40be572ef5b1f7ee26
 msgid "``url`` (string) - Internal or external link"
-msgstr ""
+msgstr "``url`` (string) - Внутренняя или внешняя ссылка"
 
 #: ../docs/data_index.rst:1166 834b05ea982e412ca6fd20de872a2616
 msgid "``text`` (string) - Text replacement"
-msgstr ""
+msgstr "``text`` (string) - Текст заменитель"
 
 #: ../docs/data_index.rst:1167 9490cf8a561849dda29630b402570455
 msgid ""
 "``preview`` (:ref:`tdproto-MessageLinkPreview`) - Optional preview info, for "
 "websites\\ . Maybe omitted\\ . Might be null"
 msgstr ""
+"``preview`` (:ref:`tdproto-MessageLinkPreview`) - Необязательная информация "
+"пред просмотра для веб сайтов\\ . Возможно поле будет отсутствовать\\ . "
+"Возможен null"
 
 #: ../docs/data_index.rst:1170 f70d2d49569a47e7adf7f31b2169e34e
 msgid ""
 "``uploads`` (:ref:`tdproto-Upload`) - Optional upload info\\ . Maybe omitted"
 msgstr ""
+"``uploads`` (:ref:`tdproto-Upload`) - Необязательная информация о загрузках"
+"\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1172 e7c1f2103d8a429e9420914967a1661c
 msgid "``nopreview`` (boolean) - Website previews disabled\\ . Maybe omitted"
 msgstr ""
+"``nopreview`` (boolean) - Предварительный просмотр сайтов отключен\\ . "
+"Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1174 3ef6a0faf09b457392e724d4e9f74e11
 msgid "``youtube_id`` (string) - Optional youtube movie id\\ . Maybe omitted"
 msgstr ""
+"``youtube_id`` (string) - Необязательный Id ролика youtube \\ . Возможно "
+"поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1180 54c2b81b4e03445aa266ceb4d950ec59
 msgid "MessageLinkPreview"
-msgstr ""
+msgstr "MessageLinkPreview"
 
 #: ../docs/data_index.rst:1182 2035053395664bd58b6fa8180619c7b9
 msgid "Website title and description"
-msgstr ""
+msgstr "Титул веб сайта и описание"
 
 #: ../docs/data_index.rst:1186 0670eb657c574d13a99f80d797ae1b18
 msgid "``title`` (string) - Website title or og:title content"
-msgstr ""
+msgstr "``title`` (string) - Титул веб сайта или og:title содержание"
 
 #: ../docs/data_index.rst:1187 6c578f5c9c04403ea17a4380bc54212a
 msgid "``description`` (string) - Website description\\ . Maybe omitted"
 msgstr ""
+"``description`` (string) - Описание веб сайта\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1193 6ea71327c8b04e39af10cc7a242aa5f2
 msgid "MessagePush"
-msgstr ""
+msgstr "MessagePush"
 
 #: ../docs/data_index.rst:1195 1bf26b06baf246339555af9f5c961b97
 msgid "Push message over websockets. Readonly"
-msgstr ""
+msgstr "Пуш сообщения через wensockets. Только для чтения"
 
 #: ../docs/data_index.rst:1199 8b454174ffe54b3cbab9947eddf48320
 msgid "``title`` (string) - Push title"
-msgstr ""
+msgstr "``title`` (string) - Титул пуша"
 
 #: ../docs/data_index.rst:1200 55d19f791a4f4572b8c2c51fb4361cfa
 msgid "``subtitle`` (string) - Push subtitle"
-msgstr ""
+msgstr "``subtitle`` (string) - Под титул"
 
 #: ../docs/data_index.rst:1201 f8e05ac430ae411e83ea156d764ba998
 msgid "``message`` (string) - Push body"
-msgstr ""
+msgstr "``message`` (string) - Тело"
 
 #: ../docs/data_index.rst:1202 4607639dd4ea4832a72811ba89ef5042
 msgid "``icon_url`` (string) - Absolute url to push icon"
-msgstr ""
+msgstr "``icon_url`` (string) - абсолютная ссылка на иконку"
 
 #: ../docs/data_index.rst:1203 b3ecc9da7cbb488d9d5177e6f6e0a31b
 msgid "``click_action`` (string) - Url opened on click"
-msgstr ""
+msgstr "``click_action`` (string) - Ссылка которая откроется при нажатии"
 
 #: ../docs/data_index.rst:1204 ec199f00e27f442fa63b94022f09c87c
 msgid "``tag`` (string) - Push tag (for join pushes)"
-msgstr ""
+msgstr "``tag`` (string) - Тэг пуша (для совместных пушей)"
 
 #: ../docs/data_index.rst:1205 02fb4ec14a1d4161aa15bd9ea7858b67
 msgid "``team`` (string) - Team uid"
-msgstr ""
+msgstr "``team`` (string) - Uid команды"
 
 #: ../docs/data_index.rst:1206 5c3f4564fd3d489182e47cb92d908af0
 msgid "``sender`` (:ref:`tdproto-JID`) - Sender contact id"
-msgstr ""
+msgstr "``sender`` (:ref:`tdproto-JID`) - Id контакта отправителя"
 
 #: ../docs/data_index.rst:1208 ../docs/data_index.rst:1314
 #: 70245b83f0a54f1bb1e9450af1172eae ec95ec4805a444edad65f1956bf0a183
 msgid "``message_id`` (string) - Message id"
-msgstr ""
+msgstr "``message_id`` (string) - Id сообщения"
 
 #: ../docs/data_index.rst:1209 c0770c3cc630433583ade2aeec7ae767
 msgid "``created`` (string) - Message creation iso datetime"
-msgstr ""
+msgstr "``created`` (string) - Дата и время создания сообщения"
 
 #: ../docs/data_index.rst:1214 b0f140e719a740d99702ac6b756cd017
 msgid "MessageReaction"
-msgstr ""
+msgstr "MessageReaction"
 
 #: ../docs/data_index.rst:1216 1f15c7261c134c84a1a5aadf4d9c1ec1
 msgid "Message emoji reaction"
-msgstr ""
+msgstr "Эмоджи реакция на сообщение"
 
 #: ../docs/data_index.rst:1220 46db82fdcf504e0b971605f325253e10
 msgid "``name`` (string) - Emoji"
-msgstr ""
+msgstr "``name`` (string) - Эмоджи"
 
 #: ../docs/data_index.rst:1221 7e83bd94f46440f8a8fa7a530f137a51
 msgid "``counter`` (number) - Number of reactions"
-msgstr ""
+msgstr "``counter`` (number) - Количество реакций"
 
 #: ../docs/data_index.rst:1222 a7a12abd920148ff8c23b21ca704d3ac
 msgid "``details`` (:ref:`tdproto-MessageReactionDetail`) - Details"
-msgstr ""
+msgstr "``details`` (:ref:`tdproto-MessageReactionDetail`) - Детали"
 
 #: ../docs/data_index.rst:1227 60e4ba5296834b199747c49f5fcffac0
 msgid "MessageReactionDetail"
-msgstr ""
+msgstr "MessageReactionDetail"
 
 #: ../docs/data_index.rst:1229 40fbadcf80744873a1e3987dd274777a
 msgid "Message reaction detail"
-msgstr ""
+msgstr "Детали реакций сообщения"
 
 #: ../docs/data_index.rst:1233 e3fb9a287aa548b884bf0fd09754e2f0
 msgid "``created`` (string) - When reaction added, iso datetime"
 msgstr ""
+"``created`` (string) - Когда сообщение было добавлено в iso дате и времени"
 
 #: ../docs/data_index.rst:1234 50d07356c23648e48c47af5fdb93d76d
 msgid "``sender`` (:ref:`tdproto-JID`) - Reaction author"
-msgstr ""
+msgstr "``sender`` (:ref:`tdproto-JID`) - Автор реакции"
 
 #: ../docs/data_index.rst:1235 d0a84933f5284c65af8cadfbcf0d6a98
 msgid "``name`` (string) - Reaction emoji"
-msgstr ""
+msgstr "``name`` (string) - Эмоджи реакции"
 
 #: ../docs/data_index.rst:1240 427012d586324af38d4daab9464e9b40
 msgid "OAuthService"
-msgstr ""
+msgstr "OAuthService"
 
 #: ../docs/data_index.rst:1242 6ed4e0157c9944efa44a0af64619dbaf
 msgid "OAuth service"
-msgstr ""
+msgstr "OAuth сервис"
 
 #: ../docs/data_index.rst:1246 78000b5f3e0f4ac8b25cfaeab583400a
 msgid "``name`` (string) - Integration title"
-msgstr ""
+msgstr "``name`` (string) - Титул интеграции"
 
 #: ../docs/data_index.rst:1247 3a12a4981ee64154ba826e8c67e2e037
 msgid "``url`` (string) - Redirect url"
-msgstr ""
+msgstr "``url`` (string) - Ссылка пере направления"
 
 #: ../docs/data_index.rst:1252 abb61a9d319e400298164e1158f87fdb
 msgid "OnlineCall"
-msgstr ""
+msgstr "OnlineCall"
 
 #: ../docs/data_index.rst:1254 e46ac0fb342b4c71adcc61a369e8590e
 msgid "Active call status"
-msgstr ""
+msgstr "Статус активного звонка"
 
 #: ../docs/data_index.rst:1258 a6ebeb0751864ca0b52cc5cf708112eb
 msgid "``jid`` (:ref:`tdproto-JID`) - Chat or contact id"
-msgstr ""
+msgstr "``jid`` (:ref:`tdproto-JID`) - Id чата или контакта"
 
 #: ../docs/data_index.rst:1259 ed300a0c795f40d0a8e55d7b645e95c5
 msgid "``uid`` (string) - Call id"
-msgstr ""
+msgstr "``uid`` (string) - Id звонка"
 
 #: ../docs/data_index.rst:1260 372806432b274a7f99aef7c8d83a1997
 msgid "``start`` (string) - Call start\\ . Maybe omitted\\ . Might be null"
 msgstr ""
+"``start`` (string) - Начало звонка\\ . Возможно поле будет отсутствовать\\ . "
+"Возможен null"
 
 #: ../docs/data_index.rst:1263 7cf94382597b4be58639ba41ec59deaf
 msgid ""
 "``online_count`` (number) - Number participants in call\\ . Maybe omitted"
 msgstr ""
+"``online_count`` (number) - Количество участников звонка\\ . Возможно поле "
+"будет отсутствовать"
 
 #: ../docs/data_index.rst:1269 79e67f9658714b3188d00d03d2b39886
 msgid "OnlineContact"
-msgstr ""
+msgstr "OnlineContact"
 
 #: ../docs/data_index.rst:1271 ab39b5d1f181481494d7ffc7d40307ba
 msgid "Contact online status"
-msgstr ""
+msgstr "Онлайн статус контакта  "
 
 #: ../docs/data_index.rst:1276 abb4c5404f7540868da44b2283c4c2a2
 msgid "``afk`` (boolean) - Is away from keyboard\\ . Maybe omitted"
 msgstr ""
+"``afk`` (boolean) - Не у клавиатуры\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1278 fd1fafc24e7f4f5eb1059b333e0d7bff
 msgid "``mobile`` (boolean) - Is mobile client"
-msgstr ""
+msgstr "``mobile`` (boolean) - Мобильный клиент?"
 
 #: ../docs/data_index.rst:1283 00220eeaee044038bab3598527c1ae68
 msgid "PdfVersion"
-msgstr ""
+msgstr "PdfVersion"
 
 #: ../docs/data_index.rst:1285 7479401d4629434c89a7e231ce9f39f5
 msgid "PDF preview of mediafile. Experimental"
-msgstr ""
+msgstr "PDF предварительный просмотр медиа файла. Экспериментально"
 
 #: ../docs/data_index.rst:1289 ../docs/data_index.rst:1770
 #: 6bc7948574134dea9bcc1a05912f14d7 4fbdd35814f446bc84331d4332f5423f
 msgid "``url`` (string) - Absolute url"
-msgstr ""
+msgstr "``url`` (string) - Абсолютная ссылка"
 
 #: ../docs/data_index.rst:1290 ef680a18e4d34bcca7eac1b0f5735c60
 msgid ""
 "``text_preview`` (string) - First string of text content\\ . Maybe omitted"
 msgstr ""
+"``text_preview`` (string) - Первая строка теста\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1296 d282fe734e8349eab6f1d57e7048faca
 msgid "Reaction"
-msgstr ""
+msgstr "Reaction"
 
 #: ../docs/data_index.rst:1298 c8f2fdfdacc24f519dd9e4ebd9183f3f
 msgid "Emoji reaction"
-msgstr ""
+msgstr "Эмоджи реакция"
 
 #: ../docs/data_index.rst:1302 13e5fa3ab89e4a0182b9ab6739f99f6f
-#, fuzzy
 msgid "``name`` (string) - Unicode symbol"
-msgstr "``role`` (string) - Роль контакта"
+msgstr "``name`` (string) - Юникод символ"
 
 #: ../docs/data_index.rst:1307 9952ae08350747778b511053d6237340
 msgid "ReceivedMessage"
-msgstr ""
+msgstr "ReceivedMessage"
 
 #: ../docs/data_index.rst:1309 305340b3b72d467b92edee32f6c109bc
 msgid "Message receiving status"
-msgstr ""
+msgstr "Статус получения сообщения"
 
 #: ../docs/data_index.rst:1313 36f5f9344e5d4836be22dc5d8992242f
 msgid "``chat`` (:ref:`tdproto-JID`) - Chat or contact id"
-msgstr ""
+msgstr "``chat`` (:ref:`tdproto-JID`) - Id чата или контакта"
 
 #: ../docs/data_index.rst:1315 d62499463aaf47c8a138b912256f01d5
 msgid "``received`` (boolean) - Is received"
-msgstr ""
+msgstr "``received`` (boolean) - Получено ли?"
 
 #: ../docs/data_index.rst:1316 b0d7859b504242e0afa3948b86ca6ceb
 msgid ""
 "``num_received`` (number) - Number of contacts received this message. "
 "Experimental\\ . Maybe omitted"
 msgstr ""
+"``num_received`` (number) - Количество контактов которые получили это "
+"сообщение. Экспериментально\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1318 04eb2d8ffb664525a62a96489d42302c
 msgid "``_debug`` (string) - Debug message, if any\\ . Maybe omitted"
 msgstr ""
+"``_debug`` (string) - Отладочное сообщение если существует\\ . Возможно поле "
+"будет отсутствовать"
 
 #: ../docs/data_index.rst:1324 ../docs/data_index.rst:1326
 #: fad2849aca11432a887df6b314f68428 aec952e6224c4b57976479212d9d72a4
 msgid "Remind"
-msgstr ""
+msgstr "Remind"
 
 #: ../docs/data_index.rst:1332 de728729884d42b59ec7f6e48a2d53b3
 msgid "``fire_at`` (string) - Activation time, iso"
-msgstr ""
+msgstr "``fire_at`` (string) - Время активации в iso дате и времени"
 
 #: ../docs/data_index.rst:1333 eaae864f00544c8b816bdaa7274e7ae0
 msgid "``comment`` (string) - Comment, if any\\ . Maybe omitted"
 msgstr ""
+"``comment`` (string) - Комментарий если существует\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1339 b03520f6c15c4fdd9865f6d510cb7653
 msgid "Section"
-msgstr ""
+msgstr "Section"
 
 #: ../docs/data_index.rst:1341 dbd3f3a55ae34aa68c7eea7c36ad0dd7
 msgid "Task project or contact section"
-msgstr ""
+msgstr "Задача проекта или секция контакта"
 
 #: ../docs/data_index.rst:1346 3a5bac6e9b3c4b1da661a43ccdf10c4c
 msgid "``sort_ordering`` (number) - Sort ordering"
-msgstr ""
+msgstr "``sort_ordering`` (number) - Порядок сортирования"
 
 #: ../docs/data_index.rst:1347 ab4423aa1a7c40619cf5104ce359a6b8
 msgid "``name`` (string) - Name"
-msgstr ""
+msgstr "``name`` (string) - Имя"
 
 #: ../docs/data_index.rst:1349 c69334cce0434106905f4279a2bf090c
 msgid "``description`` (string) - Description, if any\\ . Maybe omitted"
 msgstr ""
+"``description`` (string) - Описание если существует\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1351 e86c99fdee7647ef88c17e15bd5a5b64
 msgid "``is_archive`` (boolean) - Is deleted\\ . Maybe omitted"
 msgstr ""
+"``is_archive`` (boolean) - Было ли удалено?\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1357 ce24e549c248416692a08986a704b92b
 msgid "Session"
-msgstr ""
+msgstr "Session"
 
 #: ../docs/data_index.rst:1359 f6eb853007a64d9591b14408ac59b897
 msgid "Websocket session"
-msgstr ""
+msgstr "Websocket сессия"
 
 #: ../docs/data_index.rst:1363 a46063facdb14d33bb6d1b632e5acf76
 msgid "``uid`` (string) - Session id"
-msgstr ""
+msgstr "``uid`` (string) - Id сессии"
 
 #: ../docs/data_index.rst:1364 b70004e78a054ce9b1322117831f48b3
 msgid "``created`` (string) - Creation datetime"
-msgstr ""
+msgstr "``created`` (string) - Дата и время создания"
 
 #: ../docs/data_index.rst:1365 bdad9f7eb26a4da398c60dbe0cfcde83
 msgid "``lang`` (string) - Language code\\ . Maybe omitted"
-msgstr ""
+msgstr "``lang`` (string) - Код языка\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1367 47258d554f9745beae1b2757352c5d43
 msgid "``team`` (string) - Team id\\ . Maybe omitted"
-msgstr ""
+msgstr "``team`` (string) - Id команды\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1369 7931ccd0aa3a4084b843c20c218e3bf5
 msgid "``is_mobile`` (boolean) - Mobile\\ . Maybe omitted"
 msgstr ""
+"``is_mobile`` (boolean) - Мобыльный?\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1371 5bd8680f5aa941b4ad953917330240ac
 msgid "``afk`` (boolean) - Away from keyboard\\ . Maybe omitted"
 msgstr ""
+"``afk`` (boolean) - Не у клавиатуры\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1373 5c255ffb58234691a525cb24929f18c9
 msgid "``useragent`` (string) - User agent\\ . Maybe omitted"
 msgstr ""
+"``useragent`` (string) - User agent\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1375 5c7715a8f13643248cb92a149940f67e
 msgid "``addr`` (string) - IP address\\ . Maybe omitted"
-msgstr ""
+msgstr "``addr`` (string) - IP адрес\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1381 3e36100dce0c44c4af4a8d8aa98367af
 msgid "ShortMessage"
-msgstr ""
+msgstr "ShortMessage"
 
 #: ../docs/data_index.rst:1383 a611d744c5c84320ac4a6fbe5bf11c55
 msgid "Short message based on chat message"
-msgstr ""
+msgstr "Короткое сообщение основанное на сообщении чата"
 
 #: ../docs/data_index.rst:1400 5c4e5bc3ae474441902b08ff50f573f3
 msgid "SingleIcon"
-msgstr ""
+msgstr "SingleIcon"
 
 #: ../docs/data_index.rst:1402 8cacc6b05f5041ce8caaece34a494923
 msgid "Small or large icon"
-msgstr ""
+msgstr "Большая или маленькая иконка"
 
 #: ../docs/data_index.rst:1406 56299c8f3b3243dca9037a24d84ea98b
 msgid "``url`` (string) - absolute url to icon"
-msgstr ""
+msgstr "``url`` (string) - абсолютная ссылка на иконку"
 
 #: ../docs/data_index.rst:1407 e21a7fcb844c46099854edb12034c386
 msgid "``width`` (number) - Icon width, in pixels"
-msgstr ""
+msgstr "``width`` (number) - Ширина иконки в пикселях"
 
 #: ../docs/data_index.rst:1408 b03fe015e3ac4c919a92c6000f6e7b7f
 msgid "``height`` (number) - Icon height, in pixels"
-msgstr ""
+msgstr "``height`` (number) - Высота иконки в пикселях"
 
 #: ../docs/data_index.rst:1413 6bed49fc8e71453f8b834a12fbc01e28
 msgid "Subtask"
-msgstr ""
+msgstr "Subtask"
 
 #: ../docs/data_index.rst:1415 521e54423d654045810c55b720c7d1cd
 msgid "Link to sub/sup task"
-msgstr ""
+msgstr "Ссылка на под задачу"
 
 #: ../docs/data_index.rst:1419 c1626c054cc34a0fb94b8799b67c6c6a
 msgid "``jid`` (:ref:`tdproto-JID`) - Task id"
-msgstr ""
+msgstr "``jid`` (:ref:`tdproto-JID`) - Id задачи"
 
 #: ../docs/data_index.rst:1420 1171b64f81954f3abdbbf694b6b5d140
 msgid "``assignee`` (:ref:`tdproto-JID`) - Assignee contact id. Tasks only"
 msgstr ""
+"``assignee`` (:ref:`tdproto-JID`) - Id доверенного контакта. Только в задачах"
 
 #: ../docs/data_index.rst:1421 21d7a262034a4eb581b8f3d5233c070e
 msgid "``title`` (string) - Task title. Generated from number and description"
-msgstr ""
+msgstr "``title`` (string) - Титул задачи. Создается из номера и описания"
 
 #: ../docs/data_index.rst:1422 1e96de0d73a44f11a1ed2259ae576b30
 msgid "``num`` (number) - Task number in this team"
-msgstr ""
+msgstr "``num`` (number) - Номер задачи в этой команде"
 
 #: ../docs/data_index.rst:1430 a07f21517b5e4d0aa91187707855fa8e
 msgid "SwitcherColors"
-msgstr ""
+msgstr "SwitcherColors"
 
 #: ../docs/data_index.rst:1432 5da8f6074e3841e7826747a25b87ecaa
 msgid "Switcher colors for app"
-msgstr ""
+msgstr "Переключатель цветов в приложении"
 
 #: ../docs/data_index.rst:1436 a193f30f4b3a484983127a2ae8370be1
 msgid "``on`` (:ref:`tdproto-RGBColor`) - On color"
-msgstr ""
+msgstr "``on`` (:ref:`tdproto-RGBColor`) - Цвет включения"
 
 #: ../docs/data_index.rst:1437 39d2d375e412453fb9b825548b7ab116
 msgid "``off`` (:ref:`tdproto-RGBColor`) - Off color"
-msgstr ""
+msgstr "``off`` (:ref:`tdproto-RGBColor`) - Цвет выключения"
 
 #: ../docs/data_index.rst:1442 e2a651638d7e4a4994ccd571747c72c6
 msgid "Tag"
-msgstr ""
+msgstr "Tag"
 
 #: ../docs/data_index.rst:1444 f8505021729c41a3b54370156e83ffd9
 msgid "Task tag"
-msgstr ""
+msgstr "Тэг задачи"
 
 #: ../docs/data_index.rst:1449 3a4553e42bc046f7b5bb87061089f2b2
 msgid "``name`` (string) - Tag name"
-msgstr ""
+msgstr "``name`` (string) - Имя тэга"
 
 #: ../docs/data_index.rst:1454 178a3c9429e248a294c262568d143df5
 msgid "TaskColor"
-msgstr ""
+msgstr "TaskColor"
 
 #: ../docs/data_index.rst:1456 c248522d6f5b4ca699ea774434f076e2
 msgid "Task color rules color"
-msgstr ""
+msgstr "Правило цветов задач"
 
 #: ../docs/data_index.rst:1460 3b591b54069e4faa9fc11a6dc8f5d037
 msgid "``regular`` (:ref:`tdproto-RGBColor`) - Regular color"
-msgstr ""
+msgstr "``regular`` (:ref:`tdproto-RGBColor`) - Обычный цвет"
 
 #: ../docs/data_index.rst:1461 7265bade4f3d44f3bc8f83630bdb0460
 msgid "``dark`` (:ref:`tdproto-RGBColor`) - Dark color"
-msgstr ""
+msgstr "``dark`` (:ref:`tdproto-RGBColor`) - Темный цвет"
 
 #: ../docs/data_index.rst:1462 daf4e57813a445158ad709421fa56d47
 msgid "``light`` (:ref:`tdproto-RGBColor`) - Light color"
-msgstr ""
+msgstr "``light`` (:ref:`tdproto-RGBColor`) - Светлый цвет"
 
 #: ../docs/data_index.rst:1467 5d51de8e842147f38a5d373d1da2e85b
 msgid "TaskCounters"
-msgstr ""
+msgstr "TaskCounters"
 
 #: ../docs/data_index.rst:1469 ea1169e883fe4f299bd8c40a9954a580
 msgid "Tasks counters"
-msgstr ""
+msgstr "Счетчики задач"
 
 #: ../docs/data_index.rst:1473 280300d2563a4d0eb2ba0c7a43e7361b
 msgid "``jid`` (:ref:`tdproto-JID`) - Task jid"
-msgstr ""
+msgstr "``jid`` (:ref:`tdproto-JID`) - jid задачи"
 
 #: ../docs/data_index.rst:1474 e838f7f1b2ef45aaa6280d3f70600c7b
 msgid "``num_unread`` (number) - Unreads counter\\ . Maybe omitted"
 msgstr ""
+"``num_unread`` (number) - Счетчик непрочитанных\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1482 fcdc5b7355354f7ea68dbecb6d89a0b9
 msgid "TaskFilter"
-msgstr ""
+msgstr "TaskFilter"
 
 #: ../docs/data_index.rst:1484 03bfd5886e0147388e6b2bed0cc756ec
 msgid "Task filter"
-msgstr ""
+msgstr "Фильтр задач"
 
 #: ../docs/data_index.rst:1488 c77a14d904e541c69f3a1a1bfa2e614c
 msgid "``field`` (:ref:`tdproto-TaskFilterKey`) - Task filter field"
-msgstr ""
+msgstr "``field`` (:ref:`tdproto-TaskFilterKey`) - Поле фильтра задач"
 
 #: ../docs/data_index.rst:1489 b969487ef90e4673be4ac8db87817856
 msgid "``title`` (string) - Filter title"
-msgstr ""
+msgstr "``title`` (string) - Титул фильтра"
 
 #: ../docs/data_index.rst:1494 258b87bce4924d5eaf9e785cc6df30b0
 msgid "TaskItem"
-msgstr ""
+msgstr "TaskItem"
 
 #: ../docs/data_index.rst:1496 2d15a93a155f4cb0b2321d748ff6c6d5
 msgid "Task checklist item"
-msgstr ""
+msgstr "Предмет чеклиста задачи"
 
 #: ../docs/data_index.rst:1502 9073d6a061f74d159df6f7e7cf3c7604
 msgid "``sort_ordering`` (number) - Sort ordering\\ . Maybe omitted"
 msgstr ""
+"``sort_ordering`` (number) - Порядок сортирования\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1504 214b1a934a894960ad16a86afcf85416
 msgid "``text`` (string) - Text or \"#{OtherTaskNumber}\""
-msgstr ""
+msgstr "``text`` (string) - Текст или \"#{OtherTaskNumber}\""
 
 #: ../docs/data_index.rst:1505 4f6027e1e877486aa9a2020150693ddc
 msgid "``checked`` (boolean) - Item checked\\ . Maybe omitted"
 msgstr ""
+"``checked`` (boolean) - Отмечено выполнимым\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1507 e70262984ae543569f3343c3c76f4357
 msgid "``can_toggle`` (boolean) - Can I toggle this item\\ . Maybe omitted"
 msgstr ""
+"``can_toggle`` (boolean) - Могу ли я отметить этот предмет\\ . Возможно поле "
+"будет отсутствовать"
 
 #: ../docs/data_index.rst:1509 075f9e78619344e0929344a1d9f862a1
 msgid ""
 "``subtask`` (:ref:`tdproto-Subtask`) - Link to subtask. Optional\\ . Maybe "
 "omitted\\ . Might be null"
 msgstr ""
+"``subtask`` (:ref:`tdproto-Subtask`) - Ссылка на подзадачу. Необязательно"
+"\\ . Возможно поле будет отсутствовать\\ . Возможен null"
 
 #: ../docs/data_index.rst:1516 36ff46cc07644c21b2c5e1be950c419b
 msgid "TaskSort"
-msgstr ""
+msgstr "TaskSort"
 
 #: ../docs/data_index.rst:1518 9a1b37ab17f742ba82c0e27a745e3394
 msgid "Task sort type"
-msgstr ""
+msgstr "Тип сортировки задачи"
 
 #: ../docs/data_index.rst:1522 4aea1a0ba5354250a0ea1b2767423ef6
 msgid "``key`` (:ref:`tdproto-TaskSortKey`) - Field"
-msgstr ""
+msgstr "``key`` (:ref:`tdproto-TaskSortKey`) - Поле"
 
 #: ../docs/data_index.rst:1523 6c51108322cc4d4899197adfe402aeb0
 msgid "``title`` (string) - Sort title"
-msgstr ""
+msgstr "``title`` (string) - Титул сортировки"
 
 #: ../docs/data_index.rst:1528 ba82c24ee5544fa1b0ee808c4573b45c
 msgid "TaskStatus"
-msgstr ""
+msgstr "TaskStatus"
 
 #: ../docs/data_index.rst:1530 1180b11256ac4b6d9583dd917daecda7
 msgid "Custom task status"
-msgstr ""
+msgstr "Настраиваемый статус задачи"
 
 #: ../docs/data_index.rst:1534 2d1f7ca04b75497eb27acc7203c26f52
 msgid "``uid`` (string) - Status id\\ . Maybe omitted"
-msgstr ""
+msgstr "``uid`` (string) - Id статуса\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1536 20602ae19a874d63b05095988aa190d4
 msgid "``sort_ordering`` (number) - Status sort ordering"
-msgstr ""
+msgstr "``sort_ordering`` (number) - Порядок сортирования статуса"
 
 #: ../docs/data_index.rst:1537 2269419554c9409c8347fe23b5cc8373
 msgid "``name`` (string) - Status internal name"
-msgstr ""
+msgstr "``name`` (string) - Внутреннее имя статуса"
 
 #: ../docs/data_index.rst:1538 acfb10ebda594498b0c3efb376d86c55
 msgid "``title`` (string) - Status localized name"
-msgstr ""
+msgstr "``title`` (string) - Локализованное имя статуса"
 
 #: ../docs/data_index.rst:1539 cd2de4de1fda426191f048084ecdf8d0
 msgid "``is_archive`` (boolean) - Status not used anymore\\ . Maybe omitted"
 msgstr ""
+"``is_archive`` (boolean) - Статус больше не используется\\ . Возможно поле "
+"будет отсутствовать"
 
 #: ../docs/data_index.rst:1545 b9b9fca865ec49a2ab7a8bb4d9d3e1f9
 msgid "TaskTab"
-msgstr ""
+msgstr "TaskTab"
 
 #: ../docs/data_index.rst:1547 f930ab03897341ac8d54ec4ae6e8a91b
 msgid "Task tab"
-msgstr ""
+msgstr "Вкладка задачи"
 
 #: ../docs/data_index.rst:1551 d16213cb0f114898aa72255324b63b26
 msgid "``key`` (:ref:`tdproto-TaskTabKey`) - Tab name"
-msgstr ""
+msgstr "``key`` (:ref:`tdproto-TaskTabKey`) - Имя вкладки"
 
 #: ../docs/data_index.rst:1552 5bbaf2cb970d45df82a11cd801cdb439
 msgid "``title`` (string) - Tab title"
-msgstr ""
+msgstr "``title`` (string) - Титул вкладки"
 
 #: ../docs/data_index.rst:1553 81e8bd5c031142a9b8fc4b9df12a5076
 msgid "``hide_empty`` (boolean) - Disable this tab when it has no contents"
-msgstr ""
+msgstr "``hide_empty`` (boolean) - Отключить ли вкладку если нет содержания"
 
 #: ../docs/data_index.rst:1554 cdb47792db60483caae76323559a3319
 msgid "``show_counter`` (boolean) - Show unread badge"
-msgstr ""
+msgstr "``show_counter`` (boolean) - Показывать значок непрочитанных"
 
 #: ../docs/data_index.rst:1555 80bc1880d9db4e1fbeb9188eaefedbe8
 msgid "``pagination`` (boolean) - Enable pagination"
-msgstr ""
+msgstr "``pagination`` (boolean) - Включить страницы"
 
 #: ../docs/data_index.rst:1556 9a1f6060e95b4bb29df55b512c9ab5aa
 msgid "``filters`` (:ref:`tdproto-TaskFilter`) - Filters inside tab"
-msgstr ""
+msgstr "``filters`` (:ref:`tdproto-TaskFilter`) - Фильтры внутри вкладки"
 
 #: ../docs/data_index.rst:1557 3e40ea361ba345b5b6982e8eac8449d3
 msgid "``sort`` (:ref:`tdproto-TaskSort`) - Sort available in tab"
-msgstr ""
+msgstr "``sort`` (:ref:`tdproto-TaskSort`) - Сортировка доступна в вкладке"
 
 #: ../docs/data_index.rst:1558 ec1736691f42420b9dfa4a6291254037
 msgid ""
 "``unread_tasks`` (:ref:`tdproto-TaskCounters`) - Unread tasks with jid and "
 "counters"
 msgstr ""
+"``unread_tasks`` (:ref:`tdproto-TaskCounters`) - Jid непрочитанных задач и "
+"счетчики"
 
 #: ../docs/data_index.rst:1563 ../docs/data_index.rst:1565
 #: a451cf99d9954505a982c71b1b3c32ab 784d965b025e4daa8e7a94f3f39f14ec
 msgid "Team"
-msgstr ""
+msgstr "Team"
 
 #: ../docs/data_index.rst:1570 62c630f0e38047bb9e0f6bafb4fe256b
 msgid "``is_archive`` (boolean) - Team deleted\\ . Maybe omitted"
 msgstr ""
+"``is_archive`` (boolean) - Команда была удалена\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1573 ../docs/data_index.rst:1642
 #: 129758d232b142aea2d489484b25770e 2fe1227a21ac433186df97759aa0c472
 msgid "``name`` (string) - Team name"
-msgstr ""
+msgstr "``name`` (string) - Название команды"
 
 #: ../docs/data_index.rst:1574 54936f9a5e6f44c98fc665e3314de04e
 msgid ""
 "``default_task_deadline`` (string) - Default task deadline\\ . Maybe omitted"
 msgstr ""
+"``default_task_deadline`` (string) - Дедлайн задач по умолчанию\\ . Возможно "
+"поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1576 78c6195d5e484fd3bd83ab3bc80da873
 msgid ""
 "``max_message_update_age`` (number) - Max message update/deletion age, in "
 "seconds"
 msgstr ""
+"``max_message_update_age`` (number) - Максимальное время обновления или "
+"удаления сообщений в секундах"
 
 #: ../docs/data_index.rst:1577 ../docs/data_index.rst:1643
 #: 9650d6fdce5f4942a1467cdda89ce248 03332cb0e8dd4dcfa349be2e79e16249
 msgid "``icons`` (:ref:`tdproto-IconData`) - Team icons"
-msgstr ""
+msgstr "``icons`` (:ref:`tdproto-IconData`) - Иконки команды"
 
 #: ../docs/data_index.rst:1578 2626b3bf77d042ddb74bee57e458fbef
 msgid "``last_active`` (boolean) - User last activity was in this team"
 msgstr ""
+"``last_active`` (boolean) - Последняя активность пользователя была в этой "
+"команде"
 
 #: ../docs/data_index.rst:1579 3b61e085b2c44a419a19e5f6e258e521
 msgid ""
 "``changeable_statuses`` (:ref:`tdproto-TeamStatus`) - What status I can set "
 "to other team members\\ . Maybe omitted"
 msgstr ""
+"``changeable_statuses`` (:ref:`tdproto-TeamStatus`) - Какие статусы я могу "
+"задавать другим участникам команды\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1581 79206d09c0ac418db4b653cab70d0b30
 msgid ""
 "``bad_profile`` (boolean) - My profile in this team isn't full\\ . Maybe "
 "omitted"
 msgstr ""
+"``bad_profile`` (boolean) - Мой профиль в этой команде не полноценный\\ . "
+"Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1583 eb0688f051e94734a3a9312a3c26a318
 msgid ""
 "``need_confirmation`` (boolean) - Need confirmation after invite to this team"
 msgstr ""
+"``need_confirmation`` (boolean) - Нудно подтверждение после приглашения в "
+"эту комманду"
 
 #: ../docs/data_index.rst:1584 6556b3f7dee04ac7af8d1c1e0ab668df
 msgid ""
 "``use_patronymic`` (boolean) - Patronymic in usernames for this team\\ . "
 "Maybe omitted"
 msgstr ""
+"``use_patronymic`` (boolean) - Использовать отчество в именах пользователей "
+"этой команды\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1586 02c0dc053562413b82ebe4bcc9be3784
 msgid "``user_fields`` (string) - Username fields ordering"
-msgstr ""
+msgstr "``user_fields`` (string) - Порядок сортировки полей пользователей"
 
 #: ../docs/data_index.rst:1587 920142f6657347e7ab311e45c1efee1c
 msgid ""
 "``display_family_name_first`` (boolean) - Family name should be first in "
 "display name\\ . Maybe omitted"
 msgstr ""
+"``display_family_name_first`` (boolean) - Фамилия должна быть первой в "
+"отображаемом имени\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1589 2a547ec6225640f8aa82bc3c22833d5b
 msgid ""
 "``use_task_importance`` (boolean) - Use importance field in task\\ . Maybe "
 "omitted"
 msgstr ""
+"``use_task_importance`` (boolean) - Использовать поле значимости в задачах"
+"\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1591 14915d86bc2c46a7841593c08016a571
 msgid ""
 "``task_importance_min`` (number) - Minimal value of task importance. Default "
 "is 1\\ . Maybe omitted"
 msgstr ""
+"``task_importance_min`` (number) - Минимальное значение важности. По "
+"умолчанию 1\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1593 94353285c1f44ba2b57db3e20df9aeee
 msgid ""
 "``task_importance_max`` (number) - Maximum value of task importance. Default "
 "is 5\\ . Maybe omitted"
 msgstr ""
+"``task_importance_max`` (number) - Максимальное значение важности задач. По "
+"умолчанию 5\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1595 535785061a014d84ad411092eefde4d5
 msgid ""
 "``task_importance_rev`` (boolean) - Bigger number = bigger importance. "
 "Default: lower number = bigger importance\\ . Maybe omitted"
 msgstr ""
+"``task_importance_rev`` (boolean) - Большая величина значит важнее. По "
+"умолчанию: меньшая величина значить важнее\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1597 cce9d9301f7f434b8fdd422cc409c309
 msgid ""
 "``use_task_urgency`` (boolean) - Use urgency field in task\\ . Maybe omitted"
 msgstr ""
+"``use_task_urgency`` (boolean) - Использовать поле срочности в задачах\\ . "
+"Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1599 2343c91e303543a5a598a99ee3c3dd1c
 msgid ""
 "``use_task_complexity`` (boolean) - Use complexity field in task\\ . Maybe "
 "omitted"
 msgstr ""
+"``use_task_complexity`` (boolean) - Использовать поле сложности в задачах"
+"\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1601 0e59478ce895472eb6110c242ffa4fbf
 msgid ""
 "``use_task_spent_time`` (boolean) - Use spent time field in task\\ . Maybe "
 "omitted"
 msgstr ""
+"``use_task_spent_time`` (boolean) - Использовать затраченное время в задачах"
+"\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1603 9bb309ec0c314cb0a94aba0fcf25a222
 msgid "``uploads_size`` (number) - Total uploads size, bytes\\ . Maybe omitted"
 msgstr ""
+"``uploads_size`` (number) - Всеобщий размер загрузок в байтах\\ . Возможно "
+"поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1605 f841caaa799f45be9c63fca76e90d218
 msgid ""
 "``uploads_size_limit`` (number) - Maximum uploads size, bytes, if any\\ . "
 "Maybe omitted"
 msgstr ""
+"``uploads_size_limit`` (number) - Максимальный размер загрузок в байтах если "
+"существует\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1607 9ac9601769864e06a90aa5dc5b2f52a7
 msgid ""
 "``unread`` (:ref:`tdproto-TeamUnread`) - Unread message counters\\ . Might "
 "be null"
 msgstr ""
+"``unread`` (:ref:`tdproto-TeamUnread`) - Счетчик непрочитанных сообщений\\ . "
+"Возможен null"
 
 #: ../docs/data_index.rst:1609 dae4f8e589f24e9ba2d2d2363bf10bec
 msgid "``me`` (:ref:`tdproto-Contact`) - My profile in this team"
-msgstr ""
+msgstr "``me`` (:ref:`tdproto-Contact`) - Мой профиль в этой комманде"
 
 #: ../docs/data_index.rst:1610 f18b4d7c9c6349c586147033a1c8ac4e
 msgid ""
 "``contacts`` (:ref:`tdproto-Contact`) - Team contacts. Used only for team "
 "creation\\ . Maybe omitted"
 msgstr ""
+"``contacts`` (:ref:`tdproto-Contact`) - Контакты команды. Только "
+"используется при создании комманды\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1612 02286574567a4704960022759bacbda4
 msgid ""
 "``single_group`` (:ref:`tdproto-JID`) - For single group teams, jid of chat"
 "\\ . Maybe omitted"
 msgstr ""
+"``single_group`` (:ref:`tdproto-JID`) - Для команд с одной группой jid чата"
+"\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1614 fb6dc40c202c40099a8e7187ca58fb2d
 msgid ""
 "``theme`` (:ref:`tdproto-Theme`) - Color theme, if any\\ . Maybe omitted\\ . "
 "Might be null"
 msgstr ""
+"``theme`` (:ref:`tdproto-Theme`) - Цветовая тема если существует\\ . "
+"Возможно поле будет отсутствовать\\ . Возможен null"
 
 #: ../docs/data_index.rst:1617 3102ecff1ab14f6580035a49d0deda90
 msgid ""
 "``hide_archived_users`` (boolean) - Don't show archived users by default\\ . "
 "Maybe omitted"
 msgstr ""
+"``hide_archived_users`` (boolean) - Не показывать архивированных "
+"пользователей по умолчанию\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1623 218ba9693a18431297f3bbe22944db2c
 msgid "TeamCounter"
-msgstr ""
+msgstr "TeamCounter"
 
+# ERROR?
 #: ../docs/data_index.rst:1625 ../docs/data_index.rst:1747
 #: 6ebff1132e8146fa868a6778004ea733 5517a8c605e445c7abee85b0f56aca6c
 msgid "Unread message counters"
-msgstr ""
+msgstr "Счетчик непрочитанных сообщений"
 
 #: ../docs/data_index.rst:1630 e83ab3adcb164361816dd1646e3205b0
 msgid "``unread`` (:ref:`tdproto-TeamUnread`) - Unread message counters"
 msgstr ""
+"``unread`` (:ref:`tdproto-TeamUnread`) - Счетчики непрочитанных сообщений"
 
 #: ../docs/data_index.rst:1635 763f8e2a29874335a2f663de0471b510
 msgid "TeamShort"
-msgstr ""
+msgstr "TeamShort"
 
 #: ../docs/data_index.rst:1637 e31094cd12d94a61a6dcd7cbc6518326
 msgid ""
 "Short team representation. For invites, push notifications, etc. Readonly"
 msgstr ""
+"Сокращенное представление команды. Для приглашений, пуш уведомлений, и так "
+"далее. Только для чтения"
 
 #: ../docs/data_index.rst:1648 de90821d0b154bd580d998ff495ab75d
 msgid "Terms"
-msgstr ""
+msgstr "Terms"
 
 #: ../docs/data_index.rst:1650 7b8011224d5c4777a0c9d09896d823df
 msgid "Experimental translation fields for \"team\" entity renaming. Readonly"
-msgstr ""
+msgstr "Экспериментальная локализация команд. Только для чтения"
 
 #: ../docs/data_index.rst:1654 82d013deb8ea4e1db8619499d1422b70
 msgid "``EnInTeam`` (string) - \"in team\""
-msgstr ""
+msgstr "``EnInTeam`` (string) - \"in team\""
 
 #: ../docs/data_index.rst:1655 1c63ddc825b34168bd81e47737e1ebb6
 msgid "``EnTeam`` (string) - \"team\""
-msgstr ""
+msgstr "``EnTeam`` (string) - \"team\""
 
 #: ../docs/data_index.rst:1656 c63c81ef65ca4e26a31ad75adf4fbd1a
 msgid "``EnTeamAccess`` (string) - \"access to team\""
-msgstr ""
+msgstr "``EnTeamAccess`` (string) - \"access to team\""
 
 #: ../docs/data_index.rst:1657 87d0a1338fac49c2bc8ab990f963085c
 msgid "``EnTeamAdmin`` (string) - \"team admin\""
-msgstr ""
+msgstr "``EnTeamAdmin`` (string) - \"team admin\""
 
 #: ../docs/data_index.rst:1658 e706fa73389b442096b27cb7f75fbbd3
 msgid "``EnTeamAdmins`` (string) - \"team admins\""
-msgstr ""
+msgstr "``EnTeamAdmins`` (string) - \"team admins\""
 
 #: ../docs/data_index.rst:1659 fa4b7d0287664137b5fa2ffd0c6cf58e
 msgid "``EnTeamGuest`` (string) - \"team guest\""
-msgstr ""
+msgstr "``EnTeamGuest`` (string) - \"team guest\""
 
 #: ../docs/data_index.rst:1660 69fd4575eddf4c49b57161fe01bbd748
 msgid "``EnTeamMember`` (string) - \"team member\""
-msgstr ""
+msgstr "``EnTeamMember`` (string) - \"team member\""
 
 #: ../docs/data_index.rst:1661 0e0625963a3f420abba0c2a99979e83d
 msgid "``EnTeamMembers`` (string) - \"team members\""
-msgstr ""
+msgstr "``EnTeamMembers`` (string) - \"team members\""
 
 #: ../docs/data_index.rst:1662 51b661d77c144459aa5264a03227374a
 msgid "``EnTeamOwner`` (string) - \"team owner\","
-msgstr ""
+msgstr "``EnTeamOwner`` (string) - \"team owner\","
 
 #: ../docs/data_index.rst:1663 e947aa514b2b4f8ba6f071f7e41162f5
 msgid "``EnTeamSettings`` (string) - \"team settings\""
-msgstr ""
+msgstr "``EnTeamSettings`` (string) - \"team settings\""
 
 #: ../docs/data_index.rst:1664 3ebb551c5fdb4091a965f9a60eeda955
 msgid "``RuTeamSettings`` (string) - \"настройки команды\""
-msgstr ""
+msgstr "``RuTeamSettings`` (string) - \"настройки команды\""
 
 #: ../docs/data_index.rst:1665 9cc88ca92541466bb1f948789e638efe
 msgid "``EnTeams`` (string) - \"teams\""
-msgstr ""
+msgstr "``EnTeams`` (string) - \"teams\""
 
 #: ../docs/data_index.rst:1666 2a4255cb365a41c68c5e709b0d0dfbb7
 msgid "``EnToTeam`` (string) - \"to team\""
-msgstr ""
+msgstr "``EnToTeam`` (string) - \"to team\""
 
 #: ../docs/data_index.rst:1667 da4fdd44afd94bdc943d6ff7b1501fe2
 msgid "``RuInTeam`` (string) - \"в команде\""
-msgstr ""
+msgstr "``RuInTeam`` (string) - \"в команде\""
 
 #: ../docs/data_index.rst:1668 b7b59280e1634dbe9451b25ce70b1c54
 msgid "``RuTeam`` (string) - \"команда\""
-msgstr ""
+msgstr "``RuTeam`` (string) - \"команда\""
 
 #: ../docs/data_index.rst:1669 b3adee86d310488793e8c9906e13b674
 msgid "``RuTeamAccess`` (string) - \"доступ к команде\""
-msgstr ""
+msgstr "``RuTeamAccess`` (string) - \"доступ к команде\""
 
 #: ../docs/data_index.rst:1670 3bc3833412504c8dab21dc5be3516330
 msgid "``RuTeamAdmin`` (string) - \"администратор команды\""
-msgstr ""
+msgstr "``RuTeamAdmin`` (string) - \"администратор команды\""
 
 #: ../docs/data_index.rst:1671 05771b39756b4d648bb8124251b23e19
 msgid "``RuTeamAdmins`` (string) - \"администраторы команды\""
-msgstr ""
+msgstr "``RuTeamAdmins`` (string) - \"администраторы команды\""
 
 #: ../docs/data_index.rst:1672 d82570cbbf384104af774fb8fd58a114
 msgid "``RuTeamD`` (string) - \"команде\""
-msgstr ""
+msgstr "``RuTeamD`` (string) - \"команде\""
 
 #: ../docs/data_index.rst:1673 6b8ee652727145538b4b81650de58d4e
 msgid "``RuTeamGuest`` (string) - \"гость команды\""
-msgstr ""
+msgstr "``RuTeamGuest`` (string) - \"гость команды\""
 
 #: ../docs/data_index.rst:1674 b300e510233d49e499e93ef5f3d2a943
 msgid "``RuTeamMember`` (string) - \"участник команды\""
-msgstr ""
+msgstr "``RuTeamMember`` (string) - \"участник команды\""
 
 #: ../docs/data_index.rst:1675 a53c8ea1392344718ffaa56598978e70
 msgid "``RuTeamMembers`` (string) - \"участники команды\""
-msgstr ""
+msgstr "``RuTeamMembers`` (string) - \"участники команды\""
 
 #: ../docs/data_index.rst:1676 de7aacb585c8489a94e4b32a8d384e24
 msgid "``RuTeamOwner`` (string) - \"владелец команды\""
-msgstr ""
+msgstr "``RuTeamOwner`` (string) - \"владелец команды\""
 
 #: ../docs/data_index.rst:1677 e38d92f091d24b549bcb92fe25d3fe86
 msgid "``RuTeamP`` (string) - \"команде\""
-msgstr ""
+msgstr "``RuTeamP`` (string) - \"команде\""
 
 #: ../docs/data_index.rst:1678 a84003780831469ea12960a3377882f8
 msgid "``RuTeamR`` (string) - \"команды\""
-msgstr ""
+msgstr "``RuTeamR`` (string) - \"команды\""
 
 #: ../docs/data_index.rst:1679 78d51a10730f4f1f994880a1c3352233
 msgid "``RuTeams`` (string) - \"команды\""
-msgstr ""
+msgstr "``RuTeams`` (string) - \"команды\""
 
 #: ../docs/data_index.rst:1680 dfa61a9bbcb64b4f9d19f75f8a09dd12
 msgid "``RuTeamsD`` (string) - \"командам\""
-msgstr ""
+msgstr "``RuTeamsD`` (string) - \"командам\""
 
 #: ../docs/data_index.rst:1681 a40708bcae4f4d478b66f3843fb51ab0
 msgid "``RuTeamsP`` (string) - \"командах\""
-msgstr ""
+msgstr "``RuTeamsP`` (string) - \"командах\""
 
 #: ../docs/data_index.rst:1682 887a010b93424fb2af2f8270953973ef
 msgid "``RuTeamsR`` (string) - \"команд\""
-msgstr ""
+msgstr "``RuTeamsR`` (string) - \"команд\""
 
 #: ../docs/data_index.rst:1683 f5218490c84347bb84f5e7837f9a615b
 msgid "``RuTeamsT`` (string) - \"командами\""
-msgstr ""
+msgstr " "
 
 #: ../docs/data_index.rst:1684 2d1048bba6db4290bf9c7b55b9c1f042
 msgid "``RuTeamsV`` (string) - \"команды\""
-msgstr ""
+msgstr "``RuTeamsV`` (string) - \"команды\""
 
 #: ../docs/data_index.rst:1685 6f26daeccbeb40109c041c544bc473a2
 msgid "``RuTeamT`` (string) - \"командой\""
-msgstr ""
+msgstr "``RuTeamT`` (string) - \"командой\""
 
 #: ../docs/data_index.rst:1686 321ad258ba234902907ed758a791486a
 msgid "``RuTeamV`` (string) - \"команду\""
-msgstr ""
+msgstr "``RuTeamV`` (string) - \"команду\""
 
 #: ../docs/data_index.rst:1687 b2a1bff22135415085c5711315d82b8f
 msgid "``RuToTeam`` (string) - \"в команду\""
-msgstr ""
+msgstr "``RuToTeam`` (string) - \"в команду\""
 
 #: ../docs/data_index.rst:1692 bd12a00cfe5e4737a210a33696f130e4
 msgid "Theme"
-msgstr ""
+msgstr "Theme"
 
 #: ../docs/data_index.rst:1694 14ff97eb1f51456dad915753f759f675
 msgid "Color theme"
-msgstr ""
+msgstr "Цветовая тема"
 
 #: ../docs/data_index.rst:1698 c79c1ce9c39245e992e8d18668661f05
 msgid "``BgColor`` (:ref:`tdproto-RGBColor`) - BgColor for web"
 msgstr ""
+"``BgColor`` (:ref:`tdproto-RGBColor`) - Цвет заднего фона для веб приложения"
 
 #: ../docs/data_index.rst:1699 30843938ca1e428fb5994f4a77eb9ad0
 msgid "``BgHoverColor`` (:ref:`tdproto-RGBColor`) - BgHoverColor for web"
 msgstr ""
+"``BgHoverColor`` (:ref:`tdproto-RGBColor`) - Цвет наведения заднего фона для "
+"веб приложения"
 
 #: ../docs/data_index.rst:1700 da169247381d43809865d7d0d7c07018
 msgid "``TextColor`` (:ref:`tdproto-RGBColor`) - TextColor for web"
 msgstr ""
+"``TextColor`` (:ref:`tdproto-RGBColor`) - Цвет текста для веб приложения"
 
 #: ../docs/data_index.rst:1701 3ddf0a3caa674d85a837d8fa20d6b317
 msgid "``MutedTextColor`` (:ref:`tdproto-RGBColor`) - MutedTextColor for web"
 msgstr ""
+"``MutedTextColor`` (:ref:`tdproto-RGBColor`) - Цвет заглушенного текста для "
+"веб приложения"
 
 #: ../docs/data_index.rst:1702 3c8e3358fa494ff3b2fe3558629f6b18
 msgid "``AccentColor`` (:ref:`tdproto-RGBColor`) - AccentColor for web"
 msgstr ""
+"``AccentColor`` (:ref:`tdproto-RGBColor`) - Цвет ударения для веб приложения"
 
 #: ../docs/data_index.rst:1703 a9d2f782bdcc4695b80d1b51555b369b
 msgid ""
 "``AccentHoverColor`` (:ref:`tdproto-RGBColor`) - AccentHoverColor for web"
 msgstr ""
+"``AccentHoverColor`` (:ref:`tdproto-RGBColor`) - Цвет наведения "
+"подчеркивания для веб приложения"
 
 #: ../docs/data_index.rst:1704 b2b87bb37f63490e86f6bc522272c19d
 msgid ""
 "``TextOnAccentHoverColor`` (:ref:`tdproto-RGBColor`) - "
 "TextOnAccentHoverColor for web"
 msgstr ""
+"``TextOnAccentHoverColor`` (:ref:`tdproto-RGBColor`) - Цвет наведения "
+"подчеркивания текста для веб приложения"
 
 #: ../docs/data_index.rst:1705 2cf9718eaf894e7f885a6d038c3af3bf
 msgid "``MainAccent`` (:ref:`tdproto-RGBColor`) - MainAccent for web"
 msgstr ""
+"``MainAccent`` (:ref:`tdproto-RGBColor`) - Цвет главный подчеркивания для "
+"веб приложения"
 
 #: ../docs/data_index.rst:1706 116c7784e2ba4cc6bad4306979cc476e
 msgid "``MainAccentHover`` (:ref:`tdproto-RGBColor`) - MainAccentHover for web"
 msgstr ""
+"``MainAccentHover`` (:ref:`tdproto-RGBColor`) - Цвет главный подчеркивания "
+"наведения для веб приложения"
 
 #: ../docs/data_index.rst:1707 b8b05f90349a459a8271a698b1cb3b8c
 msgid "``MainLightAccent`` (:ref:`tdproto-RGBColor`) - MainLightAccent for web"
 msgstr ""
+"``MainLightAccent`` (:ref:`tdproto-RGBColor`) - Цвет легкий подчеркивания "
+"для веб приложения"
 
 #: ../docs/data_index.rst:1708 c17af628bc1d49eb8e8a37cde673cee0
 msgid "``MainLink`` (:ref:`tdproto-RGBColor`) - MainLink for web"
 msgstr ""
+"``MainLink`` (:ref:`tdproto-RGBColor`) - Цвет главных ссылок для веб "
+"приложения"
 
 #: ../docs/data_index.rst:1709 f28bc16140754cd19d3f49757fec570a
 msgid "``brand`` (:ref:`tdproto-RGBColor`) - Brand color for app"
-msgstr ""
+msgstr "``brand`` (:ref:`tdproto-RGBColor`) - Цвет бренда для приложения"
 
 #: ../docs/data_index.rst:1710 33277cfc358a4b14ad154010239c5c2e
 msgid "``brand_dark`` (:ref:`tdproto-RGBColor`) - BrandDark color for app"
 msgstr ""
+"``brand_dark`` (:ref:`tdproto-RGBColor`) - Цвет темный бренда для приложения"
 
 #: ../docs/data_index.rst:1711 cf3cae6e0362494c86c4cb3c484f5ee2
 msgid "``brand_light`` (:ref:`tdproto-RGBColor`) - Brand light color for app"
 msgstr ""
+"``brand_light`` (:ref:`tdproto-RGBColor`) - Цвет светлый бренда для "
+"приложения"
 
 #: ../docs/data_index.rst:1712 e3d8c67caab845ee86a859ac762e84c0
 msgid "``back`` (:ref:`tdproto-RGBColor`) - Back light color for app"
-msgstr ""
+msgstr "``back`` (:ref:`tdproto-RGBColor`) - Цвет заднего фона для приложения"
 
 #: ../docs/data_index.rst:1713 5bf91c5f33e6445aa830593cef6a8ce6
 msgid "``back_light`` (:ref:`tdproto-RGBColor`) - Back light color for app"
 msgstr ""
+"``back_light`` (:ref:`tdproto-RGBColor`) - Цвет светлого заднего фона для "
+"приложения"
 
 #: ../docs/data_index.rst:1714 f09e57b0dc504e8c8a4a5c281089abbb
 msgid "``back_dark`` (:ref:`tdproto-RGBColor`) - Back dark color for app"
 msgstr ""
+"``back_dark`` (:ref:`tdproto-RGBColor`) - Цвет темного заднего фона для "
+"приложения"
 
 #: ../docs/data_index.rst:1715 f1460efc7927421089fd799bf28d39d3
 msgid "``success`` (:ref:`tdproto-RGBColor`) - Success color for app"
-msgstr ""
+msgstr "``success`` (:ref:`tdproto-RGBColor`) - Цвет успеха для приложения"
 
 #: ../docs/data_index.rst:1716 987ecb4a26084fcdad367ec981d8f24c
 msgid ""
 "``success_light`` (:ref:`tdproto-RGBColor`) - Success light color for app"
 msgstr ""
+"``success_light`` (:ref:`tdproto-RGBColor`) - Цвет успеха светлый для "
+"приложения"
 
 #: ../docs/data_index.rst:1717 9ae31f5a17ae4161955115899abecb57
 msgid "``error`` (:ref:`tdproto-RGBColor`) - Error color for app"
-msgstr ""
+msgstr "``error`` (:ref:`tdproto-RGBColor`) - Цвет ошибки для приложения"
 
 #: ../docs/data_index.rst:1718 08272677a5b247718215a98af3ab6dc9
 msgid "``error_light`` (:ref:`tdproto-RGBColor`) - Error light color for app"
 msgstr ""
+"``error_light`` (:ref:`tdproto-RGBColor`) - Цвет ошибки светлый для "
+"приложения"
 
 #: ../docs/data_index.rst:1719 d4241b2d5f184db584ec0b813fd32872
 msgid "``background`` (:ref:`tdproto-RGBColor`) - Background color for app"
 msgstr ""
+"``background`` (:ref:`tdproto-RGBColor`) - Цвет заднего фона для приложения"
 
 #: ../docs/data_index.rst:1720 b2ca9e34e936479994c4462bf588c040
 msgid ""
 "``tab_background`` (:ref:`tdproto-RGBColor`) - Tab background color for app"
 msgstr ""
+"``tab_background`` (:ref:`tdproto-RGBColor`) - Цвет заднего фона закладок "
+"для приложения"
 
 #: ../docs/data_index.rst:1721 eed98913327b43d6bcb7723dfe73b0f4
 msgid ""
 "``chat_input_background`` (:ref:`tdproto-RGBColor`) - Chat input background "
 "color for app"
 msgstr ""
+"``chat_input_background`` (:ref:`tdproto-RGBColor`) - Цвет заднего фона окна "
+"ввода текста сообщения для приложения"
 
 #: ../docs/data_index.rst:1722 0d7e544135bf441f81d2174a15187d67
 msgid ""
 "``substrate_background`` (:ref:`tdproto-RGBColor`) - Substrate background "
 "color for app"
 msgstr ""
+"``substrate_background`` (:ref:`tdproto-RGBColor`) - Цвет субстрата заднего "
+"фона для приложения"
 
 #: ../docs/data_index.rst:1723 7eac40df719b4e04b35bdeeabf27355d
 msgid ""
 "``modal_background`` (:ref:`tdproto-RGBColor`) - Modal background color for "
 "app"
 msgstr ""
+"``modal_background`` (:ref:`tdproto-RGBColor`) - Модульный цвет заднего фона "
+"для приложения"
 
 #: ../docs/data_index.rst:1724 88a5c6c5a5704d3abda7dd5dc6bc241f
 msgid ""
 "``title_background`` (:ref:`tdproto-RGBColor`) - Title background color for "
 "app"
 msgstr ""
+"``title_background`` (:ref:`tdproto-RGBColor`) - Цвет заднего фона титула "
+"для приложения"
 
 #: ../docs/data_index.rst:1725 b4201ea0f40f45359d4d9032759038a4
 msgid "``attention`` (:ref:`tdproto-RGBColor`) - Attention color for app"
-msgstr ""
+msgstr "``attention`` (:ref:`tdproto-RGBColor`) - Цвет внимания для приложения"
 
 #: ../docs/data_index.rst:1726 584dff5e1ef945a5af9881343721ab2c
 msgid ""
 "``attention_light`` (:ref:`tdproto-RGBColor`) - Attention light color for app"
 msgstr ""
+"``attention_light`` (:ref:`tdproto-RGBColor`) - Цвет внимания светлый для "
+"приложения"
 
 #: ../docs/data_index.rst:1727 e8a212bf8d314634a9aad846286bfd18
 msgid ""
 "``font`` (:ref:`tdproto-FontColors`) - Font colors for app\\ . Might be null"
 msgstr ""
+"``font`` (:ref:`tdproto-FontColors`) - Цвет шрифтов для приложения\\ . "
+"Возможен null"
 
 #: ../docs/data_index.rst:1729 2fa0334f89c748069b5b467f7fe2c610
 msgid ""
 "``message`` (:ref:`tdproto-MessageColors`) - Message colors for app\\ . "
 "Might be null"
 msgstr ""
+"``message`` (:ref:`tdproto-MessageColors`) - Цвет сообщений для приложений"
+"\\ . Возможен null"
 
 #: ../docs/data_index.rst:1731 01a3cf7261c547cd809385737bff50d8
 msgid ""
 "``switcher`` (:ref:`tdproto-SwitcherColors`) - Switcher colors for app\\ . "
 "Might be null"
 msgstr ""
+"``switcher`` (:ref:`tdproto-SwitcherColors`) - Переключаемые цвета для "
+"приложения\\ . Возможен null"
 
 #: ../docs/data_index.rst:1733 bdaf88bfd92045918e1ce9f2ea26b92b
 msgid ""
 "``button`` (:ref:`tdproto-ButtonColors`) - Button colors for app\\ . Might "
 "be null"
 msgstr ""
+"``button`` (:ref:`tdproto-ButtonColors`) - Цвет кнопок для приложения\\ . "
+"Возможен null"
 
 #: ../docs/data_index.rst:1735 c4efc2ee790c489cbdb14d378b91d533
 msgid ""
 "``input`` (:ref:`tdproto-InputColors`) - Input colors for app\\ . Might be "
 "null"
 msgstr ""
+"``input`` (:ref:`tdproto-InputColors`) - Цвета ввода для приложения\\ . "
+"Возможен null"
 
 #: ../docs/data_index.rst:1737 427fc5238b4942dd870508c64aedb214
 msgid ""
 "``ic`` (:ref:`tdproto-IconColors`) - Icon colors for app\\ . Might be null"
 msgstr ""
+"``ic`` (:ref:`tdproto-IconColors`) - Цвет иконок для прилодения\\ . Возможен "
+"null"
 
 #: ../docs/data_index.rst:1739 94236a376c55450983df8b9329996d01
 msgid "``AppAccentColor`` (:ref:`tdproto-RGBColor`) - Deprecated"
-msgstr ""
+msgstr "``AppAccentColor`` (:ref:`tdproto-RGBColor`) - Устарело"
 
 #: ../docs/data_index.rst:1740 d50a934502c84613b6c57da1f9eccac4
 msgid "``AppPrimaryColor`` (:ref:`tdproto-RGBColor`) - Deprecated"
-msgstr ""
+msgstr "``AppPrimaryColor`` (:ref:`tdproto-RGBColor`) - Устарело"
 
 #: ../docs/data_index.rst:1745 5830e2877c5b4a3ea43e6881ff93dfd8
 msgid "Unread"
-msgstr ""
+msgstr "Unread"
 
 #: ../docs/data_index.rst:1751 dcdffbffb439444e8aafe42176b39db0
 msgid "``messages`` (number) - Total unread messages"
-msgstr ""
+msgstr "``messages`` (number) - Общее количество не прочитанных сообщений"
 
 #: ../docs/data_index.rst:1752 15b82c1fee6747c9bef2943dce064dd5
 msgid "``notice_messages`` (number) - Total unread messages with mentions"
 msgstr ""
+"``notice_messages`` (number) - Общее количество непрочитанных сообщений с "
+"упоминаниями"
 
 #: ../docs/data_index.rst:1753 e41a99dd6cdd4337923794f21ea88d47
 msgid "``chats`` (number) - Total chats with unread messages"
 msgstr ""
+"``chats`` (number) - Общее количество чатов с непрочитанными сообщениями"
 
 #: ../docs/data_index.rst:1758 b41da7317e40400181320b123bd68179
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 #: ../docs/data_index.rst:1760 715c4911207747c09357440b41159fd2
 msgid "Uploaded media"
-msgstr ""
+msgstr "Загруженные медиа"
 
 #: ../docs/data_index.rst:1764 ba9ca544e0074900bcf7fffa5a5ab1ec
 msgid "``uid`` (string) - Upload id"
-msgstr ""
+msgstr "``uid`` (string) - Id загрузки"
 
 #: ../docs/data_index.rst:1765 13adcd1218d5484887dba09c689840ee
 msgid "``created`` (string) - Uploaded at"
-msgstr ""
+msgstr "``created`` (string) - Во-сколько загружено"
 
 #: ../docs/data_index.rst:1766 ed48625cdfdf4f42bd0b28cc170982f7
 msgid "``size`` (number) - Upload size in bytes"
-msgstr ""
+msgstr "``size`` (number) - Размер загрузки в байтах"
 
 #: ../docs/data_index.rst:1767 4d0060effb6a4a758dc654a87e465170
 msgid ""
 "``duration`` (number) - Mediafile duration (for audio/video only)\\ . Maybe "
 "omitted"
 msgstr ""
+"``duration`` (number) - Длительность (только для аудио или видео)\\ . "
+"Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1769 260cabf295c14519beda956fd770df61
 msgid "``name`` (string) - Filename"
-msgstr ""
+msgstr "``name`` (string) - Имя файла"
 
 #: ../docs/data_index.rst:1771 8da7281d0e3148cd9ee7b83fc9675600
 msgid ""
 "``preview`` (:ref:`tdproto-UploadPreview`) - Preview details\\ . Maybe "
 "omitted\\ . Might be null"
 msgstr ""
+"``preview`` (:ref:`tdproto-UploadPreview`) - Детали предварительного "
+"просмотра\\ . Возможно поле будет отсутствовать\\ . Возможен null"
 
 #: ../docs/data_index.rst:1774 324cca6503a24649afa0888048bb5cdd
 msgid "``content_type`` (string) - Content type"
-msgstr ""
+msgstr "``content_type`` (string) - Тип содержания"
 
 #: ../docs/data_index.rst:1775 f71d5e7b3620473da21b50fd479551fe
 msgid "``animated`` (boolean) - Is animated (images only)\\ . Maybe omitted"
 msgstr ""
+"``animated`` (boolean) - Анимировано ли? (только для изображений)\\ . "
+"Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1777 26fbdb10c8e14a368d17551ec08006f6
 msgid ""
 "``blurhash`` (string) - Compact representation of a placeholder for an image "
 "(images only)\\ . Maybe omitted"
 msgstr ""
+"``blurhash`` (string) - Плотное представление заменителя изображения (только "
+"для изображений)\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1779 c7c468a5b2e24b87b3322d68800f695d
 msgid ""
 "``processing`` (boolean) - File still processing (video only)\\ . Maybe "
 "omitted"
 msgstr ""
+"``processing`` (boolean) - Файл еще обрабатывается (только для видео)\\ . "
+"Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1781 ad8faf3c4cb34021b0f9bc58588877cd
 msgid ""
 "``pdf_version`` (:ref:`tdproto-PdfVersion`) - PDF version of file. "
 "Experimental\\ . Maybe omitted\\ . Might be null"
 msgstr ""
+"``pdf_version`` (:ref:`tdproto-PdfVersion`) - PDF версия файла. "
+"Экспериментально\\ . Возможно поле будет отсутствовать\\ . Возможен null"
 
 #: ../docs/data_index.rst:1784 940316cb66184e68a8283e3ce2c0d15e
 msgid ""
 "``type`` (:ref:`tdproto-UploadMediaType`) - ?type=file,image,audio,video"
 msgstr ""
+"``type`` (:ref:`tdproto-UploadMediaType`) - Тип. Либо вилео, либо "
+"изображение, либо аудио, либо файл..."
 
 #: ../docs/data_index.rst:1789 47e11b03d96742c3a0499c767403006e
 msgid "UploadPreview"
-msgstr ""
+msgstr "UploadPreview"
 
 #: ../docs/data_index.rst:1791 925c80abd27340f1b9ac431e17628372
 msgid "Upload preview"
-msgstr ""
+msgstr "Предварительный просмотр загрузки"
 
 #: ../docs/data_index.rst:1795 2435f7fc730e434cb84f7c3404970d42
 msgid "``url`` (string) - Absolute url to image"
-msgstr ""
+msgstr "``url`` (string) - абсолютная ссылка на изображение"
 
 #: ../docs/data_index.rst:1796 22b5b8ba4a444fa6a634c7113cf0fc6c
 msgid "``url_2x`` (string) - Absolute url to high resolution image (retina)"
 msgstr ""
+"``url_2x`` (string) - Абсолютная ссылка на изображение высокого разрешения"
 
 #: ../docs/data_index.rst:1797 9af11f8dc396430e81d5f8204e74e740
 msgid "``width`` (number) - Width in pixels"
-msgstr ""
+msgstr "``width`` (number) - Ширина в пикселях"
 
 #: ../docs/data_index.rst:1798 5eb099ca74fc4cc6900ef7c8f25ff753
 msgid "``height`` (number) - Height in pixels"
-msgstr ""
+msgstr "``height`` (number) - Высота в пикселях"
 
 #: ../docs/data_index.rst:1803 25645af2410d4c70826b2db2ae8ea7ff
 msgid "UploadShortMessage"
-msgstr ""
+msgstr "UploadShortMessage"
 
 #: ../docs/data_index.rst:1805 c7e13ffbf95d4d08af6cb7287b406d22
 msgid "Upload + ShortMessage"
-msgstr ""
+msgstr "Загрузка + короткое сообщение"
 
 #: ../docs/data_index.rst:1809 2ae5f8a3a69443f680850e0bb0bf6265
 msgid "``upload`` (:ref:`tdproto-Upload`) - Upload information"
-msgstr ""
+msgstr "``upload`` (:ref:`tdproto-Upload`) - Информация о загрузке"
 
 #: ../docs/data_index.rst:1810 4f7a42dc9c6d4ef5be8427da1465a72a
 msgid "``message`` (:ref:`tdproto-ShortMessage`) - Short message information"
 msgstr ""
+"``message`` (:ref:`tdproto-ShortMessage`) - Коротка информация о сообщении"
 
 #: ../docs/data_index.rst:1815 533c9d05141c4e9191f16ebfcd824ca8
 msgid "User"
-msgstr ""
+msgstr "User"
 
 #: ../docs/data_index.rst:1817 b8598190b46a47dd9a87a79fc164a054
 msgid "Account data"
-msgstr ""
+msgstr "Данные учетной записи"
 
 #: ../docs/data_index.rst:1821 ../docs/data_index.rst:1857
 #: fce8064866fd4f79bb27226b2811a117 14a3017791d94768b9c023807562893d
 msgid "``phone`` (string) - Phone for login\\ . Maybe omitted"
 msgstr ""
+"``phone`` (string) - Телефон для входа\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1823 ../docs/data_index.rst:1859
 #: 7e34357455094659b4da6c1b9c9bd580 078188ab4cba4972854cc8f182d7b9f4
 msgid "``email`` (string) - Email for login\\ . Maybe omitted"
 msgstr ""
+"``email`` (string) - Email для входа\\ . Возможно поле будет отсутствовать"
 
 #: ../docs/data_index.rst:1831 ../docs/data_index.rst:1867
 #: b1133092095c45b9a9677daeefad1409 1997b7a046a148cea09080c4362d1f72
 msgid "``default_lang`` (string) - Default language code\\ . Maybe omitted"
 msgstr ""
+"``default_lang`` (string) - Код языка по умолчанию\\ . Возможно поле будет "
+"отсутствовать"
 
 #: ../docs/data_index.rst:1833 ../docs/data_index.rst:1869
 #: b3e5c40aacfc4819b0c4b5b92396c73e c1360b28c8d843eba71042fd885b5db5
 msgid "``alt_send`` (boolean) - Use Ctrl/Cmd + Enter instead Enter"
-msgstr ""
+msgstr "``alt_send`` (boolean) - Использовать Ctrl/Cmd + Enter вместо Enter"
 
 #: ../docs/data_index.rst:1834 ../docs/data_index.rst:1870
 #: e49035091d834430a6aa9f93ec614d75 e407b967c51b44f3af14e2a048891eb8
 msgid "``asterisk_mention`` (boolean) - Use * as @ for mentions"
 msgstr ""
+"``asterisk_mention`` (boolean) - Использовать * вместо @ для упоминаний"
 
 #: ../docs/data_index.rst:1835 ../docs/data_index.rst:1871
 #: 3fb7896320514470b13712bc3f2d3ed3 6c3c1aa2412f4dd49817c89f18a451e9
 msgid "``always_send_pushes`` (boolean) - Send pushes even user is online"
 msgstr ""
+"``always_send_pushes`` (boolean) - Отправлять пуш даже если пользователь в "
+"сети"
 
 #: ../docs/data_index.rst:1836 ../docs/data_index.rst:1872
 #: 86b70b558ffd43df95c5b1a0273fef8f 12eb570f6137458a8b39c9d1fbb0a4bd
 msgid "``unread_first`` (boolean) - Show unread chats in chat list first"
 msgstr ""
+"``unread_first`` (boolean) - Показывать непрочитанные чаты в списке чатов "
+"первыми"
 
 #: ../docs/data_index.rst:1837 ../docs/data_index.rst:1873
 #: f83e3e278fc246698fa5748de1f3c12e 33eaeb9e47e14ec3ac51fc02c6dcf9a6
 msgid ""
 "``munread_first`` (boolean) - Show unread chats in chat list first on mobiles"
 msgstr ""
+"``munread_first`` (boolean) - Показывать непрочитанные чаты в списке чатов "
+"на мобильных телефонах"
 
 #: ../docs/data_index.rst:1838 ../docs/data_index.rst:1874
 #: a26133407fd644ebb9fa393aef62ecd7 3fe6c31b79344b95ac165c7e1b7a6d0f
 msgid "``timezone`` (string) - Timezone"
-msgstr ""
+msgstr "``timezone`` (string) - Часовой пояс"
 
 #: ../docs/data_index.rst:1839 ../docs/data_index.rst:1875
 #: f648a8fc465045ebba5f8284d8b8cf00 efddca0ca19149589359272955a8a993
@@ -4152,6 +4337,8 @@ msgid ""
 "``quiet_time_start`` (string) - Start silently time (no pushes, no "
 "sounds)\\ . Might be null"
 msgstr ""
+"``quiet_time_start`` (string) - Время начала тихого времени (нет будет пушей "
+"или звуков)\\ . Возможен null"
 
 #: ../docs/data_index.rst:1841 ../docs/data_index.rst:1877
 #: cf9bc69856594085a6be08229a41420d b0a73d5bced94605b9cda8973be52533
@@ -4159,63 +4346,71 @@ msgid ""
 "``quiet_time_finish`` (string) - Finish silently time (no pushes, no "
 "sounds)\\ . Might be null"
 msgstr ""
+"``quiet_time_finish`` (string) - Время окончания тихого времени\\ . Возможен "
+"null"
 
 #: ../docs/data_index.rst:1847 e031824d46b84546a5f6ed1fe3ca5185
 msgid "UserWithMe"
-msgstr ""
+msgstr "UserWithMe"
 
+# ERROR
 #: ../docs/data_index.rst:1849 54b765a18ea14c48ba6158c11f676ea4
 msgid "Accouint data with extra information"
-msgstr ""
+msgstr "Дополнительная информация учетной записи"
 
 #: ../docs/data_index.rst:1853 686031b0adcd4c199674a1bdd102d7bc
 msgid "``inviter`` (:ref:`tdproto-JID`) - Inviter id, if any\\ . Maybe omitted"
 msgstr ""
+"``inviter`` (:ref:`tdproto-JID`) - Id того кто пригласил\\ . Возможно поле "
+"будет отсутствовать"
 
 #: ../docs/data_index.rst:1855 a6841a0ed2df4e4fb65fff18938d5f82
 msgid "``teams`` (:ref:`tdproto-Team`) - Available teams"
-msgstr ""
+msgstr "``teams`` (:ref:`tdproto-Team`) - Доступные команды"
 
 #: ../docs/data_index.rst:1856 4de479392e6349dea21532d5450aa795
 msgid "``devices`` (:ref:`tdproto-PushDevice`) - Registered push devices"
 msgstr ""
+"``devices`` (:ref:`tdproto-PushDevice`) - Зарегистрированные устройства для "
+"пушей"
 
 #: ../docs/data_index.rst:1883 9ad60d32c8fd442c8b1d998c692dc9dd
 msgid "Wallpaper"
-msgstr ""
+msgstr "Wallpaper"
 
 #: ../docs/data_index.rst:1885 bd84d9473d8240979643611e218f2473
 msgid "Chat wallpaper"
-msgstr ""
+msgstr "Обои чата"
 
 #: ../docs/data_index.rst:1889 2189a711c9b84a5b90b9bb90b536a48d
 msgid "``key`` (string) - Unique identifier"
-msgstr ""
+msgstr "``key`` (string) - Уникальный идентификатор"
 
 #: ../docs/data_index.rst:1890 422e6b0c807d440592f9c152fbd34645
 msgid "``name`` (string) - Localized description"
-msgstr ""
+msgstr "``name`` (string) - Локализованное описание"
 
 #: ../docs/data_index.rst:1891 ca96c4b9329a43a68b232c2b768ed42d
 msgid "``url`` (string) - Url to jpg or png"
-msgstr ""
+msgstr "``url`` (string) - Ссылка на jpg или png"
 
 #: ../docs/data_index.rst:1896 6637f408577d44e7ba883c4f71017b91
 msgid "WikiPage"
-msgstr ""
+msgstr "WikiPage"
 
 #: ../docs/data_index.rst:1898 3fb291d60e57435486d6a2f47de3fa2e
 msgid "Wiki page. Experimental"
-msgstr ""
+msgstr "Вики страница. Экспериментально."
 
 #: ../docs/data_index.rst:1903 b227aa8201fb4cc2beeac2540cb2d003
 msgid "``updated`` (string) - Update time"
-msgstr ""
+msgstr "``updated`` (string) - Время изменения"
 
 #: ../docs/data_index.rst:1904 b4034f23f2ba49acb2da80cdf057cb30
 msgid "``editor`` (:ref:`tdproto-JID`) - Last editor contact id"
 msgstr ""
+"``editor`` (:ref:`tdproto-JID`) - Id контакта последнего автора изменений"
 
 #: ../docs/data_index.rst:1905 a9e037b0b769423bbe2fcce5d12d1d57
 msgid "``text`` (string) - Page text"
-msgstr ""
+msgstr "``text`` (string) - Текст страницы"
