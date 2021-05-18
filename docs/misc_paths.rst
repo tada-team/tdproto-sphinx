@@ -1,9 +1,65 @@
 Miscelaneos paths
 ==================
 
+.. http:get:: /api​/v4​/addr
+
+  Returns client address for debuging purposes.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_addr>`__
+
+  **Example**:
+
+  .. code-block:: json
+
+    {
+      "ok": true,
+      "result": "127.0.0.1"
+    }
+
+  :resjson boolean ok: True if no error occured.
+  :resjson string result: Set to ``"pong"``. 
+
+  :status 200: No error
+
+.. http:get:: ​/api​/v4​/alltimezones
+
+  Get list of timezones.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_alltimezones>`__
+
+  :status 200: No error
+
+.. http:get:: ​/api​/v4​/countries
+
+  Get list of country phone codes.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_countries>`__
+
+  :status 200: No error
+
+.. http:get:: /api​/v4​/emoji
+
+  Get the emoji list.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_emoji>`__
+
+  :status 200: No error
+
+.. http:post:: /api​/v4​/join​/{token}
+
+  Join the team.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_join__token_>`__
+
+  :param token: Invite token to join team.
+  :resjson boolean ok: True if no error occured.
+  :resjson object result: :ref:`tdproto-team` object.
+
 .. http:get:: /api​/v4​/join​/{token}​/preview
 
    Invitation information.
+
+   `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_join__token__preview>`__
 
    .. code-block:: json
 
@@ -31,8 +87,6 @@ Miscelaneos paths
         }
       }
 
-   `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_join__token__preview>`__
-
    :param token: Invite token to preview.
    :resjson boolean ok: True if no error occured.
    :resjson object result: Invite information.
@@ -40,6 +94,8 @@ Miscelaneos paths
 .. http:get:: ​/api​/v4​/ping
 
    Ping the server.
+
+   `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_ping>`__
 
    **Example response**:
 
@@ -52,8 +108,6 @@ Miscelaneos paths
         "ok": true,
         "result": "pong"
       }
-
-   `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_ping>`__
 
    :resjson boolean ok: True if no error occured.
    :resjson string result: Set to ``"pong"``. 
