@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-17 13:16+0300\n"
-"PO-Revision-Date: 2021-05-11 15:35+0300\n"
+"POT-Creation-Date: 2021-05-18 18:49+0300\n"
+"PO-Revision-Date: 2021-05-18 18:54+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
 "Language: ru\n"
@@ -20,64 +20,151 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/misc_paths.rst:2 978f5d37244d4365a3000f2d8bafdadd
+#: ../docs/misc_paths.rst:2 0ff6444d067545a7810f2dcb595fa693
 msgid "Miscelaneos paths"
 msgstr "Остальные пути"
 
-#: ../docs/misc_paths.rst:6 a9163eebe94d444a83086bdfad6ec46e
+#: ../docs/misc_paths.rst:6 21dec2459aa6443fa053471bf5b9b62f
+msgid "Returns client address for debuging purposes."
+msgstr "Возвращает адрес клиента для отладки."
+
+#: ../docs/misc_paths.rst:8 60cd0c96c445484eb0bcaa322d32695e
+msgid ""
+"`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_addr>`__"
+msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_addr>`__"
+
+#: ../docs/misc_paths.rst:10 c8f0998f530c4511b1c85d184fe6ce1a
+msgid "**Example**:"
+msgstr "**Пример ответа:**"
+
+#: ../docs/misc_paths.rst:0 f8eeb15dcfff47b492d2e3b8613a1411
+#: 21e166bb5efa4584ab1865de142fdd98 28b708c3914f4088ab60f18f67510b38
+#: 2f23c927da234bc0bb89ab9688e74f94
+msgid "Response JSON Object"
+msgstr "Ответный JSON объект"
+
+#: ../docs/misc_paths.rst:19 ../docs/misc_paths.rst:55
+#: ../docs/misc_paths.rst:91 ../docs/misc_paths.rst:112
+#: 47d67e87e5e149f992052ddc20d8d728 6988ccd8c1e84c3dbe1dc10bd3553456
+#: 9f26a36d376f4512bf0b86b42ffe7d80 61f72d63cf25458a96aea368c952e8a3
+msgid "True if no error occured."
+msgstr "True если не было ошибки"
+
+#: ../docs/misc_paths.rst:20 ../docs/misc_paths.rst:113
+#: 694c5dfc4c534567bc4233bc5e19d55c 9e4a44573f8c4e1680e648f5af77be5b
+msgid "Set to ``\"pong\"``."
+msgstr "Задано на \"pong\""
+
+#: ../docs/misc_paths.rst:0 3c06fcdc7ebb4ccbb97762a8b54ae3a0
+#: 684af5bd7fd940258c309a2e9837c00c ec43cbed22e14291ade3ce0353037ba3
+#: 0a910cc842e2466ebf55a298645d811f e084f9ca66634eb6b89c9b5d491c3fad
+msgid "Status Codes"
+msgstr "Код статуса"
+
+#: ../docs/misc_paths.rst:22 ../docs/misc_paths.rst:30
+#: ../docs/misc_paths.rst:38 ../docs/misc_paths.rst:46
+#: ../docs/misc_paths.rst:115 e59564f3636c41fa887683edc9fdf52c
+#: f7508e189e864230b48e3fb93c76217f 267cf92110644c7f83f8d26a803fe326
+#: b19b20aeb51d4c20aacf158a50665898 cda0d45e75df44d29a1da2dcc77c35d6
+msgid "No error"
+msgstr "Без ошибки"
+
+#: ../docs/misc_paths.rst:26 e153a36e89e04ca7b0c727a200e010ab
+msgid "Get list of timezones."
+msgstr "Получить список часовых поясов."
+
+#: ../docs/misc_paths.rst:28 ef30a3992cc64c9c8f8172e943845691
+msgid ""
+"`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_alltimezones>`__"
+msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_alltimezones>`__"
+
+#: ../docs/misc_paths.rst:34 0d8ba9e7d38347de987c2f372fee13a3
+msgid "Get list of country phone codes."
+msgstr "Получить список государственных телефонных кодов."
+
+#: ../docs/misc_paths.rst:36 70331e16be9f4cef81b4d0246effa991
+msgid ""
+"`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_countries>`__"
+msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_countries>`__"
+
+#: ../docs/misc_paths.rst:42 6cca536fe6e5411b823c8bdbe3a563e0
+msgid "Get the emoji list."
+msgstr "Получить список эмоджи."
+
+#: ../docs/misc_paths.rst:44 dc00b322f1f14ccf93c652729f7d9716
+msgid ""
+"`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_emoji>`__"
+msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_emoji>`__"
+
+#: ../docs/misc_paths.rst:50 615b7b1fac5b4370b7bc71db5f05cd8f
+msgid "Join the team."
+msgstr "Присоединиться к команде."
+
+#: ../docs/misc_paths.rst:52 a381bc22b22e4b5caf5dfafe5fdb366c
+msgid ""
+"`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_join__token_>`__"
+msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_join__token_>`__"
+
+#: ../docs/misc_paths.rst:0 c0abc4b8c9f64a09b8432854047ad7bd
+#: 191d7091da24479a8b8204d4992ccd02
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../docs/misc_paths.rst:54 a40f080bd5da49599d9825b637434cfd
+msgid "Invite token to join team."
+msgstr "Токен присоединения к команде"
+
+#: ../docs/misc_paths.rst:56 96f37b425de54badba774aa2d4483fc6
+msgid ":ref:`tdproto-team` object."
+msgstr ":ref:`tdproto-team` объект."
+
+#: ../docs/misc_paths.rst:60 a42e331510004f38a187cb7615f10d99
 msgid "Invitation information."
 msgstr "Информация приглашения."
 
-#: ../docs/misc_paths.rst:34 1db1850d98a044238e8ea5ec65b56470
+#: ../docs/misc_paths.rst:62 0f89a4fdcde24463858cb207341c2b2d
 msgid ""
 "`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_join__token__preview>`__"
 msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_join__token__preview>`__"
 
-#: ../docs/misc_paths.rst:0 74fa638faf354d768924cb6bfef1c9a4
-msgid "Parameters"
-msgstr "Параметры"
-
-#: ../docs/misc_paths.rst:36 743e7e940bd5476eb2f28ba6e13bfa81
+#: ../docs/misc_paths.rst:90 4cfb2f20f2984720b434de201ea77b3b
 msgid "Invite token to preview."
 msgstr "Токен предварительного просмотра."
 
-#: ../docs/misc_paths.rst:0 72ef317e1e2949b6bdca4843d03bdbc5
-#: 10411e7d090942eeb832bd6ed3b8dd3e
-msgid "Response JSON Object"
-msgstr "Ответный JSON объект"
-
-#: ../docs/misc_paths.rst:37 ../docs/misc_paths.rst:58
-#: 76e098a1da684400bc859fe9ba2f0777 39ac9d59d16a45f1821efb209edcc57f
-msgid "True if no error occured."
-msgstr "True если не было ошибки"
-
-#: ../docs/misc_paths.rst:38 d7a556a920ee42009237842c29f88f94
+#: ../docs/misc_paths.rst:92 28fa78b858c54453863f60cc83e4af89
 msgid "Invite information."
 msgstr "Информация приглашения."
 
-#: ../docs/misc_paths.rst:42 b2983430a0ef469dac50031ca3c27dd4
+#: ../docs/misc_paths.rst:96 1aa7695e0f904c079a4791035c0ae15d
 msgid "Ping the server."
 msgstr "Пинг запрос на сервер"
 
-#: ../docs/misc_paths.rst:44 caeed2d5a5ec4c6788dc2ad0184382fa
-msgid "**Example response**:"
-msgstr "**Пример ответа**"
-
-#: ../docs/misc_paths.rst:56 d5b3282cc9084226887fdb6962d3497d
+#: ../docs/misc_paths.rst:98 a02f3812ffbe4f4386daf181973f53cc
 msgid ""
 "`Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_ping>`__"
 msgstr ""
+"`Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_ping>`__"
 
-#: ../docs/misc_paths.rst:59 21289690c74f41f181f979355b6b9bce
-msgid "Set to ``\"pong\"``."
-msgstr "Задано на \"pong\""
-
-#: ../docs/misc_paths.rst:0 4164a48c94bf4ba1a75b03518dce6703
-msgid "Status Codes"
-msgstr "Код статуса"
-
-#: ../docs/misc_paths.rst:61 3435282bcd004f9c89f89132a7c0ec00
-msgid "No error"
-msgstr "Без ошибки"
+#: ../docs/misc_paths.rst:100 41ce08ec347c4183bac319183c5b850b
+msgid "**Example response**:"
+msgstr "**Пример ответа**"
