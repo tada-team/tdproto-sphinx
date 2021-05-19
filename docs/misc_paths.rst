@@ -113,3 +113,29 @@ Miscelaneos paths
    :resjson string result: Set to ``"pong"``. 
 
    :status 200: No error
+
+.. http:get:: /api​/v4​/reactions
+
+  Get the list of available reactions.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_reactions>`__
+
+  :status 200: No error
+
+.. http:get:: /api​/v4​/time
+
+  Get server time.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_time>`__
+
+  :status 200: No error
+
+.. http:get:: features.json
+
+  Get the server information.
+
+  `Try it! <https://tada-team.github.io/td-swagger-ui/#/default/getfeatures_json>`__
+
+  :resjson boolean ok: True if no error occured.
+  :resjson object result: :ref:`tdproto-Features` object. 
+  :status 200: No error
