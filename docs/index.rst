@@ -6,6 +6,7 @@ Tdproto documentation
 
    basics
    team_paths
+   chat_paths
    misc_paths
    events
    data_index
