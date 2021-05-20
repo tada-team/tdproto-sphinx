@@ -7,7 +7,7 @@ Create new bot account.
 In order to create new bot account use the
 ``/newbot {NAME}`` command in ``@TadaBot`` direct chat.
 
-Only admins have ability to create new chats.
+Only admins have ability to create new bots.
 
 Using the token header.
 ------------------------------------
