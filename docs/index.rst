@@ -5,6 +5,7 @@ Tdproto documentation
    :maxdepth: 2
 
    basics
+   bot_howto
    team_paths
    chat_paths
    task_paths
