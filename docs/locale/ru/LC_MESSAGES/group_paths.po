@@ -1,0 +1,141 @@
+# Russian translations for Tdproto docs package.
+# Copyright (C) 
+# This file is distributed under the same license as the Tdproto docs package.
+# Automatically generated, 2021.
+# igo95862 <igo95862@yandex.ru>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tdproto docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 13:53+0300\n"
+"PO-Revision-Date: 2021-05-20 14:15+0300\n"
+"Last-Translator: igo95862 <igo95862@yandex.ru>\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 40.0\n"
+
+#: ../docs/group_paths.rst:2 0d9a169e9a32408da41803626b6bd558
+msgid "Group related paths"
+msgstr "Пути относящиеся к группам"
+
+#: ../docs/group_paths.rst:6 45eb0631142345f380b7fc7074f422eb
+msgid "Get all groups in the team."
+msgstr "Получить все группы в чате."
+
+#: ../docs/group_paths.rst:0 aed4c39a275c4329802b9d61f028cf43
+#: 865337f7488d4fa0849116089f7322ed cc11d11c54264237af8e92e01be5f305
+#: 4070e3cd8e614c5d905661ba8c1995c0 60be11a95f1349b6abc6d026294e25af
+#: 0998044a823646cc843b4b3d2d5e6963
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../docs/group_paths.rst:8 ../docs/group_paths.rst:17
+#: ../docs/group_paths.rst:27 ../docs/group_paths.rst:38
+#: ../docs/group_paths.rst:48 ../docs/group_paths.rst:59
+#: 68903d5d4da04db3b5bc2cd08a07633a 665e7596b01444c7a4d014c28411c8f2
+#: 6d4bc70d71fb443cb08e88ae060d158d 5d97d292564049c682a313f2030b0352
+#: a59c7cfaf1b74dcbb98815f761461fda 7f50b660a92e4bfcaa5afac60227db02
+msgid "UID of the team."
+msgstr "UID команды. "
+
+#: ../docs/group_paths.rst:0 995e233c4459458a96955776f277d410
+#: 01880aeb0cb3499eb513b79fa25ae445 3a24c144af8344e18c61882fa627405d
+#: 71ab9ee4a66c4afbadaa95459ff6c2c9 1d4904ba84f2407ab542752f0b078177
+#: 101835af478c4ade972c029b9ae2594a
+msgid "Response JSON Object"
+msgstr "Ответный JSON объект"
+
+#: ../docs/group_paths.rst:9 ../docs/group_paths.rst:19
+#: ../docs/group_paths.rst:30 ../docs/group_paths.rst:40
+#: ../docs/group_paths.rst:51 ../docs/group_paths.rst:61
+#: d09a02b8432c4a7ea474f4266b64705b eae2e365384947349ea49ec0fa20c102
+#: 18a4b51cc93f48a8bc70e9ae86119a2e cc3a033dd4734cb99bf7a40710abe470
+#: 3b002f3922ac43f9a8a656ef7e9b95ea 2e12d05280004d748c01a3872bd2f844
+msgid "True if no error occured."
+msgstr "True если не было ошибки"
+
+#: ../docs/group_paths.rst:0 d68f8f7f18e94a3dbfab486f2559b633
+#: 6ac9cce13dc0403cb43c28cc76135eb9 59fc341e87d748c89dfa917d221468c6
+#: 7f5134c3544749919e187c3ece629648 8b88eb3111444acabff1c0fdffd9fb59
+msgid "Response JSON Array of Objects"
+msgstr "Ответный JSON список объектов"
+
+#: ../docs/group_paths.rst:10 d8eff93ce35b4b6dbd4fb508d5081c29
+msgid "List of :ref:`tdproto-Chat` objects."
+msgstr "Список :ref:`tdproto-Chat` объектов."
+
+#: ../docs/group_paths.rst:0 e1ddb596fa1b471c9472a74b50fc720b
+#: 29b07d0c06014ff98c22a8c426984b69 60ca120f728841e09fa302773c23f596
+#: 474f2c4c5edb4af4acab497a10043e90 86c802ac81b5417ca79c93438ab71c62
+#: 22c0df306b9f438ea360f6fe17fda0a4
+msgid "Status Codes"
+msgstr "Код статуса"
+
+#: ../docs/group_paths.rst:11 ../docs/group_paths.rst:21
+#: ../docs/group_paths.rst:32 ../docs/group_paths.rst:42
+#: ../docs/group_paths.rst:53 ../docs/group_paths.rst:62
+#: d4cd48f925394b02802ff30372c49007 35c19ff2f2884c77b6e77e7f7b9f00b2
+#: 3935000ec5a94288945a1fd547161935 83c34b31cffb4d8dbe5f1a1186689ea6
+#: 216951065a134f289a48da4e6c8d84b0 8de10676e83a44528a34524ad81f38f2
+msgid "No error."
+msgstr "Без ошибки"
+
+#: ../docs/group_paths.rst:15 2ec578a063e14192afa602814075f76a
+msgid "Create new group."
+msgstr "Создать новую группу."
+
+#: ../docs/group_paths.rst:0 7a7471ab44c54757bed31dc306e60005
+#: 141c483e47e449148b352bd19141581a
+msgid "Request JSON Object"
+msgstr "Запросный JSON объект"
+
+#: ../docs/group_paths.rst:18 ../docs/group_paths.rst:29
+#: 920882ec5d6945f8a9f939e9e46c602f ccb62a5acf674e3f9e25f94fef975c98
+msgid "TODO: document group object."
+msgstr "TODO: документировать объект группы."
+
+#: ../docs/group_paths.rst:20 124166e63d754c78b3d7aee2e56fab1d
+msgid ":ref:`tdproto-Chat` object."
+msgstr ":ref:`tdproto-Chat` объект."
+
+#: ../docs/group_paths.rst:25 2df4d4bb8264472b858dfd3338d0bd3d
+msgid "Add a new member to the team."
+msgstr "Добавить нового участника в команду."
+
+#: ../docs/group_paths.rst:28 ../docs/group_paths.rst:39
+#: ../docs/group_paths.rst:49 ../docs/group_paths.rst:60
+#: 57dc1ad33dc54c518be144e8a3238d24 e43201c63a9f41e08565ad9de68e3132
+#: 3ef64854ea5143d8b3b058efcba566e0 88029b43148648cf9b2d9a9ba63008f0
+msgid "Group ID to add member to."
+msgstr "ID группы в которую добавить."
+
+#: ../docs/group_paths.rst:31 3c149bdaf70f4c4ab649b3fa92035b2a
+msgid ":ref:`tdproto-GroupMembership` object."
+msgstr ":ref:`tdproto-GroupMembership` объект."
+
+#: ../docs/group_paths.rst:36 93bafecf8e8449b49321da28a8173f8b
+msgid "Get the list of group members."
+msgstr "Получить список участников группы."
+
+#: ../docs/group_paths.rst:41 ../docs/group_paths.rst:52
+#: da2d9e570bb94303a76e4f24d1cc5311 402cc989716143a6a4b18bdcde895ead
+msgid "List of :ref:`tdproto-GroupMembership` objects."
+msgstr "Список :ref:`tdproto-GroupMembership` объектов."
+
+#: ../docs/group_paths.rst:46 75cfd6fcaa6643928493b0e80c0d714e
+msgid "Remove member from the group."
+msgstr "Убрать участника из группы."
+
+#: ../docs/group_paths.rst:50 3e976ff5731340c6b457ec1819db4b6c
+msgid "Contact ID of the member to remove."
+msgstr "ID контакта которого убрать."
+
+#: ../docs/group_paths.rst:57 2d981fc592bc44788ba5f80d25b8ede8
+msgid "Delete the group."
+msgstr "Удалить группу."

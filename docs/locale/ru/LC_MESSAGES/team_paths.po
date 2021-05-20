@@ -1,0 +1,114 @@
+# Russian translations for Tdproto docs package.
+# Copyright (C) 
+# This file is distributed under the same license as the Tdproto docs package.
+# Automatically generated, 2021.
+# igo95862 <igo95862@yandex.ru>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tdproto docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-20 13:53+0300\n"
+"PO-Revision-Date: 2021-05-20 14:24+0300\n"
+"Last-Translator: igo95862 <igo95862@yandex.ru>\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 40.0\n"
+
+#: ../docs/team_paths.rst:2 d7c5c6afd2dd42e88bd4c815eaa1a1f1
+msgid "Team related paths"
+msgstr "Пути относящиеся к командам"
+
+#: ../docs/team_paths.rst:6 03716c7642194a4c84eb0d57b095f079
+msgid "Get the list of chats in the team."
+msgstr "Получить список чатов в команде."
+
+#: ../docs/team_paths.rst:0 14df1d10762443eca1d32c59521bbc94
+#: 6ba113e0072d47c6a6dabb637e82fd03 789a8d46e3b1443cab71195b31f43421
+#: 175bc7caf8164afbbfba936d027fc4a8
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../docs/team_paths.rst:8 ../docs/team_paths.rst:17 ../docs/team_paths.rst:26
+#: ../docs/team_paths.rst:36 e881a0dc4d794cdc9f93f870348bd10d
+#: e200b2b0b13a4ee098aa3afd40452700 9b511a6ee9184ba29898daaf674ac872
+#: 1bfa1530493c4850abae052f2459ce56
+msgid "UID of the team."
+msgstr "UID команды."
+
+#: ../docs/team_paths.rst:0 f97a5017c1024a57a67c4c024b93cf7d
+#: d15ec3188e8343f19b1c44b6d3152ec7 4aec7a5fe277435d982951ff8f4bcc34
+#: 471bb177c7c94c2c89264f763f883b6a
+msgid "Response JSON Object"
+msgstr "JSON объект запроса"
+
+#: ../docs/team_paths.rst:9 ../docs/team_paths.rst:18 ../docs/team_paths.rst:27
+#: ../docs/team_paths.rst:38 90182f368a0c4797b9ebb73152fac72d
+#: 903fff947bc3439bb019162b1ceb4bc7 73d3588b33ee4752994c63c4c06141f0
+#: 538bbc1fd13e44d8af13ea402fbbe838
+msgid "True if no error occured."
+msgstr "True если не было ошибки"
+
+#: ../docs/team_paths.rst:0 12ea7688c7a74068a424610c0e3d02e0
+#: a6763ff373da4a089ca32c084ac82858 060398909bad4240942c230fe9869d07
+#: c662c7ff44bc43febf7c6695f44ff8c1
+msgid "Response JSON Array of Objects"
+msgstr "JSON список ответных объектов."
+
+#: ../docs/team_paths.rst:10 081c5da5f98d4e1f8bbc24f7e8260d47
+msgid "List of :ref:`tdproto-Chat` objects."
+msgstr "Список :ref:`tdproto-Chat` объектов."
+
+#: ../docs/team_paths.rst:0 d6074131d3ea479995e630da1e6c5d68
+#: e6370dbd92354fb5b45cc970ce232cdf 7e637ed678be4bf98bf9b02a84cb36c6
+#: 72c3576a2cf948aab8da1bf649fd5e24
+msgid "Status Codes"
+msgstr "Код статуса"
+
+#: ../docs/team_paths.rst:11 ../docs/team_paths.rst:20
+#: ../docs/team_paths.rst:29 ../docs/team_paths.rst:40
+#: 4627dd2b055645c69c6b8a6725736845 131b14cdd6784356880e0126daa1d6fe
+#: 6edee0a22df642eba276f047e912d758 7642c72ec33848d1a9d0f5918206028e
+msgid "No error."
+msgstr "Без ошибки"
+
+#: ../docs/team_paths.rst:15 be4a1f6a27d54fe2a66bc9450ebfcbbf
+msgid "Get the list of contacts of the team."
+msgstr "Получить список контактов в команде."
+
+#: ../docs/team_paths.rst:19 9f06cbef99374c5fb20947849b40e19c
+msgid "List of :ref:`tdproto-Contact` objects."
+msgstr "Список :ref:`tdproto-Contact` объектов."
+
+#: ../docs/team_paths.rst:24 cc7d4a5fd90044539f360317a9e72dd8
+msgid "Get my contact info."
+msgstr "Получить информацию моего профиля."
+
+#: ../docs/team_paths.rst:28 b1af06ca31da494e8da3f923f12ed66f
+msgid "My :ref:`tdproto-Contact` object."
+msgstr "Мой :ref:`tdproto-Contact` объект."
+
+#: ../docs/team_paths.rst:33 7e531daa7aaa44a7835a8c31fbf44b8e
+msgid ""
+"Add new contant to the team. Requires :ref:`tdproto-Contact` object as input "
+"with phone number set."
+msgstr ""
+"Добавить новый контакт в команду. Требуется :ref:`tdproto-Contact` объект с "
+"заданным номером телефона."
+
+#: ../docs/team_paths.rst:0 61e190f094aa499b87d27c32345981e5
+msgid "Request JSON Object"
+msgstr "JSON объект запроса"
+
+#: ../docs/team_paths.rst:37 06fd7c1120674f98b25acbfd87a337fa
+msgid "Phone number of new contact."
+msgstr "Номер телефона нового контакта."
+
+#: ../docs/team_paths.rst:39 167f097083dd49d5a82b1be836563ad7
+msgid "New :ref:`tdproto-Contact` object."
+msgstr "Новый :ref:`tdproto-Contact` объект."
