@@ -10,7 +10,7 @@ Team related paths
     :resjsonarr object result: List of :ref:`tdproto-Chat` objects.
     :status 200: No error.
 
-.. http:get:: /api/v4/teams/{team_uid}/contacts/
+.. http:get:: /api/v4/teams/{team_uid}/contacts
 
     Get the list of contacts of the team.
 
