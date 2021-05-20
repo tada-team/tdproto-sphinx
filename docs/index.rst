@@ -8,6 +8,7 @@ Tdproto documentation
    team_paths
    chat_paths
    task_paths
+   group_paths
    misc_paths
    events
    data_index
