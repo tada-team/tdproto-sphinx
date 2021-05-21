@@ -7,7 +7,7 @@ Team related paths
 
     :param team_uid: UID of the team.
     :resjson boolean ok: True if no error occured.
-    :resjsonarr object result: List of :ref:`tdproto-Chat` objects.
+    :resjson array result: List of :ref:`tdproto-Chat` objects.
     :status 200: No error.
 
 .. http:get:: /api/v4/teams/{team_uid}/contacts
@@ -16,7 +16,7 @@ Team related paths
 
     :param team_uid: UID of the team.
     :resjson boolean ok: True if no error occured.
-    :resjsonarr object result: List of :ref:`tdproto-Contact` objects.
+    :resjson array result: List of :ref:`tdproto-Contact` objects.
     :status 200: No error.
 
 .. http:get:: /api/v4/teams/{team_uid}
@@ -25,7 +25,7 @@ Team related paths
 
     :param team_uid: UID of the team.
     :resjson boolean ok: True if no error occured.
-    :resjsonarr object result: My :ref:`tdproto-Contact` object.
+    :resjson array result: My :ref:`tdproto-Contact` object.
     :status 200: No error.
 
 .. http:post:: /api/v4/teams/{team_uid}/contacts
@@ -36,5 +36,5 @@ Team related paths
     :param team_uid: UID of the team.
     :reqjson string phone: Phone number of new contact. 
     :resjson boolean ok: True if no error occured.
-    :resjsonarr object result: New :ref:`tdproto-Contact` object.
+    :resjson array result: New :ref:`tdproto-Contact` object.
     :status 200: No error.

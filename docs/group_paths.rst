@@ -7,7 +7,7 @@ Group related paths
 
   :param team_uid: UID of the team.
   :resjson boolean ok: True if no error occured.
-  :resjsonarr object result: List of :ref:`tdproto-Chat` objects.
+  :resjson array result: List of :ref:`tdproto-Chat` objects.
   :status 200: No error.
 
 .. http:post:: /api/v4/teams/{team_uid}/groups
@@ -17,7 +17,7 @@ Group related paths
   :param team_uid: UID of the team.
   :reqjson object new_group: TODO: document group object.
   :resjson boolean ok: True if no error occured.
-  :resjsonarr object result: :ref:`tdproto-Chat` object.
+  :resjson array result: :ref:`tdproto-Chat` object.
   :status 200: No error.
 
 .. http:post:: /api/v4/teams/{team_uid}/groups/{group_id}/members
@@ -28,7 +28,7 @@ Group related paths
   :param group_id: Group ID to add member to.
   :reqjson object new_group: TODO: document group object.
   :resjson boolean ok: True if no error occured.
-  :resjsonarr object result: :ref:`tdproto-GroupMembership` object.
+  :resjson array result: :ref:`tdproto-GroupMembership` object.
   :status 200: No error.
 
 .. http:get:: /api/v4/teams/{team_uid}/groups/{group_id}/members
@@ -38,7 +38,7 @@ Group related paths
   :param team_uid: UID of the team.
   :param group_id: Group ID to add member to.
   :resjson boolean ok: True if no error occured.
-  :resjsonarr object result: List of :ref:`tdproto-GroupMembership` objects.
+  :resjson array result: List of :ref:`tdproto-GroupMembership` objects.
   :status 200: No error.
 
 .. http:delete:: /api/v4/teams/{team_uid}/groups/{group_id}/members/{contact_id}
@@ -49,7 +49,7 @@ Group related paths
   :param group_id: Group ID to add member to.
   :param group_id: Contact ID of the member to remove.
   :resjson boolean ok: True if no error occured.
-  :resjsonarr object result: List of :ref:`tdproto-GroupMembership` objects.
+  :resjson array result: List of :ref:`tdproto-GroupMembership` objects.
   :status 200: No error.
 
 .. http:delete:: /api/v4/teams/{team_uid}/groups/{group_id}

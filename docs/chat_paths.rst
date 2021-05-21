@@ -19,7 +19,7 @@ Chat related paths
   :param chat_jid: JID of the chat.
   :reqjson object filter: TODO: document filter object.
   :resjson boolean ok: True if no error occured.
-  :resjsonarray object messages: List of :ref:`tdproto-Message` objects.
+  :resjson array messages: List of :ref:`tdproto-Message` objects.
   :status 200: No error
 
 .. http:delete:: /api/v4/teams/{team_uid}/chats/{chat_jid}/messages/{message_id}

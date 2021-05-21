@@ -8,5 +8,5 @@ Task related paths
   :param team_uid: UID of the team.
   :reqjson object task: TODO: document ``Task`` object.
   :resjson boolean ok: True if no error occured.
-  :resjsonarr object result: TODO: document ``Task`` object.
+  :resjson array result: TODO: document ``Task`` object.
   :status 200: No error.
