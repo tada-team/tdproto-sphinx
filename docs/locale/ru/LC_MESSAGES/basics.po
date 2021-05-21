@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 13:53+0300\n"
+"POT-Creation-Date: 2021-05-21 15:49+0300\n"
 "PO-Revision-Date: 2021-05-11 14:23+0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,15 +19,15 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/basics.rst:2 57d866d9f16940a9b2ac78a5b2cf072d
+#: ../docs/basics.rst:2 7c3f8be484cd47bfa85a34970304445d
 msgid "Basics"
 msgstr "Основы"
 
-#: ../docs/basics.rst:5 21f6181b03474bdfbfcd76fa34c0d270
+#: ../docs/basics.rst:5 be886ed9a4ba486497b677f9db3d71fa
 msgid "JID"
 msgstr "JID"
 
-#: ../docs/basics.rst:7 57603f4b8c994624931ce14ca26b246d
+#: ../docs/basics.rst:7 984492c617c243dd83ee3c7c14cf43d4
 msgid ""
 "Basic unit is Team. Inside the team there are contacts, tasks, group chats. "
 "Contact from one team cannot interact with contact from another team."
@@ -36,7 +36,7 @@ msgstr ""
 "чаты. Контакт из одной команды не может просто так общаться с контактом из "
 "другой."
 
-#: ../docs/basics.rst:11 d2815be051df41128a06af883589a50a
+#: ../docs/basics.rst:11 bd8b5b5c31ed40a8998c9e74fac1481f
 msgid ""
 "Each user in the team has an identifier in the form of ``d-<UID>``. For "
 "historical reasons it is called ``JID``."
@@ -44,7 +44,7 @@ msgstr ""
 "Каждый пользователь в команде имеет идентификатор вида ``d-<UID>`` . По "
 "историческим причинам он называется ``JID`` ."
 
-#: ../docs/basics.rst:14 75fec5ded5b74c058d8481a490c6f9aa
+#: ../docs/basics.rst:14 cb8035c6c50544caab3a9118c8dee134
 msgid ""
 "The number of ``JID`` that user has depends on how many teams they are a "
 "part of. If the user is a part of 3 teams they have 3 ``JID`` s. If the user "
@@ -54,11 +54,11 @@ msgstr ""
 "пользователь состоит в 3 командах, у него 3 ``JID`` . Если пользователь "
 "новый, то ``JID`` у него еще нет."
 
-#: ../docs/basics.rst:19 d25db290869b479398fa143beb065ffb
+#: ../docs/basics.rst:19 6ac4ca5e37ca45119a3b9ad97232607a
 msgid "``is_archive`` field"
 msgstr "Поле ``is_archive``"
 
-#: ../docs/basics.rst:21 d75fb31e83944b16811be3edd9b64113
+#: ../docs/basics.rst:21 398f3be17d9a4eb09abef756e3d49b70
 msgid ""
 "Nothing get deleted from the database. Instead the ``is_archive`` flag will "
 "be set. The exception are devices."
@@ -66,11 +66,11 @@ msgstr ""
 "Из системы ничего не удаляется, просто выставляется флаг ``is_archive`` . "
 "Исключение: устройства."
 
-#: ../docs/basics.rst:25 534db4e0949a48cc9b967a0f5dd41540
+#: ../docs/basics.rst:25 b4b287012062443b8c85397963e35275
 msgid "``can_*`` fields"
 msgstr "Поля ``can_*``"
 
-#: ../docs/basics.rst:27 2d3f1f9dfafd4408abfcd5ca91a5ad7c
+#: ../docs/basics.rst:27 6875cb3806964b06a9c80596d187c26a
 msgid ""
 "When a reply is received from a request there maybe an additional fields in "
 "the form of ``can_DO_SOMETHING``. They mean \"can I do something with the "
@@ -80,11 +80,11 @@ msgstr ""
 "``can_ЧТО-НИБУДЬ`` . Они означают, «могу ли я, *запрашивающий*, делать с "
 "этим объектом ЧТО-НИБУДЬ»."
 
-#: ../docs/basics.rst:31 75d2a245954d4bada06b7546884c61c1
+#: ../docs/basics.rst:31 709ac723cd364596b440e1926fecc178
 msgid "Examples:"
 msgstr "Примеры:"
 
-#: ../docs/basics.rst:33 a54ae5487e744207bcc548069fcf0305
+#: ../docs/basics.rst:33 3ddde628077946e283116d816fd0c639
 msgid ""
 "``{\"can_send_message\": false}`` in the self profile means that you can't "
 "send message to yourself."
@@ -92,7 +92,7 @@ msgstr ""
 "``{\"can_send_message\": false}`` в своем профиле означает, что я НЕ могу "
 "послать себе сообщение."
 
-#: ../docs/basics.rst:35 968831f2fa1d458f96e011e2f031a790
+#: ../docs/basics.rst:35 ddc8b0f67a9048168223197eb7173004
 msgid ""
 "``{\"can_add_to_team\": true}`` in the team means that you can add new "
 "participants to the team. (maybe you are the admin or owner)"
@@ -100,18 +100,18 @@ msgstr ""
 "``{\"can_add_to_team\": true}`` в команде означает, что я МОГУ добавлять "
 "новых участников в команду (вероятно я администратор, а может владелец)"
 
-#: ../docs/basics.rst:38 4db35fb90f234dcc86573498c5017699
+#: ../docs/basics.rst:38 8d063d490ef14253ad296d6174f7b2b4
 msgid ""
 "In reality those fields to not exists in database - they are calculated on "
 "the fly."
 msgstr ""
 "В реальности этих полей в базе не существует — они вычисляются на лету."
 
-#: ../docs/basics.rst:41 470d6de2c6c6474a98c56e8fa60af634
+#: ../docs/basics.rst:41 b9e1d6170b554ed6af0662306df59f63
 msgid "They are needed to ensure that the logic is stored in a single place."
 msgstr "Для чего это надо: чтобы логика была по-максимуму в одном месте."
 
-#: ../docs/basics.rst:43 fddfcf72e8b64bdf8aaeabc823371954
+#: ../docs/basics.rst:43 55b4d68783f7483da73bb5a43226b625
 msgid ""
 "For example, we decided that its possible to send yourself a message. We "
 "only need to change the server now without any additional changes. Both web "
@@ -122,7 +122,7 @@ msgstr ""
 "а тупо смотрели на флаг ``can_send_message`` , то больше никаких изменений "
 "вносить не надо: оба мобильных клиента и веб-клиент сразу меняют свою логику."
 
-#: ../docs/basics.rst:47 3e83e53de54e49dea1823ed7177d25dc
+#: ../docs/basics.rst:47 46094a444dbd422e9f19c96d08aa4bc0
 msgid ""
 "Second example, eventually we might add new administrator role with tunnable "
 "rights. Using the can_* flags it will be backward compatible."
@@ -131,11 +131,11 @@ msgstr ""
 "настраиваемыми правами». При использовании флагов ``can_*`` можно про это не "
 "думать: в старых приложениях ничего не сломается."
 
-#: ../docs/basics.rst:51 a651a7f9b94846b6a0ce468560a30e26
+#: ../docs/basics.rst:51 1fc4d0028886478b8d7179e7d8327774
 msgid "``/features.json``"
 msgstr "``/features.json``"
 
-#: ../docs/basics.rst:53 18b741bac08945dba47018c2f0573b2a
+#: ../docs/basics.rst:53 4eefcaf0d8da4d6d9c46883dadfda05b
 msgid ""
 "In the server root there is a ``/features.json`` file with fields that "
 "depend on installation. On different nodes different features might be "
@@ -144,7 +144,7 @@ msgstr ""
 "В корне есть файл ``features.json`` с полями, которые зависят от "
 "инсталляции. На разных нодах могут быть включены разные возможности."
 
-#: ../docs/basics.rst:57 66137ab67ee54e29a6c55d777cf86cb6
+#: ../docs/basics.rst:57 ce77716391e74d68a3cf1e4254d91559
 msgid ""
 "This file is not a part of API. API might have version changes, old APIs "
 "might get disabled but this file will always be present."
@@ -153,7 +153,7 @@ msgstr ""
 "могут отключаться, меняться способ авторизации. А этот файл будет на этом "
 "месте всё время."
 
-#: ../docs/basics.rst:60 498b9b645e614f4f97ebe9465b6495f9
+#: ../docs/basics.rst:60 d581c090b70d458faa05232e417c235d
 msgid ""
 "There is also ``features.js`` wrapper. If you run it as script it will "
 "automatically create window.FEATURES."

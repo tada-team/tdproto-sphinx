@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 13:53+0300\n"
+"POT-Creation-Date: 2021-05-21 15:49+0300\n"
 "PO-Revision-Date: 2021-05-20 14:29+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -20,47 +20,46 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/task_paths.rst:2 6520f52391ab4dd39212431b50920b58
+#: ../docs/task_paths.rst:2 dd4ecc00e961461db240fbd72b72c7de
 msgid "Task related paths"
 msgstr "Пути относящиеся к задачам"
 
-#: ../docs/task_paths.rst:6 df2bf0e8d95d47008c112f05624e4272
+#: ../docs/task_paths.rst:6 45c0d53e49ca408da54941fe89b683af
 msgid "Create new task."
 msgstr "Создать новую задачу."
 
-#: ../docs/task_paths.rst:0 2432116fdf494488a889a49c25b0f1ea
+#: ../docs/task_paths.rst:0 37daa71245214421a3dcf48b267b5430
 msgid "Parameters"
 msgstr "Параметры"
 
-#: ../docs/task_paths.rst:8 c61ec6dd15f540c38fcc8398d254b738
+#: ../docs/task_paths.rst:8 089443499b644fbdacb1ad20f046b443
 msgid "UID of the team."
 msgstr "UID команды."
 
-#: ../docs/task_paths.rst:0 e0984836748448cd8104f47c5a48f87a
+#: ../docs/task_paths.rst:0 f06f2a31076b404b86c77dd1455183d9
 msgid "Request JSON Object"
 msgstr "JSON объект запроса."
 
 #: ../docs/task_paths.rst:9 ../docs/task_paths.rst:11
-#: de803e9d86094f0691004840ffa3e0da 1e2b8c69dda74cfcb9d1e5c828e098d9
+#: 0643a951317448ba9b9c04d7720ed954 ef20bae1bd5b41919c352b477245f0cd
 msgid "TODO: document ``Task`` object."
 msgstr "TODO: документировать ``Task`` объект."
 
-#: ../docs/task_paths.rst:0 3ce9f9fda6a049a8a2abedd9bcad0469
+#: ../docs/task_paths.rst:0 bd42430fe08d4245b0af575b784656fb
 msgid "Response JSON Object"
 msgstr "Ответный JSON объект"
 
-#: ../docs/task_paths.rst:10 9d7533476f7d471f8786c3b3f55c0a40
+#: ../docs/task_paths.rst:10 eb4b7bba8f144a67a1866fa4e6eab64b
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/task_paths.rst:0 1c74b251b4c94d288d853f82c957d47c
-msgid "Response JSON Array of Objects"
-msgstr "JSON список ответных объектов"
-
-#: ../docs/task_paths.rst:0 a4f2d3a48729436282d22205a37d7649
+#: ../docs/task_paths.rst:0 b5e693dd4e0b4fc8ba1c7d77e44c3272
 msgid "Status Codes"
 msgstr "Код статуса"
 
-#: ../docs/task_paths.rst:12 445b13c03fb1480b88e1c1aafe2a0cb9
+#: ../docs/task_paths.rst:12 3627ceab9bb347368a5e303cd678f2da
 msgid "No error."
 msgstr "Без ошибки"
+
+#~ msgid "Response JSON Array of Objects"
+#~ msgstr "JSON список ответных объектов"

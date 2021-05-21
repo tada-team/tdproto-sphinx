@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 13:53+0300\n"
-"PO-Revision-Date: 2021-05-20 14:24+0300\n"
+"POT-Creation-Date: 2021-05-21 15:49+0300\n"
+"PO-Revision-Date: 2021-05-21 15:58+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
 "Language: ru\n"
@@ -20,80 +20,138 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/team_paths.rst:2 d7c5c6afd2dd42e88bd4c815eaa1a1f1
+#: ../docs/team_paths.rst:2 fd113148848b48edae9bb239531794e8
 msgid "Team related paths"
 msgstr "Пути относящиеся к командам"
 
-#: ../docs/team_paths.rst:6 03716c7642194a4c84eb0d57b095f079
-msgid "Get the list of chats in the team."
-msgstr "Получить список чатов в команде."
+#: ../docs/team_paths.rst:6 1775dcfe27b8499abb4716a0ec72ec9e
+msgid "Get the list of teams on the server."
+msgstr "Получить список команд на сервере."
 
-#: ../docs/team_paths.rst:0 14df1d10762443eca1d32c59521bbc94
-#: 6ba113e0072d47c6a6dabb637e82fd03 789a8d46e3b1443cab71195b31f43421
-#: 175bc7caf8164afbbfba936d027fc4a8
-msgid "Parameters"
-msgstr "Параметры"
-
-#: ../docs/team_paths.rst:8 ../docs/team_paths.rst:17 ../docs/team_paths.rst:26
-#: ../docs/team_paths.rst:36 e881a0dc4d794cdc9f93f870348bd10d
-#: e200b2b0b13a4ee098aa3afd40452700 9b511a6ee9184ba29898daaf674ac872
-#: 1bfa1530493c4850abae052f2459ce56
-msgid "UID of the team."
-msgstr "UID команды."
-
-#: ../docs/team_paths.rst:0 f97a5017c1024a57a67c4c024b93cf7d
-#: d15ec3188e8343f19b1c44b6d3152ec7 4aec7a5fe277435d982951ff8f4bcc34
-#: 471bb177c7c94c2c89264f763f883b6a
+#: ../docs/team_paths.rst:0 0f3e29334ac847439e855182a44428a9
+#: 29058deae3df4288aed97357ad2432b8 226416476ecb42a7af77f1b2b7fb91f2
+#: 5e6697be6e1a431898e27117580b1578 84223b094a4e4dc090e493e03ac76ad9
+#: d356521327334d6491f994c18b17926e 0d7d338591334bfba768c25a48fbcd2e
+#: c3f52ee0f2ab4ed1953bee63eb1ab29e 68ad3fa1b37b48c89bb750e0ed85ac5e
+#: b5ecfdb18e494104a9d79223fef3dd33
 msgid "Response JSON Object"
 msgstr "JSON объект запроса"
 
-#: ../docs/team_paths.rst:9 ../docs/team_paths.rst:18 ../docs/team_paths.rst:27
-#: ../docs/team_paths.rst:38 90182f368a0c4797b9ebb73152fac72d
-#: 903fff947bc3439bb019162b1ceb4bc7 73d3588b33ee4752994c63c4c06141f0
-#: 538bbc1fd13e44d8af13ea402fbbe838
+#: ../docs/team_paths.rst:8 ../docs/team_paths.rst:26 ../docs/team_paths.rst:38
+#: ../docs/team_paths.rst:49 ../docs/team_paths.rst:58
+#: ../docs/team_paths.rst:67 ../docs/team_paths.rst:78
+#: ../docs/team_paths.rst:88 ../docs/team_paths.rst:99
+#: ../docs/team_paths.rst:111 c02711c280ed4d52a6097b4fb4331a5f
+#: 8452ad7e46d54430bac6621244014922 f6c1c3ceee6f45d190bf7c11fd0e96e6
+#: a7e4f54d4d2f4e5a963bff16fad3b5b8 47321f33b54b452f93ce33724c18ec5d
+#: 25db7e7241504b4bab3d964aa56f8c46 0d722870efd7426da8373e39957658ee
+#: 870c5f4e76544f2d89636a10177d72c6 a91008d2a2314e458ccde905a372aedb
+#: f3d6fd2062cc4d8f925219443c1e339c
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/team_paths.rst:0 12ea7688c7a74068a424610c0e3d02e0
-#: a6763ff373da4a089ca32c084ac82858 060398909bad4240942c230fe9869d07
-#: c662c7ff44bc43febf7c6695f44ff8c1
-msgid "Response JSON Array of Objects"
-msgstr "JSON список ответных объектов."
+#: ../docs/team_paths.rst:9 fa67f709ab8f4c8289d27f92cf647d47
+msgid "List of :ref:`tdproto-Team` objects."
+msgstr "Список :ref:`tdproto-Team` объектов."
 
-#: ../docs/team_paths.rst:10 081c5da5f98d4e1f8bbc24f7e8260d47
-msgid "List of :ref:`tdproto-Chat` objects."
-msgstr "Список :ref:`tdproto-Chat` объектов."
-
-#: ../docs/team_paths.rst:0 d6074131d3ea479995e630da1e6c5d68
-#: e6370dbd92354fb5b45cc970ce232cdf 7e637ed678be4bf98bf9b02a84cb36c6
-#: 72c3576a2cf948aab8da1bf649fd5e24
+#: ../docs/team_paths.rst:0 a5c4421125514211930415f204c7f8c0
+#: f56a04733a2d4bce925d4b74b62708f7 1fdbbc5de7f8427e933d6bd6f67e2837
+#: 159ccce4001e46c6959d727616747e18 43201cd9489e430f95089b6d9d8fe938
+#: 392de6360f3a44b097858f28177458bd 1936455deeb1442b9db3f0db71558e9f
+#: ee91722f58974b889159f3a69618535d 49f6eb4c406542c98549a02394fe1157
+#: e5aa035be04748d69920451519c93973
 msgid "Status Codes"
 msgstr "Код статуса"
 
-#: ../docs/team_paths.rst:11 ../docs/team_paths.rst:20
-#: ../docs/team_paths.rst:29 ../docs/team_paths.rst:40
-#: 4627dd2b055645c69c6b8a6725736845 131b14cdd6784356880e0126daa1d6fe
-#: 6edee0a22df642eba276f047e912d758 7642c72ec33848d1a9d0f5918206028e
+#: ../docs/team_paths.rst:10 ../docs/team_paths.rst:28
+#: ../docs/team_paths.rst:40 ../docs/team_paths.rst:51
+#: ../docs/team_paths.rst:60 ../docs/team_paths.rst:69
+#: ../docs/team_paths.rst:80 ../docs/team_paths.rst:90
+#: ../docs/team_paths.rst:101 ../docs/team_paths.rst:113
+#: 2b77523934f4499682b0f447cf19ef64 05de7d6973c04298919fbca53a678549
+#: 57b5290f269547ff9e932573d648a530 a53e6166e6f14e18b1ee2f49c5afeb40
+#: b5d437abeaf24cc79057bd611f3da037 afd863d02b86450b9d6837a7266e7456
+#: 22b75cba77ed44ec9e547cad7b5b6a18 e922d24059bf41468152d30b71db56ca
+#: ed51b183c263419dab9a3c869b9126ca f5af491484214d329ea501339d15df02
 msgid "No error."
 msgstr "Без ошибки"
 
-#: ../docs/team_paths.rst:15 be4a1f6a27d54fe2a66bc9450ebfcbbf
+#: ../docs/team_paths.rst:23 2e2749498e2147a0a64fa1522f4a82af
+msgid "Get team info."
+msgstr "Получить информацию команды."
+
+#: ../docs/team_paths.rst:0 4875e9720aed43c080b0c04eaf60f8dd
+#: d95403deecd24a41a7107ed9ae70c0a0 d691721cabf14efc84eb3cfb5773df0a
+#: e9e6e7179dbe4a0881ee7ae1fe1ebf44 5095aa9982fa49118fc089aefb1c088b
+#: edded14443ae4657a0e46bf924c9d2b9 d42cc91201d94e77a886483ab4738531
+#: 606a08cbff17414ea0dd662542bb1395 5d2b52eb3fc44dbda14ba67672f65be4
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../docs/team_paths.rst:25 ../docs/team_paths.rst:36
+#: ../docs/team_paths.rst:48 ../docs/team_paths.rst:57
+#: ../docs/team_paths.rst:66 ../docs/team_paths.rst:76
+#: ../docs/team_paths.rst:86 ../docs/team_paths.rst:96
+#: ../docs/team_paths.rst:109 0b2520dd33194a43b67dba430d7e4d54
+#: f1a7305299ee45aa9466d8d2f6e3983d 89a672a729e948b28675de93495d0ef7
+#: 355a37c93d1f40439bce9121ff6c2b22 169535b644ca4fd3b3297dca2367a2d1
+#: 5db4985e716e41909e8b22285dc58180 eb59532bbac14262b295c03cefbeae06
+#: 8ada55b1cc854dd09498ae913657a1f3 cec42eb2e7474d78875496e36ce68691
+msgid "UID of the team."
+msgstr "UID команды."
+
+#: ../docs/team_paths.rst:27 030cb2a6db114913884547ddd39d6e24
+msgid ":ref:`tdproto-Team` object."
+msgstr ":ref:`tdproto-Team` объект."
+
+#: ../docs/team_paths.rst:32 dff1ad04b63941499fdb051d41fd6ef1
+msgid "Update team settings."
+msgstr "Изменить настройки команды."
+
+#: ../docs/team_paths.rst:34 ../docs/team_paths.rst:46
+#: ../docs/team_paths.rst:107 5fde3fc6a8fe4af1a7dc52daa15b3bd5
+#: 8921a5861f73408d82b4e4f2c7dc4429 bf411e40a37e42c392d28ef8aa4bc952
+msgid "Must have admin rights."
+msgstr "Должны быть права администратора."
+
+#: ../docs/team_paths.rst:0 69a78c60f3464cbd8959abc566353c32
+#: f8494d85cd73446e9627a8064bf1f0d8 c904383ab6494a23bf09804f8bc80afb
+msgid "Request JSON Object"
+msgstr "JSON объект запроса"
+
+#: ../docs/team_paths.rst:37 d16f08e25c944e6fab4df55b65414893
+msgid ":ref:`tdproto-Team` info to create."
+msgstr ":ref:`tdproto-Team` объект как создать."
+
+#: ../docs/team_paths.rst:39 c08e662fa48e48adb3aea8e14a40bbba
+msgid "Updated :ref:`tdproto-Team` object of the team."
+msgstr "Обновленный :ref:`tdproto-Team` обект команды."
+
+#: ../docs/team_paths.rst:44 ac424a0b2b054f3e95c9cb106b7a9dd6
+msgid "Delete the team."
+msgstr "Удалить команду."
+
+#: ../docs/team_paths.rst:50 8258d7a26dbc4a0582ec4a9eb0894a7b
+msgid ":ref:`tdproto-Team` object of deleted team."
+msgstr ":ref:`tdproto-Team` объект удаленной команды."
+
+#: ../docs/team_paths.rst:55 0d875517e00e4eeaa03f66e9da9479ae
+msgid "Get the list of chats in the team."
+msgstr "Получить список чатов в команде."
+
+#: ../docs/team_paths.rst:59 41f51180e27845c5989fffdd7843d2c7
+msgid "List of :ref:`tdproto-Chat` objects."
+msgstr "Список :ref:`tdproto-Chat` объектов."
+
+#: ../docs/team_paths.rst:64 556b63f728904da3b1bf613844d3b3b1
 msgid "Get the list of contacts of the team."
 msgstr "Получить список контактов в команде."
 
-#: ../docs/team_paths.rst:19 9f06cbef99374c5fb20947849b40e19c
+#: ../docs/team_paths.rst:68 c62511580acc4962a79538b9a4bf51a9
 msgid "List of :ref:`tdproto-Contact` objects."
 msgstr "Список :ref:`tdproto-Contact` объектов."
 
-#: ../docs/team_paths.rst:24 cc7d4a5fd90044539f360317a9e72dd8
-msgid "Get my contact info."
-msgstr "Получить информацию моего профиля."
-
-#: ../docs/team_paths.rst:28 b1af06ca31da494e8da3f923f12ed66f
-msgid "My :ref:`tdproto-Contact` object."
-msgstr "Мой :ref:`tdproto-Contact` объект."
-
-#: ../docs/team_paths.rst:33 7e531daa7aaa44a7835a8c31fbf44b8e
+#: ../docs/team_paths.rst:73 4c20ebd30ca5456ab5ad59ffc0b12671
 msgid ""
 "Add new contant to the team. Requires :ref:`tdproto-Contact` object as input "
 "with phone number set."
@@ -101,14 +159,47 @@ msgstr ""
 "Добавить новый контакт в команду. Требуется :ref:`tdproto-Contact` объект с "
 "заданным номером телефона."
 
-#: ../docs/team_paths.rst:0 61e190f094aa499b87d27c32345981e5
-msgid "Request JSON Object"
-msgstr "JSON объект запроса"
-
-#: ../docs/team_paths.rst:37 06fd7c1120674f98b25acbfd87a337fa
+#: ../docs/team_paths.rst:77 19c06115c6254ed38bdb7232fbf3ea5d
 msgid "Phone number of new contact."
 msgstr "Номер телефона нового контакта."
 
-#: ../docs/team_paths.rst:39 167f097083dd49d5a82b1be836563ad7
+#: ../docs/team_paths.rst:79 4d545b2d620746c68cfc7d81e5aa42df
 msgid "New :ref:`tdproto-Contact` object."
 msgstr "Новый :ref:`tdproto-Contact` объект."
+
+#: ../docs/team_paths.rst:84 b5293569a1e84d4f978e2eab36554514
+msgid "Get contact details."
+msgstr "Получить информацию о контакте."
+
+#: ../docs/team_paths.rst:87 ../docs/team_paths.rst:97
+#: ../docs/team_paths.rst:110 2a6fef5cae2d4a02b44f57fff3a27204
+#: 398e07c9e116412593de2ea32a51a709 8db3504fa819410589fb3b5207f09285
+msgid "ID of the contact."
+msgstr "ID контакта."
+
+#: ../docs/team_paths.rst:89 f379d2ca60a54091a610ce57dd62a577
+msgid "The :ref:`tdproto-Contact` object."
+msgstr ":ref:`tdproto-Contact` объект."
+
+#: ../docs/team_paths.rst:94 839637ea3e6348708079b91848ddf07a
+msgid "Update contact details."
+msgstr "Изменить детали контакта."
+
+#: ../docs/team_paths.rst:98 914ff52e8b9145749f788f9e56063d7c
+msgid ":ref:`tdproto-Contact` object with updated fields."
+msgstr "Обновленный :ref:`tdproto-Contact` объект контакта."
+
+#: ../docs/team_paths.rst:100 a66d2b3a18a245cfa1d1e09891bd4986
+msgid "Updated :ref:`tdproto-Contact` object."
+msgstr "Обновленый :ref:`tdproto-Contact` объект."
+
+#: ../docs/team_paths.rst:105 4340762bd15c4679a2af84041608e3fd
+msgid "Remove contact from the team."
+msgstr "Удалить контакт из команды."
+
+#: ../docs/team_paths.rst:112 e557187da4894e0b93c4456b55460926
+msgid "Removed :ref:`tdproto-Contact` object."
+msgstr "Удаленный :ref:`tdproto-Contact` объект."
+
+#~ msgid "Response JSON Array of Objects"
+#~ msgstr "JSON список ответных объектов."
