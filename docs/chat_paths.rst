@@ -1,67 +1,66 @@
-Chat related paths
-========================
+Chat related paths.
+----------------------------------------------
 
-.. http:get:: /api/v4/teams/{team_uid}/chats/{chat_jid}
+.. http:get:: /api/v4/teams/{team_id}/chats/{chat_id}
 
   Get the chat information.
 
-  :param team_uid: UID of the team.
-  :param chat_jid: JID of the chat.
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id__chats__chat_id_>`__
+  
+  :param team_id: ID of the team.
+  :param chat_id: ID of the chat.
   :resjson boolean ok: True if no error occured.
-  :reqjson object message: The :ref:`tdproto-Chat` object.
-  :status 200: No error
+  :resjson object result: The :ref:`tdproto-Chat` object.
+  :status 200: No error.
 
-.. http:put:: /api/v4/teams/{team_uid}/chats/{chat_jid}
+.. http:put:: /api/v4/teams/{team_id}/chats/{chat_id}
 
   Change chat settings.
 
-  :param team_uid: UID of the team.
-  :param chat_jid: JID of the chat.
-  :reqjson object: :ref:`tdproto-Chat` objects
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/put_api_v4_teams__team_id__chats__chat_id_>`__
+  
+  :param team_id: ID of the team.
+  :param chat_id: ID of the chat.
+  :reqjson object: The :ref:`tdproto-Chat` object.
   :resjson boolean ok: True if no error occured.
-  :reqjson object message: Updated :ref:`tdproto-Chat` object.
-  :status 200: No error
+  :resjson object result: The :ref:`tdproto-Chat` object.
+  :status 200: No error.
 
-.. http:post:: /api/v4/teams/{team_uid}/chats/{chat_jid}/messages
+.. http:post:: /api/v4/teams/{team_id}/chats/{chat_id}/messages
 
   Send text message to chat.
 
-  :param team_uid: UID of the team.
-  :param chat_jid: JID of the chat.
-  :reqjson object message: New :ref:`tdproto-Message` object.
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__chats__chat_id__messages>`__
+  
+  :param team_id: ID of the team.
+  :param chat_id: ID of the chat.
+  :reqjson object: The :ref:`tdproto-Message` object.
   :resjson boolean ok: True if no error occured.
-  :status 200: No error
+  :status 200: No error.
 
-.. http:get:: /api/v4/teams/{team_uid}/chats/{chat_jid}/messages
+.. http:post:: /api/v4/teams/{team_id}/chats/{chat_id}/messages/{message_id}
 
-  Get the chat messages.
+  Edit message.
 
-  :param team_uid: UID of the team.
-  :param chat_jid: JID of the chat.
-  :reqjson object filter: TODO: document filter object.
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__
+  
+  :param team_id: ID of the team.
+  :param chat_id: ID of the chat.
+  :param message_id: ID of the message.
+  :reqjson object: The :ref:`tdproto-Message` object.
   :resjson boolean ok: True if no error occured.
-  :resjson array messages: List of :ref:`tdproto-Message` objects.
-  :status 200: No error
+  :resjson object result: The :ref:`tdproto-Message` object.
+  :status 200: No error.
 
-.. http:post:: /api/v4/teams/{team_uid}/chats/{chat_jid}/messages/{message_id}
-
-  Edit a message.
-
-  :param team_uid: UID of the team.
-  :param chat_jid: JID of the chat.
-  :param message_id: Message id to edit.
-  :reqjson object: :ref:`tdproto-Message` object with updated fields.
-  :resjson boolean ok: True if no error occured.
-  :resjson object result: Updated :ref:`tdproto-Message` object.
-  :status 200: No error
-
-.. http:delete:: /api/v4/teams/{team_uid}/chats/{chat_jid}/messages/{message_id}
+.. http:delete:: /api/v4/teams/{team_id}/chats/{chat_id}/messages/{message_id}
 
   Delete message.
 
-  :param team_uid: UID of the team.
-  :param chat_jid: JID of the chat.
-  :param message_id: Message id to delete.
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/delete_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__
+  
+  :param team_id: ID of the team.
+  :param chat_id: ID of the chat.
+  :param message_id: ID of the message.
   :resjson boolean ok: True if no error occured.
-  :resjson object result: :ref:`tdproto-Message` object of deleted message.
-  :status 200: No error
+  :resjson object result: The :ref:`tdproto-Message` object.
+  :status 200: No error.
