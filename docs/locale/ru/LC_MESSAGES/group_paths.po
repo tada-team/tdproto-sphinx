@@ -1,6 +1,7 @@
 # Russian translations for Tdproto docs package.
-# Copyright (C) 
-# This file is distributed under the same license as the Tdproto docs package.
+# Copyright (C)
+# This file is distributed under the same license as the Tdproto docs
+# package.
 # Automatically generated, 2021.
 # igo95862 <igo95862@yandex.ru>, 2021.
 #
@@ -8,131 +9,151 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-21 15:49+0300\n"
-"PO-Revision-Date: 2021-05-20 14:15+0300\n"
+"POT-Creation-Date: 2021-06-02 16:44+0300\n"
+"PO-Revision-Date: 2021-06-02 16:48+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
-"Language-Team: Russian <igo95862@yandex.ru>\n"
 "Language: ru\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Generated-By: Babel 2.9.1\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/group_paths.rst:2 58cabf681ab546029956a2556e2010e8
-msgid "Group related paths"
+#: ../docs/group_paths.rst:2 5a258a02ea7a455db8ee8cfda589b930
+msgid "Group related paths."
 msgstr "Пути относящиеся к группам"
 
-#: ../docs/group_paths.rst:6 6b05d9a094774ccbac1f74689d028dd6
+#: ../docs/group_paths.rst:6 aca16c4aaaa34379a859caf0423c79a5
 msgid "Get all groups in the team."
 msgstr "Получить все группы в чате."
 
-#: ../docs/group_paths.rst:0 801c2f2019cf462abee228126272c4fd
-#: 05963953dc4140e5b2faaacd3a64f159 e342c5c3f3ac4dd4ab79778a92236cf7
-#: ffe45e43ccca4120b4ec36b65c2d6e57 2fc6306c213c4833b3c866c5c964b178
-#: 5730cdba2e5a4e028062f56eb68a998f
+#: ../docs/group_paths.rst:8 3c41281ee5b14d50bacb239c2befc7e3
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__groups>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__groups>`__"
+
+#: ../docs/group_paths.rst 02deb7fe6be0402fbe7053be98d37d59
+#: 393b01e109f842b3bde09003469a85d5 740ad26eecbe43f7918b01fb8091c5aa
+#: b0fb2b961ea94940a065186a7eea18a0
 msgid "Parameters"
 msgstr "Параметры"
 
-#: ../docs/group_paths.rst:8 ../docs/group_paths.rst:17
-#: ../docs/group_paths.rst:27 ../docs/group_paths.rst:38
-#: ../docs/group_paths.rst:48 ../docs/group_paths.rst:59
-#: 660762263f644b84ab58d66be8353238 9e3d71bf581b4ceab4c1fd989db1fbda
-#: 9eae09f1f72f4beca7d1a604833bebc2 452cd3b9c6554f90b90de927960c70be
-#: 82e6ddcf3d744c36b9bae2a66364348d 79358ff5c2d74459a1f5acaceadbd6c1
-msgid "UID of the team."
-msgstr "UID команды. "
+#: ../docs/group_paths.rst:10 ../docs/group_paths.rst:21
+#: ../docs/group_paths.rst:31 ../docs/group_paths.rst:43
+#: 5aa73f2da4a24d029a5a06ba7e654b30 689d40cd5e6a4e9f81ce7603211d57b0
+#: 7ee116560cd54c949f236a542d136faa c1c8713e70f24b678b63e883303f4b64
+msgid "ID of the team."
+msgstr "ID команды. "
 
-#: ../docs/group_paths.rst:0 5e2fb38eef2f47d585df6a53ecc89560
-#: 0619d7699c6646d1b6fdc5075a745533 091056414b4a4f3581257093d69c663a
-#: 381a3389919243ac8eb79ea32abb409b d0030d9b3d0446a4990b05e343173f09
-#: 7a4775aba08d47589f66a49fbd383b81
+#: ../docs/group_paths.rst 761d6dd5c3d1463284d828d0be81d174
+#: c90f6e43df774d51b834863a10fddc6c cec9ea882f5b45d38744b81b6d2b65a4
+#: e85ccf8581fc4af2872cc737ff5bed79
 msgid "Response JSON Object"
 msgstr "Ответный JSON объект"
 
-#: ../docs/group_paths.rst:9 ../docs/group_paths.rst:19
-#: ../docs/group_paths.rst:30 ../docs/group_paths.rst:40
-#: ../docs/group_paths.rst:51 ../docs/group_paths.rst:61
-#: 2da63002f7274d379b2af64293505734 b5f6711b084a424ba6ea72b21d1d1ef5
-#: d086d80d68264df295d732a086d45825 33c3b49a1e244e85bc0e9d91e285022b
-#: c540bb44c3c84d37bde3dc6e2d56edd5 abb1be8bb63a40efaac449695c1c67fd
+#: ../docs/group_paths.rst:11 ../docs/group_paths.rst:22
+#: ../docs/group_paths.rst:33 ../docs/group_paths.rst:46
+#: 2c7759607b7d43dda0dcd8e68d58e3d9 48972d71e2d1495c9fde833beaeb3c66
+#: 50dc82382d904bfe9568bea2c85848c1 851bacddaa4a495db3dc39339d78c957
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/group_paths.rst:10 bfe49732f3e44139b609b4bd366a31b2
+#: ../docs/group_paths.rst:12 d82b2bfa3a154849a5ab87f9c95218bd
 msgid "List of :ref:`tdproto-Chat` objects."
 msgstr "Список :ref:`tdproto-Chat` объектов."
 
-#: ../docs/group_paths.rst:0 824cbc5df8d14e05b45f847431f292d2
-#: e434bdbdc82b408b89526da01c313518 3b81554e72704676912ffe09c8f0c23b
-#: 5ef0db42f6e148fcacc74c17a2fce46c c40a2524624f41cd8209572687c51ec3
-#: e69a8918df054ba08b4a236bfe19462e
+#: ../docs/group_paths.rst acbea83db8d247dda2db697800617d86
+#: c5df084684fe4e3a9a322feef3ab5bba cd31af706c51493e9b917f4bb6eb067a
+#: f9129eaf50af42258e80bbc615c62369
 msgid "Status Codes"
 msgstr "Код статуса"
 
-#: ../docs/group_paths.rst:11 ../docs/group_paths.rst:21
-#: ../docs/group_paths.rst:32 ../docs/group_paths.rst:42
-#: ../docs/group_paths.rst:53 ../docs/group_paths.rst:62
-#: 40204ff23bdd41b0845d4f574803f344 8bc22b452f474668a2e6924fbb9ef8f6
-#: d39193b129424bb2969c11a10a125fc9 eb1bb44f2a3f4c5cb2b9938ce67c6c88
-#: e36ff7a34715456abb307d95abd7ea9f b237cdc17c454b17ba5155fa26a1e898
+#: ../docs/group_paths.rst:13 ../docs/group_paths.rst:23
+#: ../docs/group_paths.rst:35 ../docs/group_paths.rst:48
+#: 50843d9f6e8b4f80b4e096f1553aa701 749567b057124e7483c38844bffbdcf0
+#: 87c7482d51a14be08c5b6e98e2526c67 9cd1ace3b7f54de4aafdfe4668165fc1
 msgid "No error."
 msgstr "Без ошибки"
 
-#: ../docs/group_paths.rst:15 79e08862e0864a1da022863147f48175
-msgid "Create new group."
-msgstr "Создать новую группу."
-
-#: ../docs/group_paths.rst:0 0fdbeadeacc0418f860f00539966a5e0
-#: 1251adce530f455fb500d5ab055318dc
-msgid "Request JSON Object"
-msgstr "Запросный JSON объект"
-
-#: ../docs/group_paths.rst:18 ../docs/group_paths.rst:29
-#: 2bf2fa93154f4c66b92219b2c25c6b5c 2554d62f86254db6be38c6103399be0d
-msgid "TODO: document group object."
-msgstr "TODO: документировать объект группы."
-
-#: ../docs/group_paths.rst:20 9441ccdb2d754d2c869e295a718bde4b
-msgid ":ref:`tdproto-Chat` object."
-msgstr ":ref:`tdproto-Chat` объект."
-
-#: ../docs/group_paths.rst:25 990a14af3a1e477ca4fbed3acef565f3
-msgid "Add a new member to the team."
-msgstr "Добавить нового участника в команду."
-
-#: ../docs/group_paths.rst:28 ../docs/group_paths.rst:39
-#: ../docs/group_paths.rst:49 ../docs/group_paths.rst:60
-#: 01a126075e2e47b1bdc4a44bc610d8d1 cd1238a6a0a54db691a3070ecf6a2406
-#: 7bee7375a4724385850b23ddf6d9d46f 4c196294897c465094612cc7e47b91e2
-msgid "Group ID to add member to."
-msgstr "ID группы в которую добавить."
-
-#: ../docs/group_paths.rst:31 892714d2b53d4b36b40f3f4d476027c7
-msgid ":ref:`tdproto-GroupMembership` object."
-msgstr ":ref:`tdproto-GroupMembership` объект."
-
-#: ../docs/group_paths.rst:36 6128943f40cd485782ac815f996c5f7c
-msgid "Get the list of group members."
-msgstr "Получить список участников группы."
-
-#: ../docs/group_paths.rst:41 ../docs/group_paths.rst:52
-#: 17ee5743200440b88cb743569d718fa8 425a11b3b84441929b663ea903093a79
-msgid "List of :ref:`tdproto-GroupMembership` objects."
-msgstr "Список :ref:`tdproto-GroupMembership` объектов."
-
-#: ../docs/group_paths.rst:46 d81d6baa6124498a95e758a684c6a5f1
-msgid "Remove member from the group."
-msgstr "Убрать участника из группы."
-
-#: ../docs/group_paths.rst:50 0a5172bb907247a1b8b5d1792f21e07d
-msgid "Contact ID of the member to remove."
-msgstr "ID контакта которого убрать."
-
-#: ../docs/group_paths.rst:57 644c63120b32455f9cf9aaabcd07dc0b
+#: ../docs/group_paths.rst:17 666ce6016e07473ebe299a4fd86d1efe
 msgid "Delete the group."
 msgstr "Удалить группу."
 
+#: ../docs/group_paths.rst:19 dd22f058f80e4da1885cbc685be81144
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__groups>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__groups>`__"
+
+#: ../docs/group_paths.rst:27 8972e8d0210945fbbe272ffb819d2653
+msgid "Get the list of group members."
+msgstr "Получить список участников группы."
+
+#: ../docs/group_paths.rst:29 574430be7bd047feac8071454019dfc8
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__groups__group_id__members>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__groups__group_id__members>`__"
+
+#: ../docs/group_paths.rst:32 ../docs/group_paths.rst:45
+#: 325c7cd22a764c978529db0ed95b7972 a742477bef3546c197a93c0595a2cf1c
+msgid "ID of the group."
+msgstr "ID группы."
+
+#: ../docs/group_paths.rst:34 0c5ab0418a8140ed8348cb3f3718916d
+msgid "List of :ref:`tdproto-GroupMembership` objects."
+msgstr "Список :ref:`tdproto-GroupMembership` объектов."
+
+#: ../docs/group_paths.rst:39 cb3507c4708f4a4aae28e5efe61247e3
+msgid "Remove member from the group."
+msgstr "Убрать участника из группы."
+
+#: ../docs/group_paths.rst:41 6eb030223e7e4c008843b101a7eaef56
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__groups__group_id__members__contact_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__groups__group_id__members__contact_id_>`__"
+
+#: ../docs/group_paths.rst:44 fcf48467fabd4c1db04445c0baa281a7
+msgid "ID of the contact."
+msgstr "ID контакта."
+
+#: ../docs/group_paths.rst:47 aa32d5dbdb7e4c61a8c8fae0dee54614
+msgid "The :ref:`tdproto-GroupMembership` object."
+msgstr ":ref:`tdproto-GroupMembership` объект."
+
 #~ msgid "Response JSON Array of Objects"
 #~ msgstr "Ответный JSON список объектов"
+
+#~ msgid "Create new group."
+#~ msgstr "Создать новую группу."
+
+#~ msgid "Request JSON Object"
+#~ msgstr "Запросный JSON объект"
+
+#~ msgid "TODO: document group object."
+#~ msgstr "TODO: документировать объект группы."
+
+#~ msgid ":ref:`tdproto-Chat` object."
+#~ msgstr ":ref:`tdproto-Chat` объект."
+
+#~ msgid "Add a new member to the team."
+#~ msgstr "Добавить нового участника в команду."
+
+#~ msgid "Group ID to add member to."
+#~ msgstr "ID группы в которую добавить."
+
+#~ msgid "Contact ID of the member to remove."
+#~ msgstr "ID контакта которого убрать."

@@ -1,6 +1,7 @@
 # Russian translations for Tdproto docs package.
-# Copyright (C) 
-# This file is distributed under the same license as the Tdproto docs package.
+# Copyright (C)
+# This file is distributed under the same license as the Tdproto docs
+# package.
 # Automatically generated, 2021.
 # igo95862 <igo95862@yandex.ru>, 2021.
 #
@@ -8,152 +9,185 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-21 15:49+0300\n"
-"PO-Revision-Date: 2021-05-21 16:05+0300\n"
+"POT-Creation-Date: 2021-06-02 16:44+0300\n"
+"PO-Revision-Date: 2021-06-02 16:50+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
-"Language-Team: Russian <igo95862@yandex.ru>\n"
 "Language: ru\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Generated-By: Babel 2.9.1\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/chat_paths.rst:2 92c0bbbcf5944f5397ec4abc707bdcca
-msgid "Chat related paths"
+#: ../docs/chat_paths.rst:2 ace36c37524e4629990ce4428845ec92
+msgid "Chat related paths."
 msgstr "Пути относящиеся в чатам."
 
-#: ../docs/chat_paths.rst:6 ced1de163d1a471696e6e6a859923030
+#: ../docs/chat_paths.rst:6 33ed9173db0f40f48cc774d22f68f396
 msgid "Get the chat information."
 msgstr "Получить информацию чата."
 
-#: ../docs/chat_paths.rst:0 1eac3e9aa8924d65858f9d3006b972d2
-#: 5ebc83037503476b975e22a19a9ee0ad 1e06e22acae5445db615aca003cb9f9a
-#: ada438f3c3814167a1389274d67171a6 ce788906e12a4253b04ce47846dbff83
-#: 28b0b289b44d4428a4c8404025048047
+#: ../docs/chat_paths.rst:8 27e59c6768724edea5173280995f5c3f
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__chats__chat_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__chats__chat_id_>`__"
+
+#: ../docs/chat_paths.rst 3f3ee11747ce473aac47e9d8f764e4c0
+#: 822b19aaf44848e095b2603f359c6b71 94702c74b2af4c0fadce3dbb0925f0bd
+#: c103e306403443f5a169932c180256cc c118bf23c0dc451e9370b2d5932c40c3
 msgid "Parameters"
 msgstr "Параметры"
 
-#: ../docs/chat_paths.rst:8 ../docs/chat_paths.rst:18 ../docs/chat_paths.rst:29
-#: ../docs/chat_paths.rst:39 ../docs/chat_paths.rst:50
-#: ../docs/chat_paths.rst:62 b848ce7ec3aa4bf6b1f225e0ce3ef32c
-#: 678b4e14d74c4ccf99acae5ec8be6e0e 29c7cb99b4b84a83b0c424e131803b54
-#: fd18a15337c6456bad38d3fbac3e30fc ad2a57f42ef649c2946681b04d4bafe0
-#: daf0f31e8b9f4093824ee533215313fe
-msgid "UID of the team."
-msgstr "UID команды."
+#: ../docs/chat_paths.rst:10 ../docs/chat_paths.rst:22
+#: ../docs/chat_paths.rst:35 ../docs/chat_paths.rst:47
+#: ../docs/chat_paths.rst:61 01d3cebedaff4d0ab16ab06a2dae8b76
+#: 2a4c2f4216a64aa0a77fa0a8353eb6b2 e8ff1d7ad1cf46259a0b3b4b08f23817
+#: eee8b21462f64aa18df931687246e3cb f44ad78eb1cd42a880a9d8a4ff19bbe3
+msgid "ID of the team."
+msgstr "ID команды."
 
-#: ../docs/chat_paths.rst:9 ../docs/chat_paths.rst:19 ../docs/chat_paths.rst:30
-#: ../docs/chat_paths.rst:40 ../docs/chat_paths.rst:51
-#: ../docs/chat_paths.rst:63 8957da72dbda448989c025e6b3010979
-#: b7b1d8fd657c4961bc4111e803fbce88 df64028725d240b584452fc2e114a89d
-#: 361929236a224ec0a3672d556c8acca2 6b1a9e4a7434490492db6ff465ad9ba8
-#: 879a6e934a194d378836327ef724ea5d
-msgid "JID of the chat."
-msgstr "JID чата."
+#: ../docs/chat_paths.rst:11 ../docs/chat_paths.rst:23
+#: ../docs/chat_paths.rst:36 ../docs/chat_paths.rst:48
+#: ../docs/chat_paths.rst:62 0bda93cf2cfa4e24b61df5ccff0ddd85
+#: 53dcbfe391894b558bc84fcef5fecf3c a6c20800892048e7b399e85e2d3d0f13
+#: da7b28cadf4042a196b0eff2b3eba7ae f7700bd9b23c4ee99d4be1b82e726773
+msgid "ID of the chat."
+msgstr "ID чата."
 
-#: ../docs/chat_paths.rst:0 5b53cf9a31e0498498588b722d526d5f
-#: 37a5c12e9a66466d9295b7de040c7ea7 172f2d75044c49b78de19876dd2c74fd
-#: 626b47643eac4bc6a28fd726a2a49d52 ac871385d0df41239cfdd51a0950fa77
-#: 22bb287d0efe4f0b90f076664b061dea
+#: ../docs/chat_paths.rst 3fa7f2e1fa214c328aeb2945ccfabab8
+#: 59497512012840c9aa4cef451c276ff4 6e6a6ae1f53f41a2aabeaf8fe88f1ac9
+#: cdcdcc64724746db886a1c45a6d6265d e9be72c08a204a4c80fd22fa8ce8a32d
 msgid "Response JSON Object"
 msgstr "JSON объект ответа"
 
-#: ../docs/chat_paths.rst:10 ../docs/chat_paths.rst:21
-#: ../docs/chat_paths.rst:32 ../docs/chat_paths.rst:42
-#: ../docs/chat_paths.rst:54 ../docs/chat_paths.rst:65
-#: b54a6a8254ed434dbf183d6a6d7ec459 39b384ea881e4d0eb4da12f6bb351aeb
-#: cf8784422bba464183e2f844820e9303 49270c0bd2fc44c990ff5ecc4a79a0d2
-#: dc25722697e145708f5db16f35083734 c344aabd4ad142ae8c007ef5d18aa3e1
+#: ../docs/chat_paths.rst:12 ../docs/chat_paths.rst:25
+#: ../docs/chat_paths.rst:38 ../docs/chat_paths.rst:51
+#: ../docs/chat_paths.rst:64 02937550ebfa411ebfaad9eeda38563c
+#: 05872b16322d4c6098ede93c6130fc2f 1722adfdc96341bfb4217c8b428b15c0
+#: 729b3e6c0cb7499580eeb9d2ac96bd3c 72ce2f25df0046429cc2e4a87c43f349
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/chat_paths.rst:0 0dc05035b80741fe8f296ad89302a79f
-#: c4e6adb04cc64dd48e0b42d11f476f4e cae9238005c34b2f905d0cb1107b1e2b
-#: b1796a25b85b4297bf258997d16d103c 349be89232bc4e49be033fe46adf5a74
-msgid "Request JSON Object"
-msgstr "JSON объект запроса."
-
-#: ../docs/chat_paths.rst:11 e26cce39be984e80bedaea19fa9baca7
+#: ../docs/chat_paths.rst:13 ../docs/chat_paths.rst:24
+#: ../docs/chat_paths.rst:26 4a688ef5013f4fc1a576d6f7682c855c
+#: c883b9946ba94a2d971f540abefbf4da f2521f9cf2c840e1ae3370367432e41b
 msgid "The :ref:`tdproto-Chat` object."
 msgstr "Новый :ref:`tdproto-Chat` объект."
 
-#: ../docs/chat_paths.rst:0 45c5796a34ae4e528f1268628282ddb4
-#: f65fb778a49a45ffb5e8d693f4ee6356 8f6ea401614d452281c8ea45604a5b77
-#: f1326f73c0cf422c96df24e5217f7da6 f7942f23f3224eefab37034140165ae8
-#: a94e9b4057bc4cc19ba0488d1f263447
+#: ../docs/chat_paths.rst 6808defbb559466db97b1f616cafab8e
+#: 79d4daeb5d6b40718708765b6ad728bd bf1f4e3f69de494091f3ba1606adffc0
+#: e098b9dac30149fe8d286b22b86831f7 f71f50a9acad45c58846b31816e97fde
 msgid "Status Codes"
 msgstr "Код статуса"
 
-#: ../docs/chat_paths.rst:12 ../docs/chat_paths.rst:23
-#: ../docs/chat_paths.rst:33 ../docs/chat_paths.rst:44
-#: ../docs/chat_paths.rst:56 ../docs/chat_paths.rst:67
-#: 1b38a1bb11004f40a59bd11b1c5ad63d bfe8b99ff6744dbabd3668dee5b49441
-#: 0872cd4c7d6d440384d6c30c65c616d0 3de6089ceafd48ef934eff9fc5be36bf
-#: c1e012c2c4c8401fae6aea74353dfb15 40be657c368b4e2188931d7194285632
-msgid "No error"
+#: ../docs/chat_paths.rst:14 ../docs/chat_paths.rst:27
+#: ../docs/chat_paths.rst:39 ../docs/chat_paths.rst:53
+#: ../docs/chat_paths.rst:66 517e4aa9c80d463f9e9beaa5109a1207
+#: 56e31b36ac5a44669769d05312179f9e 9320be6c8d5647fab910aeae817d3a9b
+#: ab87afa4e9514313ba67ef026510cb55 ee877c2907fe47ae93256028674076f6
+msgid "No error."
 msgstr "Без ошибки"
 
-#: ../docs/chat_paths.rst:16 807aab11850c41d49413a7e7e6282efe
+#: ../docs/chat_paths.rst:18 530801e0c32b4e4199d877962641738a
 msgid "Change chat settings."
 msgstr "Изменить настройки чата."
 
-#: ../docs/chat_paths.rst:20 e1a6cca8b15346d1ad4cf3f1af88e14d
-msgid ":ref:`tdproto-Chat` objects"
-msgstr ":ref:`tdproto-Chat` объекты."
+#: ../docs/chat_paths.rst:20 ac2c91f540c842378c7e321a7b6eb044
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"put_api_v4_teams__team_id__chats__chat_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"put_api_v4_teams__team_id__chats__chat_id_>`__"
 
-#: ../docs/chat_paths.rst:22 c6f2d4101b5343aea662adf39214ea9e
-msgid "Updated :ref:`tdproto-Chat` object."
-msgstr "Обновленный :ref:`tdproto-Chat` объект."
+#: ../docs/chat_paths.rst 1de100b64d8f4b62a3b064b37e90c11f
+#: 36fa73b5a3aa410fb473b8be13e5d210 68ae193a9a2341a98cf9ba1e0efbeae7
+msgid "Request JSON Object"
+msgstr "JSON объект запроса."
 
-#: ../docs/chat_paths.rst:27 eeebefc67049449f855965e50e51dfdc
+#: ../docs/chat_paths.rst:31 e9658202e3434bf78ace397a639f6722
 msgid "Send text message to chat."
 msgstr "Послать сообщение в чат."
 
-#: ../docs/chat_paths.rst:31 2a5110dc00cb4b5cabd0ce256be851c5
-msgid "New :ref:`tdproto-Message` object."
-msgstr "Новый :ref:`tdproto-Message` объект."
+#: ../docs/chat_paths.rst:33 07a197fe72154f048ab11701e3088992
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_teams__team_id__chats__chat_id__messages>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_teams__team_id__chats__chat_id__messages>`__"
 
-#: ../docs/chat_paths.rst:37 d621e9516ed44f03a53e02bc665e553e
-msgid "Get the chat messages."
-msgstr "Получить сообщения чата."
+#: ../docs/chat_paths.rst:37 ../docs/chat_paths.rst:50
+#: ../docs/chat_paths.rst:52 ../docs/chat_paths.rst:65
+#: 47e2768fb6834da19b09a6e33dae7951 9b1ae8917d1e4e57bcc23c9ad3e55989
+#: 9c5435ca74414313942aaef7a9945877 d7e8dfc8adb045eda8709ad31445ad2b
+msgid "The :ref:`tdproto-Message` object."
+msgstr ":ref:`tdproto-Message` объект."
 
-#: ../docs/chat_paths.rst:41 9e010b43189642beae542a6a8679b6a8
-msgid "TODO: document filter object."
-msgstr "TODO: документировать объект фильтра."
-
-#: ../docs/chat_paths.rst:43 1536b824b4114cbeb8c219cdeed1896e
-msgid "List of :ref:`tdproto-Message` objects."
-msgstr "Список :ref:`tdproto-Message` объектов."
-
-#: ../docs/chat_paths.rst:48 7b63c70f60044da6930afd6f9f72bf85
-msgid "Edit a message."
+#: ../docs/chat_paths.rst:43 94b8ab9543ec4a36b0f9c8d00d6b58e9
+msgid "Edit message."
 msgstr "Изменить сообщение."
 
-#: ../docs/chat_paths.rst:52 af90da6cc62e4fde9ebd51e8ee20776b
-msgid "Message id to edit."
-msgstr "Id сообщения которое изменить."
+#: ../docs/chat_paths.rst:45 bd566e8fb7e94bff87da9818568b329c
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__"
 
-#: ../docs/chat_paths.rst:53 e68a6a0e5a2b4727bb06ea7d2c7d9fac
-msgid ":ref:`tdproto-Message` object with updated fields."
-msgstr ":ref:`tdproto-Message` объект с обновленными полями."
+#: ../docs/chat_paths.rst:49 ../docs/chat_paths.rst:63
+#: 5814a01ae95a4e02bbd3b9e06e825ef4 f58fd0f5e15d4c19b935c75c82796bd3
+msgid "ID of the message."
+msgstr "ID сообщения."
 
-#: ../docs/chat_paths.rst:55 25cfbf1b5add4a8990423bc25a71abb7
-msgid "Updated :ref:`tdproto-Message` object."
-msgstr "Обновленный :ref:`tdproto-Message` объект."
-
-#: ../docs/chat_paths.rst:60 096c0258ee324808b894a9bf5cf8bceb
+#: ../docs/chat_paths.rst:57 e9c0bdaff07e4d30b51cf0179c4fe2b8
 msgid "Delete message."
 msgstr "Удалить сообщение."
 
-#: ../docs/chat_paths.rst:64 257340aeea11459f81d029378bbe482e
-msgid "Message id to delete."
-msgstr "Id сообщения которое удалить."
-
-#: ../docs/chat_paths.rst:66 88303da0022645339e762b4e5c960856
-msgid ":ref:`tdproto-Message` object of deleted message."
-msgstr ":ref:`tdproto-Message` объект удаленного сообщения."
+#: ../docs/chat_paths.rst:59 4fe3967c50ee48138dfd4e71e6d6815a
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__"
 
 #~ msgid "resjsonarray object messages"
 #~ msgstr "resjsonarray object messages"
+
+#~ msgid ":ref:`tdproto-Chat` objects"
+#~ msgstr ":ref:`tdproto-Chat` объекты."
+
+#~ msgid "Updated :ref:`tdproto-Chat` object."
+#~ msgstr "Обновленный :ref:`tdproto-Chat` объект."
+
+#~ msgid "Get the chat messages."
+#~ msgstr "Получить сообщения чата."
+
+#~ msgid "TODO: document filter object."
+#~ msgstr "TODO: документировать объект фильтра."
+
+#~ msgid "List of :ref:`tdproto-Message` objects."
+#~ msgstr "Список :ref:`tdproto-Message` объектов."
+
+#~ msgid "Message id to edit."
+#~ msgstr "Id сообщения которое изменить."
+
+#~ msgid ":ref:`tdproto-Message` object with updated fields."
+#~ msgstr ":ref:`tdproto-Message` объект с обновленными полями."
+
+#~ msgid "Updated :ref:`tdproto-Message` object."
+#~ msgstr "Обновленный :ref:`tdproto-Message` объект."
+
+#~ msgid "Message id to delete."
+#~ msgstr "Id сообщения которое удалить."
+
+#~ msgid ":ref:`tdproto-Message` object of deleted message."
+#~ msgstr ":ref:`tdproto-Message` объект удаленного сообщения."
