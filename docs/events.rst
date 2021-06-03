@@ -453,15 +453,17 @@ Mute/unmute call participant
 server.call.state
 ----------------------------------------------------------------------------
 
-Call participant number or parameters changed
+Call information
 
 * ``audiorecord`` - Call record enabled
 * ``buzz`` - Call buzzing
-* ``finish`` - Call finish, if any
+* ``created`` - Creation date, iso datetime
+* ``finish`` - Call finish
+* ``gentime`` - Version
 * ``jid`` - Chat or contact id
 * ``onliners`` - Call participants
-* ``start`` - Call start, if any
-* ``timestamp`` - Event start. FIXME: why not gentime?
+* ``start`` - Call start. For direct calls can be empty when buzzing
+* ``timestamp`` - Deprecated: use gentime or created
 * ``uid`` - Call id
 
 .. code-block:: json
