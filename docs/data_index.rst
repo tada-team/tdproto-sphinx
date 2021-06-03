@@ -219,17 +219,24 @@ Call participant device
 CallEvent
 -------------------------------------------------------------
 
-Audio call information
+Call information
 
 **Fields**:
 
-* ``start`` (string) - Call start\
-  . Might be null
+* ``jid`` (:ref:`tdproto-JID`) - Chat or contact id
+* ``uid`` (string) - Call id
+* ``buzz`` (boolean) - Call buzzing\
+  . Maybe omitted
+* ``created`` (string) - Creation date, iso datetime
+* ``start`` (string) - Call start. For direct calls can be empty when buzzing\
+  . Maybe omitted
 * ``finish`` (string) - Call finish\
-  . Might be null
+  . Maybe omitted
 * ``audiorecord`` (boolean) - Call record enabled
 * ``onliners`` (:ref:`tdproto-CallOnliner`) - Call participants\
   . Maybe omitted
+* ``gentime`` (number) - Version
+* ``timestamp`` (number) - Deprecated: use gentime or created
 
 .. _tdproto-CallOnliner:
 
@@ -635,7 +642,8 @@ Country for phone numbers selection on login screen
 
 **Fields**:
 
-* ``code`` (string) - Country code
+* ``code`` (string) - Phone code
+* ``iso`` (string) - Country ISO code
 * ``name`` (string) - Country name
 * ``default`` (boolean) - Selected by default\
   . Maybe omitted
@@ -770,7 +778,9 @@ Server information. Readonly
 * ``installation_type`` (string) - Name of installation
 * ``installation_title`` (string) - Installation title, used on login screen\
   . Maybe omitted
-* ``background`` (string) - Background image url, if any\
+* ``app_login_background`` (string) - AppBackground image url, if any\
+  . Maybe omitted
+* ``web_login_background`` (string) - WebBackground image url, if any\
   . Maybe omitted
 * ``is_testing`` (boolean) - Testing installation
 * ``metrika`` (string) - Yandex metrika counter id
@@ -802,6 +812,7 @@ Server information. Readonly
 * ``default_wallpaper`` (:ref:`tdproto-Wallpaper`) - Default wallpaper url for mobile apps, if any\
   . Maybe omitted\
   . Might be null
+* ``support_email`` (string) - Support email
 * ``task_checklist`` (boolean) - Deprecated
 * ``readonly_groups`` (boolean) - Deprecated
 * ``task_dashboard`` (boolean) - Deprecated
@@ -1258,8 +1269,7 @@ Active call status
 * ``jid`` (:ref:`tdproto-JID`) - Chat or contact id
 * ``uid`` (string) - Call id
 * ``start`` (string) - Call start\
-  . Maybe omitted\
-  . Might be null
+  . Maybe omitted
 * ``online_count`` (number) - Number participants in call\
   . Maybe omitted
 
