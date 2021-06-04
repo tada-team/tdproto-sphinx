@@ -11,6 +11,7 @@ Tdproto documentation
    task_paths
    group_paths
    misc_paths
+   websocket
    events
    data_index
 
