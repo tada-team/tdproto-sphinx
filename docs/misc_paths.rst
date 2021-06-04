@@ -25,7 +25,7 @@ Miscelaneos paths
 
   Get the server features information.
 
-  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_features.json>`__
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_features_json>`__
   
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :ref:`tdproto-Features` object.
