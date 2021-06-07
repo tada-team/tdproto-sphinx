@@ -1,6 +1,7 @@
 # Russian translations for Tdproto docs package.
-# Copyright (C) 
-# This file is distributed under the same license as the Tdproto docs package.
+# Copyright (C)
+# This file is distributed under the same license as the Tdproto docs
+# package.
 # Automatically generated, 2021.
 # igo95862 <igo95862@yandex.ru>, 2021.
 #
@@ -8,27 +9,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-21 15:49+0300\n"
-"PO-Revision-Date: 2021-05-20 14:03+0300\n"
+"POT-Creation-Date: 2021-06-07 12:17+0300\n"
+"PO-Revision-Date: 2021-06-07 12:18+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
-"Language-Team: Russian <igo95862@yandex.ru>\n"
 "Language: ru\n"
+"Language-Team: Russian <igo95862@yandex.ru>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Generated-By: Babel 2.9.1\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/bot_howto.rst:2 c9acea29a62f4f0ba20fee3b67971885
-msgid "How to create bot."
-msgstr "Как создать бота."
+#: ../docs/bot_howto.rst:2 0a303c57474c4a2a8ca519b8d575e791
+msgid "How to create bot"
+msgstr "Как создать бота"
 
-#: ../docs/bot_howto.rst:5 b846b11fcc6240109a3d465c58b36b93
-msgid "Create new bot account."
-msgstr "Создать новую учетную запись бота."
+#: ../docs/bot_howto.rst:5 ad21e10acbb04daead90d721998102e6
+msgid "Create new bot account"
+msgstr "Создать новую учетную запись бота"
 
-#: ../docs/bot_howto.rst:7 3c5c957515324c81a2d19e301b446014
+#: ../docs/bot_howto.rst:7 69e661ba6ddf4f6d90e69b33d8b275e9
 msgid ""
 "In order to create new bot account use the ``/newbot {NAME}`` command in "
 "``@TadaBot`` direct chat."
@@ -36,15 +38,15 @@ msgstr ""
 "Чтобы создать новую учетную запись бота используйте ``/newbot {NAME}`` "
 "команду в прямом чате ``@TadaBot``."
 
-#: ../docs/bot_howto.rst:10 ab4f2d9336c34f8c803b7ba089391e61
+#: ../docs/bot_howto.rst:10 ff95dcea192548dc9fbee727a7d6023b
 msgid "Only admins have ability to create new bots."
 msgstr "Только администраторы обладают возможность создавать новых ботов."
 
-#: ../docs/bot_howto.rst:13 0849c6e465d84fd4abe277e02bf87a11
-msgid "Using the token header."
-msgstr "Как использовать токен бота."
+#: ../docs/bot_howto.rst:13 74e2241cec5244ca89d6d07d2f31b600
+msgid "Using the token header"
+msgstr "Как использовать токен бота"
 
-#: ../docs/bot_howto.rst:15 921ab5f8350547b995977019e4c8f665
+#: ../docs/bot_howto.rst:15 666160d9a5254af0aa4576b3f34c1488
 msgid ""
 "After creating the new bot account the new authorization token should be "
 "returned in the same chat."
@@ -52,7 +54,7 @@ msgstr ""
 "После создания нового бота в том же чате должен был быть опубликован токен "
 "авторизации нового бота."
 
-#: ../docs/bot_howto.rst:18 ee3ffec9d03c4bf7b09ee6d4e3bf654f
+#: ../docs/bot_howto.rst:18 facff202db7c469fb28b7d070ffd7040
 msgid ""
 "You need to use this token in all HTTP request headers under the key name "
 "``token``. Please consult your HTTP client library on how to add new HTTP "
@@ -62,30 +64,30 @@ msgstr ""
 "``token``. Ознакомитесь с вашим HTTP клиентом чтобы узнать как добавить "
 "новый header для запросов."
 
-#: ../docs/bot_howto.rst:23 6ad7f48afb554e07b55ab1657900f69f
-msgid "Available HTTP paths."
-msgstr "Доступные HTTP пути."
+#: ../docs/bot_howto.rst:23 f74d81ffdf0743a690feb5d04d5317f4
+msgid "Available HTTP paths"
+msgstr "Доступные HTTP пути"
 
-#: ../docs/bot_howto.rst:25 e24af776f63d4f2990a5e24d8bb375c0
+#: ../docs/bot_howto.rst:25 8778c00de6fc49fe945a905101560d8e
 msgid "See the paths documentations:"
 msgstr "HTTP пути описаны на этих страницах:"
 
-#: ../docs/bot_howto.rst:27 d2df600da11e429e958dab8b0eb8d00d
+#: ../docs/bot_howto.rst:27 aa11d717ccc241e194a0a493a3e46b7f
 msgid ":doc:`/team_paths`"
 msgstr ":doc:`/team_paths`"
 
-#: ../docs/bot_howto.rst:28 4ecbd0f5a70745e9888bebd6c2d377b2
+#: ../docs/bot_howto.rst:28 9f863bdd87c0453ea02879c1ba70de16
 msgid ":doc:`/chat_paths`"
 msgstr ":doc:`/chat_paths`"
 
-#: ../docs/bot_howto.rst:29 ef2f0a667b6841bca631bf67109f1529
+#: ../docs/bot_howto.rst:29 726d4d28e959419b8d38961b0e77ae2e
 msgid ":doc:`/task_paths`"
 msgstr ":doc:`/task_paths`"
 
-#: ../docs/bot_howto.rst:30 492b6bb294c74aafbbdb20ebd3747eff
+#: ../docs/bot_howto.rst:30 f64d902009354c53bf9397de6e883441
 msgid ":doc:`/group_paths`"
 msgstr ":doc:`/group_paths`"
 
-#: ../docs/bot_howto.rst:31 eeb5d068dee54d7a89a366fcf9830584
+#: ../docs/bot_howto.rst:31 97d91bd403ae47f18184d36d3eb29825
 msgid ":doc:`/misc_paths`"
 msgstr ":doc:`/misc_paths`"

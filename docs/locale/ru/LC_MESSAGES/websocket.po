@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 16:13+0300\n"
-"PO-Revision-Date: 2021-06-04 16:37+0300\n"
+"POT-Creation-Date: 2021-06-07 12:25+0300\n"
+"PO-Revision-Date: 2021-06-07 12:28+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language: ru\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/websocket.rst:2 10c2153f6b9c4b4e9a8a7cfcfbca663a
+#: ../docs/websocket.rst:2 6ddb3290c7214beb84b7513524bf4039
 msgid "Websockets documentation"
 msgstr "Документация Websocket"
 
-#: ../docs/websocket.rst:4 53fb404d8e914bf0bf97824b7ebd7f64
+#: ../docs/websocket.rst:4 00f10f95adf9431d969b9bb26a526120
 msgid ""
 "Websocket is a full-duplex communication protocol. See `Wikipedia page "
 "<https://en.wikipedia.org/wiki/WebSocket>`__ for more information about "
@@ -35,7 +35,7 @@ msgstr ""
 "Websocket - это полно-дуплексный протокол связи. `Страница в Википедии "
 "<https://ru.wikipedia.org/wiki/WebSocket>`__ об этом протоколе."
 
-#: ../docs/websocket.rst:8 f1fc166fd6ea42c1b90cae933b44a73f
+#: ../docs/websocket.rst:8 66897a7210fe45978bcf7a3b3fe4b22d
 msgid ""
 "In tada.team websockets are used to notify clients about events and voice "
 "calls."
@@ -43,11 +43,11 @@ msgstr ""
 "В tada.team websockets используются для уведомления клиентов о событиях и "
 "голосовых вызовах."
 
-#: ../docs/websocket.rst:12 55535304313f4c839706c310ee821f61
+#: ../docs/websocket.rst:12 96540a98682c4f5b8c94616c1d13c65c
 msgid "Connecting to websocket"
 msgstr "Подключение к websocket"
 
-#: ../docs/websocket.rst:14 a60665165f224f5c97e7461064fe4592
+#: ../docs/websocket.rst:14 372e18a57f414e1d86ba270942619f69
 msgid ""
 "The URL to connect to websocket has the form of ``wss://web.tada.team/"
 "messaging/{team_id}`` where team_id is the team JID to create websocket for. "
@@ -59,30 +59,40 @@ msgstr ""
 "websocket. Это значит что для каждой команды нужен отдельное websocket "
 "соединение чтобы получать события из нескольких команд."
 
-#: ../docs/websocket.rst:19 6643eed269134fe8bd448abef42f4cd0
+#: ../docs/websocket.rst:19 b3ad1471572b41cbaef5cf68c3d962a2
 msgid "``web.tada.team`` can be substituted for custom domain."
 msgstr "``web.tada.team`` может быть заменено на другой домен."
 
-#: ../docs/websocket.rst:22 b07294a452654fc98ab12d7b5f9ef177
+#: ../docs/websocket.rst:21 b39fc7f38c004b0caf76dbe9779b5ff5
+msgid ""
+"Connecting to websocket requires authentication. To authenticate you must "
+"include the HTTP header ``token`` with your bot token in the connection "
+"handshake. See :doc:`/bot_howto` on how to acquire bot token."
+msgstr ""
+"Для соединения с websocket необходима авторизация. Для авторизации нужно "
+"включить HTTP header ``token`` с токеном бота в запросе на соединение. "
+"Смотрите :doc:`/bot_howto` o том как создать токен бота."
+
+#: ../docs/websocket.rst:26 93b5f5b7d8c4495895d1eb870244484b
 msgid "Event JSON objects"
 msgstr "JSON объекты событий"
 
-#: ../docs/websocket.rst:24 4112b2902c7d46a9acafd59af5869660
+#: ../docs/websocket.rst:28 a9001b671ccf4f96aa2613044ea54f69
 msgid "All events sent to or from server should be wrapped in an event object."
 msgstr ""
 "Все события с сервера или на сервер должны быть завернуты в объект события."
 
-#: ../docs/websocket.rst:26 2e06fd9a7eea4978b70df4705a409b0a
+#: ../docs/websocket.rst:30 8091f5bf398b4fc0b543d4709fa633db
 msgid "Event object has following fields:"
 msgstr "Объект события имеет следующие поля:"
 
-#: ../docs/websocket.rst:28 b7c2873e65334db69e6a58465e16f23a
+#: ../docs/websocket.rst:32 b0177bcc769f43d2a2e36576ea44cfa3
 msgid ""
 "``event`` (string) - Name of event. For example, ``\"client.activity\"``."
 msgstr ""
 "``event`` (string) - Название события. Например, ``\"client.activity\"``."
 
-#: ../docs/websocket.rst:29 227536e787154d7fa8f9442bc255d778
+#: ../docs/websocket.rst:33 702796cfabca4c088677e5a3dc434d3f
 msgid ""
 "``confirm_id`` (string) - Mostly used for debugging. Should be set to any "
 "random string."
@@ -90,15 +100,15 @@ msgstr ""
 "``confirm_id`` (string) - В основном используется для отладки. Должно быть "
 "случайная строка."
 
-#: ../docs/websocket.rst:30 af1f39048c9d45d1b521057dbc276344
+#: ../docs/websocket.rst:34 62794589eb714a65a5d6403e1b4c4a78
 msgid "``params`` (object) - The actual event object."
 msgstr "``params`` (object) - Сам объект события."
 
-#: ../docs/websocket.rst:32 7b1fea00a0604eefae2e862af47950c6
+#: ../docs/websocket.rst:36 27eb555c1c4044a3852511817186dc3d
 msgid "Example:"
 msgstr "Пример:"
 
-#: ../docs/websocket.rst:44 b09b2d960ac3469e9a5f05da5ff768a1
+#: ../docs/websocket.rst:48 cf7275cc410242eb989aa2644415fd99
 msgid ""
 "This is a :ref:`client.activity` event sent by client to indicate that user "
 "is AFK."
@@ -106,14 +116,14 @@ msgstr ""
 "Это пример :ref:`client.activity` события отправленного клиентом чтобы "
 "поставить статус AFK."
 
-#: ../docs/websocket.rst:47 fbeef2a4ef3c45849645649ee626adb9
+#: ../docs/websocket.rst:51 f3936751f02447c39fa90be96b9f784c
 msgid "List of events"
 msgstr "Список событий"
 
-#: ../docs/websocket.rst:49 b3a47efa20fe4a36a1d15df36e7fa6e9
+#: ../docs/websocket.rst:53 9032092fa6e84f1784650befe10ca499
 msgid ":ref:`Client events`. These events the clients can send to server."
 msgstr ":ref:`Client events`. Эти события клиент может отправить на сервер."
 
-#: ../docs/websocket.rst:51 adf01bc5d21c46148906b6c93b8a752e
+#: ../docs/websocket.rst:55 c12828e32d3b4d29abbb9d81127c707c
 msgid ":ref:`Server events`. These events server sends to clients."
 msgstr ":ref:`Server events`. Эти события приходят с сервера."
