@@ -18,6 +18,10 @@ multiple teams.
 
 ``web.tada.team`` can be substituted for custom domain.
 
+Connecting to websocket requires authentication. To authenticate you must
+include the HTTP header ``token`` with your bot token. See :doc:`/bot_howto` on
+how to acquire bot token.
+
 Event JSON objects
 --------------------------------
 
