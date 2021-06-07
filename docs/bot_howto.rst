@@ -1,7 +1,7 @@
-How to create bot.
+How to create bot
 =========================
 
-Create new bot account.
+Create new bot account
 --------------------------
 
 In order to create new bot account use the
@@ -9,7 +9,7 @@ In order to create new bot account use the
 
 Only admins have ability to create new bots.
 
-Using the token header.
+Using the token header
 ------------------------------------
 
 After creating the new bot account the new authorization
@@ -19,7 +19,7 @@ You need to use this token in all HTTP request headers
 under the key name ``token``. Please consult your HTTP client
 library on how to add new HTTP header. 
 
-Available HTTP paths.
+Available HTTP paths
 ---------------------------------------
 
 See the paths documentations:
