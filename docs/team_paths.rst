@@ -1,4 +1,4 @@
-Team related paths.
+Team related paths
 ----------------------------------------------
 
 .. http:get:: /api/v4/teams

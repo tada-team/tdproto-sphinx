@@ -1458,6 +1458,55 @@ Task tag
 * ``uid`` (string) - Tag id
 * ``name`` (string) - Tag name
 
+.. _tdproto-Task:
+
+Task
+-------------------------------------------------------------
+
+Task
+
+**Fields**:
+
+* ``custom_color_index`` (number) - Custom task color\
+  . Maybe omitted\
+  . Might be null
+* ``description`` (string) - Task description\
+  . Maybe omitted
+* ``tags`` (string) - Task tags\
+  . Maybe omitted
+* ``section`` (string) - Task section UID\
+  . Maybe omitted
+* ``observers`` (:ref:`tdproto-JID`) - User who follow the task\
+  . Maybe omitted
+* ``items`` (string) - Items of the task\
+  . Maybe omitted
+* ``assignee`` (:ref:`tdproto-JID`) - User who was assigned the task\
+  . Maybe omitted
+* ``deadline`` (string) - Deadline time\
+  . Maybe omitted
+* ``public`` (boolean) - Is task public\
+  . Maybe omitted
+* ``remind_at`` (string) - Fire a reminder at this time\
+  . Maybe omitted
+* ``task_status`` (string) - Task status\
+  . Maybe omitted
+* ``importance`` (number) - Task importance\
+  . Maybe omitted\
+  . Might be null
+* ``urgency`` (number) - Task urgency\
+  . Maybe omitted\
+  . Might be null
+* ``complexity`` (number) - Task complexity\
+  . Maybe omitted\
+  . Might be null
+* ``spent_time`` (number) - Time spent\
+  . Maybe omitted\
+  . Might be null
+* ``linked_messages`` (string) - Linked messages\
+  . Maybe omitted
+* ``uploads`` (string) - Task uploads\
+  . Maybe omitted
+
 .. _tdproto-TaskColor:
 
 TaskColor

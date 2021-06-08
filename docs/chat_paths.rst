@@ -1,4 +1,4 @@
-Chat related paths.
+Chat related paths
 ----------------------------------------------
 
 .. http:get:: /api/v4/teams/{team_id}/chats/{chat_id}

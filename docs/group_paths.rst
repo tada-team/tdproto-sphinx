@@ -1,4 +1,4 @@
-Group related paths.
+Group related paths
 ----------------------------------------------
 
 .. http:get:: /api/v4/teams/{team_id}/groups
