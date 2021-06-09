@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 13:46+0300\n"
-"PO-Revision-Date: 2021-06-08 13:48+0300\n"
+"POT-Creation-Date: 2021-06-09 17:47+0300\n"
+"PO-Revision-Date: 2021-06-09 17:49+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language: ru\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -22,52 +22,113 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/task_paths.rst:2 cb7026dde66047fb9fdae2f170c49944
+#: ../docs/task_paths.rst:2 6d9ae002235d4901916217a0d38fa08a
 msgid "Task related paths"
 msgstr "Пути относящиеся к задачам"
 
-#: ../docs/task_paths.rst:6 c34c355c198148a5ba71f8fb48178a7c
+#: ../docs/task_paths.rst:6 c4e8d252fc7d4f9fb5740eb726e3002f
 msgid "Create new task"
 msgstr "Создать новую задачу."
 
-#: ../docs/task_paths.rst:8 3e8c706746e6414dbd61c435e6b65960
+#: ../docs/task_paths.rst:8 4ff95db00fe14f19a6f81437b05bea60
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
-"post_api_v4_teams__task_id__tasks>`__"
+"post_api_v4_teams__team_id__tasks>`__"
 msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
-"post_api_v4_teams__task_id__tasks>`__"
+"post_api_v4_teams__team_id__tasks>`__"
 
-#: ../docs/task_paths.rst 2f66070ee3c34a09806ade2b0cded5b3
+#: ../docs/task_paths.rst 0241f00c73d8467fa3ed4d09ea34e33d
+#: 5eca617bc8b7456a9f8502422059e722 74efd29db7ce43349797245c85c70e2d
+#: b80065dcecf94e2592116d093fe069b0
+msgid "Parameters"
+msgstr "Параметры"
+
+#: ../docs/task_paths.rst:10 ../docs/task_paths.rst:22
+#: ../docs/task_paths.rst:33 ../docs/task_paths.rst:45
+#: 160f055a7b0941acbafd260b020bdaab 62496e808b6e4d2c8d8f50cb33690f21
+#: 6bceedb1b59543debb7927ebad2ef900 a3b1654f1c6549d3ad87d26fdba2530e
+msgid "ID of the team."
+msgstr "ID команды."
+
+#: ../docs/task_paths.rst 102cefd555944fe39e2d85538bad32eb
+#: d75904c11a1d434aa0a38f1e011dbdb1
 msgid "Request JSON Object"
 msgstr "JSON объект запроса."
 
-#: ../docs/task_paths.rst:10 ../docs/task_paths.rst:12
-#: 972ca076ae7f4d4ea99f55e1ff6f197e ac1f5f74e839495aa2967a8f05c73740
+#: ../docs/task_paths.rst:11 ../docs/task_paths.rst:13
+#: ../docs/task_paths.rst:24 ../docs/task_paths.rst:34
+#: ../docs/task_paths.rst:36 ../docs/task_paths.rst:47
+#: 3696d3ae6cef47edb4971ff07a23600d 3f47041dde604df8ba7ca5ea52ebb8a1
+#: 5d5e7b5fc5224bd298b30506264b7d47 5df9b76b52164d139148332ef09af7f9
+#: 76b08551c2fc42a6ba0a8b6442c03a7b a26dc2c52c7d4954b05019775d4863fe
 msgid "The :ref:`tdproto-Task` object."
 msgstr ":ref:`tdproto-Task` объект."
 
-#: ../docs/task_paths.rst 67c4f94ab19046ca8b3eebf2d089d5ea
+#: ../docs/task_paths.rst 374cdedffa824115863ca78a8b4cb416
+#: 41d2892176a34ddb8eeca55b81d69c40 652b4e7c005448d2af77e04cea31130a
+#: 7d878ce05fc142b3a6960e57ac9e3d48
 msgid "Response JSON Object"
 msgstr "Ответный JSON объект"
 
-#: ../docs/task_paths.rst:11 daeff0cc8a27463199b314d36d5394ad
+#: ../docs/task_paths.rst:12 ../docs/task_paths.rst:23
+#: ../docs/task_paths.rst:35 ../docs/task_paths.rst:46
+#: 56ac4f2d489c4eb0b7e37dc7aa673dc5 689602a0d923459cb48cadab9cd38b17
+#: 68bb6cb722b741d99396b8ebbe51402d f2b3cc64334d40508bcfb21fef43c398
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/task_paths.rst 0febbe67f6264ab287ef1f4890beddd0
+#: ../docs/task_paths.rst 4159492440c749d6b7fe2d2884a55a5f
+#: 5c423eb9be6842cbb63cd56494943a7c e04da5d834ca434489c273d97bc54d52
+#: e6b1c29847b1496fb510319627044216
 msgid "Status Codes"
 msgstr "Код статуса"
 
-#: ../docs/task_paths.rst:13 c9df13d334cc407a8a56d4a2fc702f25
+#: ../docs/task_paths.rst:14 ../docs/task_paths.rst:25
+#: ../docs/task_paths.rst:37 ../docs/task_paths.rst:48
+#: 234d8df4292e4ae7a7520ee6e4d1642a 3589f9c07fe244cab2622639cca938fa
+#: 75e900762053407993b94c7f98e92a3e f97c13d8876f4a00a24b3de1eda8a1aa
 msgid "No error."
 msgstr "Без ошибки"
 
+#: ../docs/task_paths.rst:18 191093506f2c43a6a6b30eea08ab2345
+msgid "Get task"
+msgstr "Получить задачу"
+
+#: ../docs/task_paths.rst:20 3c9215f44b464ed284fcfeacad8e107a
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__tasks__task_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"get_api_v4_teams__team_id__tasks__task_id_>`__"
+
+#: ../docs/task_paths.rst:29 f72de925f87341099688e400a8cb14da
+msgid "Update task"
+msgstr "Изменить задачу"
+
+#: ../docs/task_paths.rst:31 47c131ba986347899112b0285b530adc
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_teams__team_id__tasks__task_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"post_api_v4_teams__team_id__tasks__task_id_>`__"
+
+#: ../docs/task_paths.rst:41 c343ae5aa5724f488f336363098c8484
+msgid "Delete task"
+msgstr "Удалить задачу"
+
+#: ../docs/task_paths.rst:43 a9afd2e949d3444ba150b086b05e917d
+msgid ""
+"`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__tasks__task_id_>`__"
+msgstr ""
+"`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
+"delete_api_v4_teams__team_id__tasks__task_id_>`__"
+
 #~ msgid "Response JSON Array of Objects"
 #~ msgstr "JSON список ответных объектов"
-
-#~ msgid "Parameters"
-#~ msgstr "Параметры"
 
 #~ msgid "UID of the team."
 #~ msgstr "UID команды."
