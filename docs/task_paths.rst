@@ -20,6 +20,7 @@ Task related paths
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id__tasks__task_id_>`__
   
   :param team_id: ID of the team.
+  :param task_id: ID of the task.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :ref:`tdproto-Task` object.
   :status 200: No error.
@@ -31,6 +32,7 @@ Task related paths
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__tasks__task_id_>`__
   
   :param team_id: ID of the team.
+  :param task_id: ID of the task.
   :reqjson object: The :ref:`tdproto-Task` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :ref:`tdproto-Task` object.
@@ -43,6 +45,7 @@ Task related paths
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/delete_api_v4_teams__team_id__tasks__task_id_>`__
   
   :param team_id: ID of the team.
+  :param task_id: ID of the task.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :ref:`tdproto-Task` object.
   :status 200: No error.
