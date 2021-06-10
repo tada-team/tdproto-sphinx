@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-08 13:46+0300\n"
-"PO-Revision-Date: 2021-06-08 13:57+0300\n"
+"PO-Revision-Date: 2021-06-10 10:38+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language: ru\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -3383,7 +3383,7 @@ msgstr "``name`` (string) - Имя тэга"
 #: ../docs/data_index.rst:1464 ../docs/data_index.rst:1466
 #: 4eb7beac8ca4498ca5ba460d460e6613 9401b40ce59345c2b2311b48c56a10a0
 msgid "Task"
-msgstr "Задача"
+msgstr "Task"
 
 #: ../docs/data_index.rst:1470 9428c37eeb864dd18ce7242a4dc56b7b
 msgid ""
@@ -3416,7 +3416,7 @@ msgid ""
 "``observers`` (:ref:`tdproto-JID`) - User who follow the task\\ . Maybe "
 "omitted"
 msgstr ""
-"``observers`` (:ref:`tdproto-JID`) - Id подписчиков.\\ . Возможно поле будет "
+"``observers`` (:ref:`tdproto-JID`) - Id подписчиков\\ . Возможно поле будет "
 "отсутствовать"
 
 #: ../docs/data_index.rst:1481 27d66cfea2fd4053b5de649f1dc8ba85

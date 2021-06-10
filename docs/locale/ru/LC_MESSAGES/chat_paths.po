@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-08 13:46+0300\n"
-"PO-Revision-Date: 2021-06-08 13:57+0300\n"
+"PO-Revision-Date: 2021-06-10 10:39+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language: ru\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../docs/chat_paths.rst:2 ca2bbdc9b1714a9cb32e0900cafb3982
 msgid "Chat related paths"
-msgstr "Пути относящиеся в чатам."
+msgstr "Пути относящиеся в чатам"
 
 #: ../docs/chat_paths.rst:6 ef70b5eae7484044979ed7fa368ac78f
 msgid "Get the chat information."
