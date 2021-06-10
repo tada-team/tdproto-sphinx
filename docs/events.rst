@@ -19,6 +19,16 @@ Change AFK (away from keyboard) status
    }
 
 
+client.call.answer
+----------------------------------------------------------------------------
+
+Signal server about answer
+
+* ``jid`` - Chat or contact id
+* ``sdp`` - SDP (session description protocol) data
+
+**MISSING EXAMPLE**
+
 client.call.buzzcancel
 ----------------------------------------------------------------------------
 
@@ -415,6 +425,16 @@ All participants in call muted
 
 * ``jid`` - Chat or contact id
 * ``muted`` - Mute state
+
+**MISSING EXAMPLE**
+
+server.call.offer
+----------------------------------------------------------------------------
+
+Signal client about offer
+
+* ``jid`` - Chat or contact id
+* ``sdp`` - SDP (session description protocol) data
 
 **MISSING EXAMPLE**
 

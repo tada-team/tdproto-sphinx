@@ -1,3 +1,4 @@
+
 Enums index
 ============================
 
@@ -91,6 +92,7 @@ UploadMediaType
 * audio
 * imagefile
 
+
 Type aliases
 ============================
 
@@ -103,16 +105,14 @@ ActiveUserDailyStatList
 
 **Is array**
 
-
 .. _tdproto-ISODateTimeString:
 
 ISODateTimeString
 -------------------------------------------------------------
 
+Date and time in RFC3339 format. Example: ``2019-09-18T00:00:07.435409Z``
+
 **Base Type**: string
-
-
-
 
 .. _tdproto-JID:
 
@@ -120,9 +120,6 @@ JID
 -------------------------------------------------------------
 
 **Base Type**: string
-
-
-
 
 .. _tdproto-MessageLinks:
 
@@ -133,7 +130,6 @@ MessageLinks
 
 **Is array**
 
-
 .. _tdproto-PushDeviceType:
 
 PushDeviceType
@@ -141,18 +137,14 @@ PushDeviceType
 
 **Base Type**: int
 
-
-
-
 .. _tdproto-RGBColor:
 
 RGBColor
 -------------------------------------------------------------
 
+Color in ``#rrggbb`` format where ``rr``, ``gg``, ``bb`` are hexadecimal numbers from 00 to ff of red, green and blue channels correspondingly. (yellow would be ``#ffff00``)
+
 **Base Type**: string
-
-
-
 
 .. _tdproto-TaskFilterKey:
 
@@ -161,9 +153,6 @@ TaskFilterKey
 
 **Base Type**: string
 
-
-
-
 .. _tdproto-TaskSortKey:
 
 TaskSortKey
@@ -171,17 +160,12 @@ TaskSortKey
 
 **Base Type**: string
 
-
-
-
 .. _tdproto-TaskTabKey:
 
 TaskTabKey
 -------------------------------------------------------------
 
 **Base Type**: string
-
-
 
 JSON objects index
 ============================
@@ -744,7 +728,8 @@ Server information. Readonly
 * ``ios_app`` (string) - Link to AppStore
 * ``android_app`` (string) - Link to Google Play
 * ``theme`` (string) - Default UI theme
-* ``min_app_version`` (string) - Minimal application version required for this server. Used for breaking changes
+* ``min_ios_version`` (string) - Minimal iOS application version required for this server. Used for breaking changes
+* ``min_android_version`` (string) - Minimal android application version required for this server. Used for breaking changes
 * ``free_registration`` (boolean) - Free registration allowed
 * ``max_upload_mb`` (number) - Maximum size of user's upload
 * ``max_linked_messages`` (number) - Maximum number of forwarded messages
@@ -795,7 +780,7 @@ Server information. Readonly
 * ``firebase_database_url`` (string) - Firebase settings for web-push notifications
 * ``firebase_project_id`` (string) - Firebase settings for web-push notifications
 * ``firebase_storage_bucket`` (string) - Firebase settings for web-push notifications
-* ``calls`` (boolean) - Calls functions enabled
+* ``calls_version`` (number) - Calls version. 0 = disabled, 1 = audio only, 2 = audio+video
 * ``mobile_calls`` (boolean) - Calls functions enabled for mobile applications
 * ``calls_record`` (boolean) - Calls record enabled
 * ``only_one_device_per_call`` (boolean) - Disallow call from multiply devices. Experimental\
@@ -819,6 +804,8 @@ Server information. Readonly
 * ``task_messages`` (boolean) - Deprecated
 * ``task_public`` (boolean) - Deprecated
 * ``task_tags`` (boolean) - Deprecated
+* ``calls`` (boolean) - Deprecated
+* ``min_app_version`` (string) - Deprecated
 
 .. _tdproto-FontColors:
 
