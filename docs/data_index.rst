@@ -217,7 +217,7 @@ Call information
 * ``finish`` (string) - Call finish\
   . Maybe omitted
 * ``audiorecord`` (boolean) - Call record enabled
-* ``onliners`` (:ref:`tdproto-CallOnliner`) - Call participants\
+* ``onliners`` (array[:ref:`tdproto-CallOnliner`]) - Call participants\
   . Maybe omitted
 * ``gentime`` (number) - Version
 * ``timestamp`` (number) - Deprecated: use gentime or created
@@ -236,7 +236,7 @@ Call participant
 * ``role`` (string) - Contact role
 * ``icon`` (string) - Contact icon
 * ``muted`` (boolean) - Microphone muted. Computed from devices muted states
-* ``devices`` (:ref:`tdproto-CallDevice`) - Member devices, strictly one for now
+* ``devices`` (array[:ref:`tdproto-CallDevice`]) - Member devices, strictly one for now
 
 .. _tdproto-Chat:
 
@@ -287,7 +287,7 @@ Chat (direct, group, task) representation
   . Maybe omitted
 * ``section`` (string) - Project / section id, if any\
   . Maybe omitted
-* ``changeable_fields`` (string) - List of editable fields\
+* ``changeable_fields`` (array[string]) - List of editable fields\
   . Maybe omitted
 * ``pinned`` (boolean) - Is chat pinned on top\
   . Maybe omitted
@@ -300,7 +300,7 @@ Chat (direct, group, task) representation
   . Maybe omitted
 * ``description`` (string) - Group or task description\
   . Maybe omitted
-* ``markup`` (:ref:`tdproto-MarkupEntity`) - Markup entities for description field. Experimental\
+* ``markup`` (array[:ref:`tdproto-MarkupEntity`]) - Markup entities for description field. Experimental\
   . Maybe omitted
 * ``feed`` (boolean) - Present in feed (main screen)\
   . Maybe omitted
@@ -320,7 +320,7 @@ Chat (direct, group, task) representation
   . Maybe omitted
 * ``num`` (number) - Task number in this team\
   . Maybe omitted
-* ``observers`` (:ref:`tdproto-JID`) - Task followers id's. TODO: rename to "followers"\
+* ``observers`` (array[:ref:`tdproto-JID`]) - Task followers id's. TODO: rename to "followers"\
   . Maybe omitted
 * ``owner`` (:ref:`tdproto-JID`) - Task creator\
   . Maybe omitted
@@ -338,7 +338,7 @@ Chat (direct, group, task) representation
   . Maybe omitted
 * ``links`` (:ref:`tdproto-MessageLinks`) - Links in description\
   . Maybe omitted
-* ``tags`` (string) - Task tags list, if any\
+* ``tags`` (array[string]) - Task tags list, if any\
   . Maybe omitted
 * ``importance`` (number) - Task importance, if available in team\
   . Maybe omitted\
@@ -352,20 +352,20 @@ Chat (direct, group, task) representation
 * ``complexity`` (number) - Task complexity, number\
   . Maybe omitted\
   . Might be null
-* ``linked_messages`` (any) - Used for "Create task from messages..."\
+* ``linked_messages`` (array[any]) - Used for "Create task from messages..."\
   . Maybe omitted
-* ``uploads`` (:ref:`tdproto-Upload`) - Upload uids for request, upload objects for response\
+* ``uploads`` (array[:ref:`tdproto-Upload`]) - Upload uids for request, upload objects for response\
   . Maybe omitted
-* ``items`` (:ref:`tdproto-TaskItem`) - Checklist items. Task only\
+* ``items`` (array[:ref:`tdproto-TaskItem`]) - Checklist items. Task only\
   . Maybe omitted
-* ``parents`` (:ref:`tdproto-Subtask`) - Parent tasks\
+* ``parents`` (array[:ref:`tdproto-Subtask`]) - Parent tasks\
   . Maybe omitted
-* ``tabs`` (:ref:`tdproto-TaskTabKey`) - Tab names\
+* ``tabs`` (array[:ref:`tdproto-TaskTabKey`]) - Tab names\
   . Maybe omitted
 * ``status`` (:ref:`tdproto-GroupStatus`) - My status in group chat\
   . Maybe omitted\
   . Might be null
-* ``members`` (:ref:`tdproto-GroupMembership`) - Group chat members\
+* ``members`` (array[:ref:`tdproto-GroupMembership`]) - Group chat members\
   . Maybe omitted
 * ``can_add_member`` (boolean) - Can I add member to this group chat\
   . Maybe omitted
@@ -430,7 +430,7 @@ Set of rules to apply to tasks for coloring
 * ``tags_enabled`` (boolean) - Tags filter enabled\
   . Maybe omitted\
   . Might be null
-* ``tags`` (string) - Tag ids if tags filter enabled\
+* ``tags`` (array[string]) - Tag ids if tags filter enabled\
   . Maybe omitted
 * ``task_status`` (string) - Task status\
   . Maybe omitted
@@ -475,7 +475,7 @@ Contact
   . Maybe omitted
 * ``botname`` (string) - Bot name. Empty for users\
   . Maybe omitted
-* ``sections`` (string) - Section ids
+* ``sections`` (array[string]) - Section ids
 * ``can_send_message`` (boolean) - Can I send message to this contact\
   . Maybe omitted
 * ``cant_send_message_reason`` (string) - Why I can't send message to this chat (if can't)\
@@ -488,7 +488,7 @@ Contact
   . Maybe omitted
 * ``can_delete`` (boolean) - Can I remove this contact from team\
   . Maybe omitted
-* ``changeable_fields`` (string) - Changeable fields\
+* ``changeable_fields`` (array[string]) - Changeable fields\
   . Maybe omitted
 * ``family_name`` (string) - Family name\
   . Maybe omitted
@@ -723,7 +723,7 @@ Server information. Readonly
 * ``app_title`` (string) - Application title
 * ``landing_url`` (string) - Landing page address, if any\
   . Maybe omitted
-* ``app_schemes`` (string) - Local applications urls
+* ``app_schemes`` (array[string]) - Local applications urls
 * ``userver`` (string) - Static files server address
 * ``ios_app`` (string) - Link to AppStore
 * ``android_app`` (string) - Link to Google Play
@@ -756,9 +756,9 @@ Server information. Readonly
   . Maybe omitted
 * ``auth_2fa`` (boolean) - Two-factor authentication (2FA) enabled\
   . Maybe omitted
-* ``oauth_services`` (:ref:`tdproto-OAuthService`) - External services\
+* ``oauth_services`` (array[:ref:`tdproto-OAuthService`]) - External services\
   . Maybe omitted
-* ``ice_servers`` (:ref:`tdproto-ICEServer`) - ICE servers for WebRTC
+* ``ice_servers`` (array[:ref:`tdproto-ICEServer`]) - ICE servers for WebRTC
 * ``custom_server`` (boolean) - True for premise installation
 * ``installation_type`` (string) - Name of installation
 * ``installation_title`` (string) - Installation title, used on login screen\
@@ -974,8 +974,8 @@ Complete integrations data, as received from server
 
 **Fields**:
 
-* ``integrations`` (:ref:`tdproto-Integration`) - Currently existing integrations
-* ``kinds`` (:ref:`tdproto-IntegrationKind`) - Types of integrations available for setup
+* ``integrations`` (array[:ref:`tdproto-Integration`]) - Currently existing integrations
+* ``kinds`` (array[:ref:`tdproto-IntegrationKind`]) - Types of integrations available for setup
 
 .. _tdproto-MarkupEntity:
 
@@ -999,7 +999,7 @@ Markup entity. Experimental
   . Maybe omitted
 * ``time`` (string) - Time, for Time type\
   . Maybe omitted
-* ``childs`` (:ref:`tdproto-MarkupEntity`) - List of internal markup entities\
+* ``childs`` (array[:ref:`tdproto-MarkupEntity`]) - List of internal markup entities\
   . Maybe omitted
 
 .. _tdproto-Message:
@@ -1025,7 +1025,7 @@ Chat message
 * ``chat`` (:ref:`tdproto-JID`) - Chat id
 * ``links`` (:ref:`tdproto-MessageLinks`) - External/internals links\
   . Maybe omitted
-* ``markup`` (:ref:`tdproto-MarkupEntity`) - Markup entities. Experimental\
+* ``markup`` (array[:ref:`tdproto-MarkupEntity`]) - Markup entities. Experimental\
   . Maybe omitted
 * ``important`` (boolean) - Importance flag\
   . Maybe omitted
@@ -1045,14 +1045,14 @@ Chat message
   . Maybe omitted
 * ``is_last`` (boolean) - This message is first in this chat. True or null\
   . Maybe omitted
-* ``uploads`` (:ref:`tdproto-Upload`) - Message uploads\
+* ``uploads`` (array[:ref:`tdproto-Upload`]) - Message uploads\
   . Maybe omitted
-* ``reactions`` (:ref:`tdproto-MessageReaction`) - Message reactions struct. Can be null\
+* ``reactions`` (array[:ref:`tdproto-MessageReaction`]) - Message reactions struct. Can be null\
   . Maybe omitted
 * ``reply_to`` (:ref:`tdproto-Message`) - Message that was replied to, if any\
   . Maybe omitted\
   . Might be null
-* ``linked_messages`` (:ref:`tdproto-Message`) - Forwarded messages. Can be null. Also contains double of ReplyTo for backward compatibility\
+* ``linked_messages`` (array[:ref:`tdproto-Message`]) - Forwarded messages. Can be null. Also contains double of ReplyTo for backward compatibility\
   . Maybe omitted
 * ``notice`` (boolean) - Has mention (@). True or null\
   . Maybe omitted
@@ -1140,9 +1140,9 @@ Chat message content
   . Maybe omitted
 * ``patronymic`` (string) - Patronymic name (for "contact" mediatype)\
   . Maybe omitted
-* ``phones`` (string) - Contact phones list (for "contact" mediatype)\
+* ``phones`` (array[string]) - Contact phones list (for "contact" mediatype)\
   . Maybe omitted
-* ``emails`` (string) - Emails list (for "contact" mediatype)\
+* ``emails`` (array[string]) - Emails list (for "contact" mediatype)\
   . Maybe omitted
 * ``stickerpack`` (string) - Stickerpack name (for "sticker" subtype)\
   . Maybe omitted
@@ -1165,7 +1165,7 @@ Checked message links. In short: "Click here: {link.Pattern}" => "Click here: <a
 * ``preview`` (:ref:`tdproto-MessageLinkPreview`) - Optional preview info, for websites\
   . Maybe omitted\
   . Might be null
-* ``uploads`` (:ref:`tdproto-Upload`) - Optional upload info\
+* ``uploads`` (array[:ref:`tdproto-Upload`]) - Optional upload info\
   . Maybe omitted
 * ``nopreview`` (boolean) - Website previews disabled\
   . Maybe omitted
@@ -1217,7 +1217,7 @@ Message emoji reaction
 
 * ``name`` (string) - Emoji
 * ``counter`` (number) - Number of reactions
-* ``details`` (:ref:`tdproto-MessageReactionDetail`) - Details
+* ``details`` (array[:ref:`tdproto-MessageReactionDetail`]) - Details
 
 .. _tdproto-MessageReactionDetail:
 
@@ -1459,13 +1459,13 @@ Task
   . Might be null
 * ``description`` (string) - Task description\
   . Maybe omitted
-* ``tags`` (string) - Task tags\
+* ``tags`` (array[string]) - Task tags\
   . Maybe omitted
 * ``section`` (string) - Task section UID\
   . Maybe omitted
-* ``observers`` (:ref:`tdproto-JID`) - User who follow the task\
+* ``observers`` (array[:ref:`tdproto-JID`]) - User who follow the task\
   . Maybe omitted
-* ``items`` (string) - Items of the task\
+* ``items`` (array[string]) - Items of the task\
   . Maybe omitted
 * ``assignee`` (:ref:`tdproto-JID`) - User who was assigned the task\
   . Maybe omitted
@@ -1489,9 +1489,9 @@ Task
 * ``spent_time`` (number) - Time spent\
   . Maybe omitted\
   . Might be null
-* ``linked_messages`` (string) - Linked messages\
+* ``linked_messages`` (array[string]) - Linked messages\
   . Maybe omitted
-* ``uploads`` (string) - Task uploads\
+* ``uploads`` (array[string]) - Task uploads\
   . Maybe omitted
 
 .. _tdproto-TaskColor:
@@ -1599,9 +1599,9 @@ Task tab
 * ``hide_empty`` (boolean) - Disable this tab when it has no contents
 * ``show_counter`` (boolean) - Show unread badge
 * ``pagination`` (boolean) - Enable pagination
-* ``filters`` (:ref:`tdproto-TaskFilter`) - Filters inside tab
-* ``sort`` (:ref:`tdproto-TaskSort`) - Sort available in tab
-* ``unread_tasks`` (:ref:`tdproto-TaskCounters`) - Unread tasks with jid and counters
+* ``filters`` (array[:ref:`tdproto-TaskFilter`]) - Filters inside tab
+* ``sort`` (array[:ref:`tdproto-TaskSort`]) - Sort available in tab
+* ``unread_tasks`` (array[:ref:`tdproto-TaskCounters`]) - Unread tasks with jid and counters
 
 .. _tdproto-Team:
 
@@ -1622,14 +1622,14 @@ Team
 * ``max_message_update_age`` (number) - Max message update/deletion age, in seconds
 * ``icons`` (:ref:`tdproto-IconData`) - Team icons
 * ``last_active`` (boolean) - User last activity was in this team
-* ``changeable_statuses`` (:ref:`tdproto-TeamStatus`) - What status I can set to other team members\
+* ``changeable_statuses`` (array[:ref:`tdproto-TeamStatus`]) - What status I can set to other team members\
   . Maybe omitted
 * ``bad_profile`` (boolean) - My profile in this team isn't full\
   . Maybe omitted
 * ``need_confirmation`` (boolean) - Need confirmation after invite to this team
 * ``use_patronymic`` (boolean) - Patronymic in usernames for this team\
   . Maybe omitted
-* ``user_fields`` (string) - Username fields ordering
+* ``user_fields`` (array[string]) - Username fields ordering
 * ``display_family_name_first`` (boolean) - Family name should be first in display name\
   . Maybe omitted
 * ``use_task_importance`` (boolean) - Use importance field in task\
@@ -1653,7 +1653,7 @@ Team
 * ``unread`` (:ref:`tdproto-TeamUnread`) - Unread message counters\
   . Might be null
 * ``me`` (:ref:`tdproto-Contact`) - My profile in this team
-* ``contacts`` (:ref:`tdproto-Contact`) - Team contacts. Used only for team creation\
+* ``contacts`` (array[:ref:`tdproto-Contact`]) - Team contacts. Used only for team creation\
   . Maybe omitted
 * ``single_group`` (:ref:`tdproto-JID`) - For single group teams, jid of chat\
   . Maybe omitted
@@ -1898,8 +1898,8 @@ Accouint data with extra information
 
 * ``inviter`` (:ref:`tdproto-JID`) - Inviter id, if any\
   . Maybe omitted
-* ``teams`` (:ref:`tdproto-Team`) - Available teams
-* ``devices`` (:ref:`tdproto-PushDevice`) - Registered push devices
+* ``teams`` (array[:ref:`tdproto-Team`]) - Available teams
+* ``devices`` (array[:ref:`tdproto-PushDevice`]) - Registered push devices
 * ``phone`` (string) - Phone for login\
   . Maybe omitted
 * ``email`` (string) - Email for login\
