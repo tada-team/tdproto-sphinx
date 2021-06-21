@@ -1,7 +1,7 @@
 ---
 name: English documentation deployment
 
-on: workflow_dispatch
+on: [workflow_dispatch, push]
 
 env:
   SOURCE_DIR: tdproto-sphinx
