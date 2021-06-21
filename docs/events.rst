@@ -19,16 +19,6 @@ Change AFK (away from keyboard) status
    }
 
 
-client.call.answer
-----------------------------------------------------------------------------
-
-Signal server about answer
-
-* ``jid`` - Chat or contact id
-* ``sdp`` - SDP (session description protocol) data
-
-**MISSING EXAMPLE**
-
 client.call.buzzcancel
 ----------------------------------------------------------------------------
 
@@ -118,6 +108,17 @@ Reject the call
    	}
    }
 
+
+client.call.sdp
+----------------------------------------------------------------------------
+
+For exchange Session Description with server when client's Local Session Description is changed
+
+* ``jid`` - Chat or contact id
+* ``jsep`` - SDP data
+* ``uid`` - Call id
+
+**MISSING EXAMPLE**
 
 client.call.sound
 ----------------------------------------------------------------------------
@@ -296,7 +297,7 @@ Server events
 server.call.answer
 ----------------------------------------------------------------------------
 
-Call parameters
+Call parameters (deprecated: use `ServerCallSdp`)
 
 * ``candidates`` - List of ICE candidates (when trickle = false)
 * ``jid`` - Chat or contact id
@@ -428,16 +429,6 @@ All participants in call muted
 
 **MISSING EXAMPLE**
 
-server.call.offer
-----------------------------------------------------------------------------
-
-Signal client about offer
-
-* ``jid`` - Chat or contact id
-* ``sdp`` - SDP (session description protocol) data
-
-**MISSING EXAMPLE**
-
 server.call.reject
 ----------------------------------------------------------------------------
 
@@ -456,6 +447,17 @@ Call restarted
 
 * ``jid`` - Chat or contact id
 * ``team`` - Team id
+* ``uid`` - Call id
+
+**MISSING EXAMPLE**
+
+server.call.sdp
+----------------------------------------------------------------------------
+
+For exchange Session Description with client when server's Local Session Description is changed
+
+* ``jid`` - Chat or contact id
+* ``jsep`` - SDP data
 * ``uid`` - Call id
 
 **MISSING EXAMPLE**
@@ -602,10 +604,11 @@ Chat deleted
 server.chat.draft
 ----------------------------------------------------------------------------
 
-Changed draft message in chan
+Changed draft message in chat
 
 * ``draft`` - Draft text
-* ``draft_num`` - Draft version. TODO: use gentime instead
+* ``draft_gentime`` - Draft version
+* ``draft_num`` - Deprecated
 * ``jid`` - Chat or contact id
 
 **MISSING EXAMPLE**
