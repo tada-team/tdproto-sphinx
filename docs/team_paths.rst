@@ -6,7 +6,7 @@ Team related paths
   Get the list of teams on the server.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams>`__
-  
+
   :resjson boolean ok: True if no error occured.
   :resjson array result: List of :ref:`tdproto-Team` objects.
   :status 200: No error.
@@ -16,7 +16,7 @@ Team related paths
   Get team info.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id_>`__
-  
+
   :param team_id: ID of the team.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :ref:`tdproto-Team` object.
@@ -29,7 +29,7 @@ Team related paths
   Must have admin rights.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/put_api_v4_teams__team_id_>`__
-  
+
   :param team_id: ID of the team.
   :reqjson object: :ref:`tdproto-Team` object with updated fields.
   :resjson boolean ok: True if no error occured.
@@ -43,7 +43,7 @@ Team related paths
   Must have admin rights.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/delete_api_v4_teams__team_id_>`__
-  
+
   :param team_id: ID of the team.
   :resjson boolean ok: True if no error occured.
   :resjson object result: :ref:`tdproto-Team` object of deleted team.
@@ -54,7 +54,7 @@ Team related paths
   Get the list of chats in the team.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id__chats>`__
-  
+
   :param team_id: ID of the team.
   :resjson boolean ok: True if no error occured.
   :resjson array result: List of :ref:`tdproto-Chat` objects.
@@ -65,7 +65,7 @@ Team related paths
   Get the list of contacts of the team.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id__contacts>`__
-  
+
   :param team_id: ID of the team.
   :resjson boolean ok: True if no error occured.
   :resjson array result: List of :ref:`tdproto-Contact` objects.
@@ -76,7 +76,7 @@ Team related paths
   Get contact details.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id__contacts__contact_id_>`__
-  
+
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :resjson boolean ok: True if no error occured.
@@ -88,7 +88,7 @@ Team related paths
   Update contact details.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__contacts__contact_id_>`__
-  
+
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :reqjson object: The :ref:`tdproto-Contact` object.
@@ -103,7 +103,7 @@ Team related paths
   Must have admin rights.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/delete_api_v4_teams__team_id__contacts__contact_id_>`__
-  
+
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :resjson boolean ok: True if no error occured.

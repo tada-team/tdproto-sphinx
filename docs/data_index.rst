@@ -198,26 +198,6 @@ Call participant device
 * ``muted`` (boolean) - Device muted
 * ``useragent`` (string) - Device description
 
-.. _tdproto-CallEvent:
-
-CallEvent
--------------------------------------------------------------
-
-Call information
-
-**Fields**:
-
-* ``jid`` (:ref:`tdproto-JID`) - Chat or contact id
-* ``uid`` (string) - Call id
-* ``buzz`` (boolean) :abbr:`💥 (Maybe omitted)` - Call buzzing
-* ``created`` (string) - Creation date, iso datetime
-* ``start`` (string) :abbr:`💥 (Maybe omitted)` - Call start. For direct calls can be empty when buzzing
-* ``finish`` (string) :abbr:`💥 (Maybe omitted)` - Call finish
-* ``audiorecord`` (boolean) - Call record enabled
-* ``onliners`` (array[:ref:`tdproto-CallOnliner`]) :abbr:`💥 (Maybe omitted)` - Call participants
-* ``gentime`` (number) - Version
-* ``timestamp`` (number) - Deprecated: use gentime or created
-
 .. _tdproto-CallOnliner:
 
 CallOnliner
@@ -377,6 +357,7 @@ Contact
 * ``cant_send_message_reason`` (string) :abbr:`💥 (Maybe omitted)` - Why I can't send message to this chat (if can't)
 * ``can_call`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I call to this contact
 * ``can_create_task`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I call create task for this contact
+* ``can_import_tasks`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I import tasks in this team
 * ``can_add_to_group`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I add this contact to group chats
 * ``can_delete`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I remove this contact from team
 * ``changeable_fields`` (array[string]) :abbr:`💥 (Maybe omitted)` - Changeable fields
@@ -406,7 +387,8 @@ Contact
 * ``unread_first`` (boolean) :abbr:`💥 (Maybe omitted)` - Show unread chats first in feed
 * ``munread_first`` (boolean) :abbr:`💥 (Maybe omitted)` - Show unread chats first in feed in mobile app
 * ``can_add_to_team`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I add new members to this team
-* ``can_manage_sections`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I manage sections in this team
+* ``can_manage_sections`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I manage contact sections in this team
+* ``can_manage_projects`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I manage task projects in this team
 * ``can_manage_tags`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I manage tags in this team
 * ``can_manage_integrations`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I manage integrations in this team
 * ``can_manage_color_rules`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I manage color rules in this team
@@ -648,7 +630,7 @@ Group chat membership status
 **Fields**:
 
 * ``jid`` (:ref:`tdproto-JID`) - Contact id
-* ``status`` (:ref:`tdproto-GroupStatus`) - Status in group
+* ``status`` (:ref:`tdproto-GroupStatus`) :abbr:`💥 (Maybe omitted)` - Status in group
 * ``can_remove`` (boolean) :abbr:`💥 (Maybe omitted)` - Can I remove this member
 
 .. _tdproto-ICEServer:
@@ -722,7 +704,6 @@ Integration for concrete chat
 * ``group`` (:ref:`tdproto-JID`) - Chat id
 * ``help`` (string) :abbr:`💥 (Maybe omitted)` - Full description
 * ``kind`` (string) - Unique integration name
-* ``-`` (string) - DOCUMENTATION MISSING
 
 .. _tdproto-IntegrationField:
 
@@ -776,6 +757,18 @@ Complete integrations data, as received from server
 
 * ``integrations`` (array[:ref:`tdproto-Integration`]) - Currently existing integrations
 * ``kinds`` (array[:ref:`tdproto-IntegrationKind`]) - Types of integrations available for setup
+
+.. _tdproto-JSEP:
+
+JSEP
+-------------------------------------------------------------
+
+JavaScript Session Establishment Protocol
+
+**Fields**:
+
+* ``sdp`` (string) - Session Description Protocol information
+* ``type`` (string) - See https://rtcweb-wg.github.io/jsep/#rfc.section.4.1.8
 
 .. _tdproto-MarkupEntity:
 
@@ -918,27 +911,6 @@ Website title and description
 
 * ``title`` (string) - Website title or og:title content
 * ``description`` (string) :abbr:`💥 (Maybe omitted)` - Website description
-
-.. _tdproto-MessagePush:
-
-MessagePush
--------------------------------------------------------------
-
-Push message over websockets. Readonly
-
-**Fields**:
-
-* ``title`` (string) - Push title
-* ``subtitle`` (string) - Push subtitle
-* ``message`` (string) - Push body
-* ``icon_url`` (string) - Absolute url to push icon
-* ``click_action`` (string) - Url opened on click
-* ``tag`` (string) - Push tag (for join pushes)
-* ``team`` (string) - Team uid
-* ``sender`` (:ref:`tdproto-JID`) - Sender contact id
-* ``chat`` (:ref:`tdproto-JID`) - Chat id
-* ``message_id`` (string) - Message id
-* ``created`` (string) - Message creation iso datetime
 
 .. _tdproto-MessageReaction:
 
@@ -1587,3 +1559,34 @@ Chat wallpaper
 * ``key`` (string) - Unique identifier
 * ``name`` (string) - Localized description
 * ``url`` (string) - Url to jpg or png
+
+HTTP Queries
+============================
+
+.. _tdproto-TaskFilterQuery:
+
+TaskFilter
+-------------------------------------------------------------
+
+Query parameters for listing messages
+
+* ``assignee`` - * ?assignee=jid,jid
+* ``created_gte`` - * ?created_gte=<isodate>
+* ``created_lte`` - * ?created_lte=<isodate>
+* ``deadline_gte`` - * ?deadline_gte=<isodate>
+* ``deadline_lte`` - * ?deadline_lte=<isodate>
+* ``done_gte`` - * ?done_gte=<isodate>
+* ``done_lte`` - * ?done_lte=<isodate>
+* ``exclude_task_status`` - * ?exclude_task_status = new,done | new | any
+* ``gentime_gt`` - gentime great than group/chat
+* ``member`` - * ?member=jid,jid
+* ``num`` - * ?num=num1,num2,num3..
+* ``observer`` - * ?observer=jid,jid // TODO: rename to ?follower=
+* ``owner`` - * ?owner=jid,jid
+* ``public`` - * ?public=true|false
+* ``q`` - * ?q=
+* ``section`` - * ?section=[ uid,uid... | "-" ]
+* ``short`` - * ?short=true|false
+* ``sort`` - * ?sort = [ "created" | "-created" | "last_message" | "-last_message" | "deadline" | "-deadline" ]
+* ``tag`` - * ?tag=[ tag,tag,tag... | "-" ]
+* ``task_status`` - * ?task_status = new,done | new | any

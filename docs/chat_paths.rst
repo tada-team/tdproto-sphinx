@@ -6,7 +6,7 @@ Chat related paths
   Get the chat information.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_teams__team_id__chats__chat_id_>`__
-  
+
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
   :resjson boolean ok: True if no error occured.
@@ -18,7 +18,7 @@ Chat related paths
   Change chat settings.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/put_api_v4_teams__team_id__chats__chat_id_>`__
-  
+
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
   :reqjson object: The :ref:`tdproto-Chat` object.
@@ -31,7 +31,7 @@ Chat related paths
   Send text message to chat.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__chats__chat_id__messages>`__
-  
+
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
   :reqjson object: The :ref:`tdproto-Message` object.
@@ -43,7 +43,7 @@ Chat related paths
   Edit message.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__
-  
+
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
   :param message_id: ID of the message.
@@ -57,7 +57,7 @@ Chat related paths
   Delete message.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/delete_api_v4_teams__team_id__chats__chat_id__messages__message_id_>`__
-  
+
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
   :param message_id: ID of the message.
@@ -70,7 +70,7 @@ Chat related paths
   Send text message to direct chat.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__chats__contact_id__messages>`__
-  
+
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :reqjson object: The :ref:`tdproto-Message` object.
@@ -82,7 +82,7 @@ Chat related paths
   Edit message in direct chat.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__chats__contact_id__messages__message_id_>`__
-  
+
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :param message_id: ID of the message.
@@ -96,7 +96,7 @@ Chat related paths
   Delete message in direct chat.
 
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/delete_api_v4_teams__team_id__chats__contact_id__messages__message_id_>`__
-  
+
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :param message_id: ID of the message.
