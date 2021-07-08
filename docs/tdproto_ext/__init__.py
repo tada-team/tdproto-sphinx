@@ -43,12 +43,13 @@ class TdprotoStruct(Directive):
         fields_list = nodes.bullet_list()
 
         for x in self.content:
-            x: str
             if not x.startswith(':field '):
                 structure_description.append(x)
                 continue
 
-            field_options_str, field_text = tuple(x.split(':')[1:])
+            field_options_str, field_text = tuple(x.split(':',
+                                                          maxsplit=2
+                                                          )[1:])
             field_text = field_text.lstrip(' ')
 
             field_options_list = field_options_str.split()
@@ -56,7 +57,9 @@ class TdprotoStruct(Directive):
             field_line = TdprotoStructFieldLine()
 
             for i, option in enumerate(field_options_list):
-                if i == 1:
+                if i == 0:
+                    ...
+                elif i == 1:
                     field_line.append(nodes.literal(text=option))
                 elif i == 2:
                     field_line.append(nodes.inline(text=f" ({option})"))
@@ -79,7 +82,7 @@ class TdprotoStruct(Directive):
                 else:
                     raise ValueError('Too many options')
 
-            field_line.append(nodes.inline(text=f" - {field_text}"))
+            field_line.append(nodes.inline(text=f" — {field_text}"))
 
             fields_list.append(field_line)
 
@@ -90,8 +93,6 @@ class TdprotoStruct(Directive):
         node.append(fields_list)
 
         return [node]
-
-
 
 
 def setup(app: Sphinx) -> dict[str, Union[str, bool]]:
