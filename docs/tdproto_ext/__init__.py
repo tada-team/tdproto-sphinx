@@ -6,6 +6,7 @@ from docutils import nodes
 from docutils.parsers.rst import Directive
 from sphinx import addnodes
 from sphinx.application import Sphinx
+from sphinx import roles
 
 OMIT_EMPTY_STR = 'Maybe omitted'
 MAYBE_NULL_STR = 'Might be null'
@@ -62,7 +63,15 @@ class TdprotoStruct(Directive):
                 elif i == 1:
                     field_line.append(nodes.literal(text=option))
                 elif i == 2:
-                    field_line.append(nodes.inline(text=f" ({option})"))
+                    if option.startswith('`'):
+                        new_ref = addnodes.pending_xref(
+                            reftarget='tdproto-Team',
+                            reftype='ref',
+                        )
+                        new_ref.append(nodes.inline(text='Team'))
+                        field_line.append(new_ref)
+                    else:
+                        field_line.append(nodes.inline(text=f" ({option})"))
                 elif i == 3:
                     if option == 'omitempty':
                         omit_empty_abbreviation = nodes.abbreviation(text='💥')
