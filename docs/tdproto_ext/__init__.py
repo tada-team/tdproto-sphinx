@@ -63,25 +63,37 @@ class TdprotoStruct(Directive):
                 elif i == 1:
                     field_line.append(nodes.literal(text=option))
                 elif i == 2:
-                    if option.startswith('`'):
+                    if '`' in option:
+                        reference_target = option.split('`')[1]
+                        reference_name = reference_target.split('-')[1]
+
                         new_ref = addnodes.pending_xref(
-                            reftarget='tdproto-Team',
+                            refdomain='std',
+                            reftarget=reference_target.lower(),
                             reftype='ref',
+                            refexplicit=True,
+                            refwarn=True,
                         )
-                        new_ref.append(nodes.inline(text='Team'))
-                        field_line.append(new_ref)
+                        ref_name = option.replace(
+                            f"`{reference_target}`", reference_name)
+                        new_ref.append(nodes.inline(text=ref_name))
+                        start_node = nodes.inline(text=' (')
+                        start_node.append(new_ref)
+                        start_node.append(nodes.inline(text=')'))
+
+                        field_line.append(start_node)
                     else:
                         field_line.append(nodes.inline(text=f" ({option})"))
                 elif i == 3:
                     if option == 'omitempty':
-                        omit_empty_abbreviation = nodes.abbreviation(text='💥')
+                        omit_empty_abbreviation = nodes.abbreviation(text=' 💥 ')
                         omit_empty_abbreviation.attributes['explanation'] \
                             = OMIT_EMPTY_STR
 
                         field_line.append(omit_empty_abbreviation)
                     elif option == 'nullable':
                         maybe_null_abbreviation = nodes.abbreviation(
-                            text='0️⃣')
+                            text=' 0️⃣ ')
                         maybe_null_abbreviation.attributes['explanation'] \
                             = MAYBE_NULL_STR
 
