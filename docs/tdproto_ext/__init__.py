@@ -104,7 +104,8 @@ class TdprotoStruct(Directive):
                 else:
                     raise ValueError('Too many options')
 
-            field_line.append(nodes.inline(text=f" — {field_text}"))
+            field_line.append(nodes.inline(text=" — "))
+            field_line.append(nodes.inline(text=field_text))
 
             fields_list.append(field_line)
 
