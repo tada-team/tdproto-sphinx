@@ -42,6 +42,7 @@ class TdprotoStruct(Directive):
 
         structure_description = []
         fields_list = nodes.bullet_list()
+        fields_list.append(nodes.paragraph(text='Fields:'))
 
         for x in self.content:
             if not x.startswith(':field '):
