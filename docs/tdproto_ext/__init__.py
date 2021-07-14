@@ -87,7 +87,8 @@ class TdprotoStruct(Directive):
                         field_line.append(nodes.inline(text=f" ({option})"))
                 elif i == 3:
                     if option == 'omitempty':
-                        omit_empty_abbreviation = nodes.abbreviation(text=' 💥 ')
+                        omit_empty_abbreviation = nodes.abbreviation(
+                            text=' 💥 ')
                         omit_empty_abbreviation.attributes['explanation'] \
                             = OMIT_EMPTY_STR
 
@@ -111,11 +112,7 @@ class TdprotoStruct(Directive):
 
         paragraph = nodes.paragraph(text='\n'.join(structure_description))
 
-        node = addnodes.desc()
-        node.append(paragraph)
-        node.append(fields_list)
-
-        return [node]
+        return [paragraph, fields_list]
 
 
 def setup(app: Sphinx) -> dict[str, Union[str, bool]]:
