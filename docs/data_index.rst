@@ -182,7 +182,7 @@ JSON objects index
 ButtonColors
 -------------------------------------------------------------
 
-.. tdproto-struct:: ButtonColors
+.. tdproto:struct:: ButtonColors
 
   ButtonColors button colors for app
 
@@ -198,7 +198,7 @@ ButtonColors
 CallDevice
 -------------------------------------------------------------
 
-.. tdproto-struct:: CallDevice
+.. tdproto:struct:: CallDevice
 
   Call participant device
 
@@ -210,7 +210,7 @@ CallDevice
 CallOnliner
 -------------------------------------------------------------
 
-.. tdproto-struct:: CallOnliner
+.. tdproto:struct:: CallOnliner
 
   Call participant
 
@@ -226,7 +226,7 @@ CallOnliner
 Chat
 -------------------------------------------------------------
 
-.. tdproto-struct:: Chat
+.. tdproto:struct:: Chat
 
   Chat (direct, group, task) representation
 
@@ -306,7 +306,7 @@ Chat
 ChatShort
 -------------------------------------------------------------
 
-.. tdproto-struct:: ChatShort
+.. tdproto:struct:: ChatShort
 
   Minimal chat representation
 
@@ -320,7 +320,7 @@ ChatShort
 ColorRule
 -------------------------------------------------------------
 
-.. tdproto-struct:: ColorRule
+.. tdproto:struct:: ColorRule
 
   Set of rules to apply to tasks for coloring
 
@@ -343,7 +343,7 @@ ColorRule
 Contact
 -------------------------------------------------------------
 
-.. tdproto-struct:: Contact
+.. tdproto:struct:: Contact
 
   Contact
 
@@ -411,7 +411,7 @@ Contact
 ContactCustomFields
 -------------------------------------------------------------
 
-.. tdproto-struct:: ContactCustomFields
+.. tdproto:struct:: ContactCustomFields
 
   Extra contact fields
 
@@ -426,7 +426,7 @@ ContactCustomFields
 ContactShort
 -------------------------------------------------------------
 
-.. tdproto-struct:: ContactShort
+.. tdproto:struct:: ContactShort
 
   Short contact representation
 
@@ -440,7 +440,7 @@ ContactShort
 Country
 -------------------------------------------------------------
 
-.. tdproto-struct:: Country
+.. tdproto:struct:: Country
 
   Country for phone numbers selection on login screen
 
@@ -455,7 +455,7 @@ Country
 DeletedChat
 -------------------------------------------------------------
 
-.. tdproto-struct:: DeletedChat
+.. tdproto:struct:: DeletedChat
 
   Minimal chat representation for deletion
 
@@ -469,7 +469,7 @@ DeletedChat
 DeletedRemind
 -------------------------------------------------------------
 
-.. tdproto-struct:: DeletedRemind
+.. tdproto:struct:: DeletedRemind
 
   Remind deleted message
 
@@ -480,7 +480,7 @@ DeletedRemind
 DeletedSection
 -------------------------------------------------------------
 
-.. tdproto-struct:: DeletedSection
+.. tdproto:struct:: DeletedSection
 
   Deleted task project or contact section
 
@@ -492,7 +492,7 @@ DeletedSection
 DeletedTag
 -------------------------------------------------------------
 
-.. tdproto-struct:: DeletedTag
+.. tdproto:struct:: DeletedTag
 
   Delete tag message
 
@@ -503,7 +503,7 @@ DeletedTag
 DeletedTeam
 -------------------------------------------------------------
 
-.. tdproto-struct:: DeletedTeam
+.. tdproto:struct:: DeletedTeam
 
   Team deletion message. Readonly
 
@@ -516,7 +516,7 @@ DeletedTeam
 Emoji
 -------------------------------------------------------------
 
-.. tdproto-struct:: Emoji
+.. tdproto:struct:: Emoji
 
   Emoji
 
@@ -528,7 +528,7 @@ Emoji
 Features
 -------------------------------------------------------------
 
-.. tdproto-struct:: Features
+.. tdproto:struct:: Features
 
   Server information. Readonly
 
@@ -620,7 +620,7 @@ Features
 FontColors
 -------------------------------------------------------------
 
-.. tdproto-struct:: FontColors
+.. tdproto:struct:: FontColors
 
   FontColors font colors for app
 
@@ -637,7 +637,7 @@ FontColors
 GroupMembership
 -------------------------------------------------------------
 
-.. tdproto-struct:: GroupMembership
+.. tdproto:struct:: GroupMembership
 
   Group chat membership status
 
@@ -650,7 +650,7 @@ GroupMembership
 ICEServer
 -------------------------------------------------------------
 
-.. tdproto-struct:: ICEServer
+.. tdproto:struct:: ICEServer
 
   Interactive Connectivity Establishment Server for WEB Rtc connection. Readonly
 
@@ -661,7 +661,7 @@ ICEServer
 IconColors
 -------------------------------------------------------------
 
-.. tdproto-struct:: IconColors
+.. tdproto:struct:: IconColors
 
   IconColors icon colors for app
 
@@ -674,7 +674,7 @@ IconColors
 IconData
 -------------------------------------------------------------
 
-.. tdproto-struct:: IconData
+.. tdproto:struct:: IconData
 
   Icon data. For icon generated from display name contains Letters + Color fields
 
@@ -690,7 +690,7 @@ IconData
 InputColors
 -------------------------------------------------------------
 
-.. tdproto-struct:: InputColors
+.. tdproto:struct:: InputColors
 
   InputColors input colors for app
 
@@ -704,7 +704,7 @@ InputColors
 Integration
 -------------------------------------------------------------
 
-.. tdproto-struct:: Integration
+.. tdproto:struct:: Integration
 
   Integration for concrete chat
 
@@ -722,7 +722,7 @@ Integration
 IntegrationField
 -------------------------------------------------------------
 
-.. tdproto-struct:: IntegrationField
+.. tdproto:struct:: IntegrationField
 
   Integration form field
 
@@ -735,7 +735,7 @@ IntegrationField
 IntegrationForm
 -------------------------------------------------------------
 
-.. tdproto-struct:: IntegrationForm
+.. tdproto:struct:: IntegrationForm
 
   Integration form
 
@@ -748,7 +748,7 @@ IntegrationForm
 IntegrationKind
 -------------------------------------------------------------
 
-.. tdproto-struct:: IntegrationKind
+.. tdproto:struct:: IntegrationKind
 
   Integration kind
 
@@ -763,7 +763,7 @@ IntegrationKind
 Integrations
 -------------------------------------------------------------
 
-.. tdproto-struct:: Integrations
+.. tdproto:struct:: Integrations
 
   Complete integrations data, as received from server
 
@@ -775,7 +775,7 @@ Integrations
 InvitableUser
 -------------------------------------------------------------
 
-.. tdproto-struct:: InvitableUser
+.. tdproto:struct:: InvitableUser
 
   Account from other team, Active Directory or server
 
@@ -789,7 +789,7 @@ InvitableUser
 JSEP
 -------------------------------------------------------------
 
-.. tdproto-struct:: JSEP
+.. tdproto:struct:: JSEP
 
   JavaScript Session Establishment Protocol
 
@@ -801,7 +801,7 @@ JSEP
 MarkupEntity
 -------------------------------------------------------------
 
-.. tdproto-struct:: MarkupEntity
+.. tdproto:struct:: MarkupEntity
 
   Markup entity. Experimental
 
@@ -820,7 +820,7 @@ MarkupEntity
 Message
 -------------------------------------------------------------
 
-.. tdproto-struct:: Message
+.. tdproto:struct:: Message
 
   Chat message
 
@@ -861,7 +861,7 @@ Message
 MessageColors
 -------------------------------------------------------------
 
-.. tdproto-struct:: MessageColors
+.. tdproto:struct:: MessageColors
 
   MessageColors message colors for app
 
@@ -877,7 +877,7 @@ MessageColors
 MessageContent
 -------------------------------------------------------------
 
-.. tdproto-struct:: MessageContent
+.. tdproto:struct:: MessageContent
 
   Chat message content
 
@@ -914,7 +914,7 @@ MessageContent
 MessageLink
 -------------------------------------------------------------
 
-.. tdproto-struct:: MessageLink
+.. tdproto:struct:: MessageLink
 
   Checked message links. In short: "Click here: {link.Pattern}" => "Click here: <a href='{link.Url}'>{link.Text}</a>"
 
@@ -931,7 +931,7 @@ MessageLink
 MessageLinkPreview
 -------------------------------------------------------------
 
-.. tdproto-struct:: MessageLinkPreview
+.. tdproto:struct:: MessageLinkPreview
 
   Website title and description
 
@@ -943,7 +943,7 @@ MessageLinkPreview
 MessageReaction
 -------------------------------------------------------------
 
-.. tdproto-struct:: MessageReaction
+.. tdproto:struct:: MessageReaction
 
   Message emoji reaction
 
@@ -956,7 +956,7 @@ MessageReaction
 MessageReactionDetail
 -------------------------------------------------------------
 
-.. tdproto-struct:: MessageReactionDetail
+.. tdproto:struct:: MessageReactionDetail
 
   Message reaction detail
 
@@ -969,7 +969,7 @@ MessageReactionDetail
 MyReactions
 -------------------------------------------------------------
 
-.. tdproto-struct:: MyReactions
+.. tdproto:struct:: MyReactions
 
   Reactions to messages: frequently used and all available
 
@@ -981,7 +981,7 @@ MyReactions
 Node
 -------------------------------------------------------------
 
-.. tdproto-struct:: Node
+.. tdproto:struct:: Node
 
   Node (for external users)
 
@@ -994,7 +994,7 @@ Node
 OAuthService
 -------------------------------------------------------------
 
-.. tdproto-struct:: OAuthService
+.. tdproto:struct:: OAuthService
 
   OAuth service
 
@@ -1006,7 +1006,7 @@ OAuthService
 OnlineCall
 -------------------------------------------------------------
 
-.. tdproto-struct:: OnlineCall
+.. tdproto:struct:: OnlineCall
 
   Active call status
 
@@ -1020,7 +1020,7 @@ OnlineCall
 OnlineContact
 -------------------------------------------------------------
 
-.. tdproto-struct:: OnlineContact
+.. tdproto:struct:: OnlineContact
 
   Contact online status
 
@@ -1033,7 +1033,7 @@ OnlineContact
 PdfVersion
 -------------------------------------------------------------
 
-.. tdproto-struct:: PdfVersion
+.. tdproto:struct:: PdfVersion
 
   PDF preview of mediafile. Experimental
 
@@ -1045,7 +1045,7 @@ PdfVersion
 PushDevice
 -------------------------------------------------------------
 
-.. tdproto-struct:: PushDevice
+.. tdproto:struct:: PushDevice
 
   Push device info
 
@@ -1063,7 +1063,7 @@ PushDevice
 Reaction
 -------------------------------------------------------------
 
-.. tdproto-struct:: Reaction
+.. tdproto:struct:: Reaction
 
   Emoji reaction
 
@@ -1074,7 +1074,7 @@ Reaction
 ReceivedMessage
 -------------------------------------------------------------
 
-.. tdproto-struct:: ReceivedMessage
+.. tdproto:struct:: ReceivedMessage
 
   Message receiving status
 
@@ -1089,7 +1089,7 @@ ReceivedMessage
 Remind
 -------------------------------------------------------------
 
-.. tdproto-struct:: Remind
+.. tdproto:struct:: Remind
 
   Remind
 
@@ -1103,7 +1103,7 @@ Remind
 Section
 -------------------------------------------------------------
 
-.. tdproto-struct:: Section
+.. tdproto:struct:: Section
 
   Task project or contact section
 
@@ -1119,7 +1119,7 @@ Section
 Session
 -------------------------------------------------------------
 
-.. tdproto-struct:: Session
+.. tdproto:struct:: Session
 
   Websocket session
 
@@ -1137,7 +1137,7 @@ Session
 ShortMessage
 -------------------------------------------------------------
 
-.. tdproto-struct:: ShortMessage
+.. tdproto:struct:: ShortMessage
 
   Short message based on chat message
 
@@ -1155,7 +1155,7 @@ ShortMessage
 SingleIcon
 -------------------------------------------------------------
 
-.. tdproto-struct:: SingleIcon
+.. tdproto:struct:: SingleIcon
 
   Small or large icon
 
@@ -1168,7 +1168,7 @@ SingleIcon
 Subtask
 -------------------------------------------------------------
 
-.. tdproto-struct:: Subtask
+.. tdproto:struct:: Subtask
 
   Link to sub/sup task
 
@@ -1185,7 +1185,7 @@ Subtask
 SwitcherColors
 -------------------------------------------------------------
 
-.. tdproto-struct:: SwitcherColors
+.. tdproto:struct:: SwitcherColors
 
   SwitcherColors switcher colors for app
 
@@ -1197,7 +1197,7 @@ SwitcherColors
 Tag
 -------------------------------------------------------------
 
-.. tdproto-struct:: Tag
+.. tdproto:struct:: Tag
 
   Task tag
 
@@ -1209,7 +1209,7 @@ Tag
 Task
 -------------------------------------------------------------
 
-.. tdproto-struct:: Task
+.. tdproto:struct:: Task
 
   Task
 
@@ -1236,7 +1236,7 @@ Task
 TaskColor
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskColor
+.. tdproto:struct:: TaskColor
 
   Task color rules color
 
@@ -1249,7 +1249,7 @@ TaskColor
 TaskCounters
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskCounters
+.. tdproto:struct:: TaskCounters
 
   Tasks counters
 
@@ -1262,7 +1262,7 @@ TaskCounters
 TaskFilter
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskFilter
+.. tdproto:struct:: TaskFilter
 
   Task filter
 
@@ -1274,7 +1274,7 @@ TaskFilter
 TaskItem
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskItem
+.. tdproto:struct:: TaskItem
 
   Task checklist item
 
@@ -1291,7 +1291,7 @@ TaskItem
 TaskSort
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskSort
+.. tdproto:struct:: TaskSort
 
   Task sort type
 
@@ -1303,7 +1303,7 @@ TaskSort
 TaskStatus
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskStatus
+.. tdproto:struct:: TaskStatus
 
   Custom task status
 
@@ -1318,7 +1318,7 @@ TaskStatus
 TaskTab
 -------------------------------------------------------------
 
-.. tdproto-struct:: TaskTab
+.. tdproto:struct:: TaskTab
 
   Task tab
 
@@ -1336,7 +1336,7 @@ TaskTab
 Team
 -------------------------------------------------------------
 
-.. tdproto-struct:: Team
+.. tdproto:struct:: Team
 
   Team
 
@@ -1376,7 +1376,7 @@ Team
 TeamCounter
 -------------------------------------------------------------
 
-.. tdproto-struct:: TeamCounter
+.. tdproto:struct:: TeamCounter
 
   Unread message counters
 
@@ -1388,7 +1388,7 @@ TeamCounter
 TeamShort
 -------------------------------------------------------------
 
-.. tdproto-struct:: TeamShort
+.. tdproto:struct:: TeamShort
 
   Short team representation. For invites, push notifications, etc. Readonly
 
@@ -1401,7 +1401,7 @@ TeamShort
 Terms
 -------------------------------------------------------------
 
-.. tdproto-struct:: Terms
+.. tdproto:struct:: Terms
 
   Experimental translation fields for "team" entity renaming. Readonly
 
@@ -1445,7 +1445,7 @@ Terms
 Theme
 -------------------------------------------------------------
 
-.. tdproto-struct:: Theme
+.. tdproto:struct:: Theme
 
   Color theme
 
@@ -1493,7 +1493,7 @@ Theme
 Unread
 -------------------------------------------------------------
 
-.. tdproto-struct:: Unread
+.. tdproto:struct:: Unread
 
   Unread message counters
 
@@ -1506,7 +1506,7 @@ Unread
 Upload
 -------------------------------------------------------------
 
-.. tdproto-struct:: Upload
+.. tdproto:struct:: Upload
 
   Uploaded media
 
@@ -1529,7 +1529,7 @@ Upload
 UploadPreview
 -------------------------------------------------------------
 
-.. tdproto-struct:: UploadPreview
+.. tdproto:struct:: UploadPreview
 
   Upload preview
 
@@ -1543,7 +1543,7 @@ UploadPreview
 UploadShortMessage
 -------------------------------------------------------------
 
-.. tdproto-struct:: UploadShortMessage
+.. tdproto:struct:: UploadShortMessage
 
   Upload + ShortMessage
 
@@ -1555,7 +1555,7 @@ UploadShortMessage
 User
 -------------------------------------------------------------
 
-.. tdproto-struct:: User
+.. tdproto:struct:: User
 
   Account data
 
@@ -1579,7 +1579,7 @@ User
 UserWithMe
 -------------------------------------------------------------
 
-.. tdproto-struct:: UserWithMe
+.. tdproto:struct:: UserWithMe
 
   Account data with extra information
 
@@ -1606,7 +1606,7 @@ UserWithMe
 Wallpaper
 -------------------------------------------------------------
 
-.. tdproto-struct:: Wallpaper
+.. tdproto:struct:: Wallpaper
 
   Chat wallpaper
 

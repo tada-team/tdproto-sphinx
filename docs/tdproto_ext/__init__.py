@@ -3,10 +3,12 @@ from __future__ import annotations
 from typing import Sequence, Union, Any
 
 from docutils import nodes
-from docutils.parsers.rst import Directive
 from sphinx import addnodes
 from sphinx.application import Sphinx
-from sphinx import roles
+from docutils.parsers.rst import Directive
+from sphinx.domains import Domain
+
+from typing import Dict
 
 OMIT_EMPTY_STR = 'Maybe omitted'
 MAYBE_NULL_STR = 'Might be null'
@@ -115,8 +117,20 @@ class TdprotoStruct(Directive):
         return [paragraph, fields_list]
 
 
+class TdprotoDomain(Domain):
+    name = 'tdproto'
+    label = 'Tdproto'
+
+    directives = {
+        'struct': TdprotoStruct,
+    }
+    initial_data: Dict[Any, Any] = {
+        'structs': [],
+    }
+
+
 def setup(app: Sphinx) -> dict[str, Union[str, bool]]:
-    app.add_directive('tdproto-struct', TdprotoStruct)
+    app.add_domain(TdprotoDomain)
     app.add_node(TdprotoStructFieldLine)
 
     return {
