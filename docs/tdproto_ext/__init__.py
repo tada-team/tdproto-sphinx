@@ -7,11 +7,17 @@ from sphinx import addnodes
 from sphinx.application import Sphinx
 from docutils.parsers.rst import Directive
 from sphinx.domains import Domain
+from sphinx.roles import XRefRole
+from sphinx.builders import Builder
+from sphinx.environment import BuildEnvironment
+from sphinx.addnodes import Element
 
-from typing import Dict
+from typing import Dict, Optional
 
 OMIT_EMPTY_STR = 'Maybe omitted'
 MAYBE_NULL_STR = 'Might be null'
+
+TD_STRUCTURES: Dict[Any, Any] = {}
 
 
 class TdprotoStructFieldLine(nodes.line, addnodes.translatable):
@@ -42,7 +48,11 @@ class TdprotoStruct(Directive):
     def run(self) -> list[Any]:
         self.assert_has_content()
 
+        section = nodes.section()
+
         title = nodes.title(text=self.arguments[0])
+        section['ids'].append(f"tdproto-struct-{self.arguments[0]}")
+        TD_STRUCTURES[self.arguments[0]] = section
 
         structure_description = []
         fields_list = nodes.bullet_list()
@@ -73,9 +83,10 @@ class TdprotoStruct(Directive):
                         reference_name = reference_target.split('-')[1]
 
                         new_ref = addnodes.pending_xref(
-                            refdomain='std',
-                            reftarget=reference_target.lower(),
-                            reftype='ref',
+                            refdomain='tdproto',
+                            reftarget=reference_name,
+                            reftype='structs',
+                            refdoc='data_index',
                             refexplicit=True,
                             refwarn=True,
                         )
@@ -116,7 +127,9 @@ class TdprotoStruct(Directive):
 
         paragraph = nodes.paragraph(text='\n'.join(structure_description))
 
-        return [title, paragraph, fields_list]
+        section.extend([title, paragraph, fields_list])
+
+        return [section]
 
 
 class TdprotoDomain(Domain):
@@ -129,6 +142,30 @@ class TdprotoDomain(Domain):
     initial_data: Dict[Any, Any] = {
         'structs': [],
     }
+    roles = {
+        'struct': XRefRole(),
+    }
+
+    def resolve_xref(
+        self, env: BuildEnvironment, fromdocname: str, builder: Builder,
+        type: str, target: str, node: nodes.pending_xref, contnode: Element
+    ) -> Optional[Element]:
+        reftarget = node.attributes['reftarget']
+        refdoc = node.attributes['refdoc']
+
+        tdproto_target = TD_STRUCTURES.get(reftarget)
+        if tdproto_target is None:
+            return None
+
+        refuri = (
+            builder.get_target_uri(refdoc)
+            + f"#tdproto-struct-{reftarget}"
+        )
+
+        return nodes.reference(
+            text=reftarget,
+            refuri=refuri,
+            internal=False)
 
 
 def setup(app: Sphinx) -> dict[str, Union[str, bool]]:
