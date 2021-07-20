@@ -42,6 +42,8 @@ class TdprotoStruct(Directive):
     def run(self) -> list[Any]:
         self.assert_has_content()
 
+        title = nodes.title(text=self.arguments[0])
+
         structure_description = []
         fields_list = nodes.bullet_list()
         fields_list.append(nodes.paragraph(text='Fields:'))
@@ -114,7 +116,7 @@ class TdprotoStruct(Directive):
 
         paragraph = nodes.paragraph(text='\n'.join(structure_description))
 
-        return [paragraph, fields_list]
+        return [title, paragraph, fields_list]
 
 
 class TdprotoDomain(Domain):
