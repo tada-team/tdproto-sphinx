@@ -1,4 +1,4 @@
-Miscelaneos paths
+Miscellaneous paths
 ----------------------------------------------
 
 .. http:get:: /api/v4/addr

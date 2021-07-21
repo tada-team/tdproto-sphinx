@@ -105,6 +105,13 @@ ActiveUserDailyStatList
 
 **Is array**
 
+.. _tdproto-Err:
+
+Err
+-------------------------------------------------------------
+
+**Base Type**: string
+
 .. _tdproto-ISODateTimeString:
 
 ISODateTimeString
@@ -175,7 +182,7 @@ JSON objects index
 ButtonColors
 -------------------------------------------------------------
 
-Button colors for app
+ButtonColors button colors for app
 
 **Fields**:
 
@@ -341,6 +348,7 @@ Contact
 **Fields**:
 
 * ``jid`` (:ref:`tdproto-JID`) - Contact Id
+* ``node`` (string) :abbr:`💥 (Maybe omitted)` - Node uid for external users
 * ``display_name`` (string) - Full name in chats
 * ``short_name`` (string) - Short name in chats
 * ``contact_email`` (string) - Contact email in this team
@@ -534,6 +542,8 @@ Server information. Readonly
 * ``userver`` (string) - Static files server address
 * ``ios_app`` (string) - Link to AppStore
 * ``android_app`` (string) - Link to Google Play
+* ``ios_corp_app`` (string) - Link to AppStore for corporate app
+* ``android_corp_app`` (string) - Link to Google Play for corporate app
 * ``theme`` (string) - Default UI theme
 * ``min_ios_version`` (string) - Minimal iOS application version required for this server. Used for breaking changes
 * ``min_android_version`` (string) - Minimal android application version required for this server. Used for breaking changes
@@ -556,6 +566,7 @@ Server information. Readonly
 * ``max_integration_comment_length`` (number) - Maximum length for Integration comment
 * ``max_teams`` (number) - Maximum teams for one account
 * ``max_message_search_limit`` (number) - Maximum search result
+* ``multi_nodes`` (boolean) :abbr:`💥 (Maybe omitted)` - Multi nodes mode (federation) enabled
 * ``afk_age`` (number) - Max inactivity seconds
 * ``auth_by_password`` (boolean) :abbr:`💥 (Maybe omitted)` - Password authentication enabled
 * ``auth_by_qr_code`` (boolean) :abbr:`💥 (Maybe omitted)` - QR-code / link authentication enabled
@@ -566,10 +577,12 @@ Server information. Readonly
 * ``custom_server`` (boolean) - True for premise installation
 * ``installation_type`` (string) - Name of installation
 * ``installation_title`` (string) :abbr:`💥 (Maybe omitted)` - Installation title, used on login screen
+* ``custom_app_icon_name`` (string) :abbr:`💥 (Maybe omitted)` - Custom application icon name, if any
 * ``app_login_background`` (string) :abbr:`💥 (Maybe omitted)` - AppBackground image url, if any
 * ``web_login_background`` (string) :abbr:`💥 (Maybe omitted)` - WebBackground image url, if any
 * ``is_testing`` (boolean) - Testing installation
 * ``metrika`` (string) - Yandex metrika counter id
+* ``amplitude_api_key`` (string) :abbr:`💥 (Maybe omitted)` - Amplitude api key
 * ``min_search_length`` (number) - Minimal chars number for starting global search
 * ``resend_timeout`` (number) - Resend message in n seconds if no confirmation from server given
 * ``sentry_dsn_js`` (string) - Frontend sentry.io settings
@@ -594,6 +607,7 @@ Server information. Readonly
 * ``allow_admin_mute`` (boolean) :abbr:`💥 (Maybe omitted)` - Wiki pages in chats. Experimental
 * ``default_wallpaper`` (:ref:`tdproto-Wallpaper`) :abbr:`💥 (Maybe omitted)` - Default wallpaper url for mobile apps, if any
 * ``support_email`` (string) - Support email
+* ``custom_theme`` (boolean) - True if server has custom theme
 * ``task_checklist`` (boolean) - Deprecated
 * ``readonly_groups`` (boolean) - Deprecated
 * ``task_dashboard`` (boolean) - Deprecated
@@ -608,7 +622,7 @@ Server information. Readonly
 FontColors
 -------------------------------------------------------------
 
-Font colors for app
+FontColors font colors for app
 
 **Fields**:
 
@@ -649,7 +663,7 @@ Interactive Connectivity Establishment Server for WEB Rtc connection. Readonly
 IconColors
 -------------------------------------------------------------
 
-Icon colors for app
+IconColors icon colors for app
 
 **Fields**:
 
@@ -678,7 +692,7 @@ Icon data. For icon generated from display name contains Letters + Color fields
 InputColors
 -------------------------------------------------------------
 
-Input colors for app
+InputColors input colors for app
 
 **Fields**:
 
@@ -758,6 +772,20 @@ Complete integrations data, as received from server
 * ``integrations`` (array[:ref:`tdproto-Integration`]) - Currently existing integrations
 * ``kinds`` (array[:ref:`tdproto-IntegrationKind`]) - Types of integrations available for setup
 
+.. _tdproto-InvitableUser:
+
+InvitableUser
+-------------------------------------------------------------
+
+Account from other team, Active Directory or server
+
+**Fields**:
+
+* ``uid`` (string) - Account id
+* ``node`` (string) :abbr:`💥 (Maybe omitted)` - Node uid for external users
+* ``display_name`` (string) - Full name
+* ``icons`` (:ref:`tdproto-IconData`) - Icons
+
 .. _tdproto-JSEP:
 
 JSEP
@@ -835,7 +863,7 @@ Chat message
 MessageColors
 -------------------------------------------------------------
 
-Message colors for app
+MessageColors message colors for app
 
 **Fields**:
 
@@ -937,6 +965,31 @@ Message reaction detail
 * ``created`` (string) - When reaction added, iso datetime
 * ``sender`` (:ref:`tdproto-JID`) - Reaction author
 * ``name`` (string) - Reaction emoji
+
+.. _tdproto-MyReactions:
+
+MyReactions
+-------------------------------------------------------------
+
+Reactions to messages: frequently used and all available
+
+**Fields**:
+
+* ``top`` (array[:ref:`tdproto-Reaction`]) - My frequently used reactions
+* ``all`` (array[:ref:`tdproto-Reaction`]) - All available reactions
+
+.. _tdproto-Node:
+
+Node
+-------------------------------------------------------------
+
+Node (for external users)
+
+**Fields**:
+
+* ``uid`` (string) - Node uid
+* ``title`` (string) - Node title
+* ``enabled`` (boolean) - Synchronization with node works
 
 .. _tdproto-OAuthService:
 
@@ -1127,13 +1180,14 @@ Link to sub/sup task
 * ``num`` (number) - Task number in this team
 * ``display_name`` (string) - Title
 * ``public`` (boolean) :abbr:`💥 (Maybe omitted)` - Can other team member see this task/group chat
+* ``task_status`` (string) :abbr:`💥 (Maybe omitted)` - Subtask task status
 
 .. _tdproto-SwitcherColors:
 
 SwitcherColors
 -------------------------------------------------------------
 
-Switcher colors for app
+SwitcherColors switcher colors for app
 
 **Fields**:
 
@@ -1151,6 +1205,23 @@ Task tag
 
 * ``uid`` (string) - Tag id
 * ``name`` (string) - Tag name
+
+.. _tdproto-Tariff:
+
+Tariff
+-------------------------------------------------------------
+
+Tariff for teams
+
+**Fields**:
+
+* ``uid`` (string) - Tariff id
+* ``title_en`` (string) - Title of tariff on enlish
+* ``title_ru`` (string) - Title of tariff on russian
+* ``cloud_space`` (number) :abbr:`💥 (Maybe omitted)` - Cloud space reserved for storing team users uploads in megabytes
+* ``max_members_in_team`` (number) :abbr:`💥 (Maybe omitted)` - Maximum allowed number of members in a team
+* ``max_participants_per_call`` (number) :abbr:`💥 (Maybe omitted)` - Maximum number of participants per call
+* ``max_upload_filesize`` (number) :abbr:`💥 (Maybe omitted)` - maximum file size for uploading
 
 .. _tdproto-Task:
 
@@ -1227,6 +1298,7 @@ Task checklist item
 **Fields**:
 
 * ``uid`` (string) :abbr:`💥 (Maybe omitted)` - Id
+* ``gentime`` (number) - Object version
 * ``sort_ordering`` (number) :abbr:`💥 (Maybe omitted)` - Sort ordering
 * ``text`` (string) - Text or "#{OtherTaskNumber}"
 * ``checked`` (boolean) :abbr:`💥 (Maybe omitted)` - Item checked
@@ -1431,6 +1503,7 @@ Color theme
 * ``button`` (:ref:`tdproto-ButtonColors`) :abbr:`0️⃣ (Might be null)` - Button colors for app
 * ``input`` (:ref:`tdproto-InputColors`) :abbr:`0️⃣ (Might be null)` - Input colors for app
 * ``ic`` (:ref:`tdproto-IconColors`) :abbr:`0️⃣ (Might be null)` - Icon colors for app
+* ``web_base`` (:ref:`tdproto-WebBase`) :abbr:`0️⃣ (Might be null)` - WebBase colors for web
 * ``AppAccentColor`` (:ref:`tdproto-RGBColor`) - Deprecated
 * ``AppPrimaryColor`` (:ref:`tdproto-RGBColor`) - Deprecated
 
