@@ -11,7 +11,7 @@ Task related paths
 
   :param team_id: ID of the team.
   :resjson boolean ok: True if no error occured.
-  :resjson array result: List of :ref:`tdproto-Task` objects.
+  :resjson array result: List of :tdproto:ref:`Task` objects.
   :status 200: No error.
 
 .. http:post:: /api/v4/teams/{team_id}/tasks
@@ -21,9 +21,9 @@ Task related paths
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__tasks>`__
 
   :param team_id: ID of the team.
-  :reqjson object: The :ref:`tdproto-Task` object.
+  :reqjson object: The :tdproto:ref:`Task` object.
   :resjson boolean ok: True if no error occured.
-  :resjson object result: The :ref:`tdproto-Task` object.
+  :resjson object result: The :tdproto:ref:`Task` object.
   :status 200: No error.
 
 .. http:get:: /api/v4/teams/{team_id}/tasks/{task_id}
@@ -35,7 +35,7 @@ Task related paths
   :param team_id: ID of the team.
   :param task_id: ID of the task.
   :resjson boolean ok: True if no error occured.
-  :resjson object result: The :ref:`tdproto-Task` object.
+  :resjson object result: The :tdproto:ref:`Task` object.
   :status 200: No error.
 
 .. http:post:: /api/v4/teams/{team_id}/tasks/{task_id}
@@ -46,9 +46,9 @@ Task related paths
 
   :param team_id: ID of the team.
   :param task_id: ID of the task.
-  :reqjson object: The :ref:`tdproto-Task` object.
+  :reqjson object: The :tdproto:ref:`Task` object.
   :resjson boolean ok: True if no error occured.
-  :resjson object result: The :ref:`tdproto-Task` object.
+  :resjson object result: The :tdproto:ref:`Task` object.
   :status 200: No error.
 
 .. http:delete:: /api/v4/teams/{team_id}/tasks/{task_id}
@@ -60,5 +60,5 @@ Task related paths
   :param team_id: ID of the team.
   :param task_id: ID of the task.
   :resjson boolean ok: True if no error occured.
-  :resjson object result: The :ref:`tdproto-Task` object.
+  :resjson object result: The :tdproto:ref:`Task` object.
   :status 200: No error.

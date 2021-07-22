@@ -2,185 +2,146 @@
 Enums index
 ============================
 
-.. _tdproto-ChatType:
+.. tdproto:enum:: ChatType
 
-ChatType
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* direct
-* group
-* task
+  * direct
+  * group
+  * task
 
 
-.. _tdproto-GroupStatus:
+.. tdproto:enum:: GroupStatus
 
-GroupStatus
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* admin
-* member
+  * admin
+  * member
 
 
-.. _tdproto-MarkupType:
+.. tdproto:enum:: MarkupType
 
-MarkupType
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* bold
-* italic
-* underscore
-* strike
-* code
-* codeblock
-* quote
-* link
-* time
-* unsafe
+  * bold
+  * italic
+  * underscore
+  * strike
+  * code
+  * codeblock
+  * quote
+  * link
+  * time
+  * unsafe
 
 
-.. _tdproto-Mediasubtype:
+.. tdproto:enum:: Mediasubtype
 
-Mediasubtype
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* sticker
-* newtask
+  * sticker
+  * newtask
 
 
-.. _tdproto-Mediatype:
+.. tdproto:enum:: Mediatype
 
-Mediatype
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* plain
-* change
-* deleted
-* file
-* image
-* video
-* audiomsg
-* contact
-* pdf
+  * plain
+  * change
+  * deleted
+  * file
+  * image
+  * video
+  * audiomsg
+  * contact
+  * pdf
 
 
-.. _tdproto-TeamStatus:
+.. tdproto:enum:: TeamStatus
 
-TeamStatus
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* owner
-* admin
-* member
-* guest
+  * owner
+  * admin
+  * member
+  * guest
 
 
-.. _tdproto-UploadMediaType:
+.. tdproto:enum:: UploadMediaType
 
-UploadMediaType
--------------------------------------------------------------
-**Possible values**:
+  **Possible values**:
 
-* file
-* image
-* video
-* audio
-* imagefile
+  * file
+  * image
+  * video
+  * audio
+  * imagefile
 
 
 Type aliases
 ============================
 
-.. _tdproto-ActiveUserDailyStatList:
+.. tdproto:type:: ActiveUserDailyStatList
 
-ActiveUserDailyStatList
--------------------------------------------------------------
+  
+  **Base Type**: ActiveUserDailyStat
 
-**Base Type**: ActiveUserDailyStat
+  **Is array**
 
-**Is array**
+.. tdproto:type:: Err
 
-.. _tdproto-Err:
+  
+  **Base Type**: string
 
-Err
--------------------------------------------------------------
+.. tdproto:type:: ISODateTimeString
 
-**Base Type**: string
+  
+  Date and time in RFC3339 format. Example: ``2019-09-18T00:00:07.435409Z``
+  
+  **Base Type**: string
 
-.. _tdproto-ISODateTimeString:
+.. tdproto:type:: JID
 
-ISODateTimeString
--------------------------------------------------------------
+  
+  **Base Type**: string
 
-Date and time in RFC3339 format. Example: ``2019-09-18T00:00:07.435409Z``
+.. tdproto:type:: MessageLinks
 
-**Base Type**: string
+  
+  **Base Type**: MessageLink
 
-.. _tdproto-JID:
+  **Is array**
 
-JID
--------------------------------------------------------------
+.. tdproto:type:: PushDeviceType
 
-**Base Type**: string
+  
+  **Base Type**: int
 
-.. _tdproto-MessageLinks:
+.. tdproto:type:: RGBColor
 
-MessageLinks
--------------------------------------------------------------
+  
+  Color in ``#rrggbb`` format where ``rr``, ``gg``, ``bb`` are hexadecimal numbers from 00 to ff of red, green and blue channels correspondingly. (yellow would be ``#ffff00``)
+  
+  **Base Type**: string
 
-**Base Type**: MessageLink
+.. tdproto:type:: TaskFilterKey
 
-**Is array**
+  
+  **Base Type**: string
 
-.. _tdproto-PushDeviceType:
+.. tdproto:type:: TaskSortKey
 
-PushDeviceType
--------------------------------------------------------------
+  
+  **Base Type**: string
 
-**Base Type**: int
+.. tdproto:type:: TaskTabKey
 
-.. _tdproto-RGBColor:
-
-RGBColor
--------------------------------------------------------------
-
-Color in ``#rrggbb`` format where ``rr``, ``gg``, ``bb`` are hexadecimal numbers from 00 to ff of red, green and blue channels correspondingly. (yellow would be ``#ffff00``)
-
-**Base Type**: string
-
-.. _tdproto-TaskFilterKey:
-
-TaskFilterKey
--------------------------------------------------------------
-
-**Base Type**: string
-
-.. _tdproto-TaskSortKey:
-
-TaskSortKey
--------------------------------------------------------------
-
-**Base Type**: string
-
-.. _tdproto-TaskTabKey:
-
-TaskTabKey
--------------------------------------------------------------
-
-**Base Type**: string
+  
+  **Base Type**: string
 
 JSON objects index
 ============================
-
-.. _tdproto-ButtonColors:
-
-ButtonColors
--------------------------------------------------------------
 
 .. tdproto:struct:: ButtonColors
 
@@ -193,22 +154,12 @@ ButtonColors
   :field simple_active `tdproto-RGBColor`: Simple active color
   :field simple_disable `tdproto-RGBColor`: Simple disable color
 
-.. _tdproto-CallDevice:
-
-CallDevice
--------------------------------------------------------------
-
 .. tdproto:struct:: CallDevice
 
   Call participant device
 
   :field muted boolean: Device muted
   :field useragent string: Device description
-
-.. _tdproto-CallOnliner:
-
-CallOnliner
--------------------------------------------------------------
 
 .. tdproto:struct:: CallOnliner
 
@@ -220,11 +171,6 @@ CallOnliner
   :field icon string: Contact icon
   :field muted boolean: Microphone muted. Computed from devices muted states
   :field devices array[`tdproto-CallDevice`]: Member devices, strictly one for now
-
-.. _tdproto-Chat:
-
-Chat
--------------------------------------------------------------
 
 .. tdproto:struct:: Chat
 
@@ -301,11 +247,6 @@ Chat
   :field last_activity string omitempty: Date of the last message sent even if it was deleted
   :field draft_num number omitempty: Deprecated
 
-.. _tdproto-ChatShort:
-
-ChatShort
--------------------------------------------------------------
-
 .. tdproto:struct:: ChatShort
 
   Minimal chat representation
@@ -314,11 +255,6 @@ ChatShort
   :field chat_type `tdproto-ChatType`: Chat type
   :field display_name string: Title
   :field icons `tdproto-IconData` nullable: Icon data
-
-.. _tdproto-ColorRule:
-
-ColorRule
--------------------------------------------------------------
 
 .. tdproto:struct:: ColorRule
 
@@ -337,11 +273,6 @@ ColorRule
   :field task_importance number omitempty: Task importance if task importance filter enabled
   :field task_urgency_enabled boolean omitempty: Task urgency filter enabled
   :field task_urgency number omitempty: Task urgency if task urgency filter enabled
-
-.. _tdproto-Contact:
-
-Contact
--------------------------------------------------------------
 
 .. tdproto:struct:: Contact
 
@@ -406,11 +337,6 @@ Contact
   :field can_delete_any_message boolean omitempty: Deprecated: use CanDeleteAnyMessage in chat object
   :field custom_fields `tdproto-ContactCustomFields` omitempty: Extra contact fields
 
-.. _tdproto-ContactCustomFields:
-
-ContactCustomFields
--------------------------------------------------------------
-
 .. tdproto:struct:: ContactCustomFields
 
   Extra contact fields
@@ -421,11 +347,6 @@ ContactCustomFields
   :field mobile_phone string omitempty: MobilePhone
   :field source string omitempty: Import source
 
-.. _tdproto-ContactShort:
-
-ContactShort
--------------------------------------------------------------
-
 .. tdproto:struct:: ContactShort
 
   Short contact representation
@@ -434,11 +355,6 @@ ContactShort
   :field display_name string: Full name in chats
   :field short_name string: Short name in chats
   :field icons `tdproto-IconData` nullable: Icons data
-
-.. _tdproto-Country:
-
-Country
--------------------------------------------------------------
 
 .. tdproto:struct:: Country
 
@@ -450,11 +366,6 @@ Country
   :field default boolean omitempty: Selected by default
   :field popular boolean omitempty: Is popular, need to cache
 
-.. _tdproto-DeletedChat:
-
-DeletedChat
--------------------------------------------------------------
-
 .. tdproto:struct:: DeletedChat
 
   Minimal chat representation for deletion
@@ -464,21 +375,11 @@ DeletedChat
   :field gentime number: Chat fields (related to concrete participant) version
   :field is_archive boolean: Archive flag. Always true for this structure
 
-.. _tdproto-DeletedRemind:
-
-DeletedRemind
--------------------------------------------------------------
-
 .. tdproto:struct:: DeletedRemind
 
   Remind deleted message
 
   :field uid string: Remind id
-
-.. _tdproto-DeletedSection:
-
-DeletedSection
--------------------------------------------------------------
 
 .. tdproto:struct:: DeletedSection
 
@@ -487,21 +388,11 @@ DeletedSection
   :field uid string: Section uid
   :field gentime number: Object version
 
-.. _tdproto-DeletedTag:
-
-DeletedTag
--------------------------------------------------------------
-
 .. tdproto:struct:: DeletedTag
 
   Delete tag message
 
   :field uid string: Tag id
-
-.. _tdproto-DeletedTeam:
-
-DeletedTeam
--------------------------------------------------------------
 
 .. tdproto:struct:: DeletedTeam
 
@@ -511,22 +402,12 @@ DeletedTeam
   :field is_archive boolean: Team deleted
   :field gentime number: Object version
 
-.. _tdproto-Emoji:
-
-Emoji
--------------------------------------------------------------
-
 .. tdproto:struct:: Emoji
 
   Emoji
 
   :field char string: Unicode symbol
   :field key string: Text representation
-
-.. _tdproto-Features:
-
-Features
--------------------------------------------------------------
 
 .. tdproto:struct:: Features
 
@@ -566,6 +447,7 @@ Features
   :field max_integration_comment_length number: Maximum length for Integration comment
   :field max_teams number: Maximum teams for one account
   :field max_message_search_limit number: Maximum search result
+  :field multi_nodes boolean omitempty: Multi nodes mode (federation) enabled
   :field afk_age number: Max inactivity seconds
   :field auth_by_password boolean omitempty: Password authentication enabled
   :field auth_by_qr_code boolean omitempty: QR-code / link authentication enabled
@@ -576,6 +458,7 @@ Features
   :field custom_server boolean: True for premise installation
   :field installation_type string: Name of installation
   :field installation_title string omitempty: Installation title, used on login screen
+  :field custom_app_icon_name string omitempty: Custom application icon name, if any
   :field app_login_background string omitempty: AppBackground image url, if any
   :field web_login_background string omitempty: WebBackground image url, if any
   :field is_testing boolean: Testing installation
@@ -615,11 +498,6 @@ Features
   :field calls boolean: Deprecated
   :field min_app_version string: Deprecated
 
-.. _tdproto-FontColors:
-
-FontColors
--------------------------------------------------------------
-
 .. tdproto:struct:: FontColors
 
   FontColors font colors for app
@@ -632,11 +510,6 @@ FontColors
   :field bubble_sent `tdproto-RGBColor`: Bubble sent color
   :field bubble_received `tdproto-RGBColor`: Bubble received color
 
-.. _tdproto-GroupMembership:
-
-GroupMembership
--------------------------------------------------------------
-
 .. tdproto:struct:: GroupMembership
 
   Group chat membership status
@@ -645,21 +518,11 @@ GroupMembership
   :field status `tdproto-GroupStatus` omitempty: Status in group
   :field can_remove boolean omitempty: Can I remove this member
 
-.. _tdproto-ICEServer:
-
-ICEServer
--------------------------------------------------------------
-
 .. tdproto:struct:: ICEServer
 
   Interactive Connectivity Establishment Server for WEB Rtc connection. Readonly
 
   :field urls string: URls
-
-.. _tdproto-IconColors:
-
-IconColors
--------------------------------------------------------------
 
 .. tdproto:struct:: IconColors
 
@@ -668,11 +531,6 @@ IconColors
   :field title `tdproto-RGBColor`: Title color
   :field brand `tdproto-RGBColor`: Brand color
   :field other `tdproto-RGBColor`: Other color
-
-.. _tdproto-IconData:
-
-IconData
--------------------------------------------------------------
 
 .. tdproto:struct:: IconData
 
@@ -685,11 +543,6 @@ IconData
   :field blurhash string omitempty: Compact representation of a placeholder for an image (experimental)
   :field stub string omitempty: Deprecated
 
-.. _tdproto-InputColors:
-
-InputColors
--------------------------------------------------------------
-
 .. tdproto:struct:: InputColors
 
   InputColors input colors for app
@@ -698,11 +551,6 @@ InputColors
   :field active `tdproto-RGBColor`: Active color
   :field disable `tdproto-RGBColor`: Disable color
   :field error `tdproto-RGBColor`: Error color
-
-.. _tdproto-Integration:
-
-Integration
--------------------------------------------------------------
 
 .. tdproto:struct:: Integration
 
@@ -717,11 +565,6 @@ Integration
   :field help string omitempty: Full description
   :field kind string: Unique integration name
 
-.. _tdproto-IntegrationField:
-
-IntegrationField
--------------------------------------------------------------
-
 .. tdproto:struct:: IntegrationField
 
   Integration form field
@@ -730,11 +573,6 @@ IntegrationField
   :field readonly boolean: Is field readonly
   :field value string: Current value
 
-.. _tdproto-IntegrationForm:
-
-IntegrationForm
--------------------------------------------------------------
-
 .. tdproto:struct:: IntegrationForm
 
   Integration form
@@ -742,11 +580,6 @@ IntegrationForm
   :field api_key `tdproto-IntegrationField` omitempty: Api key field, if any
   :field webhook_url `tdproto-IntegrationField` omitempty: Webhook url, if any
   :field url `tdproto-IntegrationField` omitempty: Url, if any
-
-.. _tdproto-IntegrationKind:
-
-IntegrationKind
--------------------------------------------------------------
 
 .. tdproto:struct:: IntegrationKind
 
@@ -758,22 +591,12 @@ IntegrationKind
   :field icon string: Path to icon
   :field description string: Plugin description
 
-.. _tdproto-Integrations:
-
-Integrations
--------------------------------------------------------------
-
 .. tdproto:struct:: Integrations
 
   Complete integrations data, as received from server
 
   :field integrations array[`tdproto-Integration`]: Currently existing integrations
   :field kinds array[`tdproto-IntegrationKind`]: Types of integrations available for setup
-
-.. _tdproto-InvitableUser:
-
-InvitableUser
--------------------------------------------------------------
 
 .. tdproto:struct:: InvitableUser
 
@@ -784,22 +607,12 @@ InvitableUser
   :field display_name string: Full name
   :field icons `tdproto-IconData`: Icons
 
-.. _tdproto-JSEP:
-
-JSEP
--------------------------------------------------------------
-
 .. tdproto:struct:: JSEP
 
   JavaScript Session Establishment Protocol
 
   :field sdp string: Session Description Protocol information
   :field type string: See https://rtcweb-wg.github.io/jsep/#rfc.section.4.1.8
-
-.. _tdproto-MarkupEntity:
-
-MarkupEntity
--------------------------------------------------------------
 
 .. tdproto:struct:: MarkupEntity
 
@@ -814,11 +627,6 @@ MarkupEntity
   :field repl string omitempty: Text replacement
   :field time string omitempty: Time, for Time type
   :field childs array[`tdproto-MarkupEntity`] omitempty: List of internal markup entities
-
-.. _tdproto-Message:
-
-Message
--------------------------------------------------------------
 
 .. tdproto:struct:: Message
 
@@ -856,11 +664,6 @@ Message
   :field is_archive boolean omitempty: This message is archive. True or null
   :field _debug string omitempty: Debug information, if any
 
-.. _tdproto-MessageColors:
-
-MessageColors
--------------------------------------------------------------
-
 .. tdproto:struct:: MessageColors
 
   MessageColors message colors for app
@@ -871,11 +674,6 @@ MessageColors
   :field status_feed `tdproto-RGBColor`: Status feed color
   :field status_bubble `tdproto-RGBColor`: Status bubble color
   :field allocated `tdproto-RGBColor`: Allocated color
-
-.. _tdproto-MessageContent:
-
-MessageContent
--------------------------------------------------------------
 
 .. tdproto:struct:: MessageContent
 
@@ -909,11 +707,6 @@ MessageContent
   :field stickerpack string omitempty: Stickerpack name (for "sticker" subtype)
   :field pdf_version `tdproto-PdfVersion` omitempty: Pdf version, if any
 
-.. _tdproto-MessageLink:
-
-MessageLink
--------------------------------------------------------------
-
 .. tdproto:struct:: MessageLink
 
   Checked message links. In short: "Click here: {link.Pattern}" => "Click here: <a href='{link.Url}'>{link.Text}</a>"
@@ -926,22 +719,12 @@ MessageLink
   :field nopreview boolean omitempty: Website previews disabled
   :field youtube_id string omitempty: Optional youtube movie id
 
-.. _tdproto-MessageLinkPreview:
-
-MessageLinkPreview
--------------------------------------------------------------
-
 .. tdproto:struct:: MessageLinkPreview
 
   Website title and description
 
   :field title string: Website title or og:title content
   :field description string omitempty: Website description
-
-.. _tdproto-MessageReaction:
-
-MessageReaction
--------------------------------------------------------------
 
 .. tdproto:struct:: MessageReaction
 
@@ -951,11 +734,6 @@ MessageReaction
   :field counter number: Number of reactions
   :field details array[`tdproto-MessageReactionDetail`]: Details
 
-.. _tdproto-MessageReactionDetail:
-
-MessageReactionDetail
--------------------------------------------------------------
-
 .. tdproto:struct:: MessageReactionDetail
 
   Message reaction detail
@@ -964,22 +742,12 @@ MessageReactionDetail
   :field sender `tdproto-JID`: Reaction author
   :field name string: Reaction emoji
 
-.. _tdproto-MyReactions:
-
-MyReactions
--------------------------------------------------------------
-
 .. tdproto:struct:: MyReactions
 
   Reactions to messages: frequently used and all available
 
   :field top array[`tdproto-Reaction`]: My frequently used reactions
   :field all array[`tdproto-Reaction`]: All available reactions
-
-.. _tdproto-Node:
-
-Node
--------------------------------------------------------------
 
 .. tdproto:struct:: Node
 
@@ -989,22 +757,12 @@ Node
   :field title string: Node title
   :field enabled boolean: Synchronization with node works
 
-.. _tdproto-OAuthService:
-
-OAuthService
--------------------------------------------------------------
-
 .. tdproto:struct:: OAuthService
 
   OAuth service
 
   :field name string: Integration title
   :field url string: Redirect url
-
-.. _tdproto-OnlineCall:
-
-OnlineCall
--------------------------------------------------------------
 
 .. tdproto:struct:: OnlineCall
 
@@ -1015,11 +773,6 @@ OnlineCall
   :field start string omitempty: Call start
   :field online_count number omitempty: Number participants in call
 
-.. _tdproto-OnlineContact:
-
-OnlineContact
--------------------------------------------------------------
-
 .. tdproto:struct:: OnlineContact
 
   Contact online status
@@ -1028,22 +781,12 @@ OnlineContact
   :field afk boolean omitempty: Is away from keyboard
   :field mobile boolean: Is mobile client
 
-.. _tdproto-PdfVersion:
-
-PdfVersion
--------------------------------------------------------------
-
 .. tdproto:struct:: PdfVersion
 
   PDF preview of mediafile. Experimental
 
   :field url string: Absolute url
   :field text_preview string omitempty: First string of text content
-
-.. _tdproto-PushDevice:
-
-PushDevice
--------------------------------------------------------------
 
 .. tdproto:struct:: PushDevice
 
@@ -1058,21 +801,11 @@ PushDevice
   :field data_badges boolean: Send badge value as data. Experimental
   :field allowed_notifications boolean: deprecated
 
-.. _tdproto-Reaction:
-
-Reaction
--------------------------------------------------------------
-
 .. tdproto:struct:: Reaction
 
   Emoji reaction
 
   :field name string: Unicode symbol
-
-.. _tdproto-ReceivedMessage:
-
-ReceivedMessage
--------------------------------------------------------------
 
 .. tdproto:struct:: ReceivedMessage
 
@@ -1084,11 +817,6 @@ ReceivedMessage
   :field num_received number omitempty: Number of contacts received this message. Experimental
   :field _debug string omitempty: Debug message, if any
 
-.. _tdproto-Remind:
-
-Remind
--------------------------------------------------------------
-
 .. tdproto:struct:: Remind
 
   Remind
@@ -1097,11 +825,6 @@ Remind
   :field chat `tdproto-JID`: Chat id
   :field fire_at string: Activation time, iso
   :field comment string omitempty: Comment, if any
-
-.. _tdproto-Section:
-
-Section
--------------------------------------------------------------
 
 .. tdproto:struct:: Section
 
@@ -1113,11 +836,6 @@ Section
   :field gentime number: Object version
   :field description string omitempty: Description, if any
   :field is_archive boolean omitempty: Is deleted
-
-.. _tdproto-Session:
-
-Session
--------------------------------------------------------------
 
 .. tdproto:struct:: Session
 
@@ -1132,11 +850,6 @@ Session
   :field useragent string omitempty: User agent
   :field addr string omitempty: IP address
 
-.. _tdproto-ShortMessage:
-
-ShortMessage
--------------------------------------------------------------
-
 .. tdproto:struct:: ShortMessage
 
   Short message based on chat message
@@ -1150,11 +863,6 @@ ShortMessage
   :field chat `tdproto-JID`: Chat id
   :field is_archive boolean omitempty: This message is archive. True or null
 
-.. _tdproto-SingleIcon:
-
-SingleIcon
--------------------------------------------------------------
-
 .. tdproto:struct:: SingleIcon
 
   Small or large icon
@@ -1162,11 +870,6 @@ SingleIcon
   :field url string: absolute url to icon
   :field width number: Icon width, in pixels
   :field height number: Icon height, in pixels
-
-.. _tdproto-Subtask:
-
-Subtask
--------------------------------------------------------------
 
 .. tdproto:struct:: Subtask
 
@@ -1180,22 +883,12 @@ Subtask
   :field public boolean omitempty: Can other team member see this task/group chat
   :field task_status string omitempty: Subtask task status
 
-.. _tdproto-SwitcherColors:
-
-SwitcherColors
--------------------------------------------------------------
-
 .. tdproto:struct:: SwitcherColors
 
   SwitcherColors switcher colors for app
 
   :field on `tdproto-RGBColor`: On color
   :field off `tdproto-RGBColor`: Off color
-
-.. _tdproto-Tag:
-
-Tag
--------------------------------------------------------------
 
 .. tdproto:struct:: Tag
 
@@ -1204,10 +897,17 @@ Tag
   :field uid string: Tag id
   :field name string: Tag name
 
-.. _tdproto-Task:
+.. tdproto:struct:: Tariff
 
-Task
--------------------------------------------------------------
+  Tariff for teams
+
+  :field uid string: Tariff id
+  :field title_en string: Title of tariff on enlish
+  :field title_ru string: Title of tariff on russian
+  :field cloud_space number omitempty: Cloud space reserved for storing team users uploads in megabytes
+  :field max_members_in_team number omitempty: Maximum allowed number of members in a team
+  :field max_participants_per_call number omitempty: Maximum number of participants per call
+  :field max_upload_filesize number omitempty: maximum file size for uploading
 
 .. tdproto:struct:: Task
 
@@ -1231,11 +931,6 @@ Task
   :field linked_messages array[string] omitempty: Linked messages
   :field uploads array[string] omitempty: Task uploads
 
-.. _tdproto-TaskColor:
-
-TaskColor
--------------------------------------------------------------
-
 .. tdproto:struct:: TaskColor
 
   Task color rules color
@@ -1243,11 +938,6 @@ TaskColor
   :field regular `tdproto-RGBColor`: Regular color
   :field dark `tdproto-RGBColor`: Dark color
   :field light `tdproto-RGBColor`: Light color
-
-.. _tdproto-TaskCounters:
-
-TaskCounters
--------------------------------------------------------------
 
 .. tdproto:struct:: TaskCounters
 
@@ -1257,22 +947,12 @@ TaskCounters
   :field num_unread number omitempty: Unreads counter
   :field num_unread_notices number omitempty: Mentions (@) counter
 
-.. _tdproto-TaskFilter:
-
-TaskFilter
--------------------------------------------------------------
-
 .. tdproto:struct:: TaskFilter
 
   Task filter
 
   :field field `tdproto-TaskFilterKey`: Task filter field
   :field title string: Filter title
-
-.. _tdproto-TaskItem:
-
-TaskItem
--------------------------------------------------------------
 
 .. tdproto:struct:: TaskItem
 
@@ -1286,22 +966,12 @@ TaskItem
   :field can_toggle boolean omitempty: Can I toggle this item
   :field subtask `tdproto-Subtask` omitempty: Link to subtask. Optional
 
-.. _tdproto-TaskSort:
-
-TaskSort
--------------------------------------------------------------
-
 .. tdproto:struct:: TaskSort
 
   Task sort type
 
   :field key `tdproto-TaskSortKey`: Field
   :field title string: Sort title
-
-.. _tdproto-TaskStatus:
-
-TaskStatus
--------------------------------------------------------------
 
 .. tdproto:struct:: TaskStatus
 
@@ -1312,11 +982,6 @@ TaskStatus
   :field name string: Status internal name
   :field title string: Status localized name
   :field is_archive boolean omitempty: Status not used anymore
-
-.. _tdproto-TaskTab:
-
-TaskTab
--------------------------------------------------------------
 
 .. tdproto:struct:: TaskTab
 
@@ -1330,11 +995,6 @@ TaskTab
   :field filters array[`tdproto-TaskFilter`]: Filters inside tab
   :field sort array[`tdproto-TaskSort`]: Sort available in tab
   :field unread_tasks array[`tdproto-TaskCounters`]: Unread tasks with jid and counters
-
-.. _tdproto-Team:
-
-Team
--------------------------------------------------------------
 
 .. tdproto:struct:: Team
 
@@ -1371,22 +1031,12 @@ Team
   :field hide_archived_users boolean omitempty: Don't show archived users by default
   :field pinned boolean omitempty: Team pinned
 
-.. _tdproto-TeamCounter:
-
-TeamCounter
--------------------------------------------------------------
-
 .. tdproto:struct:: TeamCounter
 
   Unread message counters
 
   :field uid string: Team id
   :field unread `tdproto-TeamUnread`: Unread message counters
-
-.. _tdproto-TeamShort:
-
-TeamShort
--------------------------------------------------------------
 
 .. tdproto:struct:: TeamShort
 
@@ -1395,11 +1045,6 @@ TeamShort
   :field uid string: Team id
   :field name string: Team name
   :field icons `tdproto-IconData`: Team icons
-
-.. _tdproto-Terms:
-
-Terms
--------------------------------------------------------------
 
 .. tdproto:struct:: Terms
 
@@ -1439,11 +1084,6 @@ Terms
   :field RuTeamT string: "командой"
   :field RuTeamV string: "команду"
   :field RuToTeam string: "в команду"
-
-.. _tdproto-Theme:
-
-Theme
--------------------------------------------------------------
 
 .. tdproto:struct:: Theme
 
@@ -1488,11 +1128,6 @@ Theme
   :field AppAccentColor `tdproto-RGBColor`: Deprecated
   :field AppPrimaryColor `tdproto-RGBColor`: Deprecated
 
-.. _tdproto-Unread:
-
-Unread
--------------------------------------------------------------
-
 .. tdproto:struct:: Unread
 
   Unread message counters
@@ -1500,11 +1135,6 @@ Unread
   :field messages number: Total unread messages
   :field notice_messages number: Total unread messages with mentions
   :field chats number: Total chats with unread messages
-
-.. _tdproto-Upload:
-
-Upload
--------------------------------------------------------------
 
 .. tdproto:struct:: Upload
 
@@ -1524,11 +1154,6 @@ Upload
   :field pdf_version `tdproto-PdfVersion` omitempty: PDF version of file. Experimental
   :field type `tdproto-UploadMediaType`: ?type=file,image,audio,video
 
-.. _tdproto-UploadPreview:
-
-UploadPreview
--------------------------------------------------------------
-
 .. tdproto:struct:: UploadPreview
 
   Upload preview
@@ -1538,22 +1163,12 @@ UploadPreview
   :field width number: Width in pixels
   :field height number: Height in pixels
 
-.. _tdproto-UploadShortMessage:
-
-UploadShortMessage
--------------------------------------------------------------
-
 .. tdproto:struct:: UploadShortMessage
 
   Upload + ShortMessage
 
   :field upload `tdproto-Upload`: Upload information
   :field message `tdproto-ShortMessage`: Short message information
-
-.. _tdproto-User:
-
-User
--------------------------------------------------------------
 
 .. tdproto:struct:: User
 
@@ -1573,11 +1188,6 @@ User
   :field timezone string: Timezone
   :field quiet_time_start string nullable: Start silently time (no pushes, no sounds)
   :field quiet_time_finish string nullable: Finish silently time (no pushes, no sounds)
-
-.. _tdproto-UserWithMe:
-
-UserWithMe
--------------------------------------------------------------
 
 .. tdproto:struct:: UserWithMe
 
@@ -1600,11 +1210,6 @@ UserWithMe
   :field timezone string: Timezone
   :field quiet_time_start string nullable: Start silently time (no pushes, no sounds)
   :field quiet_time_finish string nullable: Finish silently time (no pushes, no sounds)
-
-.. _tdproto-Wallpaper:
-
-Wallpaper
--------------------------------------------------------------
 
 .. tdproto:struct:: Wallpaper
 

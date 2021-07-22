@@ -28,5 +28,5 @@ Miscellaneous paths
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_features_json>`__
 
   :resjson boolean ok: True if no error occured.
-  :resjson object result: The :ref:`tdproto-Features` object.
+  :resjson object result: The :tdproto:ref:`Features` object.
   :status 200: No error.

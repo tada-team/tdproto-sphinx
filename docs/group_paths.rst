@@ -9,7 +9,7 @@ Group related paths
 
   :param team_id: ID of the team.
   :resjson boolean ok: True if no error occured.
-  :resjson array result: List of :ref:`tdproto-Chat` objects.
+  :resjson array result: List of :tdproto:ref:`Chat` objects.
   :status 200: No error.
 
 .. http:delete:: /api/v4/teams/{team_id}/groups
@@ -31,7 +31,7 @@ Group related paths
   :param team_id: ID of the team.
   :param group_id: ID of the group.
   :resjson boolean ok: True if no error occured.
-  :resjson array result: List of :ref:`tdproto-GroupMembership` objects.
+  :resjson array result: List of :tdproto:ref:`GroupMembership` objects.
   :status 200: No error.
 
 .. http:delete:: /api/v4/teams/{team_id}/groups/{group_id}/members/{contact_id}
@@ -44,5 +44,5 @@ Group related paths
   :param contact_id: ID of the contact.
   :param group_id: ID of the group.
   :resjson boolean ok: True if no error occured.
-  :resjson object result: The :ref:`tdproto-GroupMembership` object.
+  :resjson object result: The :tdproto:ref:`GroupMembership` object.
   :status 200: No error.
