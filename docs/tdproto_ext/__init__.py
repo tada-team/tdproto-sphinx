@@ -17,7 +17,7 @@ from typing import Dict, Optional
 OMIT_EMPTY_STR = 'Maybe omitted'
 MAYBE_NULL_STR = 'Might be null'
 
-TD_STRUCTURES: Dict[Any, Any] = {}
+TDPROTO_TARGETS: Dict[Any, Any] = {}
 
 
 class TdprotoStructFieldLine(nodes.line, addnodes.translatable):
@@ -41,6 +41,27 @@ class TdprotoStructFieldLine(nodes.line, addnodes.translatable):
         return [self.children[-1].rawsource, OMIT_EMPTY_STR, MAYBE_NULL_STR]
 
 
+class TdprotoSimple(Directive):
+    required_arguments = 1
+    has_content = True
+
+    def run(self) -> list[Any]:
+        self.assert_has_content()
+
+        section = nodes.section()
+
+        title = nodes.title(text=self.arguments[0])
+        section['ids'].append(f"tdproto-{self.arguments[0]}")
+        TDPROTO_TARGETS[self.arguments[0]] = section
+
+        paragraph = nodes.paragraph()
+        self.state.nested_parse(self.content, self.content_offset, paragraph)
+
+        section.extend([title, paragraph])
+
+        return [section]
+
+
 class TdprotoStruct(Directive):
     required_arguments = 1
     has_content = True
@@ -51,8 +72,8 @@ class TdprotoStruct(Directive):
         section = nodes.section()
 
         title = nodes.title(text=self.arguments[0])
-        section['ids'].append(f"tdproto-struct-{self.arguments[0]}")
-        TD_STRUCTURES[self.arguments[0]] = section
+        section['ids'].append(f"tdproto-{self.arguments[0]}")
+        TDPROTO_TARGETS[self.arguments[0]] = section
 
         structure_description = []
         fields_list = nodes.bullet_list()
@@ -85,7 +106,7 @@ class TdprotoStruct(Directive):
                         new_ref = addnodes.pending_xref(
                             refdomain='tdproto',
                             reftarget=reference_name,
-                            reftype='structs',
+                            reftype='ref',
                             refdoc='data_index',
                             refexplicit=True,
                             refwarn=True,
@@ -138,12 +159,14 @@ class TdprotoDomain(Domain):
 
     directives = {
         'struct': TdprotoStruct,
+        'enum': TdprotoSimple,
+        'type': TdprotoSimple,
     }
     initial_data: Dict[Any, Any] = {
         'structs': [],
     }
     roles = {
-        'struct': XRefRole(),
+        'ref': XRefRole(),
     }
 
     def resolve_xref(
@@ -153,13 +176,13 @@ class TdprotoDomain(Domain):
         reftarget = node.attributes['reftarget']
         refdoc = node.attributes['refdoc']
 
-        tdproto_target = TD_STRUCTURES.get(reftarget)
+        tdproto_target = TDPROTO_TARGETS.get(reftarget)
         if tdproto_target is None:
             return None
 
         refuri = (
             builder.get_target_uri(refdoc)
-            + f"#tdproto-struct-{reftarget}"
+            + f"#tdproto-{reftarget}"
         )
 
         return nodes.reference(
