@@ -439,7 +439,8 @@ JSON objects index
   :field max_role_length number: Maximum chars for role in team
   :field max_mood_length number: Maximum chars for mood in team
   :field max_message_length number: Maximum chars for text message
-  :field max_section_length number: Maximum length for project and contact's sections names
+  :field max_section_length number: Maximum length for contact's sections names
+  :field max_project_length number: Maximum length for project
   :field max_tag_length number: Maximum length for tags
   :field max_task_title_length number: Maximum length for task title
   :field max_color_rule_description_length number: Maximum length for ColorRule description
@@ -826,6 +827,18 @@ JSON objects index
   :field fire_at string: Activation time, iso
   :field comment string omitempty: Comment, if any
 
+.. tdproto:struct:: Resp
+
+  Server response
+
+  :field ok boolean: Request status
+  :field result any omitempty: Result only if ok is true)
+  :field error `tdproto-Err` omitempty: Error (only if ok is false)
+  :field details string omitempty: Error (only if ok is false and Error is 'InvalidData')
+  :field reason string omitempty: Reason (only if ok is false and Error is `AccessDenied`)
+  :field markup array[`tdproto-MarkupEntity`] omitempty: Reason markup (only if ok is false and Error is `AccessDenied`)
+  :field _time string omitempty: Server side work time
+
 .. tdproto:struct:: Section
 
   Task project or contact section
@@ -902,8 +915,8 @@ JSON objects index
   Tariff for teams
 
   :field uid string: Tariff id
-  :field title_en string: Title of tariff on enlish
-  :field title_ru string: Title of tariff on russian
+  :field title_en string: Title of tariff in enlish
+  :field title_ru string: Title of tariff in russian
   :field cloud_space number omitempty: Cloud space reserved for storing team users uploads in megabytes
   :field max_members_in_team number omitempty: Maximum allowed number of members in a team
   :field max_participants_per_call number omitempty: Maximum number of participants per call
