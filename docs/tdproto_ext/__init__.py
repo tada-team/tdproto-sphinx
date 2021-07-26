@@ -77,7 +77,7 @@ class TdprotoStruct(Directive):
 
         structure_description = []
         fields_list = nodes.bullet_list()
-        fields_list.append(nodes.paragraph(text='Fields:'))
+        fields_list.append(nodes.line(text='Fields:'))
 
         for x in self.content:
             if not x.startswith(':field '):
@@ -146,7 +146,12 @@ class TdprotoStruct(Directive):
 
             fields_list.append(field_line)
 
-        paragraph = nodes.paragraph(text='\n'.join(structure_description))
+        paragraph = nodes.paragraph()
+        self.state.nested_parse(
+            self.content[:2],
+            self.content_offset,
+            paragraph,
+        )
 
         section.extend([title, paragraph, fields_list])
 
