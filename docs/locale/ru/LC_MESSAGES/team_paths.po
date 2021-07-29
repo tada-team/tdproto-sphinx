@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tdproto docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 13:46+0300\n"
-"PO-Revision-Date: 2021-06-08 13:47+0300\n"
+"POT-Creation-Date: 2021-07-26 11:22+0300\n"
+"PO-Revision-Date: 2021-07-29 12:24+0300\n"
 "Last-Translator: igo95862 <igo95862@yandex.ru>\n"
 "Language: ru\n"
 "Language-Team: Russian <igo95862@yandex.ru>\n"
@@ -22,15 +22,15 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 "X-Generator: Gtranslator 40.0\n"
 
-#: ../docs/team_paths.rst:2 a9c3e3d19a3f413ba49440536df10d79
+#: ../docs/team_paths.rst:2 9203b038210643eb846371fb84b043e2
 msgid "Team related paths"
 msgstr "Пути относящиеся к командам"
 
-#: ../docs/team_paths.rst:6 4eadcd4db97b4702853ffd1c944a0895
+#: ../docs/team_paths.rst:6 02ce8bc447704ba4a04a3cf8e25fc08b
 msgid "Get the list of teams on the server."
 msgstr "Получить список команд на сервере."
 
-#: ../docs/team_paths.rst:8 9f20b028d7794b369fbc321c41171d49
+#: ../docs/team_paths.rst:8 3b77f8c3fddb4d8a8d4aac09b8db223e
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams>`__"
@@ -38,11 +38,11 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams>`__"
 
-#: ../docs/team_paths.rst 10afb8979adb45f6a225f637d27187d2
-#: 157891abdffc4e62851aa6187597ded0 41bcad8378ea491ea74a37b5f5580390
-#: 4222348e5fdc4d50b392844882c8ceb4 49a5421bc2f04d7f97310835748aa781
-#: 5dc25c2a509f4f118a9923e413b7e295 726376ad7694488b8e6448cea5a37237
-#: 7d081584f6a645abb0cb506766f95765 ff9d6aed41cc450ab14bce1b5c62774e
+#: ../docs/team_paths.rst 03eb99e3ca954efaaee060356f777b3c
+#: 23a7b12611e3423695c0193c169aa4ac 28659d6e910d43ab9af84c92085b297f
+#: 2d6bfa6c7ffa46f6ba5a6b83343ae49a 49043cdbb32445b1a49a7e2fd4f9caaf
+#: 64681de4ece548839b1e6fd761c85372 6aa90602b9144195b849d0f2bef798c4
+#: 9c914b1c193c484fab749b1a1712cba5 f04be29076104b6e9b833608bb9fb19e
 msgid "Response JSON Object"
 msgstr "JSON объект запроса"
 
@@ -50,23 +50,23 @@ msgstr "JSON объект запроса"
 #: ../docs/team_paths.rst:35 ../docs/team_paths.rst:48
 #: ../docs/team_paths.rst:59 ../docs/team_paths.rst:70
 #: ../docs/team_paths.rst:82 ../docs/team_paths.rst:95
-#: ../docs/team_paths.rst:109 037c0eb0e2a9470fa82baa6061a0aabd
-#: 05e9610959664415bb3ee04b097b9987 75292858c69f4b11b1ee00daa4a47770
-#: 7647f1f34dac4f26bfe9f4a983bed42e 7f0fba54ebd4411bab2b6fe9d66fba98
-#: 88d0de3fde65475dbe8c59c3fe4abe88 ab502205c6c9427e871abc841517d22a
-#: c40e81f945574494879c22622ec252a9 f25c946c5f3c454d8a7cf56ea70befc2
+#: ../docs/team_paths.rst:109 07b6a6b16cc04f86ae975d06b1c93bb6
+#: 118818c2f56c4d91a566a97ff252c957 3635dbabb59948149025becef7fb330e
+#: 4e55815a403c4808ae053b536f58bbe6 56566f34398f45dc8c66ebb82fbf1e1f
+#: 9f336df14bea42ce8b315f597dda48cf ac7c00daf3864521869754db7cd01242
+#: cc85ce16ca9d412dbba64e4547d9a698 e0dc5bc42579400a895a146b2bbbf453
 msgid "True if no error occured."
 msgstr "True если не было ошибки"
 
-#: ../docs/team_paths.rst:11 2f03c661d05b440ea7e2759a77d377ef
-msgid "List of :ref:`tdproto-Team` objects."
-msgstr "Список :ref:`tdproto-Team` объектов."
+#: ../docs/team_paths.rst:11 44e31b104dea431bab2e033e1338d824
+msgid "List of :tdproto:ref:`Team` objects."
+msgstr "Список :tdproto:ref:`Team` объектов."
 
-#: ../docs/team_paths.rst 0a7ee3c3550e451cbcd82320dcb82871
-#: 1a9c1488185b4b7f924140647449dcab 65c2c95e127a4d19b9fca3e9b7794497
-#: 6d67a3c80471467b8fed728788fd66fe 9314927a10bd4c2e9082fb8c3b134488
-#: 9e4ff46623f642ec9dbbef1ac9786f96 a7167f892a644c1c85440e7471d8c27f
-#: bddab71f9170452a9654e7c75584cc02 f3821f23aa3b4cff952358315c6d1d6d
+#: ../docs/team_paths.rst 0729d8e422084bbb8894de65239c054e
+#: 1d1b115c7cc44946aaae5c1c22b89627 22e6a9e4c0624570a3f1cdd5074716fb
+#: 41b98245a59c4280923009e4efc5e45c 511bf1a41dc542749ad9034fb93f73ab
+#: 740ad7dcea5e4a84ab5461bd5b46f4f3 b0dc010d03c2445593049d6066c60e92
+#: c0acbb2fdee14a97b8c51cd6b536138e c8738c8c103d4d4988d467898ff8a5ab
 msgid "Status Codes"
 msgstr "Код статуса"
 
@@ -74,19 +74,19 @@ msgstr "Код статуса"
 #: ../docs/team_paths.rst:37 ../docs/team_paths.rst:50
 #: ../docs/team_paths.rst:61 ../docs/team_paths.rst:72
 #: ../docs/team_paths.rst:84 ../docs/team_paths.rst:97
-#: ../docs/team_paths.rst:111 337eea0cd5264dedbe3dfe79f0bace00
-#: 427318e328e648868f49dab0b5593690 520e455629034db28a786d5a55ce5f8c
-#: 78e9723655be4081b9afc9dea0c52d12 8d7e169eaea64170847e7a13d3beba73
-#: 976eddd37f6a4eb58b303a5ab2ed3c01 aaded2ca723945cd9ace1480ebe49377
-#: c5f9584ab6f845ac9a443dca76bdf950 e2773caa953f44b3b8f1be25cbc3bd0c
+#: ../docs/team_paths.rst:111 04f8923da26a40378b69ae47bfe3245d
+#: 0a3710656d3a479a95d43f7f21e41ee9 1b9787b85c2541ff944a12c9fff00801
+#: 1df02c8ac40d4c86b3ade77b8bd2848a 3718dfabbeb7487cae92a2e0324f42d7
+#: 44d4c9c51ba24d20a0a31f4002a5de93 76f2a6474b50422ca27e4b5195fb3be3
+#: eb7f97eb6340470daf5b31485070eec0 f8ddc878dc584381ac078761608eb7eb
 msgid "No error."
 msgstr "Без ошибки"
 
-#: ../docs/team_paths.rst:16 97d42b7413894547b9fcba2ac5cc6512
+#: ../docs/team_paths.rst:16 88966d1c4fd04354ba5005bc411e32e6
 msgid "Get team info."
 msgstr "Получить информацию команды."
 
-#: ../docs/team_paths.rst:18 655d0fe8ed3041c98b01102bb78748c3
+#: ../docs/team_paths.rst:18 4b4df72d616e4f198b70059b6a4deb9f
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id_>`__"
@@ -94,11 +94,11 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id_>`__"
 
-#: ../docs/team_paths.rst 216de61cf497464da8b0fe7e1cec27bd
-#: 2441d48501a545f2b90572af1835affe 2c0f7ed59ef2439c852a252446acdfac
-#: 3a1790623ab64fcc9e01c85a74488f6b 70c3bb7673be4f19b0feb7130058dc3c
-#: 878f7529f91640ad8896b41286465837 9ec8a6c18e1d4ae68fb156300bea3157
-#: b6b64ff19e0849b1a2146ef1b09a4240
+#: ../docs/team_paths.rst 2fb0264b4c034400ac08c77eed4b9e32
+#: 3e86615315d84d508a540afe78c60a73 538a9f24ddf843d5ad54eeb9decd3ba1
+#: 53ec296920dd4cd1956e69c2db366fcc 73a1e9f0651740f39036a41230bd28cd
+#: 830f3097f34e406faafdc59fd6383de9 86b9e0866f8d41768690f36720857cd9
+#: e6a3872f5a784c06b795b5f162447f9d
 msgid "Parameters"
 msgstr "Параметры"
 
@@ -106,28 +106,28 @@ msgstr "Параметры"
 #: ../docs/team_paths.rst:47 ../docs/team_paths.rst:58
 #: ../docs/team_paths.rst:69 ../docs/team_paths.rst:80
 #: ../docs/team_paths.rst:92 ../docs/team_paths.rst:107
-#: 108bb3478b474f1da238f7789571f605 310d9384a01547de92f9e86383abbd98
-#: 53f7942d1ce54a51afc00cac1bff306f 6275d90f875f4f92aace98eb3062ef6a
-#: a885558d6e154ecb9199dcdd961ee00d afc73e8af75e4433b9e26f7764d366a8
-#: c2c07142c7ba40b29b53ecd09c1bdabd e094a6f8203e4046bc9793a0ac59c9aa
+#: 20e5929dbc054c089534006f14eced3e 3534c818f8384f07af56aec97870c3d5
+#: 579af990317e4bab90d74d00df5ebac8 720704a52ee8440db973b72d2a9b4c34
+#: 764433a0a26742ab9cd4c184b35082e4 a029afb7911f425da852ca9946b01cbd
+#: afcff7eb3fe04c32bbe104b025faa709 dff684e821f54d828669abc36e7912e7
 msgid "ID of the team."
 msgstr "ID команды."
 
-#: ../docs/team_paths.rst:22 f6671ccd73c945b3bddf1a54e93611db
-msgid "The :ref:`tdproto-Team` object."
-msgstr ":ref:`tdproto-Team` объект."
+#: ../docs/team_paths.rst:22 41a7c883517f43afa65fcfeee56d54d6
+msgid "The :tdproto:ref:`Team` object."
+msgstr ":tdproto:ref:`Team` объект."
 
-#: ../docs/team_paths.rst:27 03a1ff880cc14362bd2506f0d6932263
+#: ../docs/team_paths.rst:27 ae1eb09154d84a138bde4aba5447767d
 msgid "Update team settings."
 msgstr "Изменить настройки команды."
 
 #: ../docs/team_paths.rst:29 ../docs/team_paths.rst:43
-#: ../docs/team_paths.rst:103 0a5cc5002b8d405ba3398f55430e3f2b
-#: 5a516e4c180644a897b0e507555a7b8b ef661ce912a3440e9c1f48f3294dcdde
+#: ../docs/team_paths.rst:103 4060e9f415bd4f1b9b58f9c5573d09c0
+#: 76eeb7702e124ec89e0ce099bc10d931 de2c1f56b5ac41c686167e0e70681cc3
 msgid "Must have admin rights."
 msgstr "Должны быть права администратора."
 
-#: ../docs/team_paths.rst:31 92588ea734f3404fbd986eb455a23134
+#: ../docs/team_paths.rst:31 effc7e267ef44e3482f45f1696939dfa
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "put_api_v4_teams__team_id_>`__"
@@ -135,24 +135,24 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "put_api_v4_teams__team_id_>`__"
 
-#: ../docs/team_paths.rst 2ba5778255214b6e8792f6c5079cf6d0
-#: 9b03043b6a564583a5115d1ebded200d
+#: ../docs/team_paths.rst 11cc748eb3a94dcfa03f98e5858ac43c
+#: f5778a8b589e4b4f8429ca7029f752ed
 msgid "Request JSON Object"
 msgstr "JSON объект запроса"
 
-#: ../docs/team_paths.rst:34 be0c11a536984779b180e35dfac2a96a
-msgid ":ref:`tdproto-Team` object with updated fields."
-msgstr "Обновленный :ref:`tdproto-Team` объект."
+#: ../docs/team_paths.rst:34 2ba113fb4d11409aa12a9081e7ff9387
+msgid ":tdproto:ref:`Team` object with updated fields."
+msgstr "Обновленный :tdproto:ref:`Team` объект."
 
-#: ../docs/team_paths.rst:36 41cd0ae50ebf4bfdbeb618650d9a189a
-msgid "Updated :ref:`tdproto-Team` object of the team."
-msgstr "Обновленный :ref:`tdproto-Team` обект команды."
+#: ../docs/team_paths.rst:36 0223b10aef2047c883d6159a77081947
+msgid "Updated :tdproto:ref:`Team` object of the team."
+msgstr "Обновленный :tdproto:ref:`Team` обект команды."
 
-#: ../docs/team_paths.rst:41 dea48a9b41c545a6b37fc8394cd233e6
+#: ../docs/team_paths.rst:41 79ff3fd064ca4b259ef9799ce73860fb
 msgid "Delete the team."
 msgstr "Удалить команду."
 
-#: ../docs/team_paths.rst:45 f1e13a62603d4cb08c5ff90894052a67
+#: ../docs/team_paths.rst:45 f0f38b1f461e4733875638b96d462b82
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "delete_api_v4_teams__team_id_>`__"
@@ -160,15 +160,15 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "delete_api_v4_teams__team_id_>`__"
 
-#: ../docs/team_paths.rst:49 8dfac244b57942d99d19c808c20a5f58
-msgid ":ref:`tdproto-Team` object of deleted team."
-msgstr ":ref:`tdproto-Team` объект удаленной команды."
+#: ../docs/team_paths.rst:49 942341bc09ee4bc1bb391ed2b4f09993
+msgid ":tdproto:ref:`Team` object of deleted team."
+msgstr ":tdproto:ref:`Team` объект удаленной команды."
 
-#: ../docs/team_paths.rst:54 ec73963a448f4dfab277b86805f60e45
+#: ../docs/team_paths.rst:54 e0dadf306f834e0daa9e7697ac9af33e
 msgid "Get the list of chats in the team."
 msgstr "Получить список чатов в команде."
 
-#: ../docs/team_paths.rst:56 ea31aaf5e8cd41478cf5a74465b635be
+#: ../docs/team_paths.rst:56 f156a92872ed4655986fd1bda00f19cc
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id__chats>`__"
@@ -176,15 +176,15 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id__chats>`__"
 
-#: ../docs/team_paths.rst:60 3e4cd2a2ca384cf287cee6d6268c9a29
-msgid "List of :ref:`tdproto-Chat` objects."
-msgstr "Список :ref:`tdproto-Chat` объектов."
+#: ../docs/team_paths.rst:60 a6be27cd0c584a598bcc6bf3131cfd1d
+msgid "List of :tdproto:ref:`Chat` objects."
+msgstr "Список :tdproto:ref:`Chat` объектов."
 
-#: ../docs/team_paths.rst:65 8f1abab66d9d4725a755a134ce767b36
+#: ../docs/team_paths.rst:65 1606b8bec24d4e0cb671f6436f8708ba
 msgid "Get the list of contacts of the team."
 msgstr "Получить список контактов в команде."
 
-#: ../docs/team_paths.rst:67 ae107ebdf765459ba095969c135204d1
+#: ../docs/team_paths.rst:67 04716a16bbf74d2a8e4bd33a56f8ccdc
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id__contacts>`__"
@@ -192,15 +192,15 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id__contacts>`__"
 
-#: ../docs/team_paths.rst:71 1bf8930217fb479788eb0585cfcddf15
-msgid "List of :ref:`tdproto-Contact` objects."
-msgstr "Список :ref:`tdproto-Contact` объектов."
+#: ../docs/team_paths.rst:71 87e7437c26fd44fb8e3b1d0a58241ff8
+msgid "List of :tdproto:ref:`Contact` objects."
+msgstr "Список :tdproto:ref:`Contact` объектов."
 
-#: ../docs/team_paths.rst:76 fbd1d5e1de2d44fa9fed43115fb1c31c
+#: ../docs/team_paths.rst:76 d03c96861ca44924b278cecc2e39b786
 msgid "Get contact details."
 msgstr "Получить информацию о контакте."
 
-#: ../docs/team_paths.rst:78 fac0adf9d514409cba35567c35a1392c
+#: ../docs/team_paths.rst:78 96b9ca65b0a84a7db85bbfc09fdfc9a3
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "get_api_v4_teams__team_id__contacts__contact_id_>`__"
@@ -209,21 +209,21 @@ msgstr ""
 "get_api_v4_teams__team_id__contacts__contact_id_>`__"
 
 #: ../docs/team_paths.rst:81 ../docs/team_paths.rst:93
-#: ../docs/team_paths.rst:108 0015e970efa34c9bad50f96bb9aab6bf
-#: 2f1a728624e54d9bbf57f1736ef411fa ebdefee56b90413db696e5e1c76d45eb
+#: ../docs/team_paths.rst:108 a2be136192084aa6aabff1f0acf78c89
+#: c590d52efbd846cd8ff99326d061d8f8 f7e9541096434231b02cde86558b1b6e
 msgid "ID of the contact."
 msgstr "ID контакта."
 
 #: ../docs/team_paths.rst:83 ../docs/team_paths.rst:94
-#: 981e04869b574759b4a4802df8e2b365 c57f7897918041b3bc37c6d942805cdd
-msgid "The :ref:`tdproto-Contact` object."
-msgstr ":ref:`tdproto-Contact` объект."
+#: 816e0eaa63574b5e8bc0ba87adc8e1c2 f3389341b1dd44ea9e3f01a05ea0572d
+msgid "The :tdproto:ref:`Contact` object."
+msgstr ":tdproto:ref:`Contact` объект."
 
-#: ../docs/team_paths.rst:88 4b6a8ccdf30c4fe0ae9a8636d59714b4
+#: ../docs/team_paths.rst:88 263ca28dcea341c5a82de46c31e8d8b3
 msgid "Update contact details."
 msgstr "Изменить детали контакта."
 
-#: ../docs/team_paths.rst:90 3d272ce2bde54706b83c613fedf40c0d
+#: ../docs/team_paths.rst:90 2e3f7938d582434386b95d0faae915e0
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "post_api_v4_teams__team_id__contacts__contact_id_>`__"
@@ -231,15 +231,15 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "post_api_v4_teams__team_id__contacts__contact_id_>`__"
 
-#: ../docs/team_paths.rst:96 e4ae49d3d1794d99b4efeb256df718c8
-msgid "Updated :ref:`tdproto-Contact` object."
-msgstr "Обновленый :ref:`tdproto-Contact` объект."
+#: ../docs/team_paths.rst:96 f385611e974448d4ad3fcf04d5134b11
+msgid "Updated :tdproto:ref:`Contact` object."
+msgstr "Обновленый :tdproto:ref:`Contact` объект."
 
-#: ../docs/team_paths.rst:101 c02dfa344e9e4bcd9a268eec88a8ac40
+#: ../docs/team_paths.rst:101 16b4921edf03488eb8cc7a171450e187
 msgid "Remove contact from the team."
 msgstr "Удалить контакт из команды."
 
-#: ../docs/team_paths.rst:105 c747c729afdf4fb0b4c9760fe6337f94
+#: ../docs/team_paths.rst:105 8b825cda187e43c594de3dcfe3b91824
 msgid ""
 "`🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "delete_api_v4_teams__team_id__contacts__contact_id_>`__"
@@ -247,9 +247,9 @@ msgstr ""
 "`🔍 Попробуйте! <https://tada-team.github.io/td-swagger-ui/#/default/"
 "delete_api_v4_teams__team_id__contacts__contact_id_>`__"
 
-#: ../docs/team_paths.rst:110 9fd342d790b0429ca6382b59f23d8710
-msgid "Removed :ref:`tdproto-Contact` object."
-msgstr "Удаленный :ref:`tdproto-Contact` объект."
+#: ../docs/team_paths.rst:110 6a6b632617c141b38cfcbc6a81486a7c
+msgid "Removed :tdproto:ref:`Contact` object."
+msgstr "Удаленный :tdproto:ref:`Contact` объект."
 
 #~ msgid "Response JSON Array of Objects"
 #~ msgstr "JSON список ответных объектов."
