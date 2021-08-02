@@ -182,7 +182,7 @@ JSON objects index
   :field gentime number: Chat fields related to concrete participant) version
   :field created string: Creation date, iso datetime
   :field display_name string: Title
-  :field icons `tdproto-IconData` nullable: Icons info
+  :field icons `tdproto-IconData`: Icons info
   :field counters_enabled boolean omitempty: Include unread messages to counters
   :field can_call boolean omitempty: Can I call to this chat
   :field can_send_message boolean omitempty: Can I send message to this chat
@@ -254,7 +254,7 @@ JSON objects index
   :field jid `tdproto-JID`: Group/Task/Contact id
   :field chat_type `tdproto-ChatType`: Chat type
   :field display_name string: Title
-  :field icons `tdproto-IconData` nullable: Icon data
+  :field icons `tdproto-IconData`: Icon data
 
 .. tdproto:struct:: ColorRule
 
@@ -284,7 +284,8 @@ JSON objects index
   :field short_name string: Short name in chats
   :field contact_email string: Contact email in this team
   :field contact_phone string: Contact phone in this team
-  :field icons `tdproto-IconData` nullable: Icons data
+  :field icons `tdproto-IconData`: Icons data
+  :field gentime number: Object version
   :field role string: Role in this team
   :field mood string omitempty: Mood in this team
   :field status `tdproto-TeamStatus`: Status in this team
@@ -295,7 +296,7 @@ JSON objects index
   :field can_send_message boolean omitempty: Can I send message to this contact
   :field cant_send_message_reason string omitempty: Why I can't send message to this chat (if can't)
   :field can_call boolean omitempty: Can I call to this contact
-  :field can_create_task boolean omitempty: Can I call create task for this contact
+  :field can_create_task boolean omitempty: Can I create task for this contact
   :field can_import_tasks boolean omitempty: Can I import tasks in this team
   :field can_add_to_group boolean omitempty: Can I add this contact to group chats
   :field can_delete boolean omitempty: Can I remove this contact from team
@@ -334,8 +335,8 @@ JSON objects index
   :field can_create_group boolean omitempty: Can I create group chats in this team
   :field can_join_public_groups boolean omitempty: Can I view/join public group in this team
   :field can_join_public_tasks boolean omitempty: Can I view/join public tasks in this team
-  :field can_delete_any_message boolean omitempty: Deprecated: use CanDeleteAnyMessage in chat object
   :field custom_fields `tdproto-ContactCustomFields` omitempty: Extra contact fields
+  :field can_delete_any_message boolean omitempty: Deprecated
 
 .. tdproto:struct:: ContactCustomFields
 
@@ -354,7 +355,8 @@ JSON objects index
   :field jid `tdproto-JID`: Contact Id
   :field display_name string: Full name in chats
   :field short_name string: Short name in chats
-  :field icons `tdproto-IconData` nullable: Icons data
+  :field icons `tdproto-IconData`: Icons data
+  :field gentime number: Object version
 
 .. tdproto:struct:: Country
 
@@ -601,12 +603,13 @@ JSON objects index
 
 .. tdproto:struct:: InvitableUser
 
-  Account from other team, Active Directory or server
+  Account from other team, Active Directory or node
 
   :field uid string: Account id
   :field node string omitempty: Node uid for external users
   :field display_name string: Full name
   :field icons `tdproto-IconData`: Icons
+  :field teams array[string] omitempty: Common team uids, if any
 
 .. tdproto:struct:: JSEP
 
@@ -1025,7 +1028,7 @@ JSON objects index
   :field bad_profile boolean omitempty: My profile in this team isn't full
   :field need_confirmation boolean: Need confirmation after invite to this team
   :field use_patronymic boolean omitempty: Patronymic in usernames for this team
-  :field user_fields array[string]: Username fields ordering
+  :field user_fields array[string]: Username fields ordering. Possible values: "family_name", "given_name", "patronymic"
   :field display_family_name_first boolean omitempty: Family name should be first in display name
   :field use_task_importance boolean omitempty: Use importance field in task
   :field task_importance_min number omitempty: Minimal value of task importance. Default is 1
@@ -1201,6 +1204,7 @@ JSON objects index
   :field timezone string: Timezone
   :field quiet_time_start string nullable: Start silently time (no pushes, no sounds)
   :field quiet_time_finish string nullable: Finish silently time (no pushes, no sounds)
+  :field icons `tdproto-IconData`: Icon data
 
 .. tdproto:struct:: UserWithMe
 
@@ -1223,6 +1227,7 @@ JSON objects index
   :field timezone string: Timezone
   :field quiet_time_start string nullable: Start silently time (no pushes, no sounds)
   :field quiet_time_finish string nullable: Finish silently time (no pushes, no sounds)
+  :field icons `tdproto-IconData`: Icon data
 
 .. tdproto:struct:: Wallpaper
 
