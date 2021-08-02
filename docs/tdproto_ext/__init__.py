@@ -158,6 +158,9 @@ class TdprotoStruct(Directive):
         return [section]
 
 
+DATA_INDEX_DOC_NAME = 'data_index'
+
+
 class TdprotoDomain(Domain):
     name = 'tdproto'
     label = 'Tdproto'
@@ -179,14 +182,13 @@ class TdprotoDomain(Domain):
         type: str, target: str, node: nodes.pending_xref, contnode: Element
     ) -> Optional[Element]:
         reftarget = node.attributes['reftarget']
-        refdoc = node.attributes['refdoc']
 
         tdproto_target = TDPROTO_TARGETS.get(reftarget)
         if tdproto_target is None:
             return None
 
         refuri = (
-            builder.get_target_uri(refdoc)
+            builder.get_relative_uri(fromdocname, DATA_INDEX_DOC_NAME)
             + f"#tdproto-{reftarget}"
         )
 
