@@ -49,6 +49,8 @@ class TdprotoSimple(Directive):
         self.assert_has_content()
 
         section = nodes.section()
+        section.line = self.lineno
+        section.lineno = self.lineno
 
         title = nodes.title(text=self.arguments[0])
         section['ids'].append(f"tdproto-{self.arguments[0]}")
@@ -70,6 +72,8 @@ class TdprotoStruct(Directive):
         self.assert_has_content()
 
         section = nodes.section()
+        section.line = self.lineno
+        section.lineno = self.lineno
 
         title = nodes.title(text=self.arguments[0])
         section['ids'].append(f"tdproto-{self.arguments[0]}")
