@@ -927,25 +927,6 @@ Online team members and current active calls
    }
 
 
-server.panic
-----------------------------------------------------------------------------
-
-Critical server error
-
-* ``code`` - Error code
-* ``debug`` - Debug message
-
-.. code-block:: json
-   
-   {
-   	"event": "server.panic",
-   	"params": {
-   		"code": "INVALID_TEAM",
-   		"debug": null
-   	}
-   }
-
-
 server.processing
 ----------------------------------------------------------------------------
 

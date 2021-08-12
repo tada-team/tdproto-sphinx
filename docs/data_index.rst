@@ -89,6 +89,15 @@ Type aliases
 
   **Is array**
 
+.. tdproto:type:: BotCommands
+
+  
+  Bot commands list
+  
+  **Base Type**: BotCommand
+
+  **Is array**
+
 .. tdproto:type:: Err
 
   
@@ -125,6 +134,15 @@ Type aliases
   
   **Base Type**: string
 
+.. tdproto:type:: SharpLinks
+
+  
+  #-links autocomplete response
+  
+  **Base Type**: SharpLink
+
+  **Is array**
+
 .. tdproto:type:: TaskFilterKey
 
   
@@ -142,6 +160,14 @@ Type aliases
 
 JSON objects index
 ============================
+
+.. tdproto:struct:: BotCommand
+
+  Bot commands information
+
+  :field key string: What should be inserted to the chat
+  :field title string: What should be visible by user
+  :field args array[string]: Command options, if any
 
 .. tdproto:struct:: ButtonColors
 
@@ -310,9 +336,11 @@ JSON objects index
   :field alt_send boolean omitempty: Use Ctrl/Cmd + Enter instead Enter
   :field asterisk_mention boolean omitempty: Use * as @ for mentions
   :field always_send_pushes boolean omitempty: Send push notifications even contact is online
+  :field hide_pushes_content boolean nullable: Hide pushes body
   :field timezone string omitempty: Timezone, if any
   :field quiet_time_start string omitempty: Quiet time start
   :field quiet_time_finish string omitempty: Quiet time finish
+  :field focus_until string omitempty: Focus mode enabled until
   :field group_notifications_enabled boolean omitempty: Push notifications for group chats
   :field task_notifications_enabled boolean omitempty: Push notifications for task chats
   :field contact_short_view boolean omitempty: Short view in contact list
@@ -403,6 +431,18 @@ JSON objects index
   :field uid string: Team id
   :field is_archive boolean: Team deleted
   :field gentime number: Object version
+
+.. tdproto:struct:: EasyApiMessage
+
+  Simple api for integrations /api/message or /tasks/[team]/[num]/message
+
+  :field key string: Comma separated api keys (for /api/message calls only)
+  :field message string: Message text. Required
+  :field message_id string: Message uuid. Optional
+  :field nopreview boolean: Disable links preview
+  :field important boolean: Mark message as important
+  :field silently boolean: Disable counters and push notifications
+  :field convert_linebreaks boolean: Convert "\\n" to "\n"
 
 .. tdproto:struct:: Emoji
 
@@ -783,6 +823,7 @@ JSON objects index
 
   :field jid `tdproto-JID`: Contact id
   :field afk boolean omitempty: Is away from keyboard
+  :field focused boolean omitempty: Focus mode enabled
   :field mobile boolean: Is mobile client
 
 .. tdproto:struct:: PdfVersion
@@ -866,6 +907,25 @@ JSON objects index
   :field useragent string omitempty: User agent
   :field addr string omitempty: IP address
 
+.. tdproto:struct:: SharpLink
+
+  #-link autocomplete information
+
+  :field key string: What should be inserted to the chat
+  :field title string: What should be visible by user
+  :field meta `tdproto-SharpLinkMeta`: Internal details
+
+.. tdproto:struct:: SharpLinkMeta
+
+  #-link autocomplete details
+
+  :field jid `tdproto-JID`: Chat id
+  :field chat_type `tdproto-ChatType`: Chat type
+  :field public boolean omitempty: Is task or group public for non-guests
+  :field task_status string omitempty: Task status (for tasks)
+  :field num number omitempty: Task number (for tasks)
+  :field done boolean omitempty: Deprecated: use `TaskStatus == "done"` comparsion
+
 .. tdproto:struct:: ShortMessage
 
   Short message based on chat message
@@ -896,7 +956,7 @@ JSON objects index
   :field title string: Task title. Generated from number and description
   :field num number: Task number in this team
   :field display_name string: Title
-  :field public boolean omitempty: Can other team member see this task/group chat
+  :field public boolean omitempty: Is task or group public for non-guests
   :field task_status string omitempty: Subtask task status
 
 .. tdproto:struct:: SwitcherColors
@@ -920,6 +980,7 @@ JSON objects index
   :field uid string: Tariff id
   :field title_en string: Title of tariff in enlish
   :field title_ru string: Title of tariff in russian
+  :field price string omitempty: Price of tariff
   :field cloud_space number omitempty: Cloud space reserved for storing team users uploads in megabytes
   :field max_members_in_team number omitempty: Maximum allowed number of members in a team
   :field max_participants_per_call number omitempty: Maximum number of participants per call
@@ -937,7 +998,7 @@ JSON objects index
   :field items array[string] omitempty: Items of the task
   :field assignee `tdproto-JID` omitempty: User who was assigned the task
   :field deadline string omitempty: Deadline time, if any
-  :field public boolean omitempty: Is task public
+  :field public boolean omitempty: Is task or group public for non-guests
   :field remind_at string omitempty: Fire a reminder at this time
   :field task_status string omitempty: Task status
   :field importance number omitempty: Task importance
@@ -1046,6 +1107,7 @@ JSON objects index
   :field theme `tdproto-Theme` omitempty: Color theme, if any
   :field hide_archived_users boolean omitempty: Don't show archived users by default
   :field pinned boolean omitempty: Team pinned
+  :field available_tariffs array[string] omitempty: Team's available tariff by includig archive ones
 
 .. tdproto:struct:: TeamCounter
 
@@ -1199,6 +1261,7 @@ JSON objects index
   :field alt_send boolean: Use Ctrl/Cmd + Enter instead Enter
   :field asterisk_mention boolean: Use * as @ for mentions
   :field always_send_pushes boolean: Send pushes even user is online
+  :field hide_pushes_content boolean: Hide pushes body
   :field unread_first boolean: Show unread chats in chat list first
   :field munread_first boolean: Show unread chats in chat list first on mobiles
   :field timezone string: Timezone
@@ -1222,6 +1285,7 @@ JSON objects index
   :field alt_send boolean: Use Ctrl/Cmd + Enter instead Enter
   :field asterisk_mention boolean: Use * as @ for mentions
   :field always_send_pushes boolean: Send pushes even user is online
+  :field hide_pushes_content boolean: Hide pushes body
   :field unread_first boolean: Show unread chats in chat list first
   :field munread_first boolean: Show unread chats in chat list first on mobiles
   :field timezone string: Timezone
