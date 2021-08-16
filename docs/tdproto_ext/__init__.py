@@ -1,18 +1,16 @@
 from __future__ import annotations
 
-from typing import Sequence, Union, Any
+from typing import Any, Dict, Optional, Sequence, Union
 
 from docutils import nodes
-from sphinx import addnodes
-from sphinx.application import Sphinx
 from docutils.parsers.rst import Directive
-from sphinx.domains import Domain
-from sphinx.roles import XRefRole
-from sphinx.builders import Builder
-from sphinx.environment import BuildEnvironment
+from sphinx import addnodes
 from sphinx.addnodes import Element
-
-from typing import Dict, Optional
+from sphinx.application import Sphinx
+from sphinx.builders import Builder
+from sphinx.domains import Domain
+from sphinx.environment import BuildEnvironment
+from sphinx.roles import XRefRole
 
 OMIT_EMPTY_STR = 'Maybe omitted'
 MAYBE_NULL_STR = 'Might be null'
