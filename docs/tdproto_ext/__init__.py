@@ -4,6 +4,7 @@ from typing import Any, Dict, Optional, Sequence, Union
 
 from docutils import nodes
 from docutils.parsers.rst import Directive
+from docutils.parsers.rst.directives import unchanged_required
 from sphinx import addnodes
 from sphinx.addnodes import Element
 from sphinx.application import Sphinx
@@ -42,17 +43,23 @@ class TdprotoStructFieldLine(nodes.line, addnodes.translatable):
 class TdprotoSimple(Directive):
     required_arguments = 1
     has_content = True
+    option_spec = {
+        'tdpackage': unchanged_required,
+    }
 
     def run(self) -> list[Any]:
         self.assert_has_content()
+
+        package_name = self.options['tdpackage']
 
         section = nodes.section()
         section.line = self.lineno
         section.lineno = self.lineno
 
-        title = nodes.title(text=self.arguments[0])
-        section['ids'].append(f"tdproto-{self.arguments[0]}")
-        TDPROTO_TARGETS[self.arguments[0]] = section
+        td_title = self.arguments[0]
+        title = nodes.title(text=td_title)
+        section['ids'].append(f"{package_name}-{td_title}")
+        TDPROTO_TARGETS[(package_name, td_title)] = section
 
         paragraph = nodes.paragraph()
         self.state.nested_parse(self.content, self.content_offset, paragraph)
@@ -65,17 +72,23 @@ class TdprotoSimple(Directive):
 class TdprotoStruct(Directive):
     required_arguments = 1
     has_content = True
+    option_spec = {
+        'tdpackage': unchanged_required,
+    }
 
     def run(self) -> list[Any]:
         self.assert_has_content()
+
+        package_name = self.options['tdpackage']
 
         section = nodes.section()
         section.line = self.lineno
         section.lineno = self.lineno
 
-        title = nodes.title(text=self.arguments[0])
-        section['ids'].append(f"tdproto-{self.arguments[0]}")
-        TDPROTO_TARGETS[self.arguments[0]] = section
+        td_title = self.arguments[0]
+        title = nodes.title(text=td_title)
+        section['ids'].append(f"{package_name}-{td_title}")
+        TDPROTO_TARGETS[(package_name, td_title)] = section
 
         structure_description = []
         fields_list = nodes.bullet_list()
@@ -108,7 +121,7 @@ class TdprotoStruct(Directive):
                         new_ref = addnodes.pending_xref(
                             refdomain='tdproto',
                             reftarget=reference_name,
-                            reftype='ref',
+                            reftype='tdmodels',
                             refdoc='data_index',
                             refexplicit=True,
                             refwarn=True,
@@ -116,6 +129,7 @@ class TdprotoStruct(Directive):
                         ref_name = option.replace(
                             f"`{reference_target}`", reference_name)
                         new_ref.append(nodes.inline(text=ref_name))
+
                         start_node = nodes.inline(text=' (')
                         start_node.append(new_ref)
                         start_node.append(nodes.inline(text=')'))
@@ -176,7 +190,8 @@ class TdprotoDomain(Domain):
         'structs': [],
     }
     roles = {
-        'ref': XRefRole(),
+        'tdforms': XRefRole(),
+        'tdmodels': XRefRole(),
     }
 
     def resolve_xref(
@@ -184,14 +199,15 @@ class TdprotoDomain(Domain):
         type: str, target: str, node: nodes.pending_xref, contnode: Element
     ) -> Optional[Element]:
         reftarget = node.attributes['reftarget']
+        td_package_ref = node.attributes['reftype']
 
-        tdproto_target = TDPROTO_TARGETS.get(reftarget)
+        tdproto_target = TDPROTO_TARGETS.get((td_package_ref, reftarget))
         if tdproto_target is None:
             return None
 
         refuri = (
             builder.get_relative_uri(fromdocname, DATA_INDEX_DOC_NAME)
-            + f"#tdproto-{reftarget}"
+            + f"#{td_package_ref}-{reftarget}"
         )
 
         return nodes.reference(

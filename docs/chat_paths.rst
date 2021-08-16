@@ -21,7 +21,7 @@ Chat related paths
 
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
-  :reqjson object: The :tdproto:ref:`Chat` object.
+  :reqjson object: The :tdproto:tdmodels:`Chat` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :tdproto:ref:`Chat` object.
   :status 200: No error.
@@ -34,7 +34,7 @@ Chat related paths
 
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
-  :reqjson object: The :tdproto:ref:`Message` object.
+  :reqjson object: The :tdproto:tdmodels:`Message` object.
   :resjson boolean ok: True if no error occured.
   :status 200: No error.
 
@@ -47,7 +47,7 @@ Chat related paths
   :param team_id: ID of the team.
   :param chat_id: ID of the chat.
   :param message_id: ID of the message.
-  :reqjson object: The :tdproto:ref:`Message` object.
+  :reqjson object: The :tdproto:tdmodels:`Message` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :tdproto:ref:`Message` object.
   :status 200: No error.
@@ -73,7 +73,7 @@ Chat related paths
 
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
-  :reqjson object: The :tdproto:ref:`Message` object.
+  :reqjson object: The :tdproto:tdmodels:`Message` object.
   :resjson boolean ok: True if no error occured.
   :status 200: No error.
 
@@ -86,7 +86,7 @@ Chat related paths
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
   :param message_id: ID of the message.
-  :reqjson object: The :tdproto:ref:`Message` object.
+  :reqjson object: The :tdproto:tdmodels:`Message` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :tdproto:ref:`Message` object.
   :status 200: No error.

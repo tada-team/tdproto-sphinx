@@ -21,7 +21,7 @@ Task related paths
   `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/post_api_v4_teams__team_id__tasks>`__
 
   :param team_id: ID of the team.
-  :reqjson object: The :tdproto:ref:`Task` object.
+  :reqjson object: The :tdproto:tdmodels:`Task` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :tdproto:ref:`Task` object.
   :status 200: No error.
@@ -46,7 +46,7 @@ Task related paths
 
   :param team_id: ID of the team.
   :param task_id: ID of the task.
-  :reqjson object: The :tdproto:ref:`Task` object.
+  :reqjson object: The :tdproto:tdmodels:`Task` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :tdproto:ref:`Task` object.
   :status 200: No error.

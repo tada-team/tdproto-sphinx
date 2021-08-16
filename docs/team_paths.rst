@@ -91,7 +91,7 @@ Team related paths
 
   :param team_id: ID of the team.
   :param contact_id: ID of the contact.
-  :reqjson object: The :tdproto:ref:`Contact` object.
+  :reqjson object: The :tdproto:tdmodels:`Contact` object.
   :resjson boolean ok: True if no error occured.
   :resjson object result: Updated :tdproto:ref:`Contact` object.
   :status 200: No error.

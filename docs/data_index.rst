@@ -3,6 +3,7 @@ Enums index
 ============================
 
 .. tdproto:enum:: ChatType
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -12,6 +13,7 @@ Enums index
 
 
 .. tdproto:enum:: GroupStatus
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -20,6 +22,7 @@ Enums index
 
 
 .. tdproto:enum:: MarkupType
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -36,6 +39,7 @@ Enums index
 
 
 .. tdproto:enum:: Mediasubtype
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -44,6 +48,7 @@ Enums index
 
 
 .. tdproto:enum:: Mediatype
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -59,6 +64,7 @@ Enums index
 
 
 .. tdproto:enum:: TeamStatus
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -69,6 +75,7 @@ Enums index
 
 
 .. tdproto:enum:: UploadMediaType
+  :tdpackage: tdmodels
 
   **Possible values**:
 
@@ -83,6 +90,7 @@ Type aliases
 ============================
 
 .. tdproto:type:: ActiveUserDailyStatList
+  :tdpackage: tdmodels
 
   
   **Base Type**: ActiveUserDailyStat
@@ -90,6 +98,7 @@ Type aliases
   **Is array**
 
 .. tdproto:type:: BotCommands
+  :tdpackage: tdmodels
 
   
   Bot commands list
@@ -99,11 +108,13 @@ Type aliases
   **Is array**
 
 .. tdproto:type:: Err
+  :tdpackage: tdmodels
 
   
   **Base Type**: string
 
 .. tdproto:type:: ISODateTimeString
+  :tdpackage: tdmodels
 
   
   Date and time in RFC3339 format. Example: ``2019-09-18T00:00:07.435409Z``
@@ -111,11 +122,13 @@ Type aliases
   **Base Type**: string
 
 .. tdproto:type:: JID
+  :tdpackage: tdmodels
 
   
   **Base Type**: string
 
 .. tdproto:type:: MessageLinks
+  :tdpackage: tdmodels
 
   
   **Base Type**: MessageLink
@@ -123,11 +136,13 @@ Type aliases
   **Is array**
 
 .. tdproto:type:: PushDeviceType
+  :tdpackage: tdmodels
 
   
   **Base Type**: int
 
 .. tdproto:type:: RGBColor
+  :tdpackage: tdmodels
 
   
   Color in ``#rrggbb`` format where ``rr``, ``gg``, ``bb`` are hexadecimal numbers from 00 to ff of red, green and blue channels correspondingly. (yellow would be ``#ffff00``)
@@ -135,6 +150,7 @@ Type aliases
   **Base Type**: string
 
 .. tdproto:type:: SharpLinks
+  :tdpackage: tdmodels
 
   
   #-links autocomplete response
@@ -144,16 +160,19 @@ Type aliases
   **Is array**
 
 .. tdproto:type:: TaskFilterKey
+  :tdpackage: tdmodels
 
   
   **Base Type**: string
 
 .. tdproto:type:: TaskSortKey
+  :tdpackage: tdmodels
 
   
   **Base Type**: string
 
 .. tdproto:type:: TaskTabKey
+  :tdpackage: tdmodels
 
   
   **Base Type**: string
@@ -162,6 +181,7 @@ JSON objects index
 ============================
 
 .. tdproto:struct:: BotCommand
+  :tdpackage: tdmodels
 
   Bot commands information
 
@@ -170,6 +190,7 @@ JSON objects index
   :field args array[string]: Command options, if any
 
 .. tdproto:struct:: ButtonColors
+  :tdpackage: tdmodels
 
   ButtonColors button colors for app
 
@@ -181,6 +202,7 @@ JSON objects index
   :field simple_disable `tdproto-RGBColor`: Simple disable color
 
 .. tdproto:struct:: CallDevice
+  :tdpackage: tdmodels
 
   Call participant device
 
@@ -188,6 +210,7 @@ JSON objects index
   :field useragent string: Device description
 
 .. tdproto:struct:: CallOnliner
+  :tdpackage: tdmodels
 
   Call participant
 
@@ -199,6 +222,7 @@ JSON objects index
   :field devices array[`tdproto-CallDevice`]: Member devices, strictly one for now
 
 .. tdproto:struct:: Chat
+  :tdpackage: tdmodels
 
   Chat (direct, group, task) representation
 
@@ -274,6 +298,7 @@ JSON objects index
   :field draft_num number omitempty: Deprecated
 
 .. tdproto:struct:: ChatShort
+  :tdpackage: tdmodels
 
   Minimal chat representation
 
@@ -283,6 +308,7 @@ JSON objects index
   :field icons `tdproto-IconData`: Icon data
 
 .. tdproto:struct:: ColorRule
+  :tdpackage: tdmodels
 
   Set of rules to apply to tasks for coloring
 
@@ -301,6 +327,7 @@ JSON objects index
   :field task_urgency number omitempty: Task urgency if task urgency filter enabled
 
 .. tdproto:struct:: Contact
+  :tdpackage: tdmodels
 
   Contact
 
@@ -367,6 +394,7 @@ JSON objects index
   :field can_delete_any_message boolean omitempty: Deprecated
 
 .. tdproto:struct:: ContactCustomFields
+  :tdpackage: tdmodels
 
   Extra contact fields
 
@@ -377,6 +405,7 @@ JSON objects index
   :field source string omitempty: Import source
 
 .. tdproto:struct:: ContactShort
+  :tdpackage: tdmodels
 
   Short contact representation
 
@@ -387,6 +416,7 @@ JSON objects index
   :field gentime number: Object version
 
 .. tdproto:struct:: Country
+  :tdpackage: tdmodels
 
   Country for phone numbers selection on login screen
 
@@ -397,6 +427,7 @@ JSON objects index
   :field popular boolean omitempty: Is popular, need to cache
 
 .. tdproto:struct:: DeletedChat
+  :tdpackage: tdmodels
 
   Minimal chat representation for deletion
 
@@ -406,12 +437,14 @@ JSON objects index
   :field is_archive boolean: Archive flag. Always true for this structure
 
 .. tdproto:struct:: DeletedRemind
+  :tdpackage: tdmodels
 
   Remind deleted message
 
   :field uid string: Remind id
 
 .. tdproto:struct:: DeletedSection
+  :tdpackage: tdmodels
 
   Deleted task project or contact section
 
@@ -419,12 +452,14 @@ JSON objects index
   :field gentime number: Object version
 
 .. tdproto:struct:: DeletedTag
+  :tdpackage: tdmodels
 
   Delete tag message
 
   :field uid string: Tag id
 
 .. tdproto:struct:: DeletedTeam
+  :tdpackage: tdmodels
 
   Team deletion message. Readonly
 
@@ -433,6 +468,7 @@ JSON objects index
   :field gentime number: Object version
 
 .. tdproto:struct:: EasyApiMessage
+  :tdpackage: tdmodels
 
   Simple api for integrations /api/message or /tasks/[team]/[num]/message
 
@@ -445,6 +481,7 @@ JSON objects index
   :field convert_linebreaks boolean: Convert "\\n" to "\n"
 
 .. tdproto:struct:: Emoji
+  :tdpackage: tdmodels
 
   Emoji
 
@@ -452,6 +489,7 @@ JSON objects index
   :field key string: Text representation
 
 .. tdproto:struct:: Features
+  :tdpackage: tdmodels
 
   Server information. Readonly
 
@@ -542,6 +580,7 @@ JSON objects index
   :field min_app_version string: Deprecated
 
 .. tdproto:struct:: FontColors
+  :tdpackage: tdmodels
 
   FontColors font colors for app
 
@@ -554,6 +593,7 @@ JSON objects index
   :field bubble_received `tdproto-RGBColor`: Bubble received color
 
 .. tdproto:struct:: GroupMembership
+  :tdpackage: tdmodels
 
   Group chat membership status
 
@@ -562,12 +602,14 @@ JSON objects index
   :field can_remove boolean omitempty: Can I remove this member
 
 .. tdproto:struct:: ICEServer
+  :tdpackage: tdmodels
 
   Interactive Connectivity Establishment Server for WEB Rtc connection. Readonly
 
   :field urls string: URls
 
 .. tdproto:struct:: IconColors
+  :tdpackage: tdmodels
 
   IconColors icon colors for app
 
@@ -576,6 +618,7 @@ JSON objects index
   :field other `tdproto-RGBColor`: Other color
 
 .. tdproto:struct:: IconData
+  :tdpackage: tdmodels
 
   Icon data. For icon generated from display name contains Letters + Color fields
 
@@ -587,6 +630,7 @@ JSON objects index
   :field stub string omitempty: Deprecated
 
 .. tdproto:struct:: InputColors
+  :tdpackage: tdmodels
 
   InputColors input colors for app
 
@@ -596,6 +640,7 @@ JSON objects index
   :field error `tdproto-RGBColor`: Error color
 
 .. tdproto:struct:: Integration
+  :tdpackage: tdmodels
 
   Integration for concrete chat
 
@@ -609,6 +654,7 @@ JSON objects index
   :field kind string: Unique integration name
 
 .. tdproto:struct:: IntegrationField
+  :tdpackage: tdmodels
 
   Integration form field
 
@@ -617,6 +663,7 @@ JSON objects index
   :field value string: Current value
 
 .. tdproto:struct:: IntegrationForm
+  :tdpackage: tdmodels
 
   Integration form
 
@@ -625,6 +672,7 @@ JSON objects index
   :field url `tdproto-IntegrationField` omitempty: Url, if any
 
 .. tdproto:struct:: IntegrationKind
+  :tdpackage: tdmodels
 
   Integration kind
 
@@ -635,6 +683,7 @@ JSON objects index
   :field description string: Plugin description
 
 .. tdproto:struct:: Integrations
+  :tdpackage: tdmodels
 
   Complete integrations data, as received from server
 
@@ -642,6 +691,7 @@ JSON objects index
   :field kinds array[`tdproto-IntegrationKind`]: Types of integrations available for setup
 
 .. tdproto:struct:: InvitableUser
+  :tdpackage: tdmodels
 
   Account from other team, Active Directory or node
 
@@ -652,6 +702,7 @@ JSON objects index
   :field teams array[string] omitempty: Common team uids, if any
 
 .. tdproto:struct:: JSEP
+  :tdpackage: tdmodels
 
   JavaScript Session Establishment Protocol
 
@@ -659,6 +710,7 @@ JSON objects index
   :field type string: See https://rtcweb-wg.github.io/jsep/#rfc.section.4.1.8
 
 .. tdproto:struct:: MarkupEntity
+  :tdpackage: tdmodels
 
   Markup entity. Experimental
 
@@ -673,6 +725,7 @@ JSON objects index
   :field childs array[`tdproto-MarkupEntity`] omitempty: List of internal markup entities
 
 .. tdproto:struct:: Message
+  :tdpackage: tdmodels
 
   Chat message
 
@@ -709,6 +762,7 @@ JSON objects index
   :field _debug string omitempty: Debug information, if any
 
 .. tdproto:struct:: MessageColors
+  :tdpackage: tdmodels
 
   MessageColors message colors for app
 
@@ -720,6 +774,7 @@ JSON objects index
   :field allocated `tdproto-RGBColor`: Allocated color
 
 .. tdproto:struct:: MessageContent
+  :tdpackage: tdmodels
 
   Chat message content
 
@@ -752,6 +807,7 @@ JSON objects index
   :field pdf_version `tdproto-PdfVersion` omitempty: Pdf version, if any
 
 .. tdproto:struct:: MessageLink
+  :tdpackage: tdmodels
 
   Checked message links. In short: "Click here: {link.Pattern}" => "Click here: <a href='{link.Url}'>{link.Text}</a>"
 
@@ -764,6 +820,7 @@ JSON objects index
   :field youtube_id string omitempty: Optional youtube movie id
 
 .. tdproto:struct:: MessageLinkPreview
+  :tdpackage: tdmodels
 
   Website title and description
 
@@ -771,6 +828,7 @@ JSON objects index
   :field description string omitempty: Website description
 
 .. tdproto:struct:: MessageReaction
+  :tdpackage: tdmodels
 
   Message emoji reaction
 
@@ -779,6 +837,7 @@ JSON objects index
   :field details array[`tdproto-MessageReactionDetail`]: Details
 
 .. tdproto:struct:: MessageReactionDetail
+  :tdpackage: tdmodels
 
   Message reaction detail
 
@@ -787,6 +846,7 @@ JSON objects index
   :field name string: Reaction emoji
 
 .. tdproto:struct:: MyReactions
+  :tdpackage: tdmodels
 
   Reactions to messages: frequently used and all available
 
@@ -794,6 +854,7 @@ JSON objects index
   :field all array[`tdproto-Reaction`]: All available reactions
 
 .. tdproto:struct:: Node
+  :tdpackage: tdmodels
 
   Node (for external users)
 
@@ -802,6 +863,7 @@ JSON objects index
   :field enabled boolean: Synchronization with node works
 
 .. tdproto:struct:: OAuthService
+  :tdpackage: tdmodels
 
   OAuth service
 
@@ -809,6 +871,7 @@ JSON objects index
   :field url string: Redirect url
 
 .. tdproto:struct:: OnlineCall
+  :tdpackage: tdmodels
 
   Active call status
 
@@ -818,6 +881,7 @@ JSON objects index
   :field online_count number omitempty: Number participants in call
 
 .. tdproto:struct:: OnlineContact
+  :tdpackage: tdmodels
 
   Contact online status
 
@@ -827,6 +891,7 @@ JSON objects index
   :field mobile boolean: Is mobile client
 
 .. tdproto:struct:: PdfVersion
+  :tdpackage: tdmodels
 
   PDF preview of mediafile. Experimental
 
@@ -834,6 +899,7 @@ JSON objects index
   :field text_preview string omitempty: First string of text content
 
 .. tdproto:struct:: PushDevice
+  :tdpackage: tdmodels
 
   Push device info
 
@@ -847,12 +913,14 @@ JSON objects index
   :field allowed_notifications boolean: deprecated
 
 .. tdproto:struct:: Reaction
+  :tdpackage: tdmodels
 
   Emoji reaction
 
   :field name string: Unicode symbol
 
 .. tdproto:struct:: ReceivedMessage
+  :tdpackage: tdmodels
 
   Message receiving status
 
@@ -863,6 +931,7 @@ JSON objects index
   :field _debug string omitempty: Debug message, if any
 
 .. tdproto:struct:: Remind
+  :tdpackage: tdmodels
 
   Remind
 
@@ -872,6 +941,7 @@ JSON objects index
   :field comment string omitempty: Comment, if any
 
 .. tdproto:struct:: Resp
+  :tdpackage: tdmodels
 
   Server response
 
@@ -884,6 +954,7 @@ JSON objects index
   :field _time string omitempty: Server side work time
 
 .. tdproto:struct:: Section
+  :tdpackage: tdmodels
 
   Task project or contact section
 
@@ -895,6 +966,7 @@ JSON objects index
   :field is_archive boolean omitempty: Is deleted
 
 .. tdproto:struct:: Session
+  :tdpackage: tdmodels
 
   Websocket session
 
@@ -908,14 +980,17 @@ JSON objects index
   :field addr string omitempty: IP address
 
 .. tdproto:struct:: SharpLink
+  :tdpackage: tdmodels
 
   #-link autocomplete information
 
   :field key string: What should be inserted to the chat
   :field title string: What should be visible by user
+  :field icons `tdproto-IconData` omitempty: Icon data, if any
   :field meta `tdproto-SharpLinkMeta`: Internal details
 
 .. tdproto:struct:: SharpLinkMeta
+  :tdpackage: tdmodels
 
   #-link autocomplete details
 
@@ -927,6 +1002,7 @@ JSON objects index
   :field done boolean omitempty: Deprecated: use `TaskStatus == "done"` comparsion
 
 .. tdproto:struct:: ShortMessage
+  :tdpackage: tdmodels
 
   Short message based on chat message
 
@@ -940,6 +1016,7 @@ JSON objects index
   :field is_archive boolean omitempty: This message is archive. True or null
 
 .. tdproto:struct:: SingleIcon
+  :tdpackage: tdmodels
 
   Small or large icon
 
@@ -948,6 +1025,7 @@ JSON objects index
   :field height number: Icon height, in pixels
 
 .. tdproto:struct:: Subtask
+  :tdpackage: tdmodels
 
   Link to sub/sup task
 
@@ -960,6 +1038,7 @@ JSON objects index
   :field task_status string omitempty: Subtask task status
 
 .. tdproto:struct:: SwitcherColors
+  :tdpackage: tdmodels
 
   SwitcherColors switcher colors for app
 
@@ -967,6 +1046,7 @@ JSON objects index
   :field off `tdproto-RGBColor`: Off color
 
 .. tdproto:struct:: Tag
+  :tdpackage: tdmodels
 
   Task tag
 
@@ -974,6 +1054,7 @@ JSON objects index
   :field name string: Tag name
 
 .. tdproto:struct:: Tariff
+  :tdpackage: tdmodels
 
   Tariff for teams
 
@@ -987,6 +1068,7 @@ JSON objects index
   :field max_upload_filesize number omitempty: maximum file size for uploading
 
 .. tdproto:struct:: Task
+  :tdpackage: tdmodels
 
   Task
 
@@ -1009,6 +1091,7 @@ JSON objects index
   :field uploads array[string] omitempty: Task uploads
 
 .. tdproto:struct:: TaskColor
+  :tdpackage: tdmodels
 
   Task color rules color
 
@@ -1017,6 +1100,7 @@ JSON objects index
   :field light `tdproto-RGBColor`: Light color
 
 .. tdproto:struct:: TaskCounters
+  :tdpackage: tdmodels
 
   Tasks counters
 
@@ -1025,6 +1109,7 @@ JSON objects index
   :field num_unread_notices number omitempty: Mentions (@) counter
 
 .. tdproto:struct:: TaskFilter
+  :tdpackage: tdmodels
 
   Task filter
 
@@ -1032,6 +1117,7 @@ JSON objects index
   :field title string: Filter title
 
 .. tdproto:struct:: TaskItem
+  :tdpackage: tdmodels
 
   Task checklist item
 
@@ -1044,6 +1130,7 @@ JSON objects index
   :field subtask `tdproto-Subtask` omitempty: Link to subtask. Optional
 
 .. tdproto:struct:: TaskSort
+  :tdpackage: tdmodels
 
   Task sort type
 
@@ -1051,6 +1138,7 @@ JSON objects index
   :field title string: Sort title
 
 .. tdproto:struct:: TaskStatus
+  :tdpackage: tdmodels
 
   Custom task status
 
@@ -1061,6 +1149,7 @@ JSON objects index
   :field is_archive boolean omitempty: Status not used anymore
 
 .. tdproto:struct:: TaskTab
+  :tdpackage: tdmodels
 
   Task tab
 
@@ -1074,6 +1163,7 @@ JSON objects index
   :field unread_tasks array[`tdproto-TaskCounters`]: Unread tasks with jid and counters
 
 .. tdproto:struct:: Team
+  :tdpackage: tdmodels
 
   Team
 
@@ -1110,6 +1200,7 @@ JSON objects index
   :field available_tariffs array[string] omitempty: Team's available tariff by includig archive ones
 
 .. tdproto:struct:: TeamCounter
+  :tdpackage: tdmodels
 
   Unread message counters
 
@@ -1117,6 +1208,7 @@ JSON objects index
   :field unread `tdproto-TeamUnread`: Unread message counters
 
 .. tdproto:struct:: TeamShort
+  :tdpackage: tdmodels
 
   Short team representation. For invites, push notifications, etc. Readonly
 
@@ -1125,6 +1217,7 @@ JSON objects index
   :field icons `tdproto-IconData`: Team icons
 
 .. tdproto:struct:: Terms
+  :tdpackage: tdmodels
 
   Experimental translation fields for "team" entity renaming. Readonly
 
@@ -1164,6 +1257,7 @@ JSON objects index
   :field RuToTeam string: "в команду"
 
 .. tdproto:struct:: Theme
+  :tdpackage: tdmodels
 
   Color theme
 
@@ -1207,6 +1301,7 @@ JSON objects index
   :field AppPrimaryColor `tdproto-RGBColor`: Deprecated
 
 .. tdproto:struct:: Unread
+  :tdpackage: tdmodels
 
   Unread message counters
 
@@ -1215,6 +1310,7 @@ JSON objects index
   :field chats number: Total chats with unread messages
 
 .. tdproto:struct:: Upload
+  :tdpackage: tdmodels
 
   Uploaded media
 
@@ -1233,6 +1329,7 @@ JSON objects index
   :field type `tdproto-UploadMediaType`: ?type=file,image,audio,video
 
 .. tdproto:struct:: UploadPreview
+  :tdpackage: tdmodels
 
   Upload preview
 
@@ -1242,6 +1339,7 @@ JSON objects index
   :field height number: Height in pixels
 
 .. tdproto:struct:: UploadShortMessage
+  :tdpackage: tdmodels
 
   Upload + ShortMessage
 
@@ -1249,6 +1347,7 @@ JSON objects index
   :field message `tdproto-ShortMessage`: Short message information
 
 .. tdproto:struct:: User
+  :tdpackage: tdmodels
 
   Account data
 
@@ -1270,6 +1369,7 @@ JSON objects index
   :field icons `tdproto-IconData`: Icon data
 
 .. tdproto:struct:: UserWithMe
+  :tdpackage: tdmodels
 
   Account data with extra information
 
@@ -1294,6 +1394,7 @@ JSON objects index
   :field icons `tdproto-IconData`: Icon data
 
 .. tdproto:struct:: Wallpaper
+  :tdpackage: tdmodels
 
   Chat wallpaper
 
