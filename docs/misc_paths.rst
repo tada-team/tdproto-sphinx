@@ -30,3 +30,13 @@ Miscellaneous paths
   :resjson boolean ok: True if no error occured.
   :resjson object result: The :tdproto:ref:`Features` object.
   :status 200: No error.
+
+.. http:get:: /api/v4/badge
+
+  Return number of unread messages.
+
+  `🔍 Try it! <https://tada-team.github.io/td-swagger-ui/#/default/get_api_v4_badge>`__
+
+  :resjson boolean ok: True if no error occured.
+  :resjson int result: Number of unread messages
+  :status 200: No error.
