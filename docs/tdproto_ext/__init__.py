@@ -22,7 +22,12 @@ TDPROTO_TARGETS: Dict[Any, Any] = {}
 class TdprotoStructFieldLine(nodes.line, addnodes.translatable):
 
     def preserve_original_messages(self) -> None:
-        return  # Do not preserve anything
+        original_messages = [self.children[-1].rawsource]
+        for c in self.children:
+            if isinstance(c, nodes.abbreviation):
+                original_messages.append(c.attributes['explanation'])
+
+        self['rawentries'] = original_messages
 
     def apply_translated_message(self,
                                  original_message: str,
@@ -37,7 +42,7 @@ class TdprotoStructFieldLine(nodes.line, addnodes.translatable):
             self.children[-1] = nodes.inline(text=translated_message)
 
     def extract_original_messages(self) -> Sequence[str]:
-        return [self.children[-1].rawsource, OMIT_EMPTY_STR, MAYBE_NULL_STR]
+        return self['rawentries']
 
 
 class TdprotoSimple(Directive):
