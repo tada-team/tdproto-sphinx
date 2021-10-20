@@ -1367,6 +1367,8 @@ server.uisettings
 
 Part of UI settings changed
 
+* ``data`` - UiSettingsData
+* ``namespace`` - Namespace. For example: web, app
 
 .. code-block:: json
    

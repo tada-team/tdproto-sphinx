@@ -363,7 +363,7 @@ JSON objects index
   :field alt_send boolean omitempty: Use Ctrl/Cmd + Enter instead Enter
   :field asterisk_mention boolean omitempty: Use * as @ for mentions
   :field always_send_pushes boolean omitempty: Send push notifications even contact is online
-  :field hide_pushes_content boolean nullable: Hide pushes body
+  :field hide_pushes_content boolean omitempty: Hide pushes body
   :field timezone string omitempty: Timezone, if any
   :field quiet_time_start string omitempty: Quiet time start
   :field quiet_time_finish string omitempty: Quiet time finish
@@ -403,6 +403,7 @@ JSON objects index
   :field title string omitempty: Title
   :field mobile_phone string omitempty: MobilePhone
   :field source string omitempty: Import source
+  :field ad_uid string omitempty: User UUID in Active Directory
 
 .. tdproto:struct:: ContactShort
   :tdpackage: tdmodels
@@ -516,6 +517,7 @@ JSON objects index
   :field max_message_uploads number: Maximum number of message uploads
   :field max_username_part_length number: Maximum chars for: family_name, given_name, patronymic if any
   :field max_group_title_length number: Maximum chars for group chat name
+  :field max_team_title_length number: Maximum chars for team name
   :field max_role_length number: Maximum chars for role in team
   :field max_mood_length number: Maximum chars for mood in team
   :field max_message_length number: Maximum chars for text message
@@ -534,6 +536,8 @@ JSON objects index
   :field auth_by_qr_code boolean omitempty: QR-code / link authentication enabled
   :field auth_by_sms boolean omitempty: SMS authentication enabled
   :field auth_2fa boolean omitempty: Two-factor authentication (2FA) enabled
+  :field is_pin_code_required boolean: Mandatory setting of the pin code in the application
+  :field pin_code_wrong_limit number: Max number of attempts to enter an invalid PIN code
   :field oauth_services array[`tdproto-OAuthService`] omitempty: External services
   :field ice_servers array[`tdproto-ICEServer`]: ICE servers for WebRTC
   :field custom_server boolean: True for premise installation
@@ -559,7 +563,7 @@ JSON objects index
   :field calls_version number: Calls version. 0 = disabled, 1 = audio only, 2 = audio+video
   :field mobile_calls boolean: Calls functions enabled for mobile applications
   :field calls_record boolean: Calls record enabled
-  :field only_one_device_per_call boolean omitempty: Disallow call from multiply devices. Experimental
+  :field only_one_device_per_call boolean omitempty: Disallow call from multiple devices. Experimental
   :field max_participants_per_call number omitempty: Maximum number of participants per call
   :field safari_push_id string: Safari push id for web-push notifications
   :field message_uploads boolean: Multiple message uploads
@@ -578,6 +582,9 @@ JSON objects index
   :field task_tags boolean: Deprecated
   :field calls boolean: Deprecated
   :field min_app_version string: Deprecated
+  :field file_extension_whitelist array[string]: File Extension Whitelist
+  :field file_extension_blacklist array[string]: File Extension Blacklist
+  :field file_extension_whitelist_priority boolean: File Extension Whitelist Priority
 
 .. tdproto:struct:: FontColors
   :tdpackage: tdmodels
@@ -945,13 +952,13 @@ JSON objects index
 
   Server response
 
+  :field _time string omitempty: Server side work time
   :field ok boolean: Request status
   :field result any omitempty: Result only if ok is true)
   :field error `tdproto-Err` omitempty: Error (only if ok is false)
   :field details string omitempty: Error (only if ok is false and Error is 'InvalidData')
   :field reason string omitempty: Reason (only if ok is false and Error is `AccessDenied`)
   :field markup array[`tdproto-MarkupEntity`] omitempty: Reason markup (only if ok is false and Error is `AccessDenied`)
-  :field _time string omitempty: Server side work time
 
 .. tdproto:struct:: Section
   :tdpackage: tdmodels
@@ -1023,6 +1030,17 @@ JSON objects index
   :field url string: absolute url to icon
   :field width number: Icon width, in pixels
   :field height number: Icon height, in pixels
+
+.. tdproto:struct:: Subscription
+  :tdpackage: tdmodels
+
+  Subscription - an entity that signifies the fact of subscribing to the tariff of any team for a certain period (not defined, in the case of the default tariff)
+
+  :field uid string: Subscription id
+  :field activated string omitempty: Subscription activation time
+  :field expires string omitempty: Subscription expiration time
+  :field tariff_uid string omitempty: ID of the tariff for which the subscription is valid
+  :field user_uid string omitempty: ID of the user who subscribed
 
 .. tdproto:struct:: Subtask
   :tdpackage: tdmodels
@@ -1127,6 +1145,7 @@ JSON objects index
   :field text string: Text or "#{OtherTaskNumber}"
   :field checked boolean omitempty: Item checked
   :field can_toggle boolean omitempty: Can I toggle this item
+  :field can_change boolean omitempty: Can I change this item
   :field subtask `tdproto-Subtask` omitempty: Link to subtask. Optional
 
 .. tdproto:struct:: TaskSort
@@ -1198,6 +1217,7 @@ JSON objects index
   :field hide_archived_users boolean omitempty: Don't show archived users by default
   :field pinned boolean omitempty: Team pinned
   :field available_tariffs array[string] omitempty: Team's available tariff by includig archive ones
+  :field subscription `tdproto-Subscription` omitempty: Сurrent team subscription
 
 .. tdproto:struct:: TeamCounter
   :tdpackage: tdmodels
