@@ -120,6 +120,11 @@ class TdprotoStruct(Directive):
                     field_line.append(nodes.literal(text=option))
                 elif i == 2:
                     if '`' in option:
+                        is_array = False
+
+                        if option.startswith('array'):
+                            is_array = True
+
                         reference_target = option.split('`')[1]
                         reference_name = reference_target.split('-')[1]
 
@@ -135,9 +140,17 @@ class TdprotoStruct(Directive):
                             f"`{reference_target}`", reference_name)
                         new_ref.append(nodes.inline(text=ref_name))
 
-                        start_node = nodes.inline(text=' (')
+                        if is_array:
+                            start_node = nodes.inline(text=' (array[')
+                        else:
+                            start_node = nodes.inline(text=' (')
+
                         start_node.append(new_ref)
-                        start_node.append(nodes.inline(text=')'))
+
+                        if is_array:
+                            start_node.append(nodes.inline(text='])'))
+                        else:
+                            start_node.append(nodes.inline(text=')'))
 
                         field_line.append(start_node)
                     else:
